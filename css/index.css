@@ -1,0 +1,105 @@
+
+/* Home */
+.carousel-item{
+  height: 30rem;
+}
+.fa-chevron-left{
+  position: absolute;
+  top: 15rem;
+  left: 0;
+}
+.fa-chevron-right{
+  position: absolute;
+  top: 15rem;
+  right: 0;
+}
+
+.container-fit{
+  background-image: url("backgr1.jpg");
+}
+h4, h3, h5{
+  color: #187AAB;
+}
+
+/* Register */
+.register{
+  color: #187AAB;
+}
+.btn-register{
+  background-color:#187AAB ;
+}
+input ::placeholder {
+  color: #187AAB;
+}
+
+/* Login */
+.btn-facebook{
+  background-color: #3C589C;
+}
+.btn-google{
+
+  background-color: #DF4B3B;
+}
+a{
+  color: #187AAB;
+}
+.btn-login{
+  background-color:#187AAB ;
+  opacity: 0.9 ;
+}
+.btn-login:hover{
+  opacity: 1;
+}
+@media (max-width: 575px) {
+  .social-btn{
+    flex-direction: column;
+  }
+}
+
+/* forgot password */
+.btn-cancer{
+  background-color: grey;
+}
+.btn-send , .btn-add{
+  background-color: #187AAB;
+}
+
+.price{
+  color: #187AAB;
+}
+
+.custom-carousel{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.text-slide{
+  color: white;
+  font-size: 3rem;
+  position: relative;
+  top: 10rem;
+}
+/* Add Modal */
+label{
+  color: #187AAB;
+}
+.modal-header{
+  background-color: #187AAB;
+}
+.danhMucKienThuc{
+  border: 2px solid #187AAB;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.btn-vietBai{
+  background-color: #187AAB;
+  border-radius: 5px;
+  border: none;
+}

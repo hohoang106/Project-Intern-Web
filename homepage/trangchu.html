@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.min.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="container-fluid container-fluid-nav">
+    <nav class="navbar navbar-expand-lg  container">
+      <a class="navbar-brand" href="#"><img src="/images/logo_heal.png" height="50px" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars fa-lg pt-2" style="color: #187AAB;"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Trang chủ </a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Kiến thức
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Dinh dưỡng cho bé</a>
+              <a class="dropdown-item" href="#">Dinh dưỡng cho mẹ</a>
+              <a class="dropdown-item" href="#">Dinh dưỡng cho người bệnh</a>
+              <a class="dropdown-item" href="#">Dinh dưỡng theo nhu cầu</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Thực đơn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sản phẩm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tập luyện</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Đăng nhập</a>
+          </li>
+
+        </ul>
+        <input class="form-control col-lg-3 col-12" type="search" placeholder="Search">
+        <div class="icon-search p-2"> <i class="fas fa-search fa-lg"></i></div>
+        <div class="icon-cart p-2">
+          <i class="fa fa-cart-plus fa-lg "></i>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <!-- slide -->
+  <div class="container-fluid p-0 silde-container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-fluid h-100 w-100 " src="/images/banner1.jpg" alt="First slide">
+          <div class="custom-carousel">
+            <h1 class="text-slide pt-10">Kiến thức</h1>
+            <p class="text-slide">Nắm kiến thức dinh dưỡng cho một sức khỏe tốt</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid h-100 w-100" src="/images/banner2.jpg" alt="Second slide">
+          <div class=" d-none d-md-block custom-carousel">
+            <h1 class="text-slide">Thực đơn</h1>
+            <p class="text-slide">Thực đơn cho mỗi bữa ăn đầy đủ dinh dưỡng</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid h-100 w-100" src="/images/banner3.jpg" alt="Third slide">
+          <div class=" d-none d-md-block custom-carousel">
+            <h1 class="text-slide">Sản phẩm</h1>
+            <p class="text-slide">Các sản phẩm tốt cho sức khỏe</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="img-fluid h-100 w-100" src="/images/banner4.jpg" alt="Third slide">
+          <div class="d-none d-md-block custom-carousel">
+            <h1 class="text-slide">Tập luyện</h1>
+            <p class="text-slide">Nâng cao sức khỏe mỗi ngày</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Kiến thức -->
+  <h3 class="container p-0">Kiến thức dinh dưỡng</h3>
+  <div id="multi-item-example" class="container carousel slide carousel-multi-item " data-ride="carousel">
+
+    <!--Controls-->
+    <div class="controls-top">
+      <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+      <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+    </div>
+    <!--/.Controls-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active position-relative">
+
+        <div class="row">
+          <div class="col-md-4 d-flex align-items-stretch" style="height: 30rem;">
+            <div class="card mb-2">
+              <div>
+                <img class="card-img-top" src="/images/dd-chobe.jpg" alt="Card image cap">
+              </div>
+              
+              <div class="card-body d-flex flex-column justify-content-between" >
+                <h4 class="card-title">Dinh dưỡng cho bé</h4>
+                <p class="card-text">Kiến thức dinh dưỡng dành cho các bà mẹ đang mang thai hoặc đang chăm sóc con ở
+                  những giai đoạn thai kì và lứa tuổi phù hợp.</p>
+                <a class="btn btn-outline-primary  btn-sm">Chi tiết</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex align-items-stretch" style="height: 30rem;">
+            <div class="card mb-2 ">
+              <img class="card-img-top" src="/images/dd-chome.jpg" alt="Card image cap">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title">Dinh dưỡng cho mẹ</h4>
+                <p class="card-text">Dinh dưỡng cho bà bầu ở những giai đoạn cần thiết cần phải được bổ sung các loại
+                  dinh dưỡng phù hợp.</p>
+                <a class="btn btn-outline-primary  btn-sm">Chi tiết</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-12 d-flex align-items-stretch" style="height: 30rem;">
+            <div class="card mb-2">
+              <img class="card-img-top" src="/images/dd-chobenh.jpg" alt="Card image cap">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title">Dinh dưỡng cho người bệnh</h4>
+                <p class="card-text">Kiến thức dinh dưỡng cho từng loại bệnh khác nhau, các thực phẩm bố xung dinh dưỡng
+                  cần thiết để phục hồi sức khỏe.</p>
+                <a class="btn btn-outline-primary  btn-sm">Chi tiết</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--/.First slide-->
+
+      <!--Second slide-->
+      <div class="carousel-item">
+
+        <div class="row">
+          <div class="col-md-4 d-flex align-items-stretch" style="height: 30rem;">
+            <div class="card mb-2">
+              <div>
+                <img class="card-img-top" src="/images/dd-chobe.jpg" alt="Card image cap">
+              </div>
+              
+              <div class="card-body d-flex flex-column justify-content-between" >
+                <h4 class="card-title">Dinh dưỡng cho bé</h4>
+                <p class="card-text">Kiến thức dinh dưỡng dành cho các bà mẹ đang mang thai hoặc đang chăm sóc con ở
+                  những giai đoạn thai kì và lứa tuổi phù hợp.</p>
+                <a class="btn btn-outline-primary  btn-sm">Chi tiết</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex align-items-stretch" style="height: 30rem;">
+            <div class="card mb-2 ">
+              <img class="card-img-top" src="/images/dd-chome.jpg" alt="Card image cap">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title">Dinh dưỡng cho mẹ</h4>
+                <p class="card-text">Dinh dưỡng cho bà bầu ở những giai đoạn cần thiết cần phải được bổ sung các loại
+                  dinh dưỡng phù hợp.</p>
+                <a class="btn btn-outline-primary  btn-sm">Chi tiết</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-12 d-flex align-items-stretch" style="height: 30rem;">
+            <div class="card mb-2">
+              <img class="card-img-top" src="/images/dd-chobenh.jpg" alt="Card image cap">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h4 class="card-title">Dinh dưỡng cho người bệnh</h4>
+                <p class="card-text">Kiến thức dinh dưỡng cho từng loại bệnh khác nhau, các thực phẩm bố xung dinh dưỡng
+                  cần thiết để phục hồi sức khỏe.</p>
+                <a class="btn btn-outline-primary  btn-sm">Chi tiết</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--/.Second slide-->
+
+
+    </div>
+    <!--/.Slides-->
+
+  </div>
+
+  <!-- Thực đơn -->
+  <div class="container mt-3 mb-3 p-0">
+    <h3>Thực đơn dinh dưỡng</h3>
+    <div class="thuc-don row">
+      <div class="col-xl-6 col-md-12 col-12 mb-2">
+        <img src="/images/thapđ.jpg" class=" img-fluid" alt="">
+      </div>
+      <div class="col-xl-6 col-md-12 col-12 mb-2 d-flex flex-column justify-content-between">
+
+        <div class="row ">
+          <div class="col-4">
+            <img class="img-fluid h-100"  src="/images/td.jpg" alt="">
+          </div>
+          <div class="col-8">
+            <h5 class="">Thực đơn cho trẻ em</h5>
+            <span class="">Thực đơn được gợi ý bởi các chuyên gia dinh dưỡng, với cách chế biến đơn giản và nhanh gọn
+              đảm bảo đầy đủ dưỡng chất cho bé.</span> <a class="">Xem thêm</a>
+          </div>
+        </div>
+        <div class="row pt-2 pb-2 ">
+          <div class="col-4 ">
+            <img class="h-100 w-100" src="/images/td2.jpg" alt="">
+          </div>
+          <div class="col-8">
+            <h5 class="">Thực đơn cho mẹ bầu</h5>
+            <span class="">Thực đơn được gợi ý bởi các chuyên gia dinh dưỡng, với cách chế biến đơn giản và nhanh gọn
+              đảm bảo đầy đủ dưỡng chất cho bé.</span> <a class="">Xem thêm</a>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-4">
+            <img class="h-100 w-100" src="/images/td3.jpg" alt="">
+          </div>
+          <div class="col-8">
+            <h5 class="">Thực đơn cho gia đình</h5>
+            <span class="">Thực đơn được gợi ý bởi các chuyên gia dinh dưỡng, với cách chế biến đơn giản và nhanh gọn
+              đảm bảo đầy đủ dưỡng chất cho bé.</span> <a class="">Xem thêm</a>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!--Tập luyện-->
+  <div class="container p-0 pt-3">
+
+    <div class="">
+      <h3>Tập luyện</h3>
+      <div class="row">
+        <div class="col-xl-4 col-md-12">
+          <div class="card mb-2">
+            <img class="card-img-top" height="250px" src="/images/cdtl1.jpg">
+            <div class="card-body">
+              <h4 class="card-title">Chế độ tập cho nữ giới</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <a class="btn btn-outline-primary btn-sm">Chi tiết</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-md-12 clearfix">
+          <div class="card mb-2">
+            <img class="card-img-top" height="250px" src="/images/cdtt2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Chế độ tập cho nam giới</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <a class="btn btn-outline-primary btn-sm">Chi tiết</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-md-12 clearfix ">
+          <div class="card mb-2">
+            <img class="card-img-top" height="250px" src="/images/cdtl3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Chế độ tập cho người già</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                card's content.</p>
+              <a class="btn btn-outline-primary btn-sm">Chi tiết</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3">
+      <a href="">Xem thêm</a>
+    </div>
+  </div>
+
+  <!--Sản phẩm-->
+  <div id="multi-item-example" class="container p-0 pt-3" data-ride="carousel">
+    <h3>Sản phẩm dinh dưỡng</h3>
+    <div class="">
+
+      <div class="row">
+        <div class="col-xl-3 col-md-6">
+          <div class="card mb-2">
+            <img class="card-img-top" height="250px" src="/images/spdd1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Herbalife</h5>
+              <p class="card-text">Sản phẩm chức năng dinh dưỡng</p>
+              <p class="card-text price">100.000 vnđ</p>
+              <a class="btn btn-outline-primary w-100"><i class="fas fa-cart-plus pr-3"></i>Chọn mua</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 clearfix d-none d-md-block">
+          <div class="card mb-2">
+            <img class="card-img-top" height="250px" src="/images/spdd2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Vitamax</h5>
+              <p class="card-text">Sản phẩm chức năng dinh dưỡng</p>
+              <p class="card-text price">150.000 vnđ</p>
+              <a class="btn btn-outline-primary w-100"><i class="fas fa-cart-plus pr-3"></i>Chọn mua</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 clearfix d-none d-md-block">
+          <div class="card mb-2">
+            <img class="card-img-top" height="250px" src="/images/spdd3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Ensure</h5>
+              <p class="card-text">Sản phẩm chức năng dinh dưỡng</p>
+              <p class="card-text price">250.000 vnđ</p>
+              <a class="btn btn-outline-primary w-100"><i class="fas fa-cart-plus pr-3"></i>Chọn mua</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 clearfix d-none d-md-block">
+          <div class="card mb-2">
+            <img class="card-img-top" height="250px" src="/images/spdd4.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Oganic</h5>
+              <p class="card-text">Sản phẩm chức năng dinh dưỡng</p>
+              <p class="card-text price">200.000 vnđ</p>
+              <a class="btn btn-outline-primary w-100"><i class="fas fa-cart-plus pr-3"></i>Chọn mua</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center p-3">
+        <a href="">Xem thêm</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- footer -->
+  <div class="container-fluid footer-full p-0">
+    <div class="row m-auto container text-white p-0">
+      <div class="col-lg-4 col-sm-12 col-xl-4 mb-md-0 mb-4 pt-4">
+        <!-- Links -->
+        <h5 class="text-uppercase fw-bold mb-4 text-white">
+          Về chúng tôi
+        </h5>
+        <p><i class="fas fa-map-marker-alt me-3"></i> Đà Nẵng</p>
+        <p>
+          <i class="fas fa-envelope me-3"></i>
+          dinhduong@gmail.com
+        </p>
+        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+
+      </div>
+
+      <div class="col-lg-4 col-sm-12 col-xl-4 mb-4 pt-4">
+        <!-- Links -->
+        <h5 class="text-uppercase fw-bold mb-4 text-white">
+          Hỗ trợ khách hàng
+        </h5>
+
+        <ul class="pl-4">
+          <li>
+            <a href="#!" class="text-white">Hướng dẫn mua hàng</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Hướng dẫn thanh toán</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Giải đáp thắc mắc</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Tư vấn</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Chính sách</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-sm-7 col-xl-4  mb-4  pt-4">
+        <!-- Links -->
+        <h5 class="text-uppercase fw-bold mb-4 text-white">
+          Nhận tin của chúng tôi
+        </h5>
+        <div class="input-group mb-4">
+          <input type="text" class="form-control" placeholder="Nhập email của bạn">
+          <button class="btn bg-dark text-white" type="button">Gửi</button>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center w-100 p-3">© 2020 Copyright:
+        <a class="text-white" href=""> dinhduong.com</a>
+      </div>
+      <!-- Copyright -->
+
+
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="vh-100 bg-image" style="background-image: url('background-login.jpg');">
+    <div class="register container h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body p-5">
+              <h2 class="text-uppercase text-center mb-5">Đăng nhập</h2>
+
+              <form id="login-form">
+
+                <div class="form-group input-group">
+                  <div class="input-group-prepend">
+                    <label for="user-name" class="input-group-text"> <i class="fas fa-user"></i></i> </label>
+                 </div>
+                    <input id="user-name" class="form-control" placeholder="Tên đăng nhập"type="text" required>
+                </div>
+                <div class="form-group input-group">
+                  <div class="input-group-prepend">
+                    <label for="password" class="input-group-text"> <i class="fas fa-key fa-flip-horizontal"></i></span>
+                 </div>
+                    <input id="password" class="form-control" placeholder="Mật khẩu" type="password" required>
+                </div>
+
+                <div class="pb-4">
+                  <a href="">Đăng ký</a>
+                  <a class="float-right" href="">Quên mật khẩu?</a>
+
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn btn-block btn-lg btn-login text-white ">Đăng nhập</button>
+                </div>
+                <div class="text-center p-5">Hoặc đăng nhập với</div>
+
+                
+                <div class="d-flex justify-content-between social-btn">
+                  <button type="button" class="col-xl-5 col-sm-5 col-12 btn btn-facebook text-white mb-2"> <i class="fab fa-facebook-square pr-2"></i>Facebook</button>
+                  <button type="button" class="col-xl-5 col-sm-5 col-12 btn btn-google text-white mb-2"><i class="fab fa-google-plus-g pr-2"></i>Google</button>
+                </div>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- <script>
+  function validate(){
+    const form = document.getElementById('login-form');
+    form.classList.add('was-validated');
+    const userName= document.getElementById('user-name');
+    let isValid = true
+    let check = userName.value.length === 8 & !isNaN(userName.value) & userName.value.length <= 12;
+    if (check){
+      userName.setCustomerValidity('');
+      isValid = false;
+    }
+    else{
+      userName.setCustomerValidity('invalid');
+    }
+    if (form.checkValidity() === false) {
+        isValid = false;
+    }
+    if(!isValid)  {
+        return;
+    }
+    form.submit();
+  }
+  function check() {
+    const userName = document.getElementById('user-name');
+    const check = cmnd.value.length === 8 && !isNaN(userName.value);
+    if(check) {
+        cmnd.setCustomValidity('');
+    } else {
+        cmnd.setCustomValidity('invalid');
+    }
+}
+</script> -->
+<!-- <script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('login-form');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+  </script> -->
+</body>
+
+</html>
