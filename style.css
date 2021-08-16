@@ -1,0 +1,82 @@
+body{
+    min-width: 375px;
+}
+.headercontent{
+    font-size: 25px;
+    color: #187AAB;
+    ;
+}
+.navheader{
+    border-bottom: solid 1px rgb(235, 235, 235);
+}
+.ctitle{
+    color: #187AAB;
+    text-align: center;
+}
+.cbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card:hover{
+    transition: 1s;
+    transform: scale(1.1,1.1);
+}
+a.addcart:hover{
+    background-color: white;
+    color: #187AAB;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.paymentbox{
+    border: solid #187AAB 5px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+}
+#exampleFormControlInput1{
+    margin-bottom: 20px;
+}
+.checktotalcart,.checktotalprice{
+    margin: 20px;
+    border-bottom: solid rgb(187, 187, 187) 2px;
+}
+.headertitle{
+    background-color: #187AAB;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.somepicture{
+    justify-content: space-evenly;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.imageicon{
+    opacity: 0.3;
+}
+.headerdetail{
+    color: #187AAB;
+}
+.imagecontent{
+    display: flex;
+    justify-content: space-evenly
+}
+
+@media only screen and (max-width: 768px) {
+    /* mobile screen detailproduct page */
+    .imagecontent{
+        margin: 20px;
+    }
+    .headercontent{
+        display: none; 
+    }
+    /* mobile screen cart payment page */
+    .mobilenull{
+        display: none; 
+    }
+  }

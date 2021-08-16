@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<!-- mainheader -->
+  <div class="container-fluid container-fluid-nav">
+    <nav class="navbar navbar-expand-lg  container">
+      <a class="navbar-brand" href="#"><img src="/img/logo_heal.png" height="50px" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars fa-lg pt-2" style="color: #187AAB;"></i></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Trang chủ  </a>
+          </li>
+           <!-- Dropdown -->
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Kiến thức
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Dinh dưỡng cho bé</a>
+            <a class="dropdown-item" href="#">Dinh dưỡng cho người bệnh</a>
+            <a class="dropdown-item" href="#">Dinh dưỡng cơ bản</a>
+            <a class="dropdown-item" href="#">Dinh dưỡng theo nhu cầu</a>
+          </div>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Thực đơn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sản phẩm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tập luyện</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Đăng nhập</a>
+          </li>
+          
+        </ul>
+          <input class="form-control col-lg-3 col-12" type="search" placeholder="Search">
+          <div class="icon-search p-2"> <i class="fas fa-search fa-lg"></i></div>
+        <div class="icon-cart p-2">
+          <i class="fa fa-cart-plus fa-lg "></i>
+        </div>
+      </div>
+    </nav>
+  </div>
+<!-- mainheader -->
+
+<!-- mainbody -->
+  <div class="container">
+        <div class="row mt-3">
+          <div class="headercontent col">
+              HomePage/ Products
+          </div>
+          <div class="selecttype col">
+                <div class="dropdown d-flex justify-content-end">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                      Thứ tự mặc định
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Từ thấp đến cao</a>
+                      <a class="dropdown-item" href="#">Từ cao đến thấp</a>
+                      <a class="dropdown-item" href="#">Được Mua nhiều nhất</a>
+                    </div>
+                  </div>
+          </div>
+          </div>  
+          <div class="navheader row mt-3">
+          <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu1">Đồ mát</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu2">Đồ hộp-Đồ khô</a>
+              </li>
+          </ul>
+        </div>
+        <div class="tab-content">
+          <div id="menu1" class="container tab-pane active">
+            <div class="row">
+             <div class="col-md-3 col-6 d-flex justify-content-center">
+              <div class="card mt-5" style="width: 20rem;">
+                <a href="detailproduct.html">
+                  <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
+                  <img src="img/sanpham2.jpg" class="card-img-top" alt="...">
+                </a>
+              <div class="cbody card-body">
+                <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
+                <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g </p>
+                <a href="#" class="addcart btn btn-primary">
+                  <i class="fas fa-shopping-cart"></i>  
+                  Chọn Mua</a>
+              </div>
+            </div>
+      </div>
+            <div class="col-md-3 col-6 d-flex justify-content-center">
+                <div class="card mt-5" style="width: 20rem;">
+                  <a href="detailproduct.html">
+                    <i class="fas fa-eye" style="float: right; padding: 7px;"></i>  
+                    <img src="img/sanpham3.jpg" class="card-img-top" alt="...">
+                  </a>
+                    <div class="cbody card-body">
+                      <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
+                      <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
+                      <a href="#" class="addcart btn btn-primary">
+                        <i class="fas fa-shopping-cart"></i>  
+                        Chọn Mua</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-6 d-flex justify-content-center">
+                <div class="card mt-5" style="width: 20rem;">
+                  <a href="detailproduct.html">
+                    <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
+                    <img src="img/sanpham5.jpg" class="card-img-top" alt="...">
+                  </a>
+                    <div class="cbody card-body">
+                      <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
+                      <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
+                      <a href="#" class="addcart btn btn-primary">
+                        <i class="fas fa-shopping-cart"></i>  
+                        Chọn Mua</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-6 d-flex justify-content-center">
+                <div class="card mt-5" style="width: 20rem; ">
+                  <a href="detailproduct.html">
+                    <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
+                    <img src="img/sanpham6.jpg" class="card-img-top" alt="...">
+                  </a>
+                    <div class="cbody card-body">
+                      <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
+                      <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
+                      <a href="#" class="addcart btn btn-primary">
+                        <span class="fas fa-shopping-cart"></span>  
+                        Chọn Mua</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-6 d-flex justify-content-center">
+              <div class="card mt-5" style="width: 20rem;">
+                <a href="detailproduct.html">
+                  <i class="fas fa-eye" style="float: right; padding: 7px;"></i>  
+                  <img src="img/sanpham4.jpg" class="card-img-top" alt="...">
+                </a>
+                  <div class="cbody card-body">
+                    <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
+                    <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
+                    <a href="#" class="addcart btn btn-primary">
+                      <i class="fas fa-shopping-cart"></i>  
+                      Chọn Mua</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div>
+          <div id="menu2" class="container tab-pane fade">
+            <div class="row">
+          <div class="col-md-3 col-6 d-flex justify-content-center">
+              <div class="card mt-5" style="width: 20rem;">
+                  <a href="detailproduct.html">
+                    <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
+                    <img src="img/sanpham1.jpg" class="card-img-top" alt="...">
+                  </a>
+                  <div class="cbody card-body">
+                    <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
+                    <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
+                    <a href="#" class="addcart btn btn-primary">
+                      <i class="fas fa-shopping-cart"></i>  
+                      Chọn Mua</a>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-3 col-6 d-flex justify-content-center">
+              <div class="card mt-5" style="width: 20rem;">
+                <a href="detailproduct.html">
+                  <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
+                  <img src="img/sanpham4.jpg" class="card-img-top" alt="...">
+                </a>
+                  <div class="cbody card-body">
+                    <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
+                    <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
+                    <a href="#" class="addcart btn btn-primary">
+                      <i class="fas fa-shopping-cart"></i>  
+                      Chọn Mua</a>
+                  </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-6 d-flex justify-content-center">
+              <div class="card mt-5" style="width: 20rem; ">
+                <a href="detailproduct.html">
+                  <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
+                  <img src="img/sanpham6.jpg" class="card-img-top" alt="...">
+                </a>
+                  <div class="cbody card-body">
+                    <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
+                    <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
+                    <a href="#" class="addcart btn btn-primary">
+                      <span class="fas fa-shopping-cart"></span>  
+                      Chọn Mua</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 d-flex justify-content-center">
+              <div class="card mt-5" style="width: 20rem;">
+                  <a href="detailproduct.html">
+                    <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
+                    <img src="img/sanpham7.jpg" class="card-img-top" alt="...">
+                  </a>
+                  <div class="cbody card-body">
+                    <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
+                    <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
+                    <a href="#" class="addcart btn btn-primary">
+                      <i class="fas fa-shopping-cart"></i>  
+                      Chọn Mua</a>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-3 col-6 d-flex justify-content-center">
+            <div class="card mt-5" style="width: 20rem;">
+              <a href="detailproduct.html">
+                <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
+                <img src="img/sanpham4.jpg" class="card-img-top" alt="...">
+              </a>
+                <div class="cbody card-body">
+                  <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
+                  <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
+                  <a href="#" class="addcart btn btn-primary">
+                    <i class="fas fa-shopping-cart"></i>  
+                    Chọn Mua</a>
+                </div>
+              </div>
+          </div>
+      </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col d-flex justify-content-end">
+          <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+      </div>
+    </div>
+  </div>
+<!-- mainbody -->
+
+<!-- mainfooter -->
+    <div class="container-fluid footer-full">
+      <div class="row m-auto container text-white" >
+        <div class="col-lg-4 col-sm-12 col-xl-4 mb-md-0 mb-4 pt-4">
+          <!-- Links -->
+          <h5 class="text-uppercase fw-bold mb-4">
+            Về chúng tôi
+          </h5>
+          <p><i class="fas fa-map-marker-alt me-3"></i> Đà Nẵng</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            dinhduong@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+      
+        </div>
+    
+        <div class="col-lg-4 col-sm-12 col-xl-4 mb-4 pt-4">
+          <!-- Links -->
+          <h5 class="text-uppercase fw-bold mb-4">
+          Hỗ trợ khách hàng
+          </h5>
+    
+          <ul class="pl-4">
+            <li>
+              <a href="#!" class="text-white">Hướng dẫn mua hàng</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Hướng dẫn thanh toán</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Giải đáp thắc mắc</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Tư vấn</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Chính sách</a>
+            </li>
+          </ul>
+        </div>
+    
+        <div class="col-lg-4 col-sm-7 col-xl-4  mb-4  pt-4">
+          <!-- Links -->
+          <h5 class="text-uppercase fw-bold mb-4">
+           Nhận tin của chúng tôi
+          </h5>
+          <div class="input-group mb-4">
+            <input type="text" class="form-control" placeholder="Nhập email của bạn">
+            <button class="btn bg-dark text-white" type="button" >Gửi</button>
+          </div>
+        </div>
+         <!-- Copyright -->
+      <div class="footer-copyright text-center p-3">© 2020 Copyright:
+        <a class="text-white" href=""> dinhduong.com</a>
+      </div>
+      <!-- Copyright -->
+      </div>
+    </div>
+<!-- mainfooter -->
+</body>
+</html>
