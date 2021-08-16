@@ -1,0 +1,45 @@
+body {
+  min-width: 375px;
+}
+.card{
+  border: 1px solid #187aab;
+}
+.card-title {
+  color: #187aab;
+}
+.card-text {
+  color: black;
+}
+@media (min-width: 992px) {
+  .card-img-top {
+    height: 180px;
+  }
+}
+@media (min-width: 1200px) {
+  .card-img-top {
+    height: 220px;
+  }
+  .hover-items:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+    transition-duration: 0.5s;
+  }
+  .hover-items:hover .card-title:after {
+    width: 100%;
+    left: 0;
+  }
+  .card-title {
+    position: relative;
+  }
+
+  .card-title::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: #187aab;
+    left: 50%;
+    bottom: -10px;
+    transition: all 0.4s ease-in-out;
+  }
+}
