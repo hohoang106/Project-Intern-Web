@@ -1,0 +1,189 @@
+.main-img{
+    width: 39.5rem;
+    padding: 0 15px;
+}
+.main-page{
+    height: 40rem;
+    background-size: cover;
+    background-image: linear-gradient(#e0f0f5cc, #e0f0f5), url('http://rosalinda.axiomthemes.com/wp-content/uploads/2018/01/02_home-2_welcome.jpg?id=530');
+}
+.title-ktdd-me, .h5{
+    color: #187AAB;
+}
+.up-part{
+    position: relative;
+}
+.impor-ktdd{
+    z-index: 1;
+    top: 2.1rem;
+    left: 33rem;
+    position: absolute;
+    background-color: #fff;
+    width: 595px;
+    padding: 2rem;
+}
+.dieu-can-lam{
+    height: 25rem;
+    background-image: url('/images/raucuqua.jpg');
+    background-size: cover;
+}
+.waper-dcl{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+.item1{
+    min-width: 350px;
+    height: 245px;
+}
+.chi_tiet{
+    overflow-x: auto;
+}
+.hieu_ung{
+    height: 39.5rem;
+}
+.noi_dung{
+    position: relative;
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+}
+.noi_dung .hinh_anh {
+    position:absolute;;
+    width:100%;
+    height:100%;
+}
+.noi_dung .hinh_anh img {
+    position: absolute;
+    border-radius: 10px;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 2s;
+}
+.noi_dung:hover .hinh_anh img {
+    opacity: 0;
+}
+.noi_dung .van_ban{
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    width: 80%;
+    height: 30px;
+    background: #fff;
+    transition: 0.655555s;
+    overflow: hidden;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    color: #187AAB;
+}
+.noi_dung:hover .van_ban {
+    width:100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+}
+.noi_dung .van_ban h6 {
+    text-align: center;
+}
+.noi_dung .van_ban p {
+    padding: 0;
+    opacity: 0;
+    line-height: 1.8em;
+    overflow-y: auto;
+}
+.noi_dung:hover .van_ban p {
+    opacity: 1;
+}
+.noi_dung:hover {
+    border-radius: 10px;
+}
+.noi_dung:nth-child(1):hover .van_ban {
+    background-color:#e0f0f5;
+    background-size: cover;
+    color:#187AAB;
+    opacity: 1;
+}
+
+.noi_dung:nth-child(2):hover .van_ban {
+    background-color:#e0f0f5;
+    background-size: cover;
+    color:#187AAB;
+    opacity: 1;
+}
+
+.noi_dung:nth-child(3):hover .van_ban {
+    background-color:#e0f0f5;
+    background-size: cover;
+    color:#187AAB;
+    opacity: 1;
+}
+@media only screen and (max-width: 1024px){
+    .hieu_ung{
+        width: 100%;
+    }
+    .noi_dung{
+        width: 30%;
+        height: 250px;
+    }
+    .hieu_ung{
+        height: 35rem;
+    }
+    .impor-ktdd{
+        left: 22rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    *{
+        font-size: 14px;
+    }
+    .main-page{
+        height: 100%;
+    }
+    .title-ktdd-me{
+        font-size: 20px;
+    }
+    .main-img{
+        width: 100%;
+        height: auto;
+    }
+    .impor-ktdd{
+        position: relative;
+        padding: 25px 15px;
+        margin-top: 50px;
+        width: 100%;
+        top:0px;
+        left: 0px;;
+    }
+    .title-ktdd-me2{
+        margin: auto;
+    }
+    .item1{
+        min-width: 260px;
+    }
+    .hieu_ung {
+        width: 100%;
+        height: 30rem;
+    }
+    .noi_dung{
+        width: 31%;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .noi_dung{
+        width: 100%;
+        height: 250px;
+        margin: 20px;
+    }
+    .hieu_ung{
+        height: auto;
+    }
+    .main-page{
+        padding: 20px 0;
+    }
+}
