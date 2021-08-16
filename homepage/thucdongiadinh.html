@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/thucdongiadinh.css" />
+
+    <title>Thực đơn gia đình</title>
+  </head>
+
+  <body>
+    <div class="container-fluid container-fluid-nav">
+      <nav class="navbar navbar-expand-lg container">
+        <a class="navbar-brand" href="#"
+          ><img src="/images/logo_heal.png" height="50px" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fas fa-bars fa-lg pt-2" style="color: #187aab"></i
+          ></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link navlink-nav" href="#">Trang chủ </a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link navlink-nav dropdown-toggle"
+                href="#"
+                id="navbardrop"
+                data-toggle="dropdown"
+              >
+                Kiến thức
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Dinh dưỡng cho bé</a>
+                <a class="dropdown-item" href="#">Dinh dưỡng cho người bệnh</a>
+                <a class="dropdown-item" href="#">Dinh dưỡng cơ bản</a>
+                <a class="dropdown-item" href="#">Dinh dưỡng theo nhu cầu</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link navlink-nav"
+                href="/homepage/thucdon.html"
+                >Thực đơn</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navlink-nav" href="#">Sản phẩm</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navlink-nav" href="#">Tập luyện</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navlink-nav" href="#">Đăng nhập</a>
+            </li>
+          </ul>
+          <input
+            class="form-control col-lg-3 col-12"
+            type="search"
+            placeholder="Search"
+          />
+          <div class="icon-search p-2"><i class="fas fa-search fa-lg"></i></div>
+          <div class="icon-cart p-2">
+            <i class="fa fa-cart-plus fa-lg"></i>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container pt-3">
+      <div class="border-bottom">
+        <h2 class="font-weight-bold" style="color: #187aab">
+          Thực đơn gia đình
+        </h2>
+      </div>
+      <div class="my-4">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a
+              class="nav-link active border-items mr-2 mb-3"
+              id="thu-2-tab"
+              data-toggle="pill"
+              href="#thu-2"
+              role="tab"
+              aria-controls="thu-2"
+              aria-selected="true"
+              >Thứ 2</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link border-items mr-2"
+              id="thu-3-tab"
+              data-toggle="pill"
+              href="#thu-3"
+              role="tab"
+              aria-controls="thu-3"
+              aria-selected="false"
+              >Thứ 3</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link border-items mr-2"
+              id="thu-4-tab"
+              data-toggle="pill"
+              href="#thu-4"
+              role="tab"
+              aria-controls="thu-4"
+              aria-selected="false"
+              >Thứ 4</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link border-items mr-2 mb-3"
+              id="thu-5-tab"
+              data-toggle="pill"
+              href="#thu-5"
+              role="tab"
+              aria-controls="thu-5"
+              aria-selected="false"
+              >Thứ 5</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link border-items mr-2"
+              id="thu-6-tab"
+              data-toggle="pill"
+              href="#thu-6"
+              role="tab"
+              aria-controls="thu-6"
+              aria-selected="false"
+              >Thứ 6</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link border-items mr-2"
+              id="thu-7-tab"
+              data-toggle="pill"
+              href="#thu-7"
+              role="tab"
+              aria-controls="thu-7"
+              aria-selected="false"
+              >Thứ 7</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link border-items"
+              id="chu-nhat-tab"
+              data-toggle="pill"
+              href="#chu-nhat"
+              role="tab"
+              aria-controls="chu-nhat"
+              aria-selected="false"
+              >Chủ nhật</a
+            >
+          </li>
+        </ul>
+        <div class="tab-content mt-4" id="pills-tabContent">
+          <!-- Thứ 2 -->
+          <div
+            class="tab-pane fade show active"
+            id="thu-2"
+            role="tabpanel"
+            aria-labelledby="thu-2-tab"
+          >
+            <div>
+              <p class="title">
+                <strong>
+                  <h5 class="text-title">
+                    Bữa Sáng (Chiếm 25-30% tổng nhu cầu năng lượng)
+                  </h5>
+                </strong>
+              </p>
+              <div class="row text-center">
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="http://ygcfood.vn/wp-content/uploads/2020/06/c%C3%A1ch-l%C3%A0m-bun-kh%C3%B4.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Bún cá rô</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://cdn.tgdd.vn/2021/04/CookRecipe/Avatar/che-nep-cam-tran-chau-thumbnail.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Sữa chua nếp cẩm</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p class="title">
+                <strong>
+                  <h5 class="text-title">
+                    Bữa Trưa (Chiếm 35-40% tổng nhu cầu năng lượng)
+                  </h5>
+                </strong>
+              </p>
+              <div class="row text-center">
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://image-us.eva.vn/upload/4-2018/images/2018-12-13/1544691017-791-suon-xao-chua-ngot-suon-xao-chua-ngot-11-1460167252-width500height377-1544691017-width500height377.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Sườn xào chua ngọt</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://cdn.tgdd.vn/2021/07/CookProduct/2-1200x676-2-1200x676-3.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Cơm</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://img-global.cpcdn.com/recipes/2458582_a98a05ea11315bc7/751x532cq70/rau-bi-xao-t%E1%BB%8Fi-recipe-main-photo.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Rau bí tỏi</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://image-us.eva.vn/upload/1-2021/images/2021-03-12/tao3-1615516380-6-width600height399.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Táo tây</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p class="title">
+                <strong>
+                  <h5 class="text-title">
+                    Bữa Chiều (Chiếm 5-10% tổng nhu cầu năng lượng)
+                  </h5>
+                </strong>
+              </p>
+              <div class="row text-center">
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://cafefcdn.com/thumb_w/650/2018/7/12/photo1531405037138-1531405037140535062884.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Chuối 2 trái</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p class="title">
+                <strong>
+                  <h5 class="text-title">
+                    Bữa Tối (Chiếm 25-30% tổng nhu cầu năng lượng)
+                  </h5>
+                </strong>
+              </p>
+              <div class="row text-center">
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://cdn.tgdd.vn/2021/07/CookProduct/2-1200x676-2-1200x676-3.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Cơm</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://img.timviecdaubep.com/2020/01/bi-do-xao-thit-bo-3-1.jpg"
+                    class="placeholder card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Bí đỏ xào thịt</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://i.ytimg.com/vi/ZmX9OyOp6kg/maxresdefault.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Gà kho sả ớt</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://img-global.cpcdn.com/recipes/af09625b6dde4784/751x532cq70/ngao-n%E1%BA%A5u-mung-t%C6%A1i-recipe-main-photo.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Canh mồng tơi nấu ngao</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://vinmec-prod.s3.amazonaws.com/images/20210419_031329_240031_qua-thanh-long.max-800x800.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Thanh long</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Thứ 3 -->
+          <div
+            class="tab-pane fade"
+            id="thu-3"
+            role="tabpanel"
+            aria-labelledby="thu-3-tab"
+          >
+            <div>
+              <p class="title">
+                <strong>
+                  <h5 class="text-title">
+                    Bữa Sáng (Chiếm 25-30% tổng nhu cầu năng lượng)
+                  </h5>
+                </strong>
+              </p>
+              <div class="row text-center">
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="http://ygcfood.vn/wp-content/uploads/2020/06/c%C3%A1ch-l%C3%A0m-bun-kh%C3%B4.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Bún cá rô</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://cdn.tgdd.vn/2021/04/CookRecipe/Avatar/che-nep-cam-tran-chau-thumbnail.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Sữa chua nếp cẩm</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p class="title">
+                <strong>
+                  <h5 class="text-title">
+                    Bữa Trưa (Chiếm 35-40% tổng nhu cầu năng lượng)
+                  </h5>
+                </strong>
+              </p>
+              <div class="row text-center">
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://image-us.eva.vn/upload/4-2018/images/2018-12-13/1544691017-791-suon-xao-chua-ngot-suon-xao-chua-ngot-11-1460167252-width500height377-1544691017-width500height377.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Sườn xào chua ngọt</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://cdn.tgdd.vn/2021/07/CookProduct/2-1200x676-2-1200x676-3.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Cơm</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://img-global.cpcdn.com/recipes/2458582_a98a05ea11315bc7/751x532cq70/rau-bi-xao-t%E1%BB%8Fi-recipe-main-photo.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Rau bí tỏi</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://image-us.eva.vn/upload/1-2021/images/2021-03-12/tao3-1615516380-6-width600height399.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Táo tây</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p class="title">
+                <strong>
+                  <h5 class="text-title">
+                    Bữa Chiều (Chiếm 5-10% tổng nhu cầu năng lượng)
+                  </h5>
+                </strong>
+              </p>
+              <div class="row text-center">
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://cafefcdn.com/thumb_w/650/2018/7/12/photo1531405037138-1531405037140535062884.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Chuối 2 trái</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div>
+              <p class="title">
+                <strong>
+                  <h5 class="text-title">
+                    Bữa Tối (Chiếm 25-30% tổng nhu cầu năng lượng)
+                  </h5>
+                </strong>
+              </p>
+              <div class="row text-center">
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://cdn.tgdd.vn/2021/07/CookProduct/2-1200x676-2-1200x676-3.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Cơm</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://img.timviecdaubep.com/2020/01/bi-do-xao-thit-bo-3-1.jpg"
+                    class="placeholder card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Bí đỏ xào thịt</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://i.ytimg.com/vi/ZmX9OyOp6kg/maxresdefault.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Gà kho sả ớt</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://img-global.cpcdn.com/recipes/af09625b6dde4784/751x532cq70/ngao-n%E1%BA%A5u-mung-t%C6%A1i-recipe-main-photo.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Canh mồng tơi nấu ngao</p>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  class="col-lg-2 card hover-items"
+                  style="text-decoration: none"
+                >
+                  <img
+                    src="https://vinmec-prod.s3.amazonaws.com/images/20210419_031329_240031_qua-thanh-long.max-800x800.jpg"
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">Thanh long</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Thứ 4 -->
+          <div
+            class="tab-pane fade"
+            id="thu-4"
+            role="tabpanel"
+            aria-labelledby="thu-4-tab"
+          >
+            44444444444
+          </div>
+          <!-- Thứ 5 -->
+          <div
+            class="tab-pane fade"
+            id="thu-5"
+            role="tabpanel"
+            aria-labelledby="thu-5-tab"
+          >
+            55555555555
+          </div>
+          <!-- Thứ 6 -->
+          <div
+            class="tab-pane fade"
+            id="thu-6"
+            role="tabpanel"
+            aria-labelledby="thu-6-tab"
+          >
+            6666666666666
+          </div>
+          <!-- Thứ 7 -->
+          <div
+            class="tab-pane fade"
+            id="thu-7"
+            role="tabpanel"
+            aria-labelledby="thu-7-tab"
+          >
+            77777777777
+          </div>
+          <!-- Chủ nhật -->
+          <div
+            class="tab-pane fade"
+            id="chu-nhat"
+            role="tabpanel"
+            aria-labelledby="chu-nhat-tab"
+          >
+            888888888
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid footer-full">
+      <div class="row m-auto container text-white">
+        <div class="col-lg-4 col-sm-12 col-xl-4 mb-md-0 mb-4 pt-4 px-0">
+          <!-- Links -->
+          <h5 class="text-uppercase fw-bold mb-4">Về chúng tôi</h5>
+          <p><i class="fas fa-map-marker-alt me-3"></i> Đà Nẵng</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            dinhduong@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 col-xl-4 mb-4 pt-4 px-0">
+          <!-- Links -->
+          <h5 class="text-uppercase fw-bold mb-4">Hỗ trợ khách hàng</h5>
+
+          <ul class="pl-4">
+            <li>
+              <a href="#!" class="text-white">Hướng dẫn mua hàng</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Hướng dẫn thanh toán</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Giải đáp thắc mắc</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Tư vấn</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Chính sách</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-sm-7 col-xl-4 mb-4 pt-4 px-0">
+          <!-- Links -->
+          <h5 class="text-uppercase fw-bold mb-4">Nhận tin của chúng tôi</h5>
+          <div class="input-group mb-4">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Nhập email của bạn"
+            />
+            <button class="btn bg-dark text-white" type="button">Gửi</button>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center p-3">
+          © 2020 Copyright:
+          <a class="text-white" href=""> dinhduong.com</a>
+        </div>
+        <!-- Copyright -->
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
