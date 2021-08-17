@@ -97,9 +97,21 @@ label{
   border: 2px solid #187AAB;
   border-radius: 5px;
   padding: 0.5rem;
+  color: white;
+  background-color: #187AAB;
 }
 .btn-vietBai{
   background-color: #187AAB;
   border-radius: 5px;
   border: none;
+}
+.page-link{
+  color: #187AAB;
+  
+}
+.page-item.active .page-link{
+  background-color: #187AAB;
+}
+th{
+  color: #187AAB;
 }

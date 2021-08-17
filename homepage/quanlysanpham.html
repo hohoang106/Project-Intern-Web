@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/nav.css">
+  <script src="/homepage/addItem.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<!-- Navbar -->
+<div class="container-fluid container-fluid-nav">
+  <nav class="navbar navbar-expand-lg  container">
+    <a class="navbar-brand" href="#"><img src="/images/logo_heal.png" height="50px" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-bars fa-lg pt-2" style="color: #187AAB;"></i></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Quản lý bài đăng</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quản lý sản phẩm</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quản lý đơn hàng</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Thống kê</a>
+        </li>
+        
+      </ul>
+        <input class="form-control col-lg-3 col-12" type="search" placeholder="Search">
+        <div class="icon-search p-2"> <i class="fas fa-search fa-lg"></i></div>
+      <div class="icon-cart p-2">
+        <i class="fas fa-user fa-lg"></i>
+      </div>
+    </div>
+  </nav>
+</div>
+  
+<!-- Table -->
+<div class="container-fluid">
+    <div class="container mt-2">
+      <div class="d-flex justify-content-between"> 
+        <button class="btn-vietBai p-2" data-toggle="modal" data-target="#addProductModal" > <i class="fas fa-plus-circle p-1 text-white"></i> <span class="text-white">Thêm sản phẩm</span></button>
+      </div>
+  
+      <table class="table table-striped mt-2" >
+        <thead>
+          <tr>
+            <th >Mã sản phẩm</th>
+            <th >Tên sản phẩm</th>
+            <th >Mô tả</th>
+            <th >Hình ảnh</th>
+            <th >Giá</th>
+            <th >Tác vụ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SPDD01</td>
+            <td>Herbalife</td>
+            <td>Sản phẩm chức năng dinh dưỡng. Giúp có một sức khỏe tốt</td>
+            <td><img src="/images/spdd1.jpg" width="100px" alt=""></td>
+            <td>100.000đ</td>
+            <td>
+              <button type="button" class="btn btn-dark btn-sm px-3" data-toggle="modal" data-target="#updateModal">
+                <i class="fas fa-edit"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>SPDD01</td>
+            <td>Herbalife</td>
+            <td>Sản phẩm chức năng dinh dưỡng. Giúp có một sức khỏe tốt</td>
+            <td><img src="/images/spdd1.jpg" width="100px" alt=""></td>
+            <td>100.000đ</td>
+            <td>
+              <button type="button" class="btn btn-dark btn-sm px-3" data-toggle="modal" data-target="#updateModal">
+                <i class="fas fa-edit"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>SPDD01</td>
+            <td>Herbalife</td>
+            <td>Sản phẩm chức năng dinh dưỡng. Giúp có một sức khỏe tốt</td>
+            <td><img src="/images/spdd1.jpg" width="100px" alt=""></td>
+            <td>100.000đ</td>
+            <td>
+              <button type="button" class="btn btn-dark btn-sm px-3" data-toggle="modal" data-target="#updateModal">
+                <i class="fas fa-edit"></i>
+              </button>
+            </td>
+          </tr>
+        
+        </tbody>
+      </table>
+      <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </div>
+
+      <!-- Modal thêm sản phẩm-->
+      <div class="modal" id="addProductModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header ">
+              <h5 class="modal-title text-uppercase text-white" id="exampleModalLabel">Thêm bài viết</h5>
+              <button type="button" class="btn" data-dismiss="modal"><i class="fas fa-times"></i></button>
+            </div>
+  
+  
+            <form class="modal-body">
+              <div class="mb-3">
+                <label  class="font-weight-bold" for="ma-sp">Mã sản phẩm</label>
+                <input type="text" class="form-control" id="ma-sp" placeholder="Nhập mã sản phẩm">
+              </div>
+              <div class="mb-3">
+                <label  class="font-weight-bold" for="ten-sp">Tên sản phẩm</label>
+                <input type="text" class="form-control" id="ten-sp" placeholder="Nhập tên sản phẩm">
+              </div>
+              <div class="mb-3">
+                <label  class="font-weight-bold" for="mo-ta">Mô tả</label>
+                <input type="text" class="form-control" id="mo-ta" placeholder="Nhập mô tả cho sản phẩm">
+              </div>
+              <div class="custom-file mb-3">
+                <label class="custom-file-label" for="chon-anh"><i class="far fa-file-image p-2"></i>Chọn ảnh</label>
+                <input type="file" class="custom-file-input" onchange="readURL(this);" id="chon-anh">
+              </div>
+              <div>
+                <img id="displayInputImg" src="#" alt="your image" class="img-fluid" />
+              </div>
+
+              <div class="mb-3">
+                <label  class="font-weight-bold" for="gia-sp">Giá</label>
+                <input class="form-control" id="gia-sp" placeholder="Nhập giá cho sản phẩm" ></input>
+              </div>
+
+              <div>
+              <button type="submit" class="btn btn-add w-100"><span class="text-white">Thêm bài viết</span></button>
+              </div>
+              </form>
+            </div>
+          
+          </div>
+        
+        </div>
+        <!-- Modal Sửa sản phẩm -->
+        <div class="modal" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header ">
+                <h5 class="modal-title text-uppercase text-white" id="exampleModalLabel">Sửa bài viết</h5>
+                <button type="button" class="btn" data-dismiss="modal"><i class="fas fa-times"></i></button>
+              </div>
+    
+    
+              <form class="modal-body" onsubmit="event.preventDefault(); onFormSubmit();">
+                <form class="modal-body">
+                  <div class="mb-3">
+                    <label  class="font-weight-bold" for="ma-sp">Mã sản phẩm</label>
+                    <input type="text" class="form-control" id="ma-sp" placeholder="Nhập mã sản phẩm">
+                  </div>
+                  <div class="mb-3">
+                    <label  class="font-weight-bold" for="ten-sp">Tên sản phẩm</label>
+                    <input type="text" class="form-control" id="ten-sp" placeholder="Nhập tên sản phẩm">
+                  </div>
+                  <div class="mb-3">
+                    <label  class="font-weight-bold" for="mo-ta">Mô tả</label>
+                    <input type="text" class="form-control" id="mo-ta" placeholder="Nhập mô tả cho sản phẩm">
+                  </div>
+                  <div class="custom-file mb-3">
+                    <label class="custom-file-label" for="chon-anh"><i class="far fa-file-image p-2"></i>Chọn ảnh</label>
+                    <input type="file" class="custom-file-input" onchange="readURL(this);" id="chon-anh">
+                  </div>
+                  <div>
+                    <img id="displayInputImg" src="#" alt="your image" class="img-fluid" />
+                  </div>
+    
+                  <div class="mb-3">
+                    <label  class="font-weight-bold" for="gia-sp">Giá</label>
+                    <input class="form-control" id="gia-sp" placeholder="Nhập giá cho sản phẩm" ></input>
+                  </div>
+                <div>
+                <button type="button" class="btn btn-danger"><span class="text-white"><i class="fas fa-trash mr-2"></i>Xóa</span></button>
+                <button type="submit" onclick="updateContent()" class="btn btn-add float-right"><span class="text-white"><i class="fas fa-edit mr-2"></i> Sửa</span></button>
+                <button type="button" class="btn btn-secondary float-right mr-2"><span class="text-white">Hủy</span></button>
+
+                </div>
+              </form>
+  
+  
+               
+  
+            </div>
+          </div>
+        </div>
+</body>
+
+</html>
