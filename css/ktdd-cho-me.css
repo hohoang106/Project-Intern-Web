@@ -44,8 +44,9 @@
 .noi_dung{
     position: relative;
     border-radius: 10px;
-    width: 350px;
     height: 300px;
+    margin-top: 0;
+    margin-left: 0;
 }
 .noi_dung .hinh_anh {
     position:absolute;;
@@ -90,7 +91,6 @@
     text-align: center;
 }
 .noi_dung .van_ban p {
-    padding: 0;
     opacity: 0;
     line-height: 1.8em;
     overflow-y: auto;
@@ -121,17 +121,25 @@
     color:#187AAB;
     opacity: 1;
 }
+.noi_dung:nth-child(4):hover .van_ban {
+    background-color:#e0f0f5;
+    background-size: cover;
+    color:#187AAB;
+    opacity: 1;
+}
+.noi_dung:nth-child(5):hover .van_ban {
+    background-color:#e0f0f5;
+    background-size: cover;
+    color:#187AAB;
+    opacity: 1;
+}
+.noi_dung:nth-child(6):hover .van_ban {
+    background-color:#e0f0f5;
+    background-size: cover;
+    color:#187AAB;
+    opacity: 1;
+}
 @media only screen and (max-width: 1024px){
-    .hieu_ung{
-        width: 100%;
-    }
-    .noi_dung{
-        width: 30%;
-        height: 250px;
-    }
-    .hieu_ung{
-        height: 35rem;
-    }
     .impor-ktdd{
         left: 22rem;
     }
@@ -158,31 +166,14 @@
         top:0px;
         left: 0px;;
     }
-    .title-ktdd-me2{
-        margin: auto;
-    }
     .item1{
         min-width: 260px;
     }
-    .hieu_ung {
-        width: 100%;
-        height: 30rem;
-    }
-    .noi_dung{
-        width: 31%;
-        height: 200px;
+    .hieu_ung{
+        height: 100%;
     }
 }
-
 @media only screen and (max-width: 720px){
-    .noi_dung{
-        width: 100%;
-        height: 250px;
-        margin: 20px;
-    }
-    .hieu_ung{
-        height: auto;
-    }
     .main-page{
         padding: 20px 0;
     }
