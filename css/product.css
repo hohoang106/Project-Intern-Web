@@ -66,6 +66,11 @@ a.addcart:hover{
     display: flex;
     justify-content: space-evenly
 }
+.titlechart{
+    border-bottom: solid #187AAB 1px;
+    color: #187AAB;
+    margin: 20px;
+}
 
 @media only screen and (max-width: 768px) {
     /* mobile screen detailproduct page */

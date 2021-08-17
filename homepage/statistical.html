@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/product.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/chart.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<!-- mainheader -->
+<div class="container-fluid container-fluid-nav">
+  <nav class="navbar navbar-expand-lg  container">
+    <a class="navbar-brand" href="#"><img src="/images/logo_heal.png" height="50px" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-bars fa-lg pt-2" style="color: #187AAB;"></i></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Quản lý bài đăng</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quản lý sản phẩm</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quản lý đơn hàng</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Thống kê</a>
+        </li>
+        
+      </ul>
+        <input class="form-control col-lg-3 col-12" type="search" placeholder="Search">
+        <div class="icon-search p-2"> <i class="fas fa-search fa-lg"></i></div>
+      <div class="icon-cart p-2">
+        <i class="fas fa-user fa-lg"></i>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- mainheader -->
+
+<!-- mainbody -->
+<div class="container">
+<div class="bodymanager row mt-1 ">
+<div class="navheader col-3 " style="background-color: rgb(245, 241, 241);">
+    <div class="headercontent col mt-3" style="text-align: end;">
+        <i class="fas fa-user-lock"></i>
+        Adminator
+      </div>
+    <div class="navmanager mt-5">
+      <ul class="nav flex-column nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#menu1">
+            <i class="fas fa-graduation-cap"></i>  
+            Kiến Thức</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#menu2">
+            <i class="fas fa-folder-minus"></i>  
+            Thực đơn</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1">
+                <i class="fas fa-shopping-cart"></i>
+                Sản phẩm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu2">
+                <i class="fas fa-dumbbell"></i>
+                Tập luyện</a>
+          </li>
+    </ul>
+    </div>
+  </div>
+    <div class="tab-content col-9">
+    <div id="menu1" class="container tab-pane active">
+        <div class="titlechart">Thống Kê Lượt xem</div> 
+        <div class="row">
+          <canvas id="myChart" width="200" height="100"></canvas>
+          </div>
+  </div>
+    <div id="menu2" class="container tab-pane fade">
+        <div class="titlechart">Thống Kê Lượt xem</div> 
+        <div class="row">
+          
+          </div>
+        <div class="titlechart">Theo Từng Hạng Mục</div> 
+        <div class="row">
+          <canvas id="myChart1" width="50" height="100"></canvas>
+          </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- mainbody -->
+
+<script>
+  var ctx = document.getElementById('myChart');
+  var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          datasets: [{
+              label: '# of Votes',
+              data: [12, 19, 3, 5, 2, 3],
+              backgroundColor: [
+                  'rgba(255, 99, 132, 0.2)',
+                  'rgba(54, 162, 235, 0.2)',
+                  'rgba(255, 206, 86, 0.2)',
+                  'rgba(75, 192, 192, 0.2)',
+                  'rgba(153, 102, 255, 0.2)',
+                  'rgba(255, 159, 64, 0.2)'
+              ],
+              borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+              borderWidth: 1
+          }]
+      },
+      options: {
+          scales: {
+              y: {
+                  beginAtZero: true
+              }
+          }
+      }
+  });
+
+  var ctx = document.getElementById('myChart1');
+  var myChart1 = new Chart(ctx, {
+      type: 'polarArea',
+      data: {
+          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          datasets: [{
+              label: '# of Votes',
+              data: [12, 19, 3, 5, 2, 3],
+              backgroundColor: [
+                  'rgba(255, 99, 132, 0.2)',
+                  'rgba(54, 162, 235, 0.2)',
+                  'rgba(255, 206, 86, 0.2)',
+                  'rgba(75, 192, 192, 0.2)',
+                  'rgba(153, 102, 255, 0.2)',
+                  'rgba(255, 159, 64, 0.2)'
+              ],
+              borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)'
+              ],
+              borderWidth: 1
+          }]
+      },
+      options: {
+          scales: {
+              y: {
+                  beginAtZero: true
+              }
+          }
+      }
+  });
+  </script>
+
+
+</body>
+</html>
