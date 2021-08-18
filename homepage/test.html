@@ -31,7 +31,7 @@
             </li>
             <!-- Dropdown -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              <a class="nav-link dropdown-toggle" id="kienthuc-page" data-toggle="dropdown">
                 Kiến thức
               </a>
               <div class="dropdown-menu">
@@ -48,7 +48,7 @@
               <a class="nav-link" id="product-page">Sản phẩm</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tập luyện</a>
+              <a class="nav-link" id="tapluyen-page">Tập luyện</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="login-page"  >Đăng nhập</a>
@@ -63,23 +63,31 @@
         </div>
       </nav>
     </div>
+    <!-- Body -->
     <div id="result"></div>
+    <!-- Footer -->
+    
+    <script>
 
-  <script>
-
-$("#login-page").load(function() {
-    $("#result").load("login.html");
+$("#login-page").click(function() {
+  $("#result").load("login.html");
 });
 $("#thucdon-page").click(function() {
-    $("#result").load("thucdon.html");
+  $("#result").load("/thucdon/thucdon.html");
 });
 $("#trangchu-page").click(function() {
-    $("#result").load("trangchu.html");
+  $("#result").load("trangchu.html");
 });
 $("#product-page").click(function() {
-    $("#result").load("productpage.html");
+  $("#result").load("productpage.html");
+});
+$("#tapluyen-page").click(function() {
+  $("#result").load("/tapluyen/tapluyen.html");
+});
+$("#kienthuc-page").click(function() {
+  $("#result").load("/kienthuc/ktdd.html");
 });
 
-      </script>
+    </script>
 </body>
 </html>

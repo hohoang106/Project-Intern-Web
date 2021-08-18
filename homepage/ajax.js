@@ -1,22 +1,12 @@
-$('#login-page').click(function(){
-  $.ajax({
-      type: "GET",
-      url: "login.html",
-      data: { },
-      success: function(data){
-          $('#result').html(data);
-      }
-  });
-
+$("#login-page").click(function() {
+  $("#result").load("login.html");
 });
-$('#thucdon-page').click(function(){
-  $.ajax({
-      type: "GET",
-      url: "thucdon.html",
-      data: { },
-      success: function(data){
-          $('#result').html(data);
-      }
-  });
-
+$("#thucdon-page").click(function() {
+  $("#result").load("thucdon/thucdon.html");
+});
+$("#trangchu-page").click(function() {
+  $("#result").load("trangchu.html");
+});
+$("#product-page").click(function() {
+  $("#result").load("productpage.html");
 });

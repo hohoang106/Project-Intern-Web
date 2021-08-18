@@ -1,12 +1,13 @@
 var selectedRow = null;
-
+loadData();
 function onFormSubmit() {
 let listItem = readFormData();
   if (selectedRow == null)
      {insertData(listItem);}
   else
      {updateContent(listItem);}
-resetForm()
+resetForm();
+saveData();
 }
 
 function readFormData(){
@@ -35,6 +36,7 @@ function insertData(data){
   cell6 = newRow.insertCell(5);
   cell6.innerHTML = `<button data-toggle="modal" data-target="#updateModal" onClick="onEdit(this)">Edit</button>
   <button onClick="onDelete(this)">Delete</button>`;
+
 }
 
 function resetForm(){
@@ -81,5 +83,18 @@ function readURL(input) {
         .height(200);
     };
     reader.readAsDataURL(input.files[0]);
+  }
+}
+
+function saveData(){
+window.localStorage.setItem('ngayDang','tieuDe','noiDung','chonAnh','tacGia',JSON.stringify(listItem));
+}
+function loadData(){
+  if(window.localStorage.hasOwnProperty('listItem')){
+    listItem = JSON.parse(window.localStorage.getItem('ngayDang','tieuDe','noiDung','chonAnh','tacGia'));
+  }
+  else
+  {
+    listItem = {};
   }
 }
