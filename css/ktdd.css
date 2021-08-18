@@ -1,0 +1,89 @@
+.title{
+    color: #187AAB;
+    border-bottom: 1.5px solid rgb(165, 165, 165);
+}
+ins{
+    padding: 2px 10px;
+    background-color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.questions-page{
+    background-image: url('/images/Q&A.PNG');
+    background-size: cover;
+    height: 310px;
+}
+.qes1{
+    padding: 10px;
+    height: 165px;
+    background-color:white;
+    min-width: 230px;
+    margin: 20px;
+}
+.wapper-qa{
+    line-height: 1.1;
+    overflow-x: auto;
+}
+.fs-6 ,a ,.tk,.time{
+    font-size: 14px;
+}
+a,em,.bai-dang ,.time{
+    color: #187AAB;
+}
+.part-content{
+    background-color: #e0f0f5;
+    border-radius: 4px;
+}
+.img-ktdd{
+    padding: 10px;
+    width: 100%;
+}
+.tk, .time,.fix-text{
+    margin-bottom: -5px;   
+}
+.author{
+    height: 30%;
+}
+.detail-submit{
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+}
+.wapper-trend{
+    background-color: #187AAB;
+    color: white;
+    height: 40px;
+}
+.bv-noibat{
+    color: black;
+    margin-bottom: 5px;
+    line-height: 1.7;
+}
+@media only screen and (max-width: 960px) {
+    .main-body{
+        font-size: 14px;
+      }
+      .questions-page{
+          height: auto;
+      }
+      .title{
+        font-size: 20px;
+      }
+      .qes1 {
+        margin: 10px;
+      }
+      .img-ktdd{
+          flex-direction: column;
+      }
+      .detail-submit{
+          height: auto;
+          margin: 0 auto;
+          margin-top: 10px;
+      }
+      .img-page{
+        width: 100%;
+        height: auto;
+    }
+    .trend ,.questions-page,.content,.main-body{
+        width: 100%;
+    }
+  }
