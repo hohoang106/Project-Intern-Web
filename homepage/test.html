@@ -12,6 +12,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.14.4/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script src="/homepage/ajax.js"></script>
 </head>
 <body>
@@ -69,11 +70,15 @@
     
     <script>
 
+
 $("#login-page").click(function() {
   $("#result").load("login.html");
 });
 $("#thucdon-page").click(function() {
   $("#result").load("/thucdon/thucdon.html");
+});
+$("#trangchu-page").ready(function() {
+  $("#result").load("trangchu.html");
 });
 $("#trangchu-page").click(function() {
   $("#result").load("trangchu.html");
