@@ -12,62 +12,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.14.4/jquery.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 </head>
 
 <body>
   <!-- Navbar -->
-  <!-- <div class="container-fluid container-fluid-nav">
-    <nav class="navbar navbar-expand-lg  container">
-      <a class="navbar-brand" href="#"><img src="/images/logo_heal.png" height="50px" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="fas fa-bars fa-lg pt-2" style="color: #187AAB;"></i></span>
-      </button>
+ <div id="header-navbar">
+ </div>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Trang chủ </a>
-          </li>
-        
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              Kiến thức
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Dinh dưỡng cho bé</a>
-              <a class="dropdown-item" href="#">Dinh dưỡng cho mẹ</a>
-              <a class="dropdown-item" href="#">Dinh dưỡng cho người bệnh</a>
-              <a class="dropdown-item" href="#">Dinh dưỡng theo nhu cầu</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/homepage/thucdon.html">Thực đơn</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/homepage/productpage.html">Sản phẩm</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Tập luyện</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="login-page" href="Javascript:void(0);"  >Đăng nhập</a>
-          </li>
-
-        </ul>
-        <input class="form-control col-lg-3 col-12" type="search" placeholder="Search">
-        <div class="icon-search p-2"> <i class="fas fa-search fa-lg"></i></div>
-        <div class="icon-cart p-2">
-          <a href="/homepage/payment.html"> <i class="fa fa-cart-plus fa-lg "></i> </a>
-        </div>
-      </div>
-    </nav>
-  </div> -->
-
-
-  <!-- slide -->
+   <!-- slide -->
   <div class="container-fluid p-0 silde-container">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -109,10 +62,8 @@
     </div>
   </div>
 
-
-
   <!-- Kiến thức -->
-  <h3 class="container p-0">Kiến thức dinh dưỡng</h3>
+  <h3 class="container p-0 mt-3">Kiến thức dinh dưỡng</h3>
   <div id="multi-item-example" class="container carousel slide carousel-multi-item " data-ride="carousel">
 
     <!--Controls-->
@@ -132,12 +83,12 @@
           <div class="col-md-4 d-flex align-items-stretch" style="height: 30rem;">
             <div class="card mb-2">
               <div>
-                <img class="card-img-top" src="/images/dd-chobe.jpg" alt="Card image cap">
+                <img class="card-img-top" height="250px"  src="/images/dd-chobe.jpg" alt="Card image cap">
               </div>
               
               <div class="card-body d-flex flex-column justify-content-between" >
-                <h4 class="card-title">Dinh dưỡng cho bé</h4>
-                <p class="card-text">Kiến thức dinh dưỡng dành cho các bà mẹ đang mang thai hoặc đang chăm sóc con ở
+                <h5 class="card-title">Dinh dưỡng cho bé</h5>
+                <p class="card-text limit-p">Kiến thức dinh dưỡng dành cho các bà mẹ đang mang thai hoặc đang chăm sóc con ở
                   những giai đoạn thai kì và lứa tuổi phù hợp.</p>
                 <a class="btn btn-outline-primary  btn-sm">Chi tiết</a>
               </div>
@@ -146,9 +97,9 @@
 
           <div class="col-md-4 d-flex align-items-stretch" style="height: 30rem;">
             <div class="card mb-2 ">
-              <img class="card-img-top" src="/images/dd-chome.jpg" alt="Card image cap">
+              <img class="card-img-top" height="250px"    src="/images/dd-chome.jpg" alt="Card image cap">
               <div class="card-body d-flex flex-column justify-content-between">
-                <h4 class="card-title">Dinh dưỡng cho mẹ</h4>
+                <h5 class="card-title">Dinh dưỡng cho mẹ</h5>
                 <p class="card-text">Dinh dưỡng cho bà bầu ở những giai đoạn cần thiết cần phải được bổ sung các loại
                   dinh dưỡng phù hợp.</p>
                 <a class="btn btn-outline-primary  btn-sm">Chi tiết</a>
@@ -158,9 +109,9 @@
 
           <div class="col-md-4 col-12 d-flex align-items-stretch" style="height: 30rem;">
             <div class="card mb-2">
-              <img class="card-img-top" src="/images/dd-chobenh.jpg" alt="Card image cap">
+              <img class="card-img-top"  height="250px"   src="/images/dd-chobenh.jpg" alt="Card image cap">
               <div class="card-body d-flex flex-column justify-content-between">
-                <h4 class="card-title">Dinh dưỡng cho người bệnh</h4>
+                <h5 class="card-title">Dinh dưỡng cho người bệnh</h5>
                 <p class="card-text">Kiến thức dinh dưỡng cho từng loại bệnh khác nhau, các thực phẩm bố xung dinh dưỡng
                   cần thiết để phục hồi sức khỏe.</p>
                 <a class="btn btn-outline-primary  btn-sm">Chi tiết</a>
@@ -174,17 +125,16 @@
 
       <!--Second slide-->
       <div class="carousel-item">
-
         <div class="row">
           <div class="col-md-4 d-flex align-items-stretch" style="height: 30rem;">
             <div class="card mb-2">
               <div>
-                <img class="card-img-top" src="/images/dd-chobe.jpg" alt="Card image cap">
+                <img class="card-img-top" height="250px"  src="/images/dd-chobe.jpg" alt="Card image cap">
               </div>
               
               <div class="card-body d-flex flex-column justify-content-between" >
-                <h4 class="card-title">Dinh dưỡng cho bé</h4>
-                <p class="card-text">Kiến thức dinh dưỡng dành cho các bà mẹ đang mang thai hoặc đang chăm sóc con ở
+                <h5 class="card-title">Dinh dưỡng cho bé</h5>
+                <p class="card-text limit-p">Kiến thức dinh dưỡng dành cho các bà mẹ đang mang thai hoặc đang chăm sóc con ở
                   những giai đoạn thai kì và lứa tuổi phù hợp.</p>
                 <a class="btn btn-outline-primary  btn-sm">Chi tiết</a>
               </div>
@@ -193,9 +143,9 @@
 
           <div class="col-md-4 d-flex align-items-stretch" style="height: 30rem;">
             <div class="card mb-2 ">
-              <img class="card-img-top" src="/images/dd-chome.jpg" alt="Card image cap">
+              <img class="card-img-top" height="250px"    src="/images/dd-chome.jpg" alt="Card image cap">
               <div class="card-body d-flex flex-column justify-content-between">
-                <h4 class="card-title">Dinh dưỡng cho mẹ</h4>
+                <h5 class="card-title">Dinh dưỡng cho mẹ</h5>
                 <p class="card-text">Dinh dưỡng cho bà bầu ở những giai đoạn cần thiết cần phải được bổ sung các loại
                   dinh dưỡng phù hợp.</p>
                 <a class="btn btn-outline-primary  btn-sm">Chi tiết</a>
@@ -205,9 +155,9 @@
 
           <div class="col-md-4 col-12 d-flex align-items-stretch" style="height: 30rem;">
             <div class="card mb-2">
-              <img class="card-img-top" src="/images/dd-chobenh.jpg" alt="Card image cap">
+              <img class="card-img-top"  height="250px"   src="/images/dd-chobenh.jpg" alt="Card image cap">
               <div class="card-body d-flex flex-column justify-content-between">
-                <h4 class="card-title">Dinh dưỡng cho người bệnh</h4>
+                <h5 class="card-title">Dinh dưỡng cho người bệnh</h5>
                 <p class="card-text">Kiến thức dinh dưỡng cho từng loại bệnh khác nhau, các thực phẩm bố xung dinh dưỡng
                   cần thiết để phục hồi sức khỏe.</p>
                 <a class="btn btn-outline-primary  btn-sm">Chi tiết</a>
@@ -215,7 +165,6 @@
             </div>
           </div>
         </div>
-
       </div>
       <!--/.Second slide-->
 
@@ -274,7 +223,7 @@
 
 
   <!--Tập luyện-->
-  <div class="container p-0 pt-3">
+  <div class="container p-0 mt-3">
 
     <div class="">
       <h3>Tập luyện</h3>
@@ -383,67 +332,11 @@
   </div>
 
 
-
-  <!-- footer -->
-  <div class="container-fluid footer-full p-0">
-    <div class="row m-auto container text-white p-0">
-      <div class="col-lg-4 col-sm-12 col-xl-4 mb-md-0 mb-4 pt-4">
-     
-        <h5 class="text-uppercase fw-bold mb-4 text-white">
-          Về chúng tôi
-        </h5>
-        <p><i class="fas fa-map-marker-alt me-3"></i> Đà Nẵng</p>
-        <p>
-          <i class="fas fa-envelope me-3"></i>
-          dinhduong@gmail.com
-        </p>
-        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-
-      </div>
-
-      <div class="col-lg-4 col-sm-12 col-xl-4 mb-4 pt-4">
-        
-        <h5 class="text-uppercase fw-bold mb-4 text-white">
-          Hỗ trợ khách hàng
-        </h5>
-
-        <ul class="pl-4">
-          <li>
-            <a href="#!" class="text-white">Hướng dẫn mua hàng</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Hướng dẫn thanh toán</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Giải đáp thắc mắc</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Tư vấn</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Chính sách</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="col-lg-4 col-sm-7 col-xl-4  mb-4  pt-4">
-     
-        <h5 class="text-uppercase fw-bold mb-4 text-white">
-          Nhận tin của chúng tôi
-        </h5>
-        <div class="input-group mb-4">
-          <input type="text" class="form-control" placeholder="Nhập email của bạn">
-          <button class="btn bg-dark text-white" type="button">Gửi</button>
-        </div>
-      </div>
-    
-      <div class="footer-copyright text-center w-100 p-3">© 2020 Copyright:
-        <a class="text-white" href=""> dinhduong.com</a>
-      </div>
-
-
-    </div>
+<!-- footer -->
+  <div id="footer-all">
   </div>
+    
+  <script src="/homepage/ajax.js"></script>
 
 </body>
 
