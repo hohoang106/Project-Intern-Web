@@ -1,5 +1,11 @@
 
 /* Home */
+/* .limit-p{
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
 .carousel-item{
   height: 30rem;
 }
@@ -115,3 +121,57 @@ label{
 th{
   color: #187AAB;
 }
+
+/* listquestion */
+.question{
+  border-bottom: 1px solid rgb(212, 211, 211);
+}
+.avatar{
+
+}
+.question-body{
+  border-bottom: 1px solid rgb(212, 211, 211);
+}
+.author-name{
+  color: #187AAB;
+  font-size: 14px;
+}
+.date{
+  color: gray;
+  font-size: 12px;
+}
+.numberOfAnswer, .icon-comment{
+  color: #187AAB;
+  font-size: 14px;
+  cursor: pointer;
+}
+.icon-comment{
+  cursor: pointer;
+}
+.block-vote{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.datCauHoi{
+  color: #187AAB;
+  
+}
+.title-a{
+  cursor: pointer;
+}
+.arrow-up, .arrow-down{
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .block-vote{
+    flex-direction: row;
+  }
+  .vote{
+    margin-left: 1rem;
+  }
+}
+
+.dropdown:hover .dropdown-menu{display: block;}

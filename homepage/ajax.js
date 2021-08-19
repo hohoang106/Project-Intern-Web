@@ -1,12 +1,7 @@
-$("#login-page").click(function() {
-  $("#result").load("login.html");
+$("#header").ready(function() {
+  $("#header-navbar").load("navbar.html");
 });
-$("#thucdon-page").click(function() {
-  $("#result").load("thucdon/thucdon.html");
+$("#footerForAll").ready(function() {
+  $("#footer-all").load("footer.html");
 });
-$("#trangchu-page").click(function() {
-  $("#result").load("trangchu.html");
-});
-$("#product-page").click(function() {
-  $("#result").load("productpage.html");
-});
+
