@@ -45,11 +45,6 @@
     position: relative;
     border-radius: 10px;
     height: 300px;
-<<<<<<< HEAD
-    margin-top: 0;
-    margin-left: 0;
-=======
->>>>>>> 6fcdd6691cfa6386530e9c8f879aeb798ac50ec0
 }
 .noi_dung .hinh_anh {
     position:absolute;;
@@ -105,63 +100,39 @@
     border-radius: 10px;
 }
 .noi_dung:nth-child(1):hover .van_ban {
-<<<<<<< HEAD
-    background-color:#e0f0f5;
-=======
     background-color: #e0f0f5;
->>>>>>> 6fcdd6691cfa6386530e9c8f879aeb798ac50ec0
     background-size: cover;
     color:#187AAB;
     opacity: 1;
 }
 
 .noi_dung:nth-child(2):hover .van_ban {
-<<<<<<< HEAD
-    background-color:#e0f0f5;
-=======
     background-color: #e0f0f5;
->>>>>>> 6fcdd6691cfa6386530e9c8f879aeb798ac50ec0
     background-size: cover;
     color:#187AAB;
     opacity: 1;
 }
 
 .noi_dung:nth-child(3):hover .van_ban {
-<<<<<<< HEAD
-    background-color:#e0f0f5;
-=======
    background-color: #e0f0f5;
->>>>>>> 6fcdd6691cfa6386530e9c8f879aeb798ac50ec0
     background-size: cover;
     color:#187AAB;
     opacity: 1;
 }
 .noi_dung:nth-child(4):hover .van_ban {
-<<<<<<< HEAD
-    background-color:#e0f0f5;
-=======
 background-color: #e0f0f5;
->>>>>>> 6fcdd6691cfa6386530e9c8f879aeb798ac50ec0
     background-size: cover;
     color:#187AAB;
     opacity: 1;
 }
 .noi_dung:nth-child(5):hover .van_ban {
-<<<<<<< HEAD
-    background-color:#e0f0f5;
-=======
 background-color: #e0f0f5;
->>>>>>> 6fcdd6691cfa6386530e9c8f879aeb798ac50ec0
     background-size: cover;
     color:#187AAB;
     opacity: 1;
 }
 .noi_dung:nth-child(6):hover .van_ban {
-<<<<<<< HEAD
-    background-color:#e0f0f5;
-=======
 background-color: #e0f0f5;
->>>>>>> 6fcdd6691cfa6386530e9c8f879aeb798ac50ec0
     background-size: cover;
     color:#187AAB;
     opacity: 1;

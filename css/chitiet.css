@@ -1,0 +1,13 @@
+.post_details{
+    border-bottom: 2px solid #187AAB;
+}
+.btn-comment{
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    height: 35px;
+    background-color: #187AAB;
+  }
+.btn-comment:hover{
+   opacity: 0.8;
+}

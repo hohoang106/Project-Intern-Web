@@ -1,0 +1,32 @@
+.item_tag{
+    padding-bottom: 30px;
+}
+.result, .answer{
+    padding-right: 5px;
+    font-size: 12px;
+    color: #187AAB;
+}
+.result{
+    border-right: 1px solid #187AAB ;
+}
+.tag{
+    padding-right: 10px;
+    text-decoration: underline;
+}
+.tag_title,.add_question{
+    font-size: 14px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #187AAB;
+}
+.tag_title,.add_question:hover{
+    opacity: 0.8;
+}
+.card-body:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.add_question{
+    border: none;
+    font-size: 16px;
+    margin-right: 20px;
+}
