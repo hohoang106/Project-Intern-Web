@@ -1,9 +1,9 @@
 .item_tag{
     padding-bottom: 30px;
 }
-.result, .answer{
+.result, .answer ,.fas{
     padding-right: 5px;
-    font-size: 12px;
+    font-size: 14px;
     color: #187AAB;
 }
 .result{

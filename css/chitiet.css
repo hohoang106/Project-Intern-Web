@@ -11,3 +11,33 @@
 .btn-comment:hover{
    opacity: 0.8;
 }
+/*Add question*/
+.add_question{
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #e0f0f5;
+}
+/* chitiet cau hoi */
+.total_answer{
+  color: #187AAB;
+  background-color: #e0f0f5;
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+.fa-reply{
+  font-size: 15px;
+}
+.number-reply{
+  border-left: 1px solid #b6b6b6;
+}
+.vote_reply{
+  width: 80px;
+  margin-right: 15px;
+  justify-content: space-between;
+}
+.vote_reply,.number-reply{
+  height: 20px;
+}
+.reply_answer{
+  color: #187AAB;
+}
+

@@ -122,11 +122,10 @@ th{
 }
 
 /* listquestion */
-.question{
-  border-bottom: 1px solid rgb(212, 211, 211);
-}
 .avatar{
-
+ border-radius: 50%;
+ width: 50px;
+ height: 50px;
 }
 .question-body{
   border-bottom: 1px solid rgb(212, 211, 211);
@@ -148,12 +147,11 @@ th{
   cursor: pointer;
 }
 .block-vote{
-
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.datCauHoi{
+.datCauHoi, .fa-2x{
   color: #187AAB;
   
 }
@@ -163,8 +161,16 @@ th{
 .arrow-up, .arrow-down{
   cursor: pointer;
 }
-
+.part_2{
+  font-size: 14px;
+}
 @media (max-width: 768px) {
+  *{
+    font-size: 14px;
+  }
+  .title-a{
+    font-size: 20px;
+  }
   .block-vote{
     flex-direction: row;
   }
