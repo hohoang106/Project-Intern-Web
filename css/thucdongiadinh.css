@@ -20,9 +20,23 @@ body {
   color: black;
   text-decoration: none;
 }
+@media (min-width: 576px) { 
+  .height-img-gr{
+    height: 50px;
+  }
+ }
+@media (min-width: 768px) { 
+  .height-img-gr{
+    height: 80px;
+  }
+ }
+
 @media (min-width: 992px) {
   a > .card-img-top {
     height: 90px;
+  }
+  .height-img-gr{
+    height: 100px;
   }
 }
 @media (min-width: 1200px) {
@@ -39,7 +53,11 @@ body {
     transition-duration: 0.5s;
     color: #187aab;
   }
-  .hover-items:hover .card-text{
+  .hover-items-gr:hover .card-text ,.hover-items:hover .card-text{
     color: #187aab;
   }
+  .height-img-gr{
+    height: 140px;
+  }
 }
+
