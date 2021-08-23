@@ -13,19 +13,17 @@
 .nav-nav-hover:hover{
   color: rgba(0, 187, 187, 0.644);
   border-bottom: 2px solid rgba(0, 187, 187, 0.644);
-  font-size: 20px;
 }
 .nav-nav-hover:active{
   color: rgba(0, 187, 187, 0.644);
   border-bottom: 2px solid rgba(0, 187, 187, 0.644);
-  font-size: 20px;
+
 }
 .dropdown-item{
   color: #187AAB;
 }
 .dropdown-item:hover{
   color: rgba(0, 187, 187, 0.644);
-  font-size: 20px;
 }
 
 /* footer */
