@@ -1,11 +1,5 @@
 
 /* Home */
-/* .limit-p{
-  width: 200px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-} */
 .carousel-item{
   height: 30rem;
 }
@@ -175,3 +169,18 @@ th{
 }
 
 .dropdown:hover .dropdown-menu{display: block;}
+.card-title{
+  cursor: pointer;
+}
+.content-td:hover{
+  background-color: rgba(86, 181, 236, 0.568);
+  border-radius: 10px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+/* Navbar */
+.header-navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
