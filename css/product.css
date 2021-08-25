@@ -4,11 +4,16 @@ body{
 .headercontent{
     font-size: 25px;
     color: #187AAB;
-    ;
-}
-.navheader{
     border-bottom: solid 1px rgb(235, 235, 235);
 }
+
+.header_title{
+    color: #187AAB;
+    height: 15rem;
+    background-size:contain;
+    background-image: -webkit-linear-gradient(45deg, #ff89e93d 0%, #05a9e03f 100%), url('http://rosalinda.axiomthemes.com/wp-content/uploads/2018/01/02_home-2_welcome.jpg?id=530');
+  }
+
 .ctitle{
     color: #187AAB;
     text-align: center;
@@ -71,6 +76,30 @@ a.addcart:hover{
     color: #187AAB;
     margin: 20px;
 }
+
+/* select number */
+.quantity{
+    display:flex;
+    width:160px;
+ }
+ /* it will support chrome and firefox */
+ .quantity input[type=number]::-webkit-inner-spin-button,
+ .quantity input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance:none;
+ }
+ .quantity input,.quantity button{
+    width:40px;
+    text-align:center;
+    font-weight:600;
+    background:white;
+    border:1px solid #aaa;
+    color: black;
+ }
+ .quantity input{
+    border-left:none;
+    border-right:none;
+ }
+
 
 @media only screen and (max-width: 768px) {
     /* mobile screen detailproduct page */
