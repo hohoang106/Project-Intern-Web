@@ -158,6 +158,9 @@ th{
 .part_2{
   font-size: 14px;
 }
+.img-tapluyen{
+  height: 250px;
+}
 @media (max-width: 768px) {
   *{
     font-size: 14px;
@@ -171,21 +174,43 @@ th{
   .vote{
     margin-left: 1rem;
   }
+  .img-tapluyen{
+    height: 250px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .img-tapluyen{
+    height: 500px;
+  }
+  
 }
 
 .dropdown:hover .dropdown-menu{display: block;}
 .card-title{
   cursor: pointer;
 }
-.content-td:hover{
+/* .content-td:hover{
   background-color: rgba(86, 181, 236, 0.568);
   border-radius: 10px;
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
+} */
 /* Navbar */
 .header-navbar{
   position: fixed;
   top: 0;
   width: 100%;
+}
+h4:hover{
+  color: rgba(0, 187, 187, 0.644);
+}
+h5:hover{
+  cursor: pointer;
+  color: rgba(0, 187, 187, 0.644);
+}
+img:hover{
+  opacity: 0.8  ;
+}
+.span-chitiet{
+  color: #187AAB;
 }
