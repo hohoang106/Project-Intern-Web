@@ -54,9 +54,7 @@
 .use_date{
   font-size: 12px;
 }
-.carousel-control-next, .carousel-control-prev{
-  width: 0%;
-}
+
 @media only screen and (max-width: 920px){
   *{
     font-size: 14px;
