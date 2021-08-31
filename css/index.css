@@ -182,6 +182,9 @@ th{
 .img-tapluyen{
   height: 250px;
 }
+.fa-caret-up,.fa-caret-down{
+  font-size: 30px;
+}
 @media (max-width: 768px) {
   *{
     font-size: 14px;
