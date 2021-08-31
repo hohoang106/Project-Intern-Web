@@ -1,13 +1,18 @@
 .item_tag{
     padding-bottom: 30px;
 }
-.result, .answer ,.fas{
+.result, .answer{
     padding-right: 5px;
     font-size: 14px;
     color: #187AAB;
 }
 .result{
     border-right: 1px solid #187AAB ;
+}
+.fa-tags{
+    padding-right: 5px;
+    font-size: 14px;
+    color: #187AAB;
 }
 .tag{
     padding-right: 10px;

@@ -81,13 +81,30 @@ a{
   width: 100%;
   color: #fff;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(5, 3, 3, 0.3);
 }
 .text-slide{
   color: white;
   font-size: 3rem;
   position: relative;
   top: 10rem;
+}
+.btn-chitiet-slide{
+  border: none;
+  color: white;
+  background-color: #187aabc2;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 10rem;
+}
+.btn-chitiet-slide > a:link{
+  text-decoration: none;
+}
+.btn-chitiet-slide > a{
+  color: white;
+}
+.btn-chitiet-slide > a:hover{
+  color: white;
 }
 /* Add Modal */
 label{
@@ -220,4 +237,7 @@ img:hover{
 }
 h1, h2 , h3 , h4 , h5 , h6{
   font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+  text-transform: uppercase;
 }

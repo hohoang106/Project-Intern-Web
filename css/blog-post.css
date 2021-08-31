@@ -57,10 +57,11 @@
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
   }
-  .fas{
+  .fa-link{
     font-size: 2em;
+    color: #187AAB;
   }
-  h2,.card-title,.far,.fas,.comment,.y_kien ,.post_title{
+  h2,.card-title,.far,.comment,.y_kien ,.post_title{
       color: #187AAB;
       cursor: pointer;
   }
