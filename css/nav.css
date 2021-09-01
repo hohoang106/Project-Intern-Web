@@ -26,7 +26,8 @@
   color: #187AAB;
 }
 .dropdown-item:hover{
-  color: rgba(0, 187, 187, 0.644);
+  color: white;
+  background-color: #187AAB;
 }
 
 /* footer */

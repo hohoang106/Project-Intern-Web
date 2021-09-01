@@ -198,10 +198,20 @@ th{
   .img-tapluyen{
     height: 250px;
   }
+  .text-slide{
+    font-size: 1.5rem;
+  }
+  
 }
 @media (min-width: 769px) and (max-width: 1200px) {
   .img-tapluyen{
     height: 500px;
+  }
+  .card-title{
+    font-size: 18px;
+  }
+  .card-text{
+    font-size: 14px;
   }
   
 }
@@ -217,11 +227,6 @@ th{
   padding-bottom: 1rem;
 } */
 /* Navbar */
-.header-navbar{
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 h4:hover{
   color: rgba(0, 187, 187, 0.644);
 }
@@ -240,4 +245,8 @@ h1, h2 , h3 , h4 , h5 , h6{
 }
 h3{
   text-transform: uppercase;
+}
+
+.btn-chitiet-slide:hover{
+  background-color: #187AAB;
 }

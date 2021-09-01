@@ -138,7 +138,7 @@
 
           <div class="mb-3">
             <label class="font-weight-bold" for="noi-dung">Nhập nội dung bài viêt</label>
-            <textarea class="form-control" id="noi-dung" rows="3"></textarea>
+            <textarea class="form-control" name="noiDung" id="noi-dung" rows="3"></textarea>
           </div>
           <div class="custom-file mb-3">
             <label class="custom-file-label" for="chon-anh"><i class="far fa-file-image p-2"></i>Chọn ảnh</label>
@@ -216,6 +216,10 @@
     </div>
   </div>
   <script src="/homepage/navbarAdmin.js"></script>
+  <script src="/node_modules/ckeditor4/ckeditor.js"></script>
+  <script>
+    CKEDITOR.replace('noiDung');
+  </script>
 </body>
 
 </html>

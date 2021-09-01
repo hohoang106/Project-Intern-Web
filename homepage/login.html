@@ -95,18 +95,18 @@ validator({
               return obj.username === username & obj.password === password;
             })
             if (result.length !== 0) {
-              alert('Login success');
-              location.replace('register.html')
+              alert('Đăng nhập thành công');
+              location.replace('trangchu.html')
             }
             else {
-              alert('Login fail');
+              alert('Đăng nhập thất bại');
             }
             let result2 = data.filter(obj => {
                 return obj.username === username & obj.username === username & obj.role === 'admin';
               })
               console.log(result2)
                 if (result2.length !== 0) {
-                  location.replace('index.html');
+                  location.replace('quanlybaidang.html');
                 }
           
           });

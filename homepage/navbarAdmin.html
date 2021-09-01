@@ -23,8 +23,8 @@
       </button>
     
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item  active">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="nav-menu">
+          <li class="nav-item">
             <a class="nav-link nav-nav-hover " href="quanlybaidang.html">Quản lý bài đăng</a>
           </li>
           <li class="nav-item">
@@ -46,6 +46,14 @@
       </div>
     </nav>
   </div>
+
+  <script>
+    $("#nav-menu").on('click', 'li', function () {
+    $("#nav-menu li.active").removeClass("active");
+    // adding classname 'active' to current click li 
+    $(this).addClass("active");
+});
+  </script>
 </body>
 
 </html>
