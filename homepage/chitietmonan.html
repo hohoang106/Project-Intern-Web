@@ -30,16 +30,20 @@
 
   <link rel="stylesheet" href="/css/thucdongiadinh.css" />
 
-  <title>Sườn xào chua ngọt</title>
+  <title>Món ăn</title>
 </head>
 
 <body>
-  <!-- <div id="header-navbar"></div> -->
+  <div id="header-navbar"></div>
 
   <div class="container pt-3">
     <div class="border-bottom">
-      <h2 class="font-weight-bold" style="color: #187aab">
-        Sườn xào chua ngọt
+      <a href="/homepage/monan.html">
+        <h1 class="font-weight-bold" style="color: #187aab">
+          MÓN ĂN
+        </h1>
+      </a>
+      <h2 id="namefood" class="font-weight-bold my-4" style="color: #187aab">
       </h2>
     </div>
     <div class="panel show">
@@ -52,84 +56,21 @@
       </div>
     <div class="table-responsive my-4  table-hover">
       <h4 id="nguyenlieu">Nguyên liệu</h4>
-      <table class="table my-4">
+      <table class="table my-4"  >
         <thead>
           <tr>
             <th scope="col">#</th>
             <th colspan="2">Nguyên Liệu</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Sườn chặt miếng vừa ăn</td>
-            <td>0,5 kg</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Tỏi băm nhỏ</td>
-            <td>1/2 củ</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Hành băm nhỏ</td>
-            <td>2 củ</td>
-          </tr>
-          <tr>
-            <th scope="row">4</th>
-            <td>Nước mắm</td>
-            <td>3 thìa canh</td>
-          </tr>
-          <tr>
-            <th scope="row">5</th>
-            <td>Đường nâu</td>
-            <td>2 thìa canh</td>
-          </tr>
-          <tr>
-            <th scope="row">6</th>
-            <td>Chanh</td>
-            <td>1 thìa canh</td>
-          </tr>
-          <tr>
-            <th scope="row">7</th>
-            <td>Giấm</td>
-            <td>1 thìa canh</td>
-          </tr>
-          <tr>
-            <th scope="row">8</th>
-            <td>Tương ớt</td>
-            <td>1 thìa canh</td>
-          </tr>
-          <tr>
-            <th scope="row">9</th>
-            <td>Cà chua</td>
-            <td>1 quả</td>
-          </tr>
+        <tbody id="bangnguyenlieu">
         </tbody>
       </table>
       <h4 id="chebien">Cách chế biến các bước</h4>
-      <div class="my-4">
-        <p>1. Sườn trần qua nước sôi.</p>
-        <p>
-          2. Bắc chảo lên bếp, dầu nóng, cho sườn vào chiên hơi vàng, gắp ra.
-          Không chiên sườn kĩ quá, ăn sẽ dai cứng mất ngon
-        </p>
-        <p>
-          3. Trong 1 bát, mắm, đường, giấm, chanh, ớt trộn đều cùng 1 bát con
-          nước.
-        </p>
-        <p>
-          4. Chảo dầu vừa chiên sườn, bỏ hành tỏi vào phi thơm, thêm cà chua đảo
-          qua.
-        </p>
-        <p>
-          5. Đổ bát nước sốt cùng sườn vào đun nhỏ lửa đến khi nước gần cạn, sườn
-          mềm. Bày ra đĩa và dùng
-        </p>
+      <div class="my-4" id="step">
       </div>
       <h4 id="video">Video hướng dẫn</h4>
-      <div class="embed-responsive embed-responsive-16by9 my-4">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ReGO8AnAWK8" allowfullscreen></iframe>
+      <div class="embed-responsive embed-responsive-16by9 my-4" id="linkvid">
       </div>
       <h4 id="goiy">Gợi ý</h4>
       <div class="card-group text-center">
@@ -171,8 +112,10 @@
 
   <!-- footer -->
   <div id="footer-all"></div>
-
+  
   <script src="/homepage/ajax.js"></script>
+  <script src="/homepage/chitietmonan.js"></script>
+  
 </body>
 
 </html>
