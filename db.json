@@ -199,5 +199,418 @@
       "confirmPassword": "Mn123123",
       "id": "eR6QEsh"
     }
+  ],
+
+  "product": [
+    {
+      "name": "Roll O’Food",
+      "image": "/images/sanpham3.jpg",
+      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
+      "productcode": "AAA111",
+      "price": "50",
+      "danhmuc": "Đồ hộp-Đồ khô",
+      "id": 1
+    },
+    {
+      "name": "Roll O’Food",
+      "image": "/images/sanpham2.jpg",
+      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
+      "productcode": "AAA111",
+      "price": "20",
+      "danhmuc": "Đồ mát",
+      "id": 2
+    },
+    {
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang4.jpg",
+      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
+      "productcode": "AAA111",
+      "price": "250",
+      "danhmuc": "Thực phẩm chức năng",
+      "id": 3
+    },
+    {
+      "name": "Roll O’Food",
+      "image": "/images/sanpham5.jpg",
+      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
+      "productcode": "AAA111",
+      "price": "35",
+      "danhmuc": "Đồ mát",
+      "id": 4
+    },
+    {
+      "name": "Roll O’Food",
+      "image": "/images/sanpham6.jpg",
+      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
+      "productcode": "AAA111",
+      "price": "45",
+      "danhmuc": "Đồ hộp-Đồ khô",
+      "id": 5
+    },
+    {
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang3.jpg",
+      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
+      "productcode": "AAA111",
+      "price": "150",
+      "danhmuc": "Thực phẩm chức năng",
+      "id": 6
+    },
+    {
+      "name": "Roll O’Food",
+      "image": "/images/sanpham2.jpg",
+      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
+      "productcode": "AAA111",
+      "price": "50",
+      "danhmuc": "Đồ mát",
+      "id": 7
+    },
+    {
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang2.jpg",
+      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
+      "productcode": "AAA111",
+      "price": "50",
+      "danhmuc": "Đồ mát",
+      "id": 8
+    },
+    {
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang2.jpg",
+      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
+      "productcode": "AAA111",
+      "price": "70",
+      "danhmuc": "Thực phẩm chức năng",
+      "id": 9
+    },
+    {
+      "name": "Gimbap & Roll O’Food",
+      "image": "/images/sanphamchucnang2.jpg",
+      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
+      "productcode": "AAA111",
+      "price": "30",
+      "danhmuc": "Đồ hộp-Đồ khô",
+      "id": 10
+    },
+    {
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang1.jpg",
+      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
+      "productcode": "AAA111",
+      "price": "500",
+      "danhmuc": "Thực phẩm chức năng",
+      "id": 11
+    },
+    {
+      "name": "Gimbap & Roll O’Food",
+      "image": "/images/sanpham2.jpg",
+      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
+      "productcode": "AAA111",
+      "price": "50",
+      "danhmuc": "Đồ mát",
+      "id": 12
+    },
+    {
+      "productcode": "asd",
+      "name": "asd",
+      "description": "asd",
+      "image": "/images/sanpham2.jpg",
+      "price": "asd",
+      "danhmuc": "Thực phẩm chức năng",
+      "id": 14
+    },
+    {
+      "productcode": "asd",
+      "name": "asd",
+      "description": "asd",
+      "image": "/images/sanpham1.jpg",
+      "price": "asd",
+      "danhmuc": "Đồ hộp-Đồ khô",
+      "id": 15
+    }
+  ],
+  "monan": [
+    {
+      "id": 1,
+      "img": "https://image-us.eva.vn/upload/4-2018/images/2018-12-13/1544691017-791-suon-xao-chua-ngot-suon-xao-chua-ngot-11-1460167252-width500height377-1544691017-width500height377.jpg",
+      "name": "Sườn xào chua ngọt",
+      "video": "https://www.youtube.com/embed/ReGO8AnAWK8",
+      "material": [
+        {
+          "matM": "Sườn chặt miếng vừa ăn",
+          "matK": "0,5 kg"
+        },
+        {
+          "matM": "Tỏi băm nhỏ",
+          "matK": "1/2 củ"
+        },
+        {
+          "matM": "Hành băm nhỏ",
+          "matK": "2 củ"
+        },
+        {
+          "matM": "Nước mắm",
+          "matK": "3 thìa canh"
+        },
+        {
+          "matM": "Đường nâu",
+          "matK": "2 thìa canh"
+        },
+        {
+          "matM": "Chanh",
+          "matK": "1 thìa canh"
+        },
+        {
+          "matM": "Giấm",
+          "matK": "1 thìa canh"
+        },
+        {
+          "matM": "Tương ớt",
+          "matK": "1 thìa canh"
+        },
+        {
+          "matM": "Cà chua",
+          "matK": "1 quả"
+        }
+      ],
+      "step": [ 
+        "Sườn trần qua nước sôi" , 
+        "Bắc chảo lên bếp, dầu nóng, cho sườn vào chiên hơi vàng, gắp ra. Không chiên sườn kĩ quá, ăn sẽ dai cứng mất ngon", 
+        "Trong 1 bát, mắm, đường, giấm, chanh, ớt trộn đều cùng 1 bát con nước.",
+        "Chảo dầu vừa chiên sườn, bỏ hành tỏi vào phi thơm, thêm cà chua đảo qua.",
+        "Đổ bát nước sốt cùng sườn vào đun nhỏ lửa đến khi nước gần cạn, sườn mềm. Bày ra đĩa và dùng" 
+      ]
+    },
+    {
+      "id": 2,
+      "img": "http://ygcfood.vn/wp-content/uploads/2020/06/c%C3%A1ch-l%C3%A0m-bun-kh%C3%B4.jpg",
+      "name": "Bún cá rô",
+      "video": "https://www.youtube.com/embed/hoTo3zvYnGA",
+      "material": [
+        {
+          "matM": "Cá rô phi",
+          "matK": "2 con"
+        },
+        {
+          "matM": "Bún tươi",
+          "matK": "0,5kg"
+        },
+        {
+          "matM": "Bột nghệ",
+          "matK": "1/2 muỗng"
+        },
+        {
+          "matM": "Cà chua",
+          "matK": "2 quả"
+        },
+        {
+          "matM": "Gừng tươi nhỏ",
+          "matK": "1 củ"
+        },
+        {
+          "matM": "Rau cần nước",
+          "matK": "1 bó"
+        }
+      ],
+      "step": [
+        "Cá rô mua về làm sạch, rửa vs muối, chanh cho hết nhớt. Cho cá vào luộc với 1 ít muối, 1 củ gừng và hành khô đập dập. Cá chín vớt ra để nguội sau đó cho vào tủ lạnh để cá cứng lại gỡ dễ hơn",
+        "Cá gỡ khéo léo sao cho đừng vỡ, sau đó ướp với các gia vị: mắm, muối, bột ngọt, tiêu, ớt bột cho vừa ăn sau đó mang đi chiên. Xương cá và đầu cá giã lọc lấy nước dùng",
+        "Phi hành khô và cà chua sau đó đổ nước lọc cá vào, vắt nước cốt nghệ, củ gừng đập dập, nêm gia vị cho vừa miệng. Rau cần nước rửa sạch cắt khúc khi nào gần ăn thì cho rau vào, đun sôi tắt bếp liền",
+        "Cho bún vào tô, múc nước dùng và rau cần, thêm cá chiên và hành tươi"
+      ]
+    },
+    {
+      "id": 3,
+      "img": "https://img-global.cpcdn.com/recipes/2458582_a98a05ea11315bc7/751x532cq70/rau-bi-xao-t%E1%BB%8Fi-recipe-main-photo.jpg",
+      "name": "Rau bí tỏi",
+      "video": "https://www.youtube.com/embed/jDML-hIdA6A",
+      "material": [
+        {
+          "matM": "Rau bí",
+          "matK": "0,8 kg"
+        },
+        {
+          "matM": "Tỏi",
+          "matK": "2 củ"
+        },
+        {
+          "matM": "Bột nêm",
+          "matK": ""
+        },
+        {
+          "matM": "Muối hạt",
+          "matK": ""
+        },
+        {
+          "matM": "Nước",
+          "matK": "1/2 bát nhỏ"
+        }
+      ],
+      "step": [
+        "Rau bí mua về tước sạch vỏ, để riêng phần lá, ngọn và phần thân ngọn",
+        "Cho phần lá và ngọn vào rửa trước với chút muối, vò nhẹ để rau hết lông và mềm; sau là rửa đến phần thân ; Tất cả rửa sạch vớt ra rổ để cho dáo nước.",
+        "Bắc nồi nước thả chút muối cho lên bếp đun sôi thả rau bí vào trùng qua cho rau mềm",
+        "óc vỏ 2 củ tỏi đập dập rồi bắc chảo lên bếp cho chút dầu vào phi thơm (khi thấy tỏi dậy mùi thơm và có màu vàng bạn xúc một nửa phần tỏi ra bát) rồi cho rau vào xào ; nêm 3 thìa gia vị bột nêm và đảo đều, nếu thấy nước trong nồi cạn bạn chế thêm 1/2 bát con nước vào cho rau mềm không bị khô, sào rau trong 4 đến 5 phút là được nêm nếm cho vừa miệng.; yêu cầu thành phẩm rau xanh, chín mềm,dậy mùi thơm của tỏi ăn ngon.",
+        "Trình bày rau ra đĩa cho phần tỏi phi thơm đã lấy ra lúc trước rắc lên trên đĩa cho đẹp. Chúc các bạn làm món rau được như ý!"
+      ]
+    },
+    {
+      "id": 4,
+      "img": "https://img.timviecdaubep.com/2020/01/bi-do-xao-thit-bo-3-1.jpg",
+      "name": "Bí đỏ xào thịt",
+      "video": "https://www.youtube.com/embed/S5XbtVz9qWs",
+      "material": [
+        {
+          "matM": "Ní đỏ non",
+          "matK": "1 quả"
+        },
+        {
+          "matM": "Thịt",
+          "matK": "0.2 kg"
+        },
+        {
+          "matM": "Tỏi băm nhỏ",
+          "matK": ""
+        },
+        {
+          "matM": "Dầu hào",
+          "matK": ""
+        },
+        {
+          "matM": "Bột nêm",
+          "matK": ""
+        }
+      ],
+      "step": [
+        "Ướp thịt bò với tỏi băm và dầu hào tầm 10'",
+        "Làm nóng chảo, cho thịt vào xào tái thì vớt ra",
+        "Cắt bí đỏ thành miếng vừa miệng ăn. Cho vào chảo đảo lên, nếm gia vị vừa ăn",
+        "Cho thịt vào đảo tiếp tầm 3' là xong"
+      ]
+    },
+    {
+      "id": 5,
+      "img": "https://i.ytimg.com/vi/ZmX9OyOp6kg/maxresdefault.jpg",
+      "name": "Gà kho sả ớt",
+      "video": "https://www.youtube.com/embed/EKnET6dDLpM",
+      "material": [
+        {
+          "matM": "Thịt gà",
+          "matK": "0,6 kg"
+        },
+        {
+          "matM": "Sả băm nhỏ",
+          "matK": "2 cây"
+        },
+        {
+          "matM": "Hành tím băm nhỏ",
+          "matK": ""
+        },
+        {
+          "matM": "Ớt trái băm nhỏ",
+          "matK": ""
+        },
+        {
+          "matM": "Nước mắm",
+          "matK": ""
+        },
+        {
+          "matM": "Bôt ngọt",
+          "matK": ""
+        },
+        {
+          "matM": "Hạt nêm",
+          "matK": ""
+        },
+        {
+          "matM": "Đường",
+          "matK": ""
+        }
+      ],
+      "step":  [
+        "Gà làm và rửa sạch để ráo.Ướp gà với 1 muỗng cà phê bột nghệ,2 muỗng cà phê nước mắm,1 muỗng cafe hạt nêm,⅓ muỗng cà phê bột ngọt,½ muỗng cà phê đường và hành tím cắt nhỏ để 30 phút cho thấm gia vị.Đâu đó cho chảo lên bếp cho ít dầu ăn vào cho hành tím vào phi thơm,tiếp tục cho sả và ớt băm nhỏ vào trộn đều.",
+        "Sau khi hành tím,sả,ớt đã thơm thì cho gà vào xào cho săn lại rồi cho nửa chén nước lọc vào nấu lửa riu riu.",
+        "Kho gà cho đến khi gần cạn nước thì nêm nếm lại cho vừa ăn rồi tắt bếp.",
+        "Múc gà kho sả ớt ra đĩa ăn kèm với cơm nóng."
+      ]
+    },
+    {
+      "id": 6,
+      "img": "https://img-global.cpcdn.com/recipes/af09625b6dde4784/751x532cq70/ngao-n%E1%BA%A5u-mung-t%C6%A1i-recipe-main-photo.jpg",
+      "name": "Canh mồng tơi nấu ngao",
+      "video": "https://www.youtube.com/embed/nThO9X2UNX0",
+      "material": [
+        {
+          "matM": "Rau mồng tơi ",
+          "matK": "01 bó"
+        },
+        {
+          "matM": "Ngao",
+          "matK": "0,6 kg"
+        },
+        {
+          "matM": "Mắm",
+          "matK": ""
+        },
+        {
+          "matM": "Hạt nêm",
+          "matK": ""
+        },
+        {
+          "matM": "Nước cốt chanh",
+          "matK": "1/2 thìa cà phê"
+        }
+      ],
+      "step":  [
+        "Ngao rửa sạch ngâm nước 10’, dùng dao tách ngao lấy nhân, rửa thịt ngao, giữ lại nước rửa, gan lấy nước trong.",
+        "Cho ngao ướp thìa mắm ngon, chút nước chanh để 5’. Bắc nồi lên bếp đảo đều cho ngao ngấm mắm muối ngao chín tới, cho nước rửa ngao vào, nếu ít nước chế thêm nước lọc cho đủ ăn, nấu sôi thả rau vào nấu khoảng 3-5’ rau chín nêm hạt nêm cho vừa miệng.",
+        "Cho ra tô và dùng"
+      ]
+    }
+  ],
+  "thucdon": [
+    {
+      "id": 1,
+      "title": "Thực đơn cho gia đình",
+      "text": "Thực đơn các món ăn hàng ngày được gợi ý bởi các chuyên gia dinh dưỡng của chúng tôi với cách chế biến đơn giản và nhanh gọn đảm bảo đầy đủ dưỡng chất cho gia đình bạn.",
+      "img": "https://vtv1.mediacdn.vn/thumb_w/650/2018/6/26/com260618-1529984498777466829891.jpg",
+      "href" : "thucdongiadinh.html"
+    },
+    {
+      "id": 2,
+      "title": "Thực đơn cho bé 7-8 tháng tuổi",
+      "text": "Thực đơn được gợi ý bởi các chuyên gia dinh dưỡng, với cách chế biến đơn giản và nhanh gọn đảm bảo đầy đủ dưỡng chất cho bé.",
+      "img": "https://dinhduong.online/wp-content/uploads/2016/11/1-1.jpg" ,
+      "href" : "thucdonbe7-8th.html"      
+    },
+    {
+      "id": 3,
+      "title": "Thực đơn cho người già",
+      "text": "Khi về già, cơ thể con người thường gặp phải rất nhiều các vấn đề về sức khỏe. Thế nên dinh dưỡng cho người bệnh là điều cần được lưu ý, đặc biệt khi chăm sóc bệnh nhân là người cao tuổi",
+      "img": "https://vocarimex.com.vn/uploads/Files/hinh-1-1481501733.jpg" ,
+      "href" : "thucdonnguoigia.html"      
+    },
+    {
+      "id": 4,
+      "title": "Thực đơn cho mẹ bầu",
+      "text": "Ăn uống trong suốt thai kỳ luôn là băn khoăn của nhiều chị em. Làm thế nào để lựa chọn đúng các loại thực phẩm vừa tốt cho bé lại vừa hợp khẩu vị với mẹ. Bên cạnh đó, còn phải đảm bảo cung cấp đầy đủ các chất dinh dưỡng giúp bé khỏe và mẹ không tăng cân.",
+      "img": "http://channel.mediacdn.vn/prupload/439/2018/08/img20180828112816898.jpg" ,
+      "href" : "thucdonmebau.html"      
+    },
+    {
+      "id": 5,
+      "title": "Thực đơn cho người mới ốm dậy",
+      "text": "Người bệnh mới ốm dậy nên ăn uống như thế nào để hồi phục sức khỏe là điều được nhiều người đặc biệt quan tâm.",
+      "img": "https://dairymart.vn/wp-content/uploads/2020/02/sua-danh-cho-nguoi-moi-om-day-2.jpg" ,
+      "href" : "thucdonnguoiomday.html"      
+    },
+    {
+      "id": 6,
+      "title": "Thực đơn cho người tiểu đường",
+      "text": "Người tiểu đường cần ăn uống đầy đủ dinh dưỡng hạn chế tối đa lượng đường trong khẩu phần ăn mỗi ngày. Chế độ dinh dưỡng của người bệnh tiểu đường type 2 cần cân đối protein, chất xơ, tinh bột",
+      "img": "https://thaythuocvietnam.vn/wp-content/uploads/2018/05/_d_improd_/benh-tieu-duong-co-che-do-an-the-nao_f_improf_371x236.jpg",
+      "href" : "thucdonnguoitieuduong.html"
+
+    }
   ]
 }

@@ -20,16 +20,6 @@
     top: 0;
     left: 0;
   }
-  .hovereffect img {
-    display: block;
-    position: relative;
-    max-width: none;
-    width: calc(100% + 60px);
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
-    transition: opacity 0.35s, transform 0.45s;
-    -webkit-transform: translate3d(-40px,0,0);
-    transform: translate3d(-40px,0,0);
-  }
   .hovereffect a {
     height: 70px;
     width: 70px;
@@ -40,16 +30,12 @@
     filter: alpha(opacity=0);
     -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
     transition: opacity 0.35s, transform 0.45s;
-    -webkit-transform: translate3d(-10px,0,0);
-    transform: translate3d(-10px,0,0);
+    -webkit-transform: translate3d(0,-40px,0);
+    transform: translate3d(0,-40px,0);
   }  
   .hovereffect:hover img {
     opacity: 0.6;
-    filter: alpha(opacity=60);
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
   }
-  
   .hovereffect:hover .overlay:before,
   .hovereffect:hover a {
     opacity: 1;
