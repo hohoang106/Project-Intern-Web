@@ -3,7 +3,6 @@ var productApi = 'http://localhost:3000/product';
 function start(){
     getProduct(renderProduct);
     getProduct(uploadProduct);
-    // getProduct(uploaddetailProduct);
     handleCreateProducts();
     // handleEditProducts();
 }
@@ -73,7 +72,6 @@ function renderProduct(products){
     listProductBlock.innerHTML = htmls.join('');
 }
 
-
 // function uploaddetailProduct(products){
 //     var UpProductBlocks = document.querySelector("#upload-detailproducts");
 //     var htmlss = products.map(function(product){
@@ -140,9 +138,9 @@ function uploadProduct(products){
       <div class="col-md-3 col-6 mt-5 carditem">
             <div class="card">
               <div style="color: #187AAB;">
-                <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
+                <i onclick="btndetail(${product.id})" class="fas fa-eye" data-toggle="modal" data-target="#addProductModal" style="float: right; padding: 7px;"></i>
                 <i class="far fa-heart" style="float: right; padding: 7px;">12</i>
-                <a><img src="${product.image}" class="card-img-top" onclick="btndetail(${product.id})" alt="..."></a>
+                <a ><img onclick="btndetail(${product.id})" data-toggle="modal" data-target="#addProductModal" src="${product.image}" class="card-img-top" alt="..."></a>
               </div>
             <div class="cbody card-body">
               <p class="card-text nameproduct">${product.name}</p>
@@ -165,44 +163,28 @@ var option = {
     method: 'GET',
     headers: {
         'Content-Type': 'application/json'
-      },
-    
+      },  
 };
 fetch(productApi + '/' + id, option)
     .then(function(response){
-        response.json();
-        location.replace('detailproduct.html');
+       return response.json();
     })
-
-//   var api = productApi + '/' + id;
-
-//   getapidetail(renderdetail)
-
-//   function getapidetail(){
-//     fetch(api)
-//     .then(function(response){
-//         response.json();
-//     })
-//   }
-
-//   function renderdetail(detaulpr){
-
-//     var updetail = document.getElementById('headerdetail');
-//     var htmlss = detaulpr.name;
-//     updetail.innerHTML = htmlss.join('');
-//   }
-
-//   var option = {
-//     method: 'POST',
-//     headers: {
-//         'Content-Type': 'application/json'
-//       },
-//       body: JSON.stringify(data)
-// };
-
-  // document.getElementById('headerdetail')
-  // .innerText == id;
-  
+    .then(function(post){
+      var updetailname = document.getElementById('headerdetail');
+      var updetailmsp = document.getElementById('detailmsp');
+      var updetailprice = document.getElementById('detailprice');
+      var updetaildm = document.getElementById('detaildm');
+      var updetailchitiet = document.getElementById('detailchitiet');
+      var updetailimg = document.getElementsByClassName('imgdetail');
+      updetailname.innerText = post.name;
+      updetailmsp.innerText = post.productcode;
+      updetailprice.innerText = post.price;
+      updetaildm.innerText = post.danhmuc;
+      updetailchitiet.innerText = post.description;
+      for (var i = 0; i< updetailimg.length; i++){
+        updetailimg[i].src = post.image;
+      };  
+    })
 }
 
 
