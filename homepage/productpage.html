@@ -61,7 +61,10 @@
         </div>
         <div class="tab-content">
           <div id="menu1" class="container tab-pane active">
-            <div class="row"> 
+            <div class="row" id="upload-products">
+
+            </div>
+            <!-- <div class="row"> 
               <div class="col-md-3 col-6 mt-5 carditem">
               <div class="card">
                 <div style="color: #187AAB;">
@@ -266,88 +269,8 @@
                   </div>
                 </div>
               </div>
-        </div>
-        </div>
-          <!-- <div id="menu2" class="container tab-pane fade">
-            <div class="row">
-          <div class="col-md-3 col-6 d-flex justify-content-center">
-              <div class="card mt-5" style="width: 20rem;">
-                  <a href="detailproduct.html">
-                    <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
-                    <img src="/images/sanpham1.jpg" class="card-img-top" alt="...">
-                  </a>
-                  <div class="cbody card-body">
-                    <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
-                    <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
-                    <a href="#" class="addcart btn btn-primary">
-                      <i class="fas fa-shopping-cart"></i>  
-                      Chọn Mua</a>
-                  </div>
-                </div>
-          </div>
-          <div class="col-md-3 col-6 d-flex justify-content-center">
-              <div class="card mt-5" style="width: 20rem;">
-                <a href="detailproduct.html">
-                  <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
-                  <img src="/images/sanpham4.jpg" class="card-img-top" alt="...">
-                </a>
-                  <div class="cbody card-body">
-                    <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
-                    <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
-                    <a href="#" class="addcart btn btn-primary">
-                      <i class="fas fa-shopping-cart"></i>  
-                      Chọn Mua</a>
-                  </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3 col-6 d-flex justify-content-center">
-              <div class="card mt-5" style="width: 20rem; ">
-                <a href="detailproduct.html">
-                  <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
-                  <img src="/images/sanpham6.jpg" class="card-img-top" alt="...">
-                </a>
-                  <div class="cbody card-body">
-                    <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
-                    <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
-                    <a href="#" class="addcart btn btn-primary">
-                      <span class="fas fa-shopping-cart"></span>  
-                      Chọn Mua</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-6 d-flex justify-content-center">
-              <div class="card mt-5" style="width: 20rem;">
-                  <a href="detailproduct.html">
-                    <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
-                    <img src="/images/sanpham7.jpg" class="card-img-top" alt="...">
-                  </a>
-                  <div class="cbody card-body">
-                    <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
-                    <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
-                    <a href="#" class="addcart btn btn-primary">
-                      <i class="fas fa-shopping-cart"></i>  
-                      Chọn Mua</a>
-                  </div>
-                </div>
-          </div>
-          <div class="col-md-3 col-6 d-flex justify-content-center">
-            <div class="card mt-5" style="width: 20rem;">
-              <a href="detailproduct.html">
-                <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
-                <img src="/images/sanpham4.jpg" class="card-img-top" alt="...">
-              </a>
-                <div class="cbody card-body">
-                  <h5 class="ctitle card-title">50.000 ₫ / Goi</h5>
-                  <p class="card-text">Lá Kim cuốn cơm Gimbap & Roll O’Food gói 5 lá x 10g</p>
-                  <a href="#" class="addcart btn btn-primary">
-                    <i class="fas fa-shopping-cart"></i>  
-                    Chọn Mua</a>
-                </div>
-              </div>
-          </div>
-          </div>
         </div> -->
+        </div>
     </div>
     <div class="row mt-3">
       <div class="col d-flex justify-content-end">
@@ -368,11 +291,51 @@
 </div>
 <!-- mainfooter -->
 <script>
-
+var carditem = document.getElementsByClassName('carditem');
+var filterpall = document.querySelector('.filterpall');
+filterpall.addEventListener('click', function pall(){
+        for (var i = 0; i < carditem.length; i++){
+         carditem[i].style.display = '';
+        }
+  })
+var filterpdomat = document.querySelector('.filterpdomat');
+filterpdomat.addEventListener('click', function pall(){
+    var danhmuc = document.getElementsByClassName('danhmuc');
+     for (var i = 0; i < carditem.length; i++){
+        if(danhmuc[i].innerText == "Đồ mát"){
+            carditem[i].style.display = '';
+        }else{
+            carditem[i].style.display = 'none';
+        }
+     }
+})
+var filterphopkho = document.querySelector('.filterphopkho');
+filterphopkho.addEventListener('click', function pall(){
+    var danhmuc = document.getElementsByClassName('danhmuc');
+     for (var i = 0; i < carditem.length; i++){
+        if(danhmuc[i].innerText == "Đồ hộp-Đồ khô"){
+            carditem[i].style.display = '';
+        }else{
+            carditem[i].style.display = 'none';
+        }
+     }
+})
+var filterpchucnang = document.querySelector('.filterpchucnang');
+filterpchucnang.addEventListener('click', function pall(){
+    var danhmuc = document.getElementsByClassName('danhmuc');
+     for (var i = 0; i < carditem.length; i++){
+        if(danhmuc[i].innerText == "Thực phẩm chức năng"){
+            carditem[i].style.display = '';
+        }else{
+            carditem[i].style.display = 'none';
+        }
+     }
+})
 </script>
 
 <script src="/homepage/ajax.js"></script>
-<script src="/js/product.js"></script>
+<script src="/js/app.js"></script>
+<script src="app.js"></script>
 
 </body>
 </html>
