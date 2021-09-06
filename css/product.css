@@ -89,7 +89,6 @@ a.addcart:hover{
 /* select number */
 .quantity{
     display:flex;
-    width:160px;
  }
  /* it will support chrome and firefox */
  .quantity input[type=number]::-webkit-inner-spin-button,
