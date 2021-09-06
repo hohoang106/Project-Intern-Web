@@ -2,12 +2,37 @@
 var productApi = 'http://localhost:3000/product';
 var cartproductApi = 'http://localhost:3000/cartproduct';
 
+//render detail product page
+var uid = window.location.search
+var id = uid.slice(4);
+fetch(productApi, {
+     method: "GET"
+    })
+  .then(response => response.json())
+  .then(products => {
+    products.map(function (product) {
+    if (id == product.id) {
+      document.getElementById('headerdetailpage').innerText = product.name;
+      document.getElementById('detailmsp').innerText = product.productcode;
+      document.getElementById('detailprice').innerText = product.price;
+      document.getElementById('detaildm').innerText = product.danhmuc;
+      document.getElementById('detailchitiet').innerText = product.description;
+      var detailimgpage = document.getElementsByClassName('imgdetail');
+      for (var i = 0; i< detailimgpage.length; i++){
+        detailimgpage[i].src = product.image;
+      }; 
+    }
+  });
+})
+
+
 getProduct(renderProduct);
 getProduct(uploadProduct);
 handleCreateProducts();
     // getcartProduct(rendercartproduct);
     // handleEditProducts();
 
+    
 function getProduct(callback){
     fetch(productApi)
      .then(function(response){
@@ -185,7 +210,7 @@ function uploadProduct(products){
               <div style="color: #187AAB;">
                 <i onclick="btndetail(${product.id})" class="fas fa-eye" data-toggle="modal" data-target="#addProductModal" style="float: right; padding: 7px;"></i>
                 <i class="far fa-heart" style="float: right; padding: 7px;">12</i>
-                <a ><img onclick="btndetail(${product.id})" data-toggle="modal" data-target="#addProductModal" src="${product.image}" class="card-img-top" alt="..."></a>
+                <a href="/homepage/detailproduct.html?id=${product.id}" onclick="btndetailpage(${product.id})"><img src="${product.image}" class="card-img-top" alt="..."></a>
               </div>
             <div class="cbody card-body">
               <p class="card-text nameproduct">${product.name}</p>
@@ -203,6 +228,7 @@ function uploadProduct(products){
   UpProductBlock.innerHTML = html.join('');
 }
 
+// click to detailproduct modal and render info
 function btndetail(id){
 var option = {
     method: 'GET',
@@ -219,13 +245,11 @@ fetch(productApi + '/' + id, option)
       var updetailmsp = document.getElementById('detailmsp');
       var updetailprice = document.getElementById('detailprice');
       var updetaildm = document.getElementById('detaildm');
-      var updetailchitiet = document.getElementById('detailchitiet');
       var updetailimg = document.getElementsByClassName('imgdetail');
       updetailname.innerText = post.name;
       updetailmsp.innerText = post.productcode;
       updetailprice.innerText = post.price;
       updetaildm.innerText = post.danhmuc;
-      updetailchitiet.innerText = post.description;
       for (var i = 0; i< updetailimg.length; i++){
         updetailimg[i].src = post.image;
       };  

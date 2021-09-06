@@ -180,15 +180,6 @@
       "id": 2
     },
     {
-      "productcode": "AAA105",
-      "name": "Roll O’Food",
-      "image": "/images/sanpham2.jpg",
-      "price": "50",
-      "danhmuc": "Đồ mát",
-      "soluong": 1,
-      "id": 3
-    },
-    {
       "productcode": "AAA109",
       "name": "Kirkland Viên uống bổ sung",
       "image": "/images/sanphamchucnang1.jpg",
@@ -196,6 +187,24 @@
       "danhmuc": "Thực phẩm chức năng",
       "soluong": 1,
       "id": 4
+    },
+    {
+      "productcode": "AAA101",
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang4.jpg",
+      "price": "250",
+      "danhmuc": "Thực phẩm chức năng",
+      "soluong": 1,
+      "id": 5
+    },
+    {
+      "productcode": "AAA106",
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang2.jpg",
+      "price": "50",
+      "danhmuc": "Đồ mát",
+      "soluong": 1,
+      "id": 6
     }
   ],
   "monan": [
