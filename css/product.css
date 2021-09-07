@@ -43,7 +43,7 @@ a.addcart:hover{
 .info{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }
 .paymentbox{
     border: solid #187AAB 5px;
@@ -65,7 +65,7 @@ a.addcart:hover{
     border-radius: 5px;
 }
 .somepicture{
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 70px;
     display: flex;
     flex-direction: column;
@@ -89,7 +89,6 @@ a.addcart:hover{
 /* select number */
 .quantity{
     display:flex;
-    width:160px;
  }
  /* it will support chrome and firefox */
  .quantity input[type=number]::-webkit-inner-spin-button,

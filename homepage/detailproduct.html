@@ -11,66 +11,158 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <title>Document</title>
 </head>
 <body>
+<!-- mainheader -->
+<div id="header-navbar">
+</div>
+<!-- mainheader -->
 
-  <div id="header-navbar">
-  </div>
-
-    <div class="container" id="upload-detailproducts">
-        <div class="row mt-3">
+<!-- body detail product page -->
+    <div class="container">
+        <div class="row mt-5">
             <div class="headercontent col">
-                Trang Sản Phẩm
+              Chi Tiết Sản Phẩm
               </div>
         </div>
         <div class="row mt-3 d-flex justify-content-center">
             <div class="imagecontent col-md-7">
               <div class="somepicture">
-                <img src="/images/sanpham1.jpg">
-                <img class="imageicon" src="/images/sanpham1.jpg">
-                <img class="imageicon" src="/images/sanpham1.jpg">
-                <img class="imageicon" src="/images/sanpham1.jpg">
+                <img class="imageicon imgdetail" src="/images/sanpham1.jpg">
               </div>
               <div class="">
-                <img src="/images/sanpham1.jpg">
+                <img class="imgdetail" src="/images/sanpham1.jpg">
               </div>
             </div>
             <div class="info col-md-5">
-                <h4 id="headerdetail" class="headerdetail">Roll O’Food</h4>
-                <p>Mã Sản Phẩm: 27-385162 </p>
-                <p>Danh mục: <a href='#'>Thực phẩm hàng ngày, Đồ mát</a></p>
-                <h4 class="headerdetail">50.000 ₫ / Goi</h4>
-                <div class="row text-center">
-                  <p class="col-5"> Số Lượng: </p>
-                  <div class="quantity col-7">
-                    <button class="btn minus1">-</button>
-                    <input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="1" type="number">
-                    <button class="btn add1">+</button>
-                  </div>
+              <h4 id="headerdetailpage" class="headerdetail"></h4>
+              <p>Mã Sản Phẩm: <span id="detailmsp" ></span> </p>
+              <p>Danh mục: <a id="detaildm" href="#">Thực phẩm hàng ngày, Đồ mát</a></p>
+              <h4 class="headerdetail"><span id="detailprice"></span>.000 ₫ / Sản phẩm</h4>
+              <div class="row text-center">
+                <p class="col-5"> Số Lượng: </p>
+                <div class="quantity col-7">
+                  <button class="btn minus1">-</button>
+                  <input class="quantity1" id="id_form-0-quantity" min="0" name="form-0-quantity" value="1" type="number">
+                  <button class="btn add1">+</button>
                 </div>
-                <a class="btn btn-primary mt-2" href="payment.html">
-                    <i class="fas fa-shopping-cart"></i>  
-                    Chọn Mua</a>
-            </div>
+              </div>
+              <a class="addcart btn btn-primary mt-2" href="payment.html">
+                  <i class="fas fa-shopping-cart"></i>  
+                  Chọn Mua</a>
+          </div>
         </div>
         <div class="row mt-3">
-            <div class="headercontent col">Chi Tiết Sản Phẩm</div>
+            <div class="headercontent col">Mô Tả về Sản Phẩm</div>
         </div>
         <div class="row mt-3">
             <div class="content col d-flex justify-content-center">
-                <img src="/images/sanpham1.jpg">
+                <img class="imgdetail" src="/images/sanpham1.jpg">
             </div>
         </div>
         <div class="row mt-3">
-            <p>Trong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin tưởng cho ra đời sản phẩm Gạo thơm Vua Gạo ST25 túi 5kg thơm đặc trưng, ít nở, dẻo nhiều.</p>       
+          <p id="detailchitiet"></p>        
         </div> 
-    
+              <!-- recomment product -->
+        <div class="row mt-3">
+          <div class="headercontent col">
+            Sản phẩm thường được mua cùng
+            </div>
+        </div>
+      <div class="row" style="margin-bottom: 50px;">   
+        <div class="col-md-3 col-6 mt-5 carditem">
+          <div class="card">
+            <div style="color: #187AAB;">
+              <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
+              <i class="far fa-heart" style="float: right; padding: 7px;">121</i>
+              <a href="detailproduct.html"><img src="/images/sanphamchucnang2.jpg" class="card-img-top" alt="..."></a>
+            </div>
+              <div class="cbody card-body">
+                <p class="card-text nameproduct">Kirkland Viên uống bổ sung</p>
+                <p class="card-text namedanhmuc">Danh Mục: <span class="danhmuc">Thực phẩm chức năng</span> </p>
+                <h5 class="ctitle card-title"><span class="productprice">70</span>.000₫ / Sản phẩm</h5>
+                <a href="#" class="addcart btn btn-primary">
+                  <i class="fas fa-shopping-cart"></i>  
+                  Chọn Mua</a>
+              </div>
+            </div>
+          </div>
+         <div class="col-md-3 col-6 mt-5 carditem">
+          <div class="card">
+            <div style="color: #187AAB;">
+              <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
+              <i class="far fa-heart" style="float: right; padding: 7px;">76</i>
+              <a href="detailproduct.html"><img src="/images/sanpham4.jpg" class="card-img-top" alt="..."></a>
+            </div>
+              <div class="cbody card-body">
+                <p class="card-text nameproduct">Gimbap & Roll O’Food</p>
+                <p class="card-text namedanhmuc">Danh Mục: <span class="danhmuc">Đồ hộp-Đồ khô</span> </p>
+                <h5 class="ctitle card-title"><span class="productprice">30</span>.000₫ / Sản phẩm</h5>
+                <a href="#" class="addcart btn btn-primary">
+                  <i class="fas fa-shopping-cart"></i>  
+                  Chọn Mua</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 mt-5 carditem">
+            <div class="card">
+              <div style="color: #187AAB;">
+                <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
+                <i class="far fa-heart" style="float: right; padding: 7px;">55</i>
+                <a href="detailproduct.html"><img src="/images/sanphamchucnang1.jpg" class="card-img-top" alt="..."></a>
+              </div>
+                <div class="cbody card-body">
+                  <p class="card-text nameproduct">Kirkland Viên uống bổ sung</p>
+                  <p class="card-text namedanhmuc">Danh Mục: <span class="danhmuc">Thực phẩm chức năng</span> </p>
+                  <h5 class="ctitle card-title"><span class="productprice">500</span>.000₫ / Sản phẩm</h5>
+                  <a href="#" class="addcart btn btn-primary">
+                    <i class="fas fa-shopping-cart"></i>  
+                    Chọn Mua</a>
+                </div>
+              </div>
+            </div>
+          <div class="col-md-3 col-6 mt-5 carditem">
+          <div class="card">
+            <div style="color: #187AAB;">
+              <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
+              <i class="far fa-heart" style="float: right; padding: 7px;">43</i>
+              <a href="detailproduct.html"><img src="/images/sanpham2.jpg" class="card-img-top" alt="..."></a>
+            </div>
+              <div class="cbody card-body">
+                <p class="card-text nameproduct">Gimbap & Roll O’Food</p>
+                <p class="card-text namedanhmuc">Danh Mục: <span class="danhmuc">Đồ mát</span> </p>
+                <h5 class="ctitle card-title"><span class="productprice">50</span>.000₫ / Sản phẩm</h5>
+                <a href="#" class="addcart btn btn-primary">
+                  <i class="fas fa-shopping-cart"></i>  
+                  Chọn Mua</a>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 
-<!-- footer -->
-<div id="footer-all"></div>
 
+<!-- mainfooter -->
+<div id="footer-all">
+</div>
+<!-- mainfooter -->
+
+<script>
+  $("input.quantity1").each(function(){
+    var $this = $(this),
+    qty = $this.parent().find('.btn'),
+    d = 1
+    $(qty).on('click',function(){
+        if ($(this).hasClass('minus1')){  
+                d+=-1
+            if(d<1) alert('Số lượng sản phẩm cần mua tối thiểu là 1')      
+        }else if ($(this).hasClass('add1')){
+            d += 1  
+        }     
+        $this.attr('value',d).val(d)
+    })
+    });
+</script>
 <script src="/homepage/ajax.js"></script>
 <script src="/js/app.js"></script>
 

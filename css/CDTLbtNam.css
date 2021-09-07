@@ -18,7 +18,10 @@
     text-align: justify!important;
 }
 
-
+.card-text:last-child {
+    margin-bottom: 0;
+    color: #187AAB;
+}
 
 
 .carousel-caption {

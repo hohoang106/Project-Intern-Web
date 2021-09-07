@@ -60,6 +60,7 @@
       "id": "tlcJ7AG"
     }
   ],
+<<<<<<< HEAD
   "baidang": [
     {
       "ngayDang": "03/09/2012",
@@ -104,10 +105,14 @@
   ],
   "product": [
     {
+=======
+  "product": [
+    {
+>>>>>>> c60340179bb5407032e07902427e71a4329a2c60
       "name": "Roll O’Food",
       "image": "/images/sanpham2.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA100",
       "price": "20",
       "danhmuc": "Đồ mát",
       "id": 2
@@ -115,8 +120,8 @@
     {
       "name": "Kirkland Viên uống bổ sung",
       "image": "/images/sanphamchucnang4.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA101",
       "price": "250",
       "danhmuc": "Thực phẩm chức năng",
       "id": 3
@@ -124,8 +129,8 @@
     {
       "name": "Roll O’Food",
       "image": "/images/sanpham5.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA102",
       "price": "35",
       "danhmuc": "Đồ mát",
       "id": 4
@@ -133,8 +138,8 @@
     {
       "name": "Roll O’Food",
       "image": "/images/sanpham6.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA103",
       "price": "45",
       "danhmuc": "Đồ hộp-Đồ khô",
       "id": 5
@@ -142,8 +147,8 @@
     {
       "name": "Kirkland Viên uống bổ sung",
       "image": "/images/sanphamchucnang3.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA104",
       "price": "150",
       "danhmuc": "Thực phẩm chức năng",
       "id": 6
@@ -151,8 +156,8 @@
     {
       "name": "Roll O’Food",
       "image": "/images/sanpham2.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA105",
       "price": "50",
       "danhmuc": "Đồ mát",
       "id": 7
@@ -160,26 +165,26 @@
     {
       "name": "Kirkland Viên uống bổ sung",
       "image": "/images/sanphamchucnang2.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA106",
       "price": "50",
       "danhmuc": "Đồ mát",
       "id": 8
     },
     {
       "name": "Kirkland Viên uống bổ sung",
-      "image": "/images/sanphamchucnang2.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "image": "/images/sanphamchucnang3.jpg",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA107",
       "price": "70",
       "danhmuc": "Thực phẩm chức năng",
       "id": 9
     },
     {
       "name": "Gimbap & Roll O’Food",
-      "image": "/images/sanphamchucnang2.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "image": "/images/sanpham5.jpg",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA108",
       "price": "30",
       "danhmuc": "Đồ hộp-Đồ khô",
       "id": 10
@@ -187,8 +192,8 @@
     {
       "name": "Kirkland Viên uống bổ sung",
       "image": "/images/sanphamchucnang1.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA109",
       "price": "500",
       "danhmuc": "Thực phẩm chức năng",
       "id": 11
@@ -196,29 +201,49 @@
     {
       "name": "Gimbap & Roll O’Food",
       "image": "/images/sanpham2.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA110",
       "price": "50",
       "danhmuc": "Đồ mát",
       "id": 12
+    }
+  ],
+  "cartproduct": [
+    {
+      "productcode": "AAA102",
+      "name": "Roll O’Food",
+      "image": "/images/sanpham5.jpg",
+      "price": "35",
+      "danhmuc": "Đồ mát",
+      "soluong": 1,
+      "id": 2
     },
     {
-      "productcode": "asd",
-      "name": "asd",
-      "description": "asd",
-      "image": "/images/sanpham2.jpg",
-      "price": "asd",
+      "productcode": "AAA109",
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang1.jpg",
+      "price": "500",
       "danhmuc": "Thực phẩm chức năng",
-      "id": 14
+      "soluong": 1,
+      "id": 4
     },
     {
-      "productcode": "asd",
-      "name": "asd",
-      "description": "asd",
-      "image": "/images/sanpham1.jpg",
-      "price": "asd",
-      "danhmuc": "Đồ hộp-Đồ khô",
-      "id": 15
+      "productcode": "AAA101",
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang4.jpg",
+      "price": "250",
+      "danhmuc": "Thực phẩm chức năng",
+      "soluong": 1,
+      "id": 5
+    },
+    {
+      "productcode": "AAA106",
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang2.jpg",
+      "price": "50",
+      "danhmuc": "Đồ mát",
+      "soluong": 1,
+      "id": 6
     }
   ],
   "monan": [
@@ -274,7 +299,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "img": "http://ygcfood.vn/wp-content/uploads/2020/06/c%C3%A1ch-l%C3%A0m-bun-kh%C3%B4.jpg",
       "name": "Bún cá rô",
       "video": "https://www.youtube.com/embed/hoTo3zvYnGA",
