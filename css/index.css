@@ -81,12 +81,14 @@ a{
   width: 100%;
   color: #fff;
   text-align: center;
-  background-color: rgba(5, 3, 3, 0.3);
+  background-color: rgba(241, 228, 249, 0.25);
 }
 .text-slide{
-  color: white;
+  color: #187aabc2;
   font-size: 3rem;
+  font-weight: bold;
   position: relative;
+  text-transform: uppercase;
   top: 10rem;
 }
 .btn-chitiet-slide{
@@ -252,4 +254,7 @@ h3{
 
 .btn-chitiet-slide:hover{
   background-color: #187AAB;
+}
+.icon-login{
+  color: #187AAB;
 }

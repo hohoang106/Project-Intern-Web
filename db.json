@@ -17,7 +17,7 @@
       "phone": "0983451505",
       "username": "cmn",
       "password": "Mn123123",
-      "id": "3"
+      "id": "2"
     },
     {
       "fullName": "zxc",
@@ -27,7 +27,7 @@
       "username": "hoangkhac106",
       "password": "Mn123123",
       "confirmPassword": "Mn123123",
-      "id": "pRqDcHd"
+      "id": "3"
     },
     {
       "fullName": "hoanghoang",
@@ -37,7 +37,7 @@
       "username": "hoangkhac1009",
       "password": "Mn123123",
       "confirmPassword": "Mn123123",
-      "id": "2K126fI"
+      "id": "4"
     },
     {
       "fullName": "hoangmnnm",
@@ -47,170 +47,62 @@
       "username": "admin123",
       "password": "Mn123123",
       "confirmPassword": "Mn123123",
-      "id": "qr21PSx"
+      "id": "5"
     },
     {
-      "fullName": "qweqwe",
-      "email": "hoanghkgcd17007@fpt.edu.vn",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0912312451",
-      "username": "cmn",
-      "password": "Nm123123",
-      "confirmPassword": "Nm123123",
-      "id": "k1jyPOg"
-    },
-    {
-      "fullName": "qweqwe",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106123",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "TOIOy8C"
-    },
-    {
-      "fullName": "nmmnm",
+      "fullName": "hoanghoang",
       "email": "hoangmonkey99@gmail.com",
       "address": "18 Quang Trung, Da Nang",
       "phone": "0973451505",
       "username": "hoangkhac106",
       "password": "Mn123123",
       "confirmPassword": "Mn123123",
-      "id": "b2rzWo7"
-    },
-    {
-      "fullName": "qweqwe",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "cdzLc0S"
-    },
-    {
-      "fullName": "zxc",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "FBFXTNx"
-    },
-    {
-      "fullName": "zxc",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "Jkwdhm9"
-    },
-    {
-      "fullName": "zxc",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "xGnqyfA"
-    },
-    {
-      "fullName": "zxc",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "3DpKnjz"
-    },
-    {
-      "fullName": "zxc",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "qv5UYsz"
-    },
-    {
-      "fullName": "zxc",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "4oL8P_V"
-    },
-    {
-      "fullName": "qweqwe",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "gkxtv0R"
-    },
-    {
-      "fullName": "zxc",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "750wcu3"
-    },
-    {
-      "fullName": "qweqwe",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "vBAiwEV"
-    },
-    {
-      "fullName": "zxc",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "wM_RAs0"
-    },
-    {
-      "fullName": "hello",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "eR6QEsh"
+      "id": "tlcJ7AG"
     }
   ],
-
-  "product": [
+  "baidang": [
     {
-      "name": "Roll O’Food",
-      "image": "/images/sanpham3.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
-      "price": "50",
-      "danhmuc": "Đồ hộp-Đồ khô",
+      "ngayDang": "03/09/2012",
+      "tieuDe": "Cách giảm cân nhanh và hiệu quả",
+      "noiDung": "Nếu bạn đang muốn giảm cân, bạn nên biết tất cả những gì bạn đã ăn và uống trong ngày. Cách hiệu quả nhất để làm điều này là ghi lại mọi món mà bạn đã ăn uống, trong nhật ký hoặc công cụ theo dõi thực phẩm trực tuyến. Ngày càng có nhiều các ứng dụng theo dõi sức khỏe được phát triển và đưa lên google play hay apple store để người dùng có thể tải về. Theo một nghiên cứu đáng tin cậy cho thấy rằng việc theo dõi hoạt động thể chất thường xuyên sẽ giúp giảm cân. Trong khi đó, một nghiên cứu khác đã tìm thấy mối tương quan tích cực giữa việc giảm cân và tần suất theo dõi lượng thức ăn và tập thể dục.",
+      "hinhAnh": "/images/main-img.jpg",
+      "tacGia": "Khac Hoang",
       "id": 1
     },
+    {
+      "ngayDang": "01/09/2012",
+      "tieuDe": "Bà bầu uống sữa tươi không đường có tốt không?",
+      "noiDung": "Sữa tươi không đường là sản phẩm giàu dinh dưỡng (Protein, chất béo, đạm, các Vitamin,…) với lượng đường thấp rất tốt cho sức khỏe của mẹ và thai nhi. Là nguồn sữa thay thế rất tốt các mẹ không uống được các loại sữa bầu. Sử dụng sữa tươi không đường giúp các mẹ tránh được các vấn đề tăng cân, tiểu đường thai kỳ thường gặp. Sau đây là những chia sẻ của chúng tôi về sữa tươi không đường mà các mẹ nên biết và top 8 loại sữa phù hợp.      ",
+      "hinhAnh": "/images/hinh_2.jpg",
+      "tacGia": "Khac Hoang",
+      "id": 2
+    },
+    {
+      "ngayDang": "20/08/2012",
+      "tieuDe": "Chế độ dinh dưỡng hợp lý cho phụ nữ sau tuổi 50",
+      "noiDung": "Thực phẩm cung cấp cho chúng ta năng lượng và chất dinh dưỡng cần thiết giúp cơ thể khỏe mạnh hơn. Đàn ông và phụ nữ đều cần được bổ sung các loại protein (thịt, cá, sữa, đậu và các loại hạt), carbohydrate (ngũ cốc nguyên hạt), chất béo lành mạnh (dầu thực vật), vitamin, khoáng chất và nước. Những điều này có thể giúp ngăn ngừa một số bệnh xuất hiện ở tuổi già như loãng xương, huyết áp cao, bệnh tim, tiểu đường và một số bệnh ung thư…",
+      "hinhAnh": "/images/post2.jpg",
+      "tacGia": "Khac Hoang",
+      "id": 3
+    },
+    {
+      "ngayDang": "25/08/2012",
+      "tieuDe": "Lời khuyên dinh dưỡng số 4: Muối iot là gì? Vì sao nên sử dụng muối iot?",
+      "noiDung": "I-ốt là vi chất quan trọng để tuyến Giáp trạng tổng hợp các hormon giúp điều chỉnh quá trình phát triển của hệ thần kinh trung ương, phát triển hệ sinh dục và các bộ phận trong cơ thể như tim mạch, tiêu hóa, da – lông – tóc – móng, duy trì năng lượng cho cơ thể hoạt động….Do đó, bộ y tế khuyến nghị người dân nên sử dụng muối I-ốt, không ăn mặn.",
+      "hinhAnh": "/images/hinh_6.jpg",
+      "tacGia": "Khac Hoang",
+      "id": 4
+    },
+    {
+      "ngayDang": "22/11/2012",
+      "tieuDe": "Tiêu đề",
+      "noiDung": "helllooooooooooooooooooooo",
+      "hinhAnh": "C:\\fakepath\\background-login.jpg",
+      "tacGia": "khac hoang",
+      "id": 5
+    }
+  ],
+  "product": [
     {
       "name": "Roll O’Food",
       "image": "/images/sanpham2.jpg",
@@ -373,12 +265,12 @@
           "matK": "1 quả"
         }
       ],
-      "step": [ 
-        "Sườn trần qua nước sôi" , 
-        "Bắc chảo lên bếp, dầu nóng, cho sườn vào chiên hơi vàng, gắp ra. Không chiên sườn kĩ quá, ăn sẽ dai cứng mất ngon", 
+      "step": [
+        "Sườn trần qua nước sôi",
+        "Bắc chảo lên bếp, dầu nóng, cho sườn vào chiên hơi vàng, gắp ra. Không chiên sườn kĩ quá, ăn sẽ dai cứng mất ngon",
         "Trong 1 bát, mắm, đường, giấm, chanh, ớt trộn đều cùng 1 bát con nước.",
         "Chảo dầu vừa chiên sườn, bỏ hành tỏi vào phi thơm, thêm cà chua đảo qua.",
-        "Đổ bát nước sốt cùng sườn vào đun nhỏ lửa đến khi nước gần cạn, sườn mềm. Bày ra đĩa và dùng" 
+        "Đổ bát nước sốt cùng sườn vào đun nhỏ lửa đến khi nước gần cạn, sườn mềm. Bày ra đĩa và dùng"
       ]
     },
     {
@@ -527,7 +419,7 @@
           "matK": ""
         }
       ],
-      "step":  [
+      "step": [
         "Gà làm và rửa sạch để ráo.Ướp gà với 1 muỗng cà phê bột nghệ,2 muỗng cà phê nước mắm,1 muỗng cafe hạt nêm,⅓ muỗng cà phê bột ngọt,½ muỗng cà phê đường và hành tím cắt nhỏ để 30 phút cho thấm gia vị.Đâu đó cho chảo lên bếp cho ít dầu ăn vào cho hành tím vào phi thơm,tiếp tục cho sả và ớt băm nhỏ vào trộn đều.",
         "Sau khi hành tím,sả,ớt đã thơm thì cho gà vào xào cho săn lại rồi cho nửa chén nước lọc vào nấu lửa riu riu.",
         "Kho gà cho đến khi gần cạn nước thì nêm nếm lại cho vừa ăn rồi tắt bếp.",
@@ -561,7 +453,7 @@
           "matK": "1/2 thìa cà phê"
         }
       ],
-      "step":  [
+      "step": [
         "Ngao rửa sạch ngâm nước 10’, dùng dao tách ngao lấy nhân, rửa thịt ngao, giữ lại nước rửa, gan lấy nước trong.",
         "Cho ngao ướp thìa mắm ngon, chút nước chanh để 5’. Bắc nồi lên bếp đảo đều cho ngao ngấm mắm muối ngao chín tới, cho nước rửa ngao vào, nếu ít nước chế thêm nước lọc cho đủ ăn, nấu sôi thả rau vào nấu khoảng 3-5’ rau chín nêm hạt nêm cho vừa miệng.",
         "Cho ra tô và dùng"
@@ -574,43 +466,42 @@
       "title": "Thực đơn cho gia đình",
       "text": "Thực đơn các món ăn hàng ngày được gợi ý bởi các chuyên gia dinh dưỡng của chúng tôi với cách chế biến đơn giản và nhanh gọn đảm bảo đầy đủ dưỡng chất cho gia đình bạn.",
       "img": "https://vtv1.mediacdn.vn/thumb_w/650/2018/6/26/com260618-1529984498777466829891.jpg",
-      "href" : "thucdongiadinh.html"
+      "href": "thucdongiadinh.html"
     },
     {
       "id": 2,
       "title": "Thực đơn cho bé 7-8 tháng tuổi",
       "text": "Thực đơn được gợi ý bởi các chuyên gia dinh dưỡng, với cách chế biến đơn giản và nhanh gọn đảm bảo đầy đủ dưỡng chất cho bé.",
-      "img": "https://dinhduong.online/wp-content/uploads/2016/11/1-1.jpg" ,
-      "href" : "thucdonbe7-8th.html"      
+      "img": "https://dinhduong.online/wp-content/uploads/2016/11/1-1.jpg",
+      "href": "thucdonbe7-8th.html"
     },
     {
       "id": 3,
       "title": "Thực đơn cho người già",
       "text": "Khi về già, cơ thể con người thường gặp phải rất nhiều các vấn đề về sức khỏe. Thế nên dinh dưỡng cho người bệnh là điều cần được lưu ý, đặc biệt khi chăm sóc bệnh nhân là người cao tuổi",
-      "img": "https://vocarimex.com.vn/uploads/Files/hinh-1-1481501733.jpg" ,
-      "href" : "thucdonnguoigia.html"      
+      "img": "https://vocarimex.com.vn/uploads/Files/hinh-1-1481501733.jpg",
+      "href": "thucdonnguoigia.html"
     },
     {
       "id": 4,
       "title": "Thực đơn cho mẹ bầu",
       "text": "Ăn uống trong suốt thai kỳ luôn là băn khoăn của nhiều chị em. Làm thế nào để lựa chọn đúng các loại thực phẩm vừa tốt cho bé lại vừa hợp khẩu vị với mẹ. Bên cạnh đó, còn phải đảm bảo cung cấp đầy đủ các chất dinh dưỡng giúp bé khỏe và mẹ không tăng cân.",
-      "img": "http://channel.mediacdn.vn/prupload/439/2018/08/img20180828112816898.jpg" ,
-      "href" : "thucdonmebau.html"      
+      "img": "http://channel.mediacdn.vn/prupload/439/2018/08/img20180828112816898.jpg",
+      "href": "thucdonmebau.html"
     },
     {
       "id": 5,
       "title": "Thực đơn cho người mới ốm dậy",
       "text": "Người bệnh mới ốm dậy nên ăn uống như thế nào để hồi phục sức khỏe là điều được nhiều người đặc biệt quan tâm.",
-      "img": "https://dairymart.vn/wp-content/uploads/2020/02/sua-danh-cho-nguoi-moi-om-day-2.jpg" ,
-      "href" : "thucdonnguoiomday.html"      
+      "img": "https://dairymart.vn/wp-content/uploads/2020/02/sua-danh-cho-nguoi-moi-om-day-2.jpg",
+      "href": "thucdonnguoiomday.html"
     },
     {
       "id": 6,
       "title": "Thực đơn cho người tiểu đường",
       "text": "Người tiểu đường cần ăn uống đầy đủ dinh dưỡng hạn chế tối đa lượng đường trong khẩu phần ăn mỗi ngày. Chế độ dinh dưỡng của người bệnh tiểu đường type 2 cần cân đối protein, chất xơ, tinh bột",
       "img": "https://thaythuocvietnam.vn/wp-content/uploads/2018/05/_d_improd_/benh-tieu-duong-co-che-do-an-the-nao_f_improf_371x236.jpg",
-      "href" : "thucdonnguoitieuduong.html"
-
+      "href": "thucdonnguoitieuduong.html"
     }
   ]
 }
