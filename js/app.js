@@ -353,4 +353,3 @@ function btnaddcart(id){
       }) 
     alert('thêm sản phẩm vào giỏ hàng thành công')
   }
-

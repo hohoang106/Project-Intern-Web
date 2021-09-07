@@ -167,6 +167,15 @@
       "price": "50",
       "danhmuc": "Đồ mát",
       "id": 12
+    },
+    {
+      "productcode": "AAA111",
+      "name": "Kirkland",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "image": "/images/sanphamchucnang1.jpg",
+      "price": "300",
+      "danhmuc": "Thực phẩm chức năng",
+      "id": 13
     }
   ],
   "cartproduct": [
@@ -205,6 +214,15 @@
       "danhmuc": "Đồ mát",
       "soluong": 1,
       "id": 6
+    },
+    {
+      "productcode": "AAA104",
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang3.jpg",
+      "price": "150",
+      "danhmuc": "Thực phẩm chức năng",
+      "soluong": 1,
+      "id": 7
     }
   ],
   "monan": [
