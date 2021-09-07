@@ -43,7 +43,3 @@ for (let i = 0; i < count.length; i++) {
   });
 };
 
-// first part of element change color
-$(document).ready(function(){
-    $("section").first().css("background-color", "#e0f0f5");
-  });

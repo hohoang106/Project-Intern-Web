@@ -44,7 +44,7 @@
             <th>Tác vụ</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody id="listBaiDang">
           <tr>
             <td>10/05/2021</td>
             <td>Bà bầu uống sữa tươi không đường có tốt không?</td>
@@ -103,15 +103,19 @@
           </tr>
         </tbody>
       </table>
-      <nav aria-label="Page navigation example">
-        <ul class="pagination">
+      <!-- <nav aria-label="Page navigation example">
+        <ul class="pagination" id="panigation-wrapper">
           <li class="page-item"><a class="page-link" href="#">Previous</a></li>
           <li class="page-item active"><a class="page-link" href="#">1</a></li>
           <li class="page-item"><a class="page-link" href="#">2</a></li>
           <li class="page-item"><a class="page-link" href="#">3</a></li>
           <li class="page-item"><a class="page-link" href="#">Next</a></li>
         </ul>
-      </nav>
+      </nav> -->
+      <div id="listingTable"></div>
+      <a href="javascript:prevPage()" id="btn_prev">Prev</a>
+      <a href="javascript:nextPage()" id="btn_next">Next</a>
+      page: <span id="page"></span>
     </div>
 
   </div>
@@ -126,23 +130,27 @@
         </div>
 
 
-        <form onsubmit="event.preventDefault(); onFormSubmit();" class="modal-body">
+        <form class="modal-body">
           <div class="mb-3">
             <label class="font-weight-bold" for="ngay-dang">Ngày đăng</label>
-            <input type="date" class="form-control" id="ngay-dang">
+            <input type="text" class="form-control" id="ngay-dang" name="ngay-dang" placeholder="Nhập ngày đăng bài">
+            <span class="form-message col-12"></span>
           </div>
           <div class="mb-3">
             <label class="font-weight-bold" for="tieu-de">Tiêu đề bài viết</label>
-            <input type="text" class="form-control" id="tieu-de" placeholder="Nhập tiêu đề bài viết">
+            <input type="text" class="form-control" name="tieu-de" id="tieu-de" placeholder="Nhập tiêu đề bài viết">
+            <span class="form-message col-12"></span>
           </div>
 
           <div class="mb-3">
             <label class="font-weight-bold" for="noi-dung">Nhập nội dung bài viêt</label>
-            <textarea class="form-control" id="noi-dung" rows="3"></textarea>
+            <input class="form-control" name="noi-dung" id="noi-dung"></input>
+            <span class="form-message col-12"></span>
           </div>
           <div class="custom-file mb-3">
             <label class="custom-file-label" for="chon-anh"><i class="far fa-file-image p-2"></i>Chọn ảnh</label>
-            <input type="file" class="custom-file-input" onchange="readURL(this);" id="chon-anh">
+            <input type="file" class="custom-file-input" onchange="readURL(this);" id="chon-anh" name="chon-anh">
+            <span class="form-message col-12"></span>
           </div>
           <div>
             <img id="displayInputImg" src="#" alt="your image" class="img-fluid" />
@@ -150,11 +158,12 @@
 
           <div class="mb-3">
             <label class="font-weight-bold" for="tac-gia">Nhập tên tác giả</label>
-            <input class="form-control" id="tac-gia" rows="3"></input>
+            <input class="form-control" name="tac-gia" id="tac-gia" placeholder="Nhập tên tác giả"></input>
+            <span class="form-message col-12"></span>
           </div>
 
           <div>
-            <button type="submit" class="btn btn-add w-100"><span class="text-white">Thêm bài viết</span></button>
+            <button type="submit" class="btn btn-add w-100" id="addBaiDang">Thêm bài viết</button>
           </div>
         </form>
       </div>
@@ -163,7 +172,7 @@
 
   </div>
   <!-- Modal Sửa bài viết -->
-  <div class="modal" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- <div class="modal" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header ">
@@ -214,8 +223,17 @@
 
       </div>
     </div>
-  </div>
+  </div> -->
   <script src="/homepage/navbarAdmin.js"></script>
+  <!-- <script src="/node_modules/ckeditor4/ckeditor.js"></script>
+  <script>
+    window.onload = function() {
+        CKEDITOR.replace( 'noi-dung' );
+    };
+</script> -->
+  <script src="/homepage/quanlybaidang.js"></script>
+  <script src="/homepage/chuyentrang.js"></script>
+
 </body>
 
 </html>

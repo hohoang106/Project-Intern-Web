@@ -32,9 +32,6 @@ function validator(options){
         }
       });
 
-
-      console.log(enableInputs);
-
       if (isFormValid){
         if(typeof options.onSubmit === 'function'){
           var enableInputs = formElement.querySelectorAll('[name]');
@@ -89,7 +86,7 @@ validator.isRequiredUserName = function (selector){
     selector: selector,
     test: function(val){
       let regexUser = /^[a-zA-Z0-9]+$/;
-      return regexUser.test(val) ? undefined : "Vui lòng nhập trường này";
+      return regexUser.test(val) ? undefined : "Vui lòng nhập chính xác trường này";
     }
   };
 }
@@ -107,7 +104,7 @@ validator.isEmail = function (selector){
     selector: selector,
     test: function(val){
       let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-      return regexEmail.test(val) ? undefined : "Trường này phải là email"
+      return regexEmail.test(val) ? undefined : "Trường này phải là email (ví dụ:abc@gmail.com.vn)"
     }
   };
 }
@@ -116,7 +113,7 @@ validator.isAddress = function (selector){
   selector: selector,
   test: function(val){
     let regexAddress = /(\d{1,}) [a-zA-Z0-9\s]+(\.)? [a-zA-Z]+(\,)? [a-zA-z]{2}/;
-    return regexAddress.test(val) ? undefined : "Vui lòng nhập đúng địa chỉ"
+    return regexAddress.test(val) ? undefined : "Vui lòng nhập đúng địa chỉ (ví dụ: 12 Quang Trung, Da Nang)"
   }
 };
 }
@@ -125,7 +122,7 @@ validator.isPassword = function (selector){
   selector: selector,
   test: function(val){
     let regexPassword =/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
-    return regexPassword.test(val) ? undefined : "Mật khẩu phải có ít nhất 1 chữ in hoa và 8 kí tự "
+    return regexPassword.test(val) ? undefined : "Mật khẩu phải có ít nhất 1 chữ in hoa, in thường và 8 kí tự "
   }
 };
 }
@@ -134,6 +131,33 @@ validator.isConfirmed = function (selector, getConfirmVal){
   selector: selector,
   test: function(val){
     return val === getConfirmVal() ? undefined : "Mật khẩu nhập vào không khớp"
+  }
+};
+}
+
+validator.isDated = function (selector){
+  return {
+  selector: selector,
+  test: function(val){
+    let regexDate = /^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$/
+    return regexDate.test(val) ? undefined : "Nhập đúng định dạng DD-MM-YYYY"
+  }
+};
+}
+validator.isTitle = function (selector){
+  return {
+  selector: selector,
+  test: function(val){
+    let regexTitle = /^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂẾưăạảấầẩẫậắằẳẵặẹẻẽềềểếỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s\W|_]+$/;
+    return regexTitle.test(val) ? undefined : "Vui lòng nhập đúng trường này"
+  }
+};
+}
+validator.isRequired = function (selector){
+  return {
+  selector: selector,
+  test: function(val){
+    return val ? undefined : "Vui lòng nhập trường này"
   }
 };
 }

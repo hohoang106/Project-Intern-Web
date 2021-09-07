@@ -16,9 +16,9 @@
 
 <body>
 
-  <div class="container-fluid container-fluid-nav bg-white" id="header"> 
-    <nav class="navbar navbar-expand-lg  container">
-      <a class="navbar-brand" href="trangchu.html"><img src="/images/logo_heal.png" height="50px" alt=""></a>
+  <div class="container-fluid container-fluid-nav " id="header">
+    <nav class="navbar navbar-expand-lg container">
+      <a class="navbar-brand" href="trangchu.html"><img src="/images/logo-nobg.png" height="50px" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class="fas fa-bars fa-lg pt-2" style="color: #187AAB;"></i></span>
@@ -26,16 +26,16 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link nav-nav-hover" href="trangchu.html">Trang chủ </a>
           </li>
-        
+
           <li class="nav-item dropdown">
-            <a class="nav-link nav-nav-hover dropdown-hover" href="ktdd.html" id="navbardrop" >
+            <a class="nav-link nav-nav-hover dropdown-hover" href="ktdd.html" id="navbardrop">
               Kiến thức
               <span class="dropdown-toggle" data-toggle="dropdown"></span>
             </a>
-            
+
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/homepage/ktdd-cho-me.html">Dinh dưỡng cho bé</a>
               <a class="dropdown-item" href="/homepage/ktdd-cho-me.html">Dinh dưỡng cho mẹ</a>
@@ -51,10 +51,24 @@
           </li>
           <li class="nav-item">
             <a class="nav-link nav-nav-hover" href="/homepage/CDTLagioithieu.html">Tập luyện</a>
-          </li> 
+          </li>
 
 
         </ul>
+<<<<<<< HEAD
+        <!-- <input class="form-control col-xl-3" type="search" placeholder="Tìm kiếm">
+        <div class="icon-search m-2"> <i class="fas fa-search"></i></div> -->
+        <ul class="navbar-nav">
+          <form class="form-inline my-2 my-lg-0 ">
+            <input class="form-control mr-sm-2 col-10" type="search" placeholder="Tìm kiếm" aria-label="Search">
+            <div class=" icon-search my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></div>
+          </form>
+          <div class="icon-cart mt-2 mr-2">
+            <a href="/homepage/payment.html"> <i class="fa fa-cart-plus "></i> </a>
+          </div>
+        </ul>
+
+=======
         <input class="form-control col-xl-3 col-12" type="search" placeholder="Tìm kiếm">
         <div class="icon-search m-2"> <i class="fas fa-search"></i></div>
         <div class="icon-cart m-2">
@@ -63,12 +77,13 @@
              <i class="fa fa-cart-plus "></i>
           </a>
         </div>
+>>>>>>> c60340179bb5407032e07902427e71a4329a2c60
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link nav-nav-hover" href="/homepage/login.html" >Đăng nhập</a>
+            <a class="nav-link nav-nav-hover" href="/homepage/login.html">Đăng nhập</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-nav-hover" href="/homepage/register.html" >Đăng ký</a>
+            <a class="nav-link nav-nav-hover" href="/homepage/register.html">Đăng ký</a>
           </li>
         </ul>
 
@@ -77,6 +92,14 @@
     <script src="/js/payment.js"></script>
   </div>
 
+  <script>
+    window.addEventListener('scroll', function () {
+      let header = document.getElementById('header');
+      header.classList.toggle('scroll-active', window.scrollY > 0);
+    })
+  </script>
+
 </body>
+
 
 </html>

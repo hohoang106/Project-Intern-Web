@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/hohoang106/Project-Intern-Web#readme",
   "dependencies": {
+    "ckeditor4": "^4.16.2",
     "json-server": "^0.16.3"
   }
 }
