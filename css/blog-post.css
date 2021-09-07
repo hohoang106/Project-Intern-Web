@@ -1,6 +1,9 @@
 .part_2,.comment{
     font-size: 14px;
 }
+.bai_dang{
+  border-bottom: 1px solid #187AAB;
+}
 .header_title{
   height: 15rem;
   background-size:contain;
