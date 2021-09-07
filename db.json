@@ -68,22 +68,12 @@
       "id": "qr21PSx"
     }
   ],
-
   "product": [
     {
       "name": "Roll O’Food",
-      "image": "/images/sanpham3.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
-      "price": "50",
-      "danhmuc": "Đồ hộp-Đồ khô",
-      "id": 1
-    },
-    {
-      "name": "Roll O’Food",
       "image": "/images/sanpham2.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA100",
       "price": "20",
       "danhmuc": "Đồ mát",
       "id": 2
@@ -91,8 +81,8 @@
     {
       "name": "Kirkland Viên uống bổ sung",
       "image": "/images/sanphamchucnang4.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA101",
       "price": "250",
       "danhmuc": "Thực phẩm chức năng",
       "id": 3
@@ -100,8 +90,8 @@
     {
       "name": "Roll O’Food",
       "image": "/images/sanpham5.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA102",
       "price": "35",
       "danhmuc": "Đồ mát",
       "id": 4
@@ -109,8 +99,8 @@
     {
       "name": "Roll O’Food",
       "image": "/images/sanpham6.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA103",
       "price": "45",
       "danhmuc": "Đồ hộp-Đồ khô",
       "id": 5
@@ -118,8 +108,8 @@
     {
       "name": "Kirkland Viên uống bổ sung",
       "image": "/images/sanphamchucnang3.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA104",
       "price": "150",
       "danhmuc": "Thực phẩm chức năng",
       "id": 6
@@ -127,8 +117,8 @@
     {
       "name": "Roll O’Food",
       "image": "/images/sanpham2.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA105",
       "price": "50",
       "danhmuc": "Đồ mát",
       "id": 7
@@ -136,26 +126,26 @@
     {
       "name": "Kirkland Viên uống bổ sung",
       "image": "/images/sanphamchucnang2.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA106",
       "price": "50",
       "danhmuc": "Đồ mát",
       "id": 8
     },
     {
       "name": "Kirkland Viên uống bổ sung",
-      "image": "/images/sanphamchucnang2.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "image": "/images/sanphamchucnang3.jpg",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA107",
       "price": "70",
       "danhmuc": "Thực phẩm chức năng",
       "id": 9
     },
     {
       "name": "Gimbap & Roll O’Food",
-      "image": "/images/sanphamchucnang2.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "image": "/images/sanpham5.jpg",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA108",
       "price": "30",
       "danhmuc": "Đồ hộp-Đồ khô",
       "id": 10
@@ -163,8 +153,8 @@
     {
       "name": "Kirkland Viên uống bổ sung",
       "image": "/images/sanphamchucnang1.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA109",
       "price": "500",
       "danhmuc": "Thực phẩm chức năng",
       "id": 11
@@ -172,29 +162,49 @@
     {
       "name": "Gimbap & Roll O’Food",
       "image": "/images/sanpham2.jpg",
-      "description": "rong bếp của người dân Việt không thể nào thiếu gạo. Thương hiệu Gạo thơm Vua Gạo được người dùng tin",
-      "productcode": "AAA111",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA110",
       "price": "50",
       "danhmuc": "Đồ mát",
       "id": 12
+    }
+  ],
+  "cartproduct": [
+    {
+      "productcode": "AAA102",
+      "name": "Roll O’Food",
+      "image": "/images/sanpham5.jpg",
+      "price": "35",
+      "danhmuc": "Đồ mát",
+      "soluong": 1,
+      "id": 2
     },
     {
-      "productcode": "asd",
-      "name": "asd",
-      "description": "asd",
-      "image": "/images/sanpham2.jpg",
-      "price": "asd",
+      "productcode": "AAA109",
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang1.jpg",
+      "price": "500",
       "danhmuc": "Thực phẩm chức năng",
-      "id": 14
+      "soluong": 1,
+      "id": 4
     },
     {
-      "productcode": "asd",
-      "name": "asd",
-      "description": "asd",
-      "image": "/images/sanpham1.jpg",
-      "price": "asd",
-      "danhmuc": "Đồ hộp-Đồ khô",
-      "id": 15
+      "productcode": "AAA101",
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang4.jpg",
+      "price": "250",
+      "danhmuc": "Thực phẩm chức năng",
+      "soluong": 1,
+      "id": 5
+    },
+    {
+      "productcode": "AAA106",
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang2.jpg",
+      "price": "50",
+      "danhmuc": "Đồ mát",
+      "soluong": 1,
+      "id": 6
     }
   ],
   "monan": [
@@ -241,12 +251,12 @@
           "matK": "1 quả"
         }
       ],
-      "step": [ 
-        "Sườn trần qua nước sôi" , 
-        "Bắc chảo lên bếp, dầu nóng, cho sườn vào chiên hơi vàng, gắp ra. Không chiên sườn kĩ quá, ăn sẽ dai cứng mất ngon", 
+      "step": [
+        "Sườn trần qua nước sôi",
+        "Bắc chảo lên bếp, dầu nóng, cho sườn vào chiên hơi vàng, gắp ra. Không chiên sườn kĩ quá, ăn sẽ dai cứng mất ngon",
         "Trong 1 bát, mắm, đường, giấm, chanh, ớt trộn đều cùng 1 bát con nước.",
         "Chảo dầu vừa chiên sườn, bỏ hành tỏi vào phi thơm, thêm cà chua đảo qua.",
-        "Đổ bát nước sốt cùng sườn vào đun nhỏ lửa đến khi nước gần cạn, sườn mềm. Bày ra đĩa và dùng" 
+        "Đổ bát nước sốt cùng sườn vào đun nhỏ lửa đến khi nước gần cạn, sườn mềm. Bày ra đĩa và dùng"
       ]
     },
     {
@@ -395,7 +405,7 @@
           "matK": ""
         }
       ],
-      "step":  [
+      "step": [
         "Gà làm và rửa sạch để ráo.Ướp gà với 1 muỗng cà phê bột nghệ,2 muỗng cà phê nước mắm,1 muỗng cafe hạt nêm,⅓ muỗng cà phê bột ngọt,½ muỗng cà phê đường và hành tím cắt nhỏ để 30 phút cho thấm gia vị.Đâu đó cho chảo lên bếp cho ít dầu ăn vào cho hành tím vào phi thơm,tiếp tục cho sả và ớt băm nhỏ vào trộn đều.",
         "Sau khi hành tím,sả,ớt đã thơm thì cho gà vào xào cho săn lại rồi cho nửa chén nước lọc vào nấu lửa riu riu.",
         "Kho gà cho đến khi gần cạn nước thì nêm nếm lại cho vừa ăn rồi tắt bếp.",
@@ -429,7 +439,7 @@
           "matK": "1/2 thìa cà phê"
         }
       ],
-      "step":  [
+      "step": [
         "Ngao rửa sạch ngâm nước 10’, dùng dao tách ngao lấy nhân, rửa thịt ngao, giữ lại nước rửa, gan lấy nước trong.",
         "Cho ngao ướp thìa mắm ngon, chút nước chanh để 5’. Bắc nồi lên bếp đảo đều cho ngao ngấm mắm muối ngao chín tới, cho nước rửa ngao vào, nếu ít nước chế thêm nước lọc cho đủ ăn, nấu sôi thả rau vào nấu khoảng 3-5’ rau chín nêm hạt nêm cho vừa miệng.",
         "Cho ra tô và dùng"
@@ -442,43 +452,42 @@
       "title": "Thực đơn cho gia đình",
       "text": "Thực đơn các món ăn hàng ngày được gợi ý bởi các chuyên gia dinh dưỡng của chúng tôi với cách chế biến đơn giản và nhanh gọn đảm bảo đầy đủ dưỡng chất cho gia đình bạn.",
       "img": "https://vtv1.mediacdn.vn/thumb_w/650/2018/6/26/com260618-1529984498777466829891.jpg",
-      "href" : "thucdongiadinh.html"
+      "href": "thucdongiadinh.html"
     },
     {
       "id": 2,
       "title": "Thực đơn cho bé 7-8 tháng tuổi",
       "text": "Thực đơn được gợi ý bởi các chuyên gia dinh dưỡng, với cách chế biến đơn giản và nhanh gọn đảm bảo đầy đủ dưỡng chất cho bé.",
-      "img": "https://dinhduong.online/wp-content/uploads/2016/11/1-1.jpg" ,
-      "href" : "thucdonbe7-8th.html"      
+      "img": "https://dinhduong.online/wp-content/uploads/2016/11/1-1.jpg",
+      "href": "thucdonbe7-8th.html"
     },
     {
       "id": 3,
       "title": "Thực đơn cho người già",
       "text": "Khi về già, cơ thể con người thường gặp phải rất nhiều các vấn đề về sức khỏe. Thế nên dinh dưỡng cho người bệnh là điều cần được lưu ý, đặc biệt khi chăm sóc bệnh nhân là người cao tuổi",
-      "img": "https://vocarimex.com.vn/uploads/Files/hinh-1-1481501733.jpg" ,
-      "href" : "thucdonnguoigia.html"      
+      "img": "https://vocarimex.com.vn/uploads/Files/hinh-1-1481501733.jpg",
+      "href": "thucdonnguoigia.html"
     },
     {
       "id": 4,
       "title": "Thực đơn cho mẹ bầu",
       "text": "Ăn uống trong suốt thai kỳ luôn là băn khoăn của nhiều chị em. Làm thế nào để lựa chọn đúng các loại thực phẩm vừa tốt cho bé lại vừa hợp khẩu vị với mẹ. Bên cạnh đó, còn phải đảm bảo cung cấp đầy đủ các chất dinh dưỡng giúp bé khỏe và mẹ không tăng cân.",
-      "img": "http://channel.mediacdn.vn/prupload/439/2018/08/img20180828112816898.jpg" ,
-      "href" : "thucdonmebau.html"      
+      "img": "http://channel.mediacdn.vn/prupload/439/2018/08/img20180828112816898.jpg",
+      "href": "thucdonmebau.html"
     },
     {
       "id": 5,
       "title": "Thực đơn cho người mới ốm dậy",
       "text": "Người bệnh mới ốm dậy nên ăn uống như thế nào để hồi phục sức khỏe là điều được nhiều người đặc biệt quan tâm.",
-      "img": "https://dairymart.vn/wp-content/uploads/2020/02/sua-danh-cho-nguoi-moi-om-day-2.jpg" ,
-      "href" : "thucdonnguoiomday.html"      
+      "img": "https://dairymart.vn/wp-content/uploads/2020/02/sua-danh-cho-nguoi-moi-om-day-2.jpg",
+      "href": "thucdonnguoiomday.html"
     },
     {
       "id": 6,
       "title": "Thực đơn cho người tiểu đường",
       "text": "Người tiểu đường cần ăn uống đầy đủ dinh dưỡng hạn chế tối đa lượng đường trong khẩu phần ăn mỗi ngày. Chế độ dinh dưỡng của người bệnh tiểu đường type 2 cần cân đối protein, chất xơ, tinh bột",
       "img": "https://thaythuocvietnam.vn/wp-content/uploads/2018/05/_d_improd_/benh-tieu-duong-co-che-do-an-the-nao_f_improf_371x236.jpg",
-      "href" : "thucdonnguoitieuduong.html"
-
+      "href": "thucdonnguoitieuduong.html"
     }
   ]
 }
