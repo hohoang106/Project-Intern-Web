@@ -49,7 +49,7 @@ fetch(url, {
     document.querySelector("#step").innerHTML = steps;
     document.querySelector("#linkvid").innerHTML = linkVid;
 
-  })
+  })  
 
 
 

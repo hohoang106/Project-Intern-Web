@@ -81,12 +81,14 @@ a{
   width: 100%;
   color: #fff;
   text-align: center;
-  background-color: rgba(5, 3, 3, 0.3);
+  background-color: rgba(241, 228, 249, 0.25);
 }
 .text-slide{
-  color: white;
+  color: #187aabc2;
   font-size: 3rem;
+  font-weight: bold;
   position: relative;
+  text-transform: uppercase;
   top: 10rem;
 }
 .btn-chitiet-slide{
@@ -201,10 +203,20 @@ th{
   .img-tapluyen{
     height: 250px;
   }
+  .text-slide{
+    font-size: 1.5rem;
+  }
+  
 }
 @media (min-width: 769px) and (max-width: 1200px) {
   .img-tapluyen{
     height: 500px;
+  }
+  .card-title{
+    font-size: 18px;
+  }
+  .card-text{
+    font-size: 14px;
   }
   
 }
@@ -220,11 +232,6 @@ th{
   padding-bottom: 1rem;
 } */
 /* Navbar */
-.header-navbar{
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 h4:hover{
   color: rgba(0, 187, 187, 0.644);
 }
@@ -243,4 +250,11 @@ h1, h2 , h3 , h4 , h5 , h6{
 }
 h3{
   text-transform: uppercase;
+}
+
+.btn-chitiet-slide:hover{
+  background-color: #187AAB;
+}
+.icon-login{
+  color: #187AAB;
 }
