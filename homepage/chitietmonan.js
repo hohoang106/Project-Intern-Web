@@ -1,6 +1,7 @@
 url = "http://localhost:3000/monan"
 
 var uid = window.location.search
+
 var id = uid.slice(4);
 
 fetch(url, {
