@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="/css/index.css">
   <link rel="stylesheet" href="/css/nav.css">
   <title>text</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -19,16 +19,49 @@
   <div id="header-navbar">
   </div>
   <!-- content -->
-  <div class="container">
-  <div class="question">
-    <div class="box-question p-2"><a href="/homepage/add_question.html" class="datCauHoi"><i class="fas fa-question-circle mr-2"></i>Đặt câu hỏi</a></div>
-  </div>
-</div>
-  <div class="container">
+  <div class="container  pt-5">
     <div class="row">
       <div class="col-lg-9">
-        <section class="question-body py-3" id="list-Question">
-        </section>
+        <div class="question-page">
+          <div class="question">
+        <div class="box-question text-right p-2"><a class="datCauHoi btn btn-primary" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-question-circle mr-2"></i>Đặt câu hỏi</a></div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header modal-title">
+                <h5 class="modal-title  text-white" id="exampleModalLabel">Đặt câu hỏi</h5>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="recipient-name text-secondary" class="col-form-label">Tên của bạn:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="form-group">
+                    <label for="recipient-date text-secondary" class="col-form-label">Ngày đăng</label>
+                    <input type="date" class="form-control" id="recipient-date">
+                  </div>
+                  <div class="form-group">
+                    <label for="recipient-tag text-secondary" class="col-form-label">Tag:</label>
+                    <input type="text" class="form-control" id="recipient-tag">
+                  </div>
+                  <div class="form-group">
+                    <label for="message-text text-secondary" class="col-form-label">Nội dung câu hỏi:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Gửi câu hỏi</button>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+          <section class="list-Question" id="list-Question">
+          </section>
+        </div>
         <div class="pt-5">
           <nav aria-label="Page navigation example">
             <ul class="pagination">
@@ -53,10 +86,6 @@
               <a class="bv-noibat" href="#">Những cách tốt nhất để nấu món gà.</a>
               <a class="bv-noibat" href="#">9 ý tưởng đơn giản cho bữa tối ngon miệng đầy đủ chất dinh dưỡng.</a>
           </div>
-          <div class="sreach_item my-5 d-flex align-items-center">
-            <input class="form-control col-11 " type="search" placeholder="Search">
-            <i class="col-1 fas fa-search fa-lg p-2"></i>
-          </div>
           <div class="re-comment mb-5">
             <h5 class="comment text-uppercase text-center py-2">Ý kiến gần đây</h5>
             <p class="font-weight-light">Hoanghk đã bình luận<a class="font-weight-normal bv-noibat px-1" href="#">Sản phẩm rong biển</a></p>
@@ -79,5 +108,6 @@
   <div id="footer-all">
   </div>
   <script src="/js/vd.js"></script>
+  <script src="/homepage/ajax.js"></script>
   </body>
 </html>

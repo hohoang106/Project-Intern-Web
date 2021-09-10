@@ -29,7 +29,7 @@ fetch(url, {
                   <img class="avatar" src="/images/profile.png" alt="">
                 </div>
               </div>
-              <div class="col-xl-10 col-md-10 col-12">
+              <div class="col-xl-10 col-md-10 col-12 answer-user py-2">
                 <div class="question-header">
                   <span class="author-name mr-2">${answerUser[i].UserName}</span>
                   <span class="date">Đã trả lời:<span>${answerUser[i].dateAnswer}</span></span>
