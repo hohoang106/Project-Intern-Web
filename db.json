@@ -506,5 +506,503 @@
       "img": "https://thaythuocvietnam.vn/wp-content/uploads/2018/05/_d_improd_/benh-tieu-duong-co-che-do-an-the-nao_f_improf_371x236.jpg",
       "href": "thucdonnguoitieuduong.html"
     }
+  ],
+  "thongke": [  
+  ],
+  
+  "tagPage": [
+    {
+      "id": 1,
+      "tagname": 
+        [
+          {
+          "id": 1,
+          "Userimage":"/images/tony.jpg",
+          "vote": 77,
+          "tagName":"Người già",
+          "dateTime":"2021-08-12",
+          "username": "Khắc Hoàng",
+          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/sanpham6.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Longkio"
+            },
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"123",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Longkio"
+            },
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"234",
+              "voteAnswer":0,
+              "dateAnswer":"2021-08-25",
+              "UserName": "hoang123"
+            }
+          ]
+          },
+          {
+            "id": 2,
+            "Userimage":"/images/thanos.jpg",
+            "vote": 50,
+            "tagName":"Người già",
+            "dateTime":"2021-08-15",
+            "username": "Longlong",
+            "questionTitle": "Tác hại của việc thức khuya?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"hello1233",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "123123"
+            },
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Provip123"
+            }
+          ]
+          },
+          {
+            "id": 3,
+            "Userimage":"/images/image-ktdd.jpg",
+            "vote": 34,
+            "tagName":"Người già",
+            "dateTime":"2021-08-12",
+            "username": "Hello123",
+            "questionTitle": "Mẹ tôi chán ăn, cần phải làm gì để?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+            "answer":[
+              {
+                "userimage":"/images/thanos.jpg",
+                "answerOfuser":"hay lắm bạn",
+                "voteAnswer":10,
+                "dateAnswer":"2021-08-25",
+                "UserName": "32432423"
+              }
+  
+            ]
+          },
+          {
+            "id": 4,
+            "Userimage":"/images/sanpham6.jpg",
+            "vote": 34,
+            "tagName":"Mẹ Bầu",
+            "dateTime":"2021-08-12",
+            "username": "Huấn",
+            "questionTitle": "Làm thế nào để Cải thiện sức khỏe của người già?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+            "answer":[
+              {
+                "userimage":"/images/thanos.jpg",
+                "answerOfuser":"Thay đổi giấc ngủ",
+                "voteAnswer":5,
+                "dateAnswer":"2021-08-25",
+                "UserName": "234234234"
+              }
+  
+            ]
+          }
+        ],
+      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+      
+    },
+    {
+      "id": 2,
+      "tagname": 
+        [
+          {
+          "id": 6,
+          "Userimage":"/images/baidang11.PNG",
+          "vote": 66,
+          "tagName":"Người bệnh",
+          "dateTime":"2021-08-12",
+          "username": "Khắc Hoàng",
+          "questionTitle": "Vì sao người Bệnh cần bổ sung dinh dưỡng nhiều?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "234234234234"
+            }
+
+          ]
+        },
+          {
+            "id": 7,
+            "Userimage":"/images/post3.jpg",
+            "vote": 30,
+            "tagName":"Người bệnh",
+            "dateTime":"2021-08-15",
+            "username": "Longlong",
+            "questionTitle": "Người bệnh không nên thức khuya?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "456456546"
+            }
+
+          ]
+          }
+        ],
+      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+      
+    },
+    {
+      "id": 3,
+      "tagname": 
+        [
+          {
+          "id": 8,
+          "Userimage":"/images/tony.jpg",
+          "vote": 27,
+          "tagName":"Trẻ em",
+          "dateTime":"2021-08-12",
+          "username": "Khắc Hoàng",
+          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "456564564564"
+            }
+
+          ]
+        },
+          {
+            "id": 9,
+            "Userimage":"/images/thanos.jpg",
+            "vote": 70,
+            "tagName":"Trẻ em",
+            "dateTime":"2021-08-15",
+            "username": "Longlong",
+            "questionTitle": "Tác hại của việc thức khuya?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "678678678678"
+            }
+
+          ]
+          }
+        ],
+      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+      
+    },
+    {
+      "id": 4,
+      "tagname": 
+        [
+          {
+          "id": 10,
+          "Userimage":"/images/tony.jpg",
+          "vote": 7,
+          "tagName":"Mẹ Bầu",
+          "dateTime":"2021-08-12",
+          "username": "Khắc Hoàng",
+          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "67867845645234"
+            }
+
+          ]
+        },
+          {
+            "id": 11,
+            "Userimage":"/images/thanos.jpg",
+            "vote": 5,
+            "tagName":"Mẹ bầu",
+            "dateTime":"2021-08-15",
+            "username": "Longlong",
+            "questionTitle": "Tác hại của việc thức khuya?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "809089"
+            }
+
+          ]
+          }
+        ],
+      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+      
+    },
+    {
+      "id": 5,
+      "tagname": 
+        [
+          {
+          "id": 12,
+          "Userimage":"/images/tony.jpg",
+          "vote": 10,
+          "tagName":"Trẻ dậy thì",
+          "dateTime":"2021-08-12",
+          "username": "Khắc Hoàng",
+          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "6756768"
+            }
+
+          ]
+        },
+          {
+            "id": 13,
+            "Userimage":"/images/thanos.jpg",
+            "vote": 7,
+            "tagName":"Trẻ dậy thì",
+            "dateTime":"2021-08-15",
+            "username": "Longlong",
+            "questionTitle": "Tác hại của việc thức khuya?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "7897893"
+            }
+
+          ]
+          }
+        ],
+      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+      
+    },
+    {
+      "id": 6,
+      "tagname": 
+        [
+          {
+          "id": 14,
+          "Userimage":"/images/tony.jpg",
+          "vote": 15,
+          "tagName":"Suy Dinh Dưỡng",
+          "dateTime":"2021-08-12",
+          "username": "Khắc Hoàng",
+          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "3457593456"
+            }
+
+          ]
+        },
+          {
+            "id": 15,
+            "Userimage":"/images/thanos.jpg",
+            "vote": 10,
+            "tagName":"Suy Dinh Dưỡng",
+            "dateTime":"2021-08-15",
+            "username": "Longlong",
+            "questionTitle": "Tác hại của việc thức khuya?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "7897893"
+            }
+
+          ]
+          }
+        ],
+      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+      
+    },
+    {
+      "id": 7,
+      "tagname": 
+        [
+          {
+          "id": 16,
+          "Userimage":"/images/tony.jpg",
+          "vote": 12,
+          "tagName":"Béo Phì",
+          "dateTime":"2021-08-12",
+          "username": "Khắc Hoàng",
+          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "3457593456"
+            }
+
+          ]
+        },
+          {
+            "id": 17,
+            "Userimage":"/images/thanos.jpg",
+            "vote": 10,
+            "tagName":"Béo phì",
+            "dateTime":"2021-08-15",
+            "username": "Longlong",
+            "questionTitle": "Tác hại của việc thức khuya?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "7897893"
+            }
+
+          ]
+          }
+        ],
+      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+      
+    },
+        {
+      "id": 8,
+      "tagname": 
+        [
+          {
+          "id": 18,
+          "Userimage":"/images/tony.jpg",
+          "vote": 12,
+          "tagName":"Thức ăn, đồ uống",
+          "dateTime":"2021-08-12",
+          "username": "Khắc Hoàng",
+          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "3457593456"
+            }
+
+          ]
+        },
+          {
+            "id": 19,
+            "Userimage":"/images/thanos.jpg",
+            "vote": 10,
+            "tagName":"Thức ăn đồ uống",
+            "dateTime":"2021-08-15",
+            "username": "Longlong",
+            "questionTitle": "Tác hại của việc thức khuya?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "7897893"
+            }
+
+          ]
+          }
+        ],
+      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+      
+    },
+    {
+      "id": 9,
+      "tagname": 
+        [
+          {
+          "id": 20,
+          "Userimage":"/images/tony.jpg",
+          "vote": 12,
+          "tagName":"Vận động viên",
+          "dateTime":"2021-08-12",
+          "username": "Khắc Hoàng",
+          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "3457593456"
+            }
+
+          ]
+        },
+          {
+            "id": 21,
+            "Userimage":"/images/thanos.jpg",
+            "vote": 10,
+            "tagName":"Vận động viên",
+            "dateTime":"2021-08-15",
+            "username": "Longlong",
+            "questionTitle": "Tác hại của việc thức khuya?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "7897893"
+            }
+
+          ]
+          }
+        ],
+      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+      
+    }
   ]
+
+  
 }
