@@ -1,0 +1,89 @@
+let apiUrl = "http://localhost:3000/baidang"
+let currentUrl = "http://localhost:3000/baidang?_limit=10&_page=1"
+const tableOfCounties = document.getElementById("counties");
+
+// Another way to parse link headers - depraved and unspeakable, but only one line
+// function parseLinkHeader( linkHeader ) {
+//     return Object.fromEntries( linkHeader.split( ", " ).map( header => header.split( "; " ) ).map( header => [ header[1].replace( /"/g, "" ).replace( "rel=", "" ), header[0].slice( 1, -1 ) ] ) );
+// }
+
+function parseLinkHeader(linkHeader) {
+  const linkHeadersArray = linkHeader.split(", ").map(header => header.split("; "));
+  const linkHeadersMap = linkHeadersArray.map(header => {
+    const thisHeaderRel = header[1].replace(/"/g, "").replace("rel=", "");
+    const thisHeaderUrl = header[0].slice(1, -1);
+    return [thisHeaderRel, thisHeaderUrl]
+  });
+  return Object.fromEntries(linkHeadersMap);
+}
+
+function parseRoute(url) {
+  return Object.fromEntries(url.replace(`${apiUrl}?`, "").split("&").map(attribute => [attribute.split("=")[0].slice(1), attribute.split("=")[1]]));
+}
+
+function pageNumber(url) { return !parseRoute(url).page ? 1 : parseRoute(url).page }
+
+function fetchCounties(url) {
+  tableOfCounties.innerHTML = `<tr id="header"><th>Ngay Dang</th><th>Tieu De</th><th>Mo ta</th><th>Hinh Anh</th><th>Tac Gia</th> <th>Tac Vu</th></tr>`;
+  fetch(url)
+    .then(response => response.json().then(data => [data, response.headers.get("Link")]))
+    .then(countyData => {
+      countyData[0].forEach(county => renderCounty(county));
+      if (!countyData[1]) { document.getElementById("page-number").innerHTML = "Page 1 of 1"; }
+      else {
+        document.getElementById("page-number").innerHTML = `Page ${pageNumber(currentUrl)} of ${pageNumber(parseLinkHeader(countyData[1]).last)}`;
+      }
+    });
+}
+
+function renderCounty(county) {
+  let countyRow = document.createElement("tr");
+  countyRow.classList.add("county-row");
+  let countyName = document.createElement("td");
+  countyName.classList.add("county-cell");
+  countyName.innerHTML = `${county.type} of ${county.name}, ${county.state}`
+  let countyPopulation = document.createElement("td");
+  countyPopulation.classList.add("county-cell");
+  countyPopulation.innerHTML = Number(county.population).toLocaleString();
+  countyRow.append(countyName, countyPopulation);
+  tableOfCounties.append(countyRow);
+}
+
+// Paginating without handing short API responses
+// function paginate( direction ) {
+//     fetch( currentUrl ).then( response => {
+//         let linkHeaders = parseLinkHeader( response.headers.get( "Link" ) );
+//         if ( !!linkHeaders[ direction ] ) {
+//             currentUrl = linkHeaders[ direction ];
+//             fetchCounties( linkHeaders[ direction ] );
+//         }
+//     } );
+// }
+
+function paginate(direction) {
+  fetch(currentUrl).then(response => {
+    let linkHeaders = response.headers.get("Link");
+    if (linkHeaders) {
+      let headersObject = parseLinkHeader(response.headers.get("Link"));
+      if (!!headersObject[direction]) {
+        currentUrl = headersObject[direction];
+        fetchCounties(headersObject[direction]);
+      }
+    }
+  });
+}
+
+// function searchCounties(searchFormSubmission) {
+//   searchFormSubmission.preventDefault();
+//   currentUrl = `http://localhost:3000/us-counties?${searchFormSubmission.target.elements.filter.value}=${searchFormSubmission.target.elements.query.value}&_limit=${searchFormSubmission.target.elements.limit.value}&_page=1`;
+//   fetchCounties(currentUrl);
+// }
+
+document.addEventListener("DOMContentLoaded", () => {
+  fetchCounties(currentUrl);
+  // document.getElementById('search').addEventListener('submit', searchCounties);
+  document.getElementById('first').addEventListener('click', () => { paginate("first") });
+  document.getElementById('back').addEventListener('click', () => { paginate("prev") });
+  document.getElementById('forward').addEventListener('click', () => { paginate("next") });
+  document.getElementById('last').addEventListener('click', () => { paginate("last") });
+});

@@ -6,15 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/index.css">
   <link rel="stylesheet" href="/css/nav.css">
-  <script src="/homepage/addItem.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 
 </head>
+
+
+
 
 <body>
   <!-- Navbar -->
@@ -37,7 +36,7 @@
         <thead>
           <tr>
             <th style="width:110px"> Ngày đăng</th>
-            <th>Tiêu đề bài viết</th>
+            <th>Tiêu đề</th>
             <th>Mô tả</th>
             <th>Hình ảnh</th>
             <th>Tác giả</th>
@@ -103,19 +102,11 @@
           </tr>
         </tbody>
       </table>
-      <!-- <nav aria-label="Page navigation example">
-        <ul class="pagination" id="panigation-wrapper">
-          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-          <li class="page-item active"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">Next</a></li>
-        </ul>
-      </nav> -->
-      <div id="listingTable"></div>
-      <a href="javascript:prevPage()" id="btn_prev">Prev</a>
-      <a href="javascript:nextPage()" id="btn_next">Next</a>
-      page: <span id="page"></span>
+
+      <div class="pagination-container"></div>
+      <nav>
+        <ul class="pagination"></ul>
+      </nav>
     </div>
 
   </div>
@@ -224,15 +215,25 @@
       </div>
     </div>
   </div> -->
-  <script src="/homepage/navbarAdmin.js"></script>
   <!-- <script src="/node_modules/ckeditor4/ckeditor.js"></script>
   <script>
     window.onload = function() {
         CKEDITOR.replace( 'noi-dung' );
     };
 </script> -->
+
+
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.1/css/jquery.dataTables.min.css">
+  <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="/homepage/navbarAdmin.js"></script>
+
   <script src="/homepage/quanlybaidang.js"></script>
-  <script src="/homepage/chuyentrang.js"></script>
+
 
 </body>
 

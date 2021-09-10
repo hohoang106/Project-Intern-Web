@@ -17,6 +17,7 @@ $('#btn-login').click(function (data) {
       })
       if (result.length !== 0) {
         alert('Đăng nhập thành công');
+        localStorage.setItem("key", "loged");
         location.replace('trangchu.html');
       }
       else {

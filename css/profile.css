@@ -1,0 +1,39 @@
+label{
+  color: #187AAB;
+}
+.form-input{
+  border: 2px solid #187AAB;
+  width: 100%;
+  border-radius: 5px;
+  padding: 7px;
+}
+.btn-update{
+  background-color: #187AAB;
+  padding: 10px 0px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.btn-change-pass{
+  background-color: grey;
+  padding: 10px 0px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.btn-update:hover{
+  opacity: 0.9;
+}
+h4, span{
+  color: #187AAB;
+}
+.btn-update1{
+  background-color: #187AAB;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.avatar{
+  height: 300px;
+}
