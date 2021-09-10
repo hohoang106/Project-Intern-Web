@@ -110,4 +110,4 @@ $("input.quantity1").each(function(){
             response.json();
         })
  }
-//  console.log(document.getElementsByClassName('masp'));
+

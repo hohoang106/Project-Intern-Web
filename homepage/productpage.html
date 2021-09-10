@@ -12,9 +12,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script> -->
-<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/redmond/jquery-ui.css">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/redmond/jquery-ui.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
 
   </head>
 <body>
@@ -327,11 +327,11 @@
                     <p class="col-5"> Số Lượng: </p>
                     <div class="quantity col-7">
                       <button class="btn minus1">-</button>
-                      <input class="quantity1" id="id_form-0-quantity" min="0" name="form-0-quantity" value="1" type="number">
+                      <input class="quantity1" id="valueproduct" min="0" name="form-0-quantity" value="1" type="number">
                       <button class="btn add1">+</button>
                     </div>
                   </div>
-                  <a class="addcart btn btn-primary mt-2" href="payment.html">
+                  <a id="addcartdetail" class="addcart btn btn-primary mt-2">
                       <i class="fas fa-shopping-cart"></i>  
                       Chọn Mua</a>
               </div>
@@ -352,9 +352,6 @@
 </div>
 <!-- mainfooter -->
 
-<script src="/homepage/ajax.js"></script>
-<script src="/js/app.js"></script>
-<script src="/js/payment.js"></script>
 
 <script>
 // Price range
@@ -512,7 +509,9 @@ filterpchucnang.addEventListener('click', function pall(){
 
 </script>
 
-
+<script src="/homepage/ajax.js"></script>
+<script src="/js/app.js"></script>
+<script src="/js/payment.js"></script>
 
 </body>
 </html>

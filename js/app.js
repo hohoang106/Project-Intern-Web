@@ -16,6 +16,7 @@ fetch(productApi, {
       document.getElementById('detailprice').innerText = product.price;
       document.getElementById('detaildm').innerText = product.danhmuc;
       document.getElementById('detailchitiet').innerText = product.description;
+      document.getElementById('addcartdetailpage').setAttribute('onclick', 'btnaddcart('+product.id+')')
       var detailimgpage = document.getElementsByClassName('imgdetail');
       for (var i = 0; i< detailimgpage.length; i++){
         detailimgpage[i].src = product.image;
@@ -209,6 +210,7 @@ fetch(productApi + '/' + id, option)
       var updetailprice = document.getElementById('detailprice');
       var updetaildm = document.getElementById('detaildm');
       var updetailimg = document.getElementsByClassName('imgdetail');
+      document.getElementById('addcartdetail').setAttribute('onclick', 'btnaddcart('+post.id+')')
       updetailname.innerText = post.name;
       updetailmsp.innerText = post.productcode;
       updetailprice.innerText = post.price;
@@ -292,6 +294,7 @@ function createcart(cartdata){
 .then(cartcreate)
 }
 
+
 function btnaddcart(id){
   var option = {
       method: 'GET',
@@ -304,13 +307,14 @@ function btnaddcart(id){
          return response.json();
       })
       .then(post => {
+        var valueproduct = document.getElementById('valueproduct');
         var formData = {
           productcode: post.productcode,
           name: post.name,
           image:post.image,
           price:post.price,
           danhmuc:post.danhmuc,
-          soluong: 1,
+          soluong: valueproduct.value,
        }
             createcart(formData)
       }) 
