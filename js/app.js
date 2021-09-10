@@ -1,4 +1,3 @@
-
 var productApi = 'http://localhost:3000/product';
 var cartproductApi = 'http://localhost:3000/cartproduct';
 
@@ -23,6 +22,16 @@ fetch(productApi, {
       }; 
     }
   });
+  var options = {
+    width: 200,
+    height:200,
+    zoomWidth: 500,
+    zoomPosition : "left",
+    offset: {vertical: 20, horizontal: 20},
+    scale: 0.7,
+    zoomLensStyle : 'opacity: 0.5;background-color: white;'
+};
+new ImageZoom(document.getElementById("pictureproduct"), options);
 })
 
 
@@ -40,14 +49,6 @@ function getProduct(callback){
      })
      .then(callback)
 }
-
-// function getcartProduct(back){
-//   fetch(cartproductApi)
-//    .then(function(response){
-//        return response.json();
-//    })
-//    .then(back)
-// }
 
 function createProduct(data){
     var option = {
@@ -104,44 +105,6 @@ function renderProduct(products){
     })
     listProductBlock.innerHTML = htmls.join('');
 }
-
-// function rendercartproduct(cartproducts){
-//   var listcartProductBlock = document.querySelector("#rendercart");
-//   var htmlsss = cartproducts.map(function(cartproduct){
-//     return `
-//     <tr>
-//       <td class="mobilenull masp">
-//       ${cartproduct.productcode}
-//       </td>
-//       <td>
-//       <div class="row">
-//              <div class="col-5"><img src="${cartproduct.image}" class="card-img-top" alt="..."></div>
-//             <div class="col-7">
-//             <p>${cartproduct.name}</p>
-//             </div>
-//         </div>
-//       </td>
-//        <td class="mobilenull"><span class="price">${cartproduct.price}</span>.000đ</td>
-//       <td>
-//           <div class="quantity">
-//            <button class="btn minus1">-</button>
-//           <input class="quantity1" id="id_form-0-quantity" min="0" name="form-0-quantity" value="${cartproduct.soluong}" type="number">
-//            <button class="btn add1">+</button>
-//          </div>
-//                       </td>
-//        <td><span class="totalprice"></span>.000đ</td>
-//        <td>
-//         <button type="button" class="btn btn-danger">
-//            <i class="fas fa-trash mr-2" style="margin:.5rem;"></i>
-//         </button>
-//       </td>
-//      </tr>
-//     `
-// })
-// listcartProductBlock.innerHTML = htmlsss.join('');
-// }
-
-
 
 // function uploaddetailProduct(products){
 //     var UpProductBlocks = document.querySelector("#upload-detailproducts");
@@ -205,7 +168,7 @@ function uploadProduct(products){
   var UpProductBlock = document.querySelector("#upload-products");
   var html = products.map(function(product){
       return `
-      <div class="col-md-3 col-6 mt-5 carditem">
+      <div class="col-md-3 col-6 mt-5 carditem" data-price="${product.price}">
             <div class="card">
               <div style="color: #187AAB;">
                 <i onclick="btndetail(${product.id})" class="fas fa-eye" data-toggle="modal" data-target="#addProductModal" style="float: right; padding: 7px;"></i>
@@ -221,11 +184,11 @@ function uploadProduct(products){
                 Chọn Mua</a>
             </div>
             </div>
-          </div>
-          
+          </div>          
       `
   })
   UpProductBlock.innerHTML = html.join('');
+  
 }
 
 // click to detailproduct modal and render info
@@ -347,7 +310,7 @@ function btnaddcart(id){
           image:post.image,
           price:post.price,
           danhmuc:post.danhmuc,
-          soluong: 1
+          soluong: 1,
        }
             createcart(formData)
       }) 

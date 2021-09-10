@@ -1,3 +1,18 @@
+// search product
+var card = document.getElementsByClassName('carditem')
+var vl = document.querySelector('.inputtext');
+vl.addEventListener('keyup', function input(){
+  var name = document.getElementsByClassName('nameproduct')
+  for(var i = 0; i<name.length; i++){
+      var c = name[i].innerText;
+      if(c.toUpperCase().indexOf(vl.value.toUpperCase())>-1){
+          card[i].style.display='';
+      }
+      else{
+          card[i].style.display='none';
+      }
+  }
+});
 
 var cartproductApi = 'http://localhost:3000/cartproduct';
 
@@ -95,3 +110,4 @@ $("input.quantity1").each(function(){
             response.json();
         })
  }
+//  console.log(document.getElementsByClassName('masp'));
