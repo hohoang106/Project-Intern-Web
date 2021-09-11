@@ -40,8 +40,7 @@ function rederBaiDang(baidangs) {
               2
             </p>
           </div>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua</p>
+          <p class="card-text limit-p">${item.noiDung}</p>
         </div>
       </div>
     </div>
@@ -50,4 +49,12 @@ function rederBaiDang(baidangs) {
     `
   })
   listBaiDang.innerHTML = chiTietBaiDang.join('');
+  let element = document.querySelectorAll(".limit-p");
+    for (let i = 0; i < element.length; i++) {
+      var gioiHan = element[i].innerText;
+      if (gioiHan.length > 200 ){
+        gioiHan = gioiHan.substr(0, 200) + '...';
+      }
+      document.querySelectorAll(".limit-p")[i].innerText = gioiHan;
+    }
 }

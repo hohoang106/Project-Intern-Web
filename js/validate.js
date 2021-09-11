@@ -149,7 +149,7 @@ validator.isTitle = function (selector){
   selector: selector,
   test: function(val){
     let regexTitle = /^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂẾưăạảấầẩẫậắằẳẵặẹẻẽềềểếỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s\W|_]+$/;
-    return regexTitle.test(val) ? undefined : "Vui lòng nhập đúng trường này"
+    return regexTitle.test(val) ? undefined : "Vui lòng nhập đúng trường này(ví dụ: Tiêu đề)"
   }
 };
 }
@@ -157,7 +157,16 @@ validator.isRequired = function (selector){
   return {
   selector: selector,
   test: function(val){
-    return val ? undefined : "Vui lòng nhập trường này"
+    return val ? undefined : "Vui lòng chọn file"
+  }
+};
+}
+validator.isContent = function (selector){
+  return {
+  selector: selector,
+  test: function(val){
+    let regexContent = /^[a-zA-Z]{500}$/;
+    return regexContent.test(val) ? undefined : "Vui lòng nhập ít nhất 500 ký tự"
   }
 };
 }

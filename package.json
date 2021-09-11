@@ -19,12 +19,8 @@
   "homepage": "https://github.com/hohoang106/Project-Intern-Web#readme",
   "dependencies": {
     "ckeditor4": "^4.16.2",
-<<<<<<< Updated upstream
     "js-image-zoom": "^0.7.0",
-    "json-server": "^0.16.3"
-=======
     "json-server": "^0.16.3",
     "paginationjs": "^2.1.5"
->>>>>>> Stashed changes
   }
 }

@@ -66,9 +66,8 @@ function rederBaiDang(baidangs) {
       bInfo: false,
       bAutoWidth: false,
       ordering: false,
+      pageLength: 5
     });
-
-
 }
 function handleCreateForm() {
   var btnAdd = document.querySelector('#addBaiDang');

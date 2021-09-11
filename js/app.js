@@ -104,6 +104,15 @@ function renderProduct(products){
         `
     })
     listProductBlock.innerHTML = htmls.join('');
+    $('#content-product').DataTable({
+      searching: false,
+      bLengthChange: false,
+      bFilter: false,
+      bInfo: false,
+      bAutoWidth: false,
+      ordering: false,
+      pageLength: 5
+    });
 }
 
 // function uploaddetailProduct(products){
