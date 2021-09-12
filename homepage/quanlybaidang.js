@@ -30,7 +30,6 @@ function addBaiDangs(data, callback) {
   };
   fetch(baiDangApi, option)
     .then(function (respon) {
-      console.log(respon);
       return respon.json();
     })
     .then(callback);
@@ -58,8 +57,17 @@ function rederBaiDang(baidangs) {
     
     `;
   });
-
   listBaiDangs.innerHTML = htmls.join('');
+ 
+    $('#contentList').DataTable({
+      searching: false,
+      bLengthChange: false,
+      bFilter: false,
+      bInfo: false,
+      bAutoWidth: false,
+      ordering: false,
+    });
+
 
 }
 function handleCreateForm() {
@@ -68,12 +76,9 @@ function handleCreateForm() {
     var ngaydang = document.querySelector('input[name="ngay-dang"]').value;
     var tieude = document.querySelector('input[name="tieu-de"]').value;
     var noidung = document.querySelector('input[name="noi-dung"]').value;
-    // // var noidung = CKEDITOR.instances.noi-dung.getData();
-    // $editor_data = $_POST['noi-dung'];
-    // console.log(noidung);
-
-    var hinhanh = document.querySelector('input[name="chon-anh"]').value;
+    var hinhanh = document.querySelector('input[type="file"]').files[0];
     var tacgia = document.querySelector('input[name="tac-gia"]').value;
+
     var formData = {
       ngayDang: ngaydang,
       tieuDe: tieude,
@@ -86,6 +91,23 @@ function handleCreateForm() {
     });
   }
 }
+// function updateBaiDang(id){
+//   var option = {
+//     method: 'PUT',
+//     headers: {
+//       'Content-Type': 'application/json'
+//     },
+//   };
+//   fetch(baiDangApi + '/' + id, option)
+//     .then(function (response) {
+//       response.json();
+//     })
+//     .then(function () {
+//       getBaiDangs(rederBaiDang);
+//     });
+
+// }
+
 
 function deleteBaiDang(id) {
   var option = {
@@ -110,8 +132,8 @@ function readURL(input) {
     reader.onload = function (e) {
       $('#displayInputImg')
         .attr('src', e.target.result)
-        .width(150)
-        .height(200);
+        .width(200)
+        .height(150);
     };
     reader.readAsDataURL(input.files[0]);
   }

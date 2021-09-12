@@ -55,21 +55,8 @@
 
 
         </ul>
-<<<<<<< HEAD
-        <!-- <input class="form-control col-xl-3" type="search" placeholder="Tìm kiếm">
-        <div class="icon-search m-2"> <i class="fas fa-search"></i></div> -->
-        <ul class="navbar-nav">
-          <form class="form-inline my-2 my-lg-0 ">
-            <input class="form-control mr-sm-2 col-10" type="search" placeholder="Tìm kiếm" aria-label="Search">
-            <div class=" icon-search my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></div>
-          </form>
-          <div class="icon-cart mt-2 mr-2">
-            <a href="/homepage/payment.html"> <i class="fa fa-cart-plus "></i> </a>
-          </div>
-        </ul>
 
-=======
-        <input class="form-control col-xl-3 col-12" type="search" placeholder="Tìm kiếm">
+        <input class="form-control col-xl-3 col-12 inputtext" type="search" placeholder="Tìm kiếm">
         <div class="icon-search m-2"> <i class="fas fa-search"></i></div>
         <div class="icon-cart m-2">
           <a href="/homepage/payment.html" style="display: flex;">
@@ -77,13 +64,21 @@
              <i class="fa fa-cart-plus "></i>
           </a>
         </div>
->>>>>>> c60340179bb5407032e07902427e71a4329a2c60
         <ul class="navbar-nav">
+        <ul class="navbar-nav" id="ul-dangnhap">
           <li class="nav-item">
-            <a class="nav-link nav-nav-hover" href="/homepage/login.html">Đăng nhập</a>
+            <a class="nav-link nav-nav-hover"  href="/homepage/login.html">Đăng nhập</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-nav-hover" href="/homepage/register.html">Đăng ký</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav" hidden id="ul-loged" >
+          <li>
+            <a class="nav-link " href="profile.html"><i class="fas fa-user"></i></a>
+          </li>
+          <li>
+            <a class="nav-link nav-nav-hover" onclick="dangXuat()" href="trangchu.html">Đăng xuất</a>
           </li>
         </ul>
 
@@ -98,6 +93,7 @@
       header.classList.toggle('scroll-active', window.scrollY > 0);
     })
   </script>
+  <script src="/homepage/comment.js"></script>
 
 </body>
 

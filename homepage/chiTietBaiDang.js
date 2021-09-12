@@ -55,7 +55,6 @@ function rederBaiDang(baidangs) {
     </div>
         `;
     }
-
   });
   postDetail.innerHTML = chiTietBaiDangs.join('');
 

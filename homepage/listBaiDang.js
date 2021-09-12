@@ -16,7 +16,7 @@ function rederBaiDang(baidangs) {
   var chiTietBaiDang = baidangs.map(function(item){
     return `
     <div class="col-md-12">
-    <div class="bai_dang pb-4">
+    <div class="bai_dang pb-5 mb-5">
       <div class="card border-0 post-item" style="width: 100%;">
         <div class="hovereffect float-start  text-center">
           <img class="img-responsive card-img-top img-Post" height="500px" src="${item.hinhAnh}" alt="">
