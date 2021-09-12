@@ -39,3 +39,11 @@
 .reply_answer{
   color: #187AAB;
 }
+.answer-user{
+  background-color: #e0f0f5;
+  border-radius: 8px;
+}
+.block-reply{
+  display: flex;
+  justify-content: end;
+}

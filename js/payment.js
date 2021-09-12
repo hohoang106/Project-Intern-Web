@@ -1,4 +1,4 @@
-// search product
+// search product navbar 
 var card = document.getElementsByClassName('carditem')
 var vl = document.querySelector('.inputtext');
 vl.addEventListener('keyup', function input(){
@@ -16,6 +16,7 @@ vl.addEventListener('keyup', function input(){
 
 var cartproductApi = 'http://localhost:3000/cartproduct';
 
+//show products number in cart
 function numbercartProduct(){
     fetch(cartproductApi)
           .then(response => response.json())
@@ -29,6 +30,7 @@ function numbercartProduct(){
       }
 numbercartProduct()
 
+//render product from cart data in cart page
 fetch(cartproductApi)
   .then(response => response.json())
   .then(cartproducts => {
@@ -97,7 +99,8 @@ $("input.quantity1").each(function(){
     })
     });
   })
-  
+
+//remove product from cart
   function deletecartProduct(id){
     var option = {
         method: 'DELETE',
@@ -110,4 +113,4 @@ $("input.quantity1").each(function(){
             response.json();
         })
  }
-//  console.log(document.getElementsByClassName('masp'));
+
