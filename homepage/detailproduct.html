@@ -47,11 +47,11 @@
                 <p class="col-5"> Số Lượng: </p>
                 <div class="quantity col-7">
                   <button class="btn minus1">-</button>
-                  <input class="quantity1" id="id_form-0-quantity" min="0" name="form-0-quantity" value="1" type="number">
+                  <input class="quantity1" id="valueproduct" min="0" name="form-0-quantity" value="1" type="number">
                   <button class="btn add1">+</button>
                 </div>
               </div>
-              <a class="addcart btn btn-primary mt-2" href="payment.html">
+              <a id="addcartdetailpage" class="addcart btn btn-primary mt-2">
                   <i class="fas fa-shopping-cart"></i>  
                   Chọn Mua</a>
           </div>
@@ -73,82 +73,17 @@
             Sản phẩm thường được mua cùng
             </div>
         </div>
-      <div class="row" style="margin-bottom: 50px;">   
-        <div class="col-md-3 col-6 mt-5 carditem">
-          <div class="card">
-            <div style="color: #187AAB;">
-              <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
-              <i class="far fa-heart" style="float: right; padding: 7px;">121</i>
-              <a href="detailproduct.html"><img src="/images/sanphamchucnang2.jpg" class="card-img-top" alt="..."></a>
-            </div>
-              <div class="cbody card-body">
-                <p class="card-text nameproduct">Kirkland Viên uống bổ sung</p>
-                <p class="card-text namedanhmuc">Danh Mục: <span class="danhmuc">Thực phẩm chức năng</span> </p>
-                <h5 class="ctitle card-title"><span class="productprice">70</span>.000₫ / Sản phẩm</h5>
-                <a href="#" class="addcart btn btn-primary">
-                  <i class="fas fa-shopping-cart"></i>  
-                  Chọn Mua</a>
-              </div>
-            </div>
-          </div>
-         <div class="col-md-3 col-6 mt-5 carditem">
-          <div class="card">
-            <div style="color: #187AAB;">
-              <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
-              <i class="far fa-heart" style="float: right; padding: 7px;">76</i>
-              <a href="detailproduct.html"><img src="/images/sanpham4.jpg" class="card-img-top" alt="..."></a>
-            </div>
-              <div class="cbody card-body">
-                <p class="card-text nameproduct">Gimbap & Roll O’Food</p>
-                <p class="card-text namedanhmuc">Danh Mục: <span class="danhmuc">Đồ hộp-Đồ khô</span> </p>
-                <h5 class="ctitle card-title"><span class="productprice">30</span>.000₫ / Sản phẩm</h5>
-                <a href="#" class="addcart btn btn-primary">
-                  <i class="fas fa-shopping-cart"></i>  
-                  Chọn Mua</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-6 mt-5 carditem">
-            <div class="card">
-              <div style="color: #187AAB;">
-                <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
-                <i class="far fa-heart" style="float: right; padding: 7px;">55</i>
-                <a href="detailproduct.html"><img src="/images/sanphamchucnang1.jpg" class="card-img-top" alt="..."></a>
-              </div>
-                <div class="cbody card-body">
-                  <p class="card-text nameproduct">Kirkland Viên uống bổ sung</p>
-                  <p class="card-text namedanhmuc">Danh Mục: <span class="danhmuc">Thực phẩm chức năng</span> </p>
-                  <h5 class="ctitle card-title"><span class="productprice">500</span>.000₫ / Sản phẩm</h5>
-                  <a href="#" class="addcart btn btn-primary">
-                    <i class="fas fa-shopping-cart"></i>  
-                    Chọn Mua</a>
-                </div>
-              </div>
-            </div>
-          <div class="col-md-3 col-6 mt-5 carditem">
-          <div class="card">
-            <div style="color: #187AAB;">
-              <i class="fas fa-eye" style="float: right; padding: 7px;"></i>
-              <i class="far fa-heart" style="float: right; padding: 7px;">43</i>
-              <a href="detailproduct.html"><img src="/images/sanpham2.jpg" class="card-img-top" alt="..."></a>
-            </div>
-              <div class="cbody card-body">
-                <p class="card-text nameproduct">Gimbap & Roll O’Food</p>
-                <p class="card-text namedanhmuc">Danh Mục: <span class="danhmuc">Đồ mát</span> </p>
-                <h5 class="ctitle card-title"><span class="productprice">50</span>.000₫ / Sản phẩm</h5>
-                <a href="#" class="addcart btn btn-primary">
-                  <i class="fas fa-shopping-cart"></i>  
-                  Chọn Mua</a>
-              </div>
-            </div>
-          </div>
+      <div class="row" id="review-products" style="margin-bottom: 50px;">   
+        <!-- review thuc pham chuc nang -->
         </div>
     </div>
+
 
 <!-- mainfooter -->
 <div id="footer-all">
 </div>
 <!-- mainfooter -->
+
 
 <script>
   $("input.quantity1").each(function(){
@@ -168,6 +103,7 @@
 </script>
 <script src="/homepage/ajax.js"></script>
 <script src="/js/app.js"></script>
+
 
 </body>
 </html>

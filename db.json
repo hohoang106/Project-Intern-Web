@@ -179,7 +179,7 @@
   ],
   "product": [
     {
-      "name": "Roll O’Food",
+      "name": "Sữa chua lên men",
       "image": "/images/sanpham2.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA100",
@@ -197,7 +197,7 @@
       "id": 3
     },
     {
-      "name": "Roll O’Food",
+      "name": "Đậu hũ non",
       "image": "/images/sanpham5.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA102",
@@ -206,7 +206,7 @@
       "id": 4
     },
     {
-      "name": "Roll O’Food",
+      "name": "Phô Mai",
       "image": "/images/sanpham6.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA103",
@@ -215,16 +215,16 @@
       "id": 5
     },
     {
-      "name": "Kirkland Viên uống bổ sung",
-      "image": "/images/sanphamchucnang3.jpg",
+      "name": "Rong biển cuộn cơm",
+      "image": "/images/sanpham4.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA104",
-      "price": "150",
-      "danhmuc": "Thực phẩm chức năng",
+      "price": "50",
+      "danhmuc": "Đồ hộp-Đồ khô",
       "id": 6
     },
     {
-      "name": "Roll O’Food",
+      "name": "Betagen",
       "image": "/images/sanpham2.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA105",
@@ -233,26 +233,17 @@
       "id": 7
     },
     {
-      "name": "Kirkland Viên uống bổ sung",
+      "name": "Viên uống bổ sung Hàu",
       "image": "/images/sanphamchucnang2.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA106",
       "price": "60",
-      "danhmuc": "Đồ mát",
+      "danhmuc": "Thực phẩm chức năng",
       "id": 8
     },
     {
-      "name": "Kirkland Viên uống bổ sung",
-      "image": "/images/sanphamchucnang3.jpg",
-      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
-      "productcode": "AAA107",
-      "price": "70",
-      "danhmuc": "Thực phẩm chức năng",
-      "id": 9
-    },
-    {
-      "name": "Gimbap & Roll O’Food",
-      "image": "/images/sanpham5.jpg",
+      "name": "Sữa chua hộp",
+      "image": "/images/sanpham3.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA108",
       "price": "10",
@@ -260,7 +251,7 @@
       "id": 10
     },
     {
-      "name": "Kirkland Viên uống bổ sung",
+      "name": "Kirkland Dược phẩm",
       "image": "/images/sanphamchucnang1.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA109",
@@ -270,7 +261,7 @@
     },
     {
       "name": "Gimbap & Roll O’Food",
-      "image": "/images/sanpham2.jpg",
+      "image": "/images/sanpham4.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA110",
       "price": "75",
@@ -279,32 +270,50 @@
     },
     {
       "productcode": "AAA111",
-      "name": "Kirkland",
+      "name": "Mỳ Udon",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
-      "image": "/images/sanphamchucnang1.jpg",
+      "image": "/images/sanpham1.jpg",
       "price": "135",
-      "danhmuc": "Thực phẩm chức năng",
+      "danhmuc": "Đồ hộp-Đồ khô",
       "id": 13
+    },
+    {
+      "name": "Rocket 2h",
+      "image": "/images/sanphamchucnang3.jpg",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA104",
+      "price": "150",
+      "danhmuc": "Thực phẩm chức năng",
+      "id": 14
     }
   ],
   "cartproduct": [
     {
-      "productcode": "AAA106",
+      "productcode": "AAA101",
       "name": "Kirkland Viên uống bổ sung",
-      "image": "/images/sanphamchucnang2.jpg",
-      "price": "60",
-      "danhmuc": "Đồ mát",
-      "soluong": 1,
+      "image": "/images/sanphamchucnang4.jpg",
+      "price": "200",
+      "danhmuc": "Thực phẩm chức năng",
+      "soluong": "1",
       "id": 1
     },
     {
-      "productcode": "AAA111",
-      "name": "Kirkland",
-      "image": "/images/sanphamchucnang1.jpg",
-      "price": "135",
+      "productcode": "AAA106",
+      "name": "Viên uống bổ sung Hàu",
+      "image": "/images/sanphamchucnang2.jpg",
+      "price": "60",
       "danhmuc": "Thực phẩm chức năng",
-      "soluong": 1,
+      "soluong": "1",
       "id": 2
+    },
+    {
+      "productcode": "AAA111",
+      "name": "Mỳ Udon",
+      "image": "/images/sanpham1.jpg",
+      "price": "135",
+      "danhmuc": "Đồ hộp-Đồ khô",
+      "soluong": "1",
+      "id": 3
     }
   ],
   "monan": [
@@ -590,24 +599,21 @@
       "href": "thucdonnguoitieuduong.html"
     }
   ],
-  "thongke": [  
-  ],
-  
+  "thongke": [],
   "tagPage": [
     {
       "id": 1,
-      "tagname": 
-        [
-          {
+      "tagname": [
+        {
           "id": 1,
-          "Userimage":"/images/tony.jpg",
+          "Userimage": "/images/tony.jpg",
           "vote": 77,
-          "tagName":"Người già",
-          "dateTime":"2021-08-12",
+          "tagName": "Người già",
+          "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
           "questionTitle": "Sức Khỏe người già, thay đổi thói quen xấu?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+          "answer": [
             {
               "id":1,
               "userimage":"/images/sanpham6.jpg",
@@ -670,17 +676,17 @@
               "UserName": "hoang123"
             }
           ]
-          },
-          {
-            "id": 2,
-            "Userimage":"/images/thanos.jpg",
-            "vote": 50,
-            "tagName":"Người già",
-            "dateTime":"2021-08-15",
-            "username": "Longlong",
-            "questionTitle": "Tác hại của việc thức khuya?",
-            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+        },
+        {
+          "id": 2,
+          "Userimage": "/images/thanos.jpg",
+          "vote": 50,
+          "tagName": "Người già",
+          "dateTime": "2021-08-15",
+          "username": "Longlong",
+          "questionTitle": "Tác hại của việc thức khuya?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer": [
             {
               "id":4,
               "userimage":"/images/thanos.jpg",
@@ -783,22 +789,20 @@
           }
         ],
       "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
-      
     },
     {
       "id": 2,
-      "tagname": 
-        [
-          {
+      "tagname": [
+        {
           "id": 6,
-          "Userimage":"/images/baidang11.PNG",
+          "Userimage": "/images/baidang11.PNG",
           "vote": 66,
-          "tagName":"Người bệnh",
-          "dateTime":"2021-08-12",
+          "tagName": "Người bệnh",
+          "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
           "questionTitle": "Sức Khỏe người bệnh, thay đổi chất lượng dinh dưỡng?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+          "answer": [
             {
               "id":8,
               "userimage":"/images/banner4.jpg",
@@ -819,16 +823,16 @@
             }
           ]
         },
-          {
-            "id": 7,
-            "Userimage":"/images/post3.jpg",
-            "vote": 30,
-            "tagName":"Người bệnh",
-            "dateTime":"2021-08-15",
-            "username": "Longlong",
-            "questionTitle": "Người bệnh không nên thức khuya?",
-            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+        {
+          "id": 7,
+          "Userimage": "/images/post3.jpg",
+          "vote": 30,
+          "tagName": "Người bệnh",
+          "dateTime": "2021-08-15",
+          "username": "Longlong",
+          "questionTitle": "Người bệnh không nên thức khuya?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer": [
             {
               "id":9,
               "userimage":"/images/thanos.jpg",
@@ -847,7 +851,6 @@
               ],
               "UserName": "Zoro"
             }
-
           ]
           }
         ],
@@ -856,18 +859,17 @@
     },
     {
       "id": 3,
-      "tagname": 
-        [
-          {
+      "tagname": [
+        {
           "id": 8,
-          "Userimage":"/images/tony.jpg",
+          "Userimage": "/images/tony.jpg",
           "vote": 27,
-          "tagName":"Trẻ em",
-          "dateTime":"2021-08-12",
+          "tagName": "Trẻ em",
+          "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
           "questionTitle": "Sức Khỏe trẻ em, trẻ biếng ăn, thức ăn tăng chiều cao?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+          "answer": [
             {
               "id":10,
               "userimage":"/images/thanos.jpg",
@@ -886,19 +888,18 @@
               ],
               "UserName": "456564564564"
             }
-
           ]
         },
-          {
-            "id": 9,
-            "Userimage":"/images/thanos.jpg",
-            "vote": 70,
-            "tagName":"Trẻ em",
-            "dateTime":"2021-08-15",
-            "username": "Longlong",
-            "questionTitle": "Tác hại của việc thức khuya?",
-            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+        {
+          "id": 9,
+          "Userimage": "/images/thanos.jpg",
+          "vote": 70,
+          "tagName": "Trẻ em",
+          "dateTime": "2021-08-15",
+          "username": "Longlong",
+          "questionTitle": "Tác hại của việc thức khuya?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer": [
             {
               "id":11,
               "userimage":"/images/thanos.jpg",
@@ -917,7 +918,6 @@
               ],
               "UserName": "678678678678"
             }
-
           ]
           }
         ],
@@ -926,18 +926,17 @@
     },
     {
       "id": 4,
-      "tagname": 
-        [
-          {
+      "tagname": [
+        {
           "id": 10,
-          "Userimage":"/images/tony.jpg",
+          "Userimage": "/images/tony.jpg",
           "vote": 7,
-          "tagName":"Mẹ Bầu",
-          "dateTime":"2021-08-12",
+          "tagName": "Mẹ Bầu",
+          "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
           "questionTitle": "Những dĩnh dưỡng nào sẽ giúp mẹ bầu có dinh dưỡng?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+          "answer": [
             {
               "id":12,
               "userimage":"/images/thanos.jpg",
@@ -956,19 +955,18 @@
               ],
               "UserName": "67867845645234"
             }
-
           ]
         },
-          {
-            "id": 11,
-            "Userimage":"/images/thanos.jpg",
-            "vote": 5,
-            "tagName":"Mẹ bầu",
-            "dateTime":"2021-08-15",
-            "username": "Longlong",
-            "questionTitle": "Tác hại của việc thức khuya?",
-            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+        {
+          "id": 11,
+          "Userimage": "/images/thanos.jpg",
+          "vote": 5,
+          "tagName": "Mẹ bầu",
+          "dateTime": "2021-08-15",
+          "username": "Longlong",
+          "questionTitle": "Tác hại của việc thức khuya?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer": [
             {
               "id":13,
               "userimage":"/images/thanos.jpg",
@@ -987,7 +985,6 @@
               ],
               "UserName": "809089"
             }
-
           ]
           }
         ],
@@ -996,18 +993,17 @@
     },
     {
       "id": 5,
-      "tagname": 
-        [
-          {
+      "tagname": [
+        {
           "id": 12,
-          "Userimage":"/images/tony.jpg",
+          "Userimage": "/images/tony.jpg",
           "vote": 10,
-          "tagName":"Trẻ dậy thì",
-          "dateTime":"2021-08-12",
+          "tagName": "Trẻ dậy thì",
+          "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
           "questionTitle": "Dinh dưỡng cần thiết cho trẻ đang dậy thì?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+          "answer": [
             {
               "id":14,
               "userimage":"/images/thanos.jpg",
@@ -1026,19 +1022,18 @@
               ],
               "UserName": "6756768"
             }
-
           ]
         },
-          {
-            "id": 13,
-            "Userimage":"/images/thanos.jpg",
-            "vote": 7,
-            "tagName":"Trẻ dậy thì",
-            "dateTime":"2021-08-15",
-            "username": "Longlong",
-            "questionTitle": "Tác hại của việc thức khuya?",
-            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+        {
+          "id": 13,
+          "Userimage": "/images/thanos.jpg",
+          "vote": 7,
+          "tagName": "Trẻ dậy thì",
+          "dateTime": "2021-08-15",
+          "username": "Longlong",
+          "questionTitle": "Tác hại của việc thức khuya?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer": [
             {
               "id":15,
               "userimage":"/images/thanos.jpg",
@@ -1057,7 +1052,6 @@
               ],
               "UserName": "7897893"
             }
-
           ]
           }
         ],
@@ -1066,18 +1060,17 @@
     },
     {
       "id": 6,
-      "tagname": 
-        [
-          {
+      "tagname": [
+        {
           "id": 14,
-          "Userimage":"/images/tony.jpg",
+          "Userimage": "/images/tony.jpg",
           "vote": 15,
-          "tagName":"Suy Dinh Dưỡng",
-          "dateTime":"2021-08-12",
+          "tagName": "Suy Dinh Dưỡng",
+          "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
           "questionTitle": "Những dáu hiệu nào nhân biết suy dinh dưỡng của trẻ em?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+          "answer": [
             {
               "id":16,
               "userimage":"/images/thanos.jpg",
@@ -1096,19 +1089,18 @@
               ],
               "UserName": "3457593456"
             }
-
           ]
         },
-          {
-            "id": 15,
-            "Userimage":"/images/thanos.jpg",
-            "vote": 10,
-            "tagName":"Suy Dinh Dưỡng",
-            "dateTime":"2021-08-15",
-            "username": "Longlong",
-            "questionTitle": "Tác hại của việc thức khuya?",
-            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+        {
+          "id": 15,
+          "Userimage": "/images/thanos.jpg",
+          "vote": 10,
+          "tagName": "Suy Dinh Dưỡng",
+          "dateTime": "2021-08-15",
+          "username": "Longlong",
+          "questionTitle": "Tác hại của việc thức khuya?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer": [
             {
               "id":17,
               "userimage":"/images/thanos.jpg",
@@ -1127,7 +1119,6 @@
               ],
               "UserName": "7897893"
             }
-
           ]
           }
         ],
@@ -1136,18 +1127,17 @@
     },
     {
       "id": 7,
-      "tagname": 
-        [
-          {
+      "tagname": [
+        {
           "id": 16,
-          "Userimage":"/images/tony.jpg",
+          "Userimage": "/images/tony.jpg",
           "vote": 12,
-          "tagName":"Béo Phì",
-          "dateTime":"2021-08-12",
+          "tagName": "Béo Phì",
+          "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
           "questionTitle": "Những thói quen xấu dẫn đến việc béo phì?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+          "answer": [
             {
               "id":18,
               "userimage":"/images/thanos.jpg",
@@ -1166,19 +1156,18 @@
               ],
               "UserName": "3457593456"
             }
-
           ]
         },
-          {
-            "id": 17,
-            "Userimage":"/images/thanos.jpg",
-            "vote": 10,
-            "tagName":"Béo phì",
-            "dateTime":"2021-08-15",
-            "username": "Longlong",
-            "questionTitle": "Tác hại của việc thức khuya?",
-            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+        {
+          "id": 17,
+          "Userimage": "/images/thanos.jpg",
+          "vote": 10,
+          "tagName": "Béo phì",
+          "dateTime": "2021-08-15",
+          "username": "Longlong",
+          "questionTitle": "Tác hại của việc thức khuya?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer": [
             {
               "id":19,
               "userimage":"/images/thanos.jpg",
@@ -1197,27 +1186,25 @@
               ],
               "UserName": "7897893"
             }
-
           ]
           }
         ],
       "tagDescription": "Những thói quen xấu dẫn đến việc béo phì..."
       
     },
-        {
+    {
       "id": 8,
-      "tagname": 
-        [
-          {
+      "tagname": [
+        {
           "id": 18,
-          "Userimage":"/images/tony.jpg",
+          "Userimage": "/images/tony.jpg",
           "vote": 12,
-          "tagName":"Thức ăn, đồ uống",
-          "dateTime":"2021-08-12",
+          "tagName": "Thức ăn, đồ uống",
+          "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
           "questionTitle": "Thức ăn đồ uống nào có hại mà trẻ em nên tránh?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+          "answer": [
             {
               "id":20,
               "userimage":"/images/thanos.jpg",
@@ -1236,19 +1223,18 @@
               ],
               "UserName": "3457593456"
             }
-
           ]
         },
-          {
-            "id": 19,
-            "Userimage":"/images/thanos.jpg",
-            "vote": 10,
-            "tagName":"Thức ăn đồ uống",
-            "dateTime":"2021-08-15",
-            "username": "Longlong",
-            "questionTitle": "Tác hại của việc thức khuya?",
-            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+        {
+          "id": 19,
+          "Userimage": "/images/thanos.jpg",
+          "vote": 10,
+          "tagName": "Thức ăn đồ uống",
+          "dateTime": "2021-08-15",
+          "username": "Longlong",
+          "questionTitle": "Tác hại của việc thức khuya?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer": [
             {
               "id":21,
               "userimage":"/images/thanos.jpg",
@@ -1267,7 +1253,6 @@
               ],
               "UserName": "7897893"
             }
-
           ]
           }
         ],
@@ -1276,18 +1261,17 @@
     },
     {
       "id": 9,
-      "tagname": 
-        [
-          {
+      "tagname": [
+        {
           "id": 20,
-          "Userimage":"/images/tony.jpg",
+          "Userimage": "/images/tony.jpg",
           "vote": 12,
-          "tagName":"Vận động viên",
-          "dateTime":"2021-08-12",
+          "tagName": "Vận động viên",
+          "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
           "questionTitle": "Trước khi chuẩn bị tập luyện thì nên ăn gì?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+          "answer": [
             {
               "id":22,
               "userimage":"/images/thanos.jpg",
@@ -1306,19 +1290,18 @@
               ],
               "UserName": "3457593456"
             }
-
           ]
         },
-          {
-            "id": 21,
-            "Userimage":"/images/thanos.jpg",
-            "vote": 10,
-            "tagName":"Vận động viên",
-            "dateTime":"2021-08-15",
-            "username": "Longlong",
-            "questionTitle": "Tác hại của việc thức khuya?",
-            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer":[
+        {
+          "id": 21,
+          "Userimage": "/images/thanos.jpg",
+          "vote": 10,
+          "tagName": "Vận động viên",
+          "dateTime": "2021-08-15",
+          "username": "Longlong",
+          "questionTitle": "Tác hại của việc thức khuya?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer": [
             {
               "id":23,
               "userimage":"/images/thanos.jpg",
@@ -1337,7 +1320,6 @@
               ],
               "UserName": "7897893"
             }
-
           ]
           }
         ],

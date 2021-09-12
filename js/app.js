@@ -16,12 +16,14 @@ fetch(productApi, {
       document.getElementById('detailprice').innerText = product.price;
       document.getElementById('detaildm').innerText = product.danhmuc;
       document.getElementById('detailchitiet').innerText = product.description;
+      document.getElementById('addcartdetailpage').setAttribute('onclick', 'btnaddcart('+product.id+')')
       var detailimgpage = document.getElementsByClassName('imgdetail');
       for (var i = 0; i< detailimgpage.length; i++){
         detailimgpage[i].src = product.image;
       }; 
     }
   });
+  // lib zoom image
   var options = {
     width: 200,
     height:200,
@@ -34,14 +36,14 @@ fetch(productApi, {
 new ImageZoom(document.getElementById("pictureproduct"), options);
 })
 
-
+// start get product 
 getProduct(renderProduct);
 getProduct(uploadProduct);
+getProduct(uploadreviewProduct);
 handleCreateProducts();
     // getcartProduct(rendercartproduct);
     // handleEditProducts();
 
-    
 function getProduct(callback){
     fetch(productApi)
      .then(function(response){
@@ -50,6 +52,36 @@ function getProduct(callback){
      .then(callback)
 }
 
+// render review peoduct(some page)
+function uploadreviewProduct(products){
+  var UpProductBlock = document.querySelector("#review-products");
+  var html = products.map(function(product){
+    if(product.danhmuc == "Thực phẩm chức năng"){
+      return `
+      <div class="col-md-3 col-6 mt-5 carditem" data-price="${product.price}">
+            <div class="card">
+              <div style="color: #187AAB;">
+                <i class="far fa-heart" style="float: right; padding: 7px;">12</i>
+                <a href="/homepage/detailproduct.html?id=${product.id}" onclick="btndetailpage(${product.id})"><img src="${product.image}" class="card-img-top" alt="..."></a>
+              </div>
+            <div class="cbody card-body">
+              <p class="card-text nameproduct">${product.name}</p>
+              <p class="card-text namedanhmuc">Danh Mục: <span class="danhmuc">${product.danhmuc}</span> </p>
+              <h5 class="ctitle card-title"><span class="productprice">${product.price}</span>.000₫ / Sản phẩm</h5>
+              <input style="display: none" id="valueproduct" min="0" name="form-0-quantity" value="1" type="number">
+              <a class="addcart btn btn-primary" onclick="btnaddcart(${product.id})">
+                <i class="fas fa-shopping-cart"></i>  
+                Chọn Mua</a>
+            </div>
+            </div>
+          </div>          
+      `
+  }})
+  UpProductBlock.innerHTML = html.join('');
+  
+}
+  
+// manager create product
 function createProduct(data){
     var option = {
         method: 'POST',
@@ -63,6 +95,70 @@ function createProduct(data){
             response.json();
         })
         .then(callback);
+}
+
+function handleCreateProducts(){
+  var createbtn = document.querySelector('#themsanpham');
+ 
+  createbtn.onclick = function() {
+     var masanpham = document.querySelector('input[name="masanpham"]').value;
+     var tensanpham = document.querySelector('input[name="tensanpham"]').value;
+     var motasanpham = document.querySelector('input[name="motasanpham"]').value;
+     var anhsanpham = document.querySelector('input[name="anhsanpham"]').value;
+     var giasanpham = document.querySelector('input[name="giasanpham"]').value;
+     var danhmuc = document.querySelector('select[name="danhmuc"]').value;
+     
+     var formData = {
+        productcode: masanpham,
+        name: tensanpham,
+        description: motasanpham,
+        image:anhsanpham,
+        price:giasanpham,
+        danhmuc:danhmuc
+     }
+     
+     createProduct(formData)
+  }
+};
+//render manager product page
+function renderProduct(products){
+  var listProductBlock = document.querySelector("#list-products");
+  var htmls = products.map(function(product){
+      return `
+      <tr>
+      <td>${product.productcode}</td>
+      <td>${product.name}</td>
+      <td>${product.description}</td>
+      <td><img src="${product.image}" width="100px" alt=""></td>
+      <td><span>${product.price}</span>.000₫ / Sản phẩm</td>
+      <td>${product.danhmuc}</td>
+      <td>
+            <button type="button" class="btn btn-dark btn-sm px-3" data-toggle="modal" data-target="#updateModal">
+              <i class="fas fa-edit"></i>
+            </button>
+            <button onclick="deleteProduct(${product.id})" type="button" class="btn btn-danger">
+              <i class="fas fa-trash mr-2" style="margin:.5rem;"></i>
+            </button>
+      </td>
+      </tr>
+      
+      `
+  })
+  listProductBlock.innerHTML = htmls.join('');
+}
+
+// manager delete product
+function deleteProduct(id){
+  var option = {
+      method: 'DELETE',
+      headers: {
+          'Content-Type': 'application/json'
+        },
+  };
+  fetch(productApi + '/' + id, option)
+      .then(function(response){
+          response.json();
+      })
 }
 
 // function editProduct(updatedata){
@@ -80,31 +176,28 @@ function createProduct(data){
 //       .then(callback);
 // }
 
-function renderProduct(products){
-    var listProductBlock = document.querySelector("#list-products");
-    var htmls = products.map(function(product){
-        return `
-        <tr>
-        <td>${product.productcode}</td>
-        <td>${product.name}</td>
-        <td>${product.description}</td>
-        <td><img src="${product.image}" width="100px" alt=""></td>
-        <td><span>${product.price}</span>.000₫ / Sản phẩm</td>
-        <td>${product.danhmuc}</td>
-        <td>
-              <button type="button" class="btn btn-dark btn-sm px-3" data-toggle="modal" data-target="#updateModal">
-                <i class="fas fa-edit"></i>
-              </button>
-              <button onclick="deleteProduct(${product.id})" type="button" class="btn btn-danger">
-                <i class="fas fa-trash mr-2" style="margin:.5rem;"></i>
-              </button>
-        </td>
-        </tr>
-        
-        `
-    })
-    listProductBlock.innerHTML = htmls.join('');
-}
+//  function handleEditProducts(){
+//   var updatebtn = document.querySelector('#update');
+ 
+//   updatebtn.onclick = function() {
+//      var masp = document.querySelector('input[id="ma-sp"]').value;
+//      var tensp = document.querySelector('input[id="ten-sp"]').value;
+//      var motasp = document.querySelector('input[id="mo-ta"]').value;
+//      var anhsp = document.querySelector('input[id="chon-anh"]').value;
+//      var giasp = document.querySelector('input[id="gia-sp"]').value;
+     
+//      var updateData = {
+//         productcode: masp,
+//         name: tensp,
+//         description: motasp,
+//         image:anhsp,
+//         price:giasp
+//      }
+     
+//      editProduct(updateData)
+//   }
+// };
+
 
 // function uploaddetailProduct(products){
 //     var UpProductBlocks = document.querySelector("#upload-detailproducts");
@@ -164,7 +257,9 @@ function renderProduct(products){
 //     UpProductBlocks.innerHTML = htmlss.join('');
 // }
 
+
 function uploadProduct(products){
+  // render product page
   var UpProductBlock = document.querySelector("#upload-products");
   var html = products.map(function(product){
       return `
@@ -188,7 +283,6 @@ function uploadProduct(products){
       `
   })
   UpProductBlock.innerHTML = html.join('');
-  
 }
 
 // click to detailproduct modal and render info
@@ -209,6 +303,7 @@ fetch(productApi + '/' + id, option)
       var updetailprice = document.getElementById('detailprice');
       var updetaildm = document.getElementById('detaildm');
       var updetailimg = document.getElementsByClassName('imgdetail');
+      document.getElementById('addcartdetail').setAttribute('onclick', 'btnaddcart('+post.id+')')
       updetailname.innerText = post.name;
       updetailmsp.innerText = post.productcode;
       updetailprice.innerText = post.price;
@@ -219,65 +314,7 @@ fetch(productApi + '/' + id, option)
     })
 }
 
- function handleCreateProducts(){
-      var createbtn = document.querySelector('#themsanpham');
-     
-      createbtn.onclick = function() {
-         var masanpham = document.querySelector('input[name="masanpham"]').value;
-         var tensanpham = document.querySelector('input[name="tensanpham"]').value;
-         var motasanpham = document.querySelector('input[name="motasanpham"]').value;
-         var anhsanpham = document.querySelector('input[name="anhsanpham"]').value;
-         var giasanpham = document.querySelector('input[name="giasanpham"]').value;
-         var danhmuc = document.querySelector('select[name="danhmuc"]').value;
-         
-         var formData = {
-            productcode: masanpham,
-            name: tensanpham,
-            description: motasanpham,
-            image:anhsanpham,
-            price:giasanpham,
-            danhmuc:danhmuc
-         }
-         
-         createProduct(formData)
-      }
- };
-
-//  function handleEditProducts(){
-//   var updatebtn = document.querySelector('#update');
- 
-//   updatebtn.onclick = function() {
-//      var masp = document.querySelector('input[id="ma-sp"]').value;
-//      var tensp = document.querySelector('input[id="ten-sp"]').value;
-//      var motasp = document.querySelector('input[id="mo-ta"]').value;
-//      var anhsp = document.querySelector('input[id="chon-anh"]').value;
-//      var giasp = document.querySelector('input[id="gia-sp"]').value;
-     
-//      var updateData = {
-//         productcode: masp,
-//         name: tensp,
-//         description: motasp,
-//         image:anhsp,
-//         price:giasp
-//      }
-     
-//      editProduct(updateData)
-//   }
-// };
-
- function deleteProduct(id){
-    var option = {
-        method: 'DELETE',
-        headers: {
-            'Content-Type': 'application/json'
-          },
-    };
-    fetch(productApi + '/' + id, option)
-        .then(function(response){
-            response.json();
-        })
- }
-
+// add new product to cart
 function createcart(cartdata){
   fetch(cartproductApi, {
     method: 'POST',
@@ -292,6 +329,7 @@ function createcart(cartdata){
 .then(cartcreate)
 }
 
+
 function btnaddcart(id){
   var option = {
       method: 'GET',
@@ -304,13 +342,14 @@ function btnaddcart(id){
          return response.json();
       })
       .then(post => {
+        var valueproduct = document.getElementById('valueproduct');
         var formData = {
           productcode: post.productcode,
           name: post.name,
           image:post.image,
           price:post.price,
           danhmuc:post.danhmuc,
-          soluong: 1,
+          soluong: valueproduct.value,
        }
             createcart(formData)
       }) 
