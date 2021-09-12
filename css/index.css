@@ -214,7 +214,7 @@ th{
     height: 500px;
   }
   .card-title{
-    font-size: 18px;
+    font-size: 16px;
   }
   .card-text{
     font-size: 14px;
@@ -258,4 +258,8 @@ h3{
 }
 .icon-login{
   color: #187AAB;
+}
+
+.card:hover{
+  border: 3px solid #187AAB;
 }

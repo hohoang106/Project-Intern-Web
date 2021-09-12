@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.min.css">
   <link rel="stylesheet" href="/css/index.css">
   <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/validate.css">
 
 
 </head>
@@ -121,7 +122,7 @@
         </div>
 
 
-        <form class="modal-body">
+        <form class="modal-body" id="add-form">
           <div class="mb-3">
             <label class="font-weight-bold" for="ngay-dang">Ngày đăng</label>
             <input type="text" class="form-control" id="ngay-dang" name="ngay-dang" placeholder="Nhập ngày đăng bài">
@@ -222,6 +223,21 @@
     };
 </script> -->
 
+<script src="/js/validate.js"></script>
+  <script>
+
+    validator({
+      form: '#add-form',
+      errorSelector: ".form-message",
+      rules: [
+        validator.isDated('#ngay-dang'),
+        validator.isTitle('#tieu-de'),
+        validator.isRequired('#chon-anh'),
+        validator.isRequiredFullName('#tac-gia'),
+        validator.isContent('#noi-dung')
+      ],
+    });
+  </script>
 
 
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
@@ -231,9 +247,7 @@
   <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="/homepage/navbarAdmin.js"></script>
-
-  <script src="/homepage/quanlybaidang.js"></script>
-
+  <script src="/js/quanlybaidang.js"></script>
 
 </body>
 

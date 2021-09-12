@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/nav.css ">
+  <link rel="stylesheet" href="/css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container-fluid container-fluid-nav " id="header">
+    <nav class="navbar navbar-expand-lg container">
+      <a class="navbar-brand" href="trangchu.html"><img src="/images/logo-nobg.png" height="50px" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars fa-lg pt-2" style="color: #187AAB;"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link nav-nav-hover" href="trangchu.html">Trang chủ </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-nav-hover dropdown-hover" href="ktdd.html" id="navbardrop">
+              Kiến thức
+              <span class="dropdown-toggle" data-toggle="dropdown"></span>
+            </a>
+
+            <div class="dropdown-menu p-0" id="dropdown-menu-ktdd">
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-nav-hover" href="/homepage/thucdon.html">Thực đơn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-nav-hover" href="/homepage/productpage.html">Sản phẩm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-nav-hover" href="/homepage/CDTLagioithieu.html">Tập luyện</a>
+          </li>
+
+        </ul>
+        <div class="form-input">
+          <input class="form-control col-xl-3 col-12 inputtext" type="search" placeholder="Tìm kiếm">
+          <div class="icon-search m-2"> <i class="fas fa-search"></i></div>
+        </div>
+
+
+        <div class="icon-cart m-2">
+          <a href="/homepage/payment.html" style="display: flex;">
+            <div id="checkcartnumber" style="font-size: small; border-radius: 100%; color: aliceblue; background-color: rgb(240, 88, 88); width: 20px; text-align: center;">0</div> 
+             <i class="fa fa-cart-plus "></i>
+          </a>
+        </div>
+        <ul class="navbar-nav">
+        <ul class="navbar-nav" id="ul-dangnhap">
+          <li class="nav-item">
+            <a class="nav-link nav-nav-hover"  href="/homepage/login.html">Đăng nhập</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-nav-hover" href="/homepage/register.html">Đăng ký</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav" hidden id="ul-loged" >
+          <li>
+            <a class="nav-link " href="profile.html"><i class="fas fa-user"></i></a>
+          </li>
+          <li>
+            <a class="nav-link nav-nav-hover" onclick="dangXuat()" href="trangchu.html">Đăng xuất</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+    <script src="/js/payment.js"></script>
+  </div>
+
+  <script>
+    window.addEventListener('scroll', function () {
+      let header = document.getElementById('header');
+      header.classList.toggle('scroll-active', window.scrollY > 0);
+    })
+  </script>
+  <script src="/js/comment.js"></script>
+  <script src="/js/ktdd-page.js"></script>
+
+</body>
+
+
+</html>
