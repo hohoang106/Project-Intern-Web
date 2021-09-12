@@ -112,7 +112,7 @@
   ],
   "product": [
     {
-      "name": "Roll O’Food",
+      "name": "Sữa chua lên men",
       "image": "/images/sanpham2.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA100",
@@ -130,7 +130,7 @@
       "id": 3
     },
     {
-      "name": "Roll O’Food",
+      "name": "Đậu hũ non",
       "image": "/images/sanpham5.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA102",
@@ -139,7 +139,7 @@
       "id": 4
     },
     {
-      "name": "Roll O’Food",
+      "name": "Phô Mai",
       "image": "/images/sanpham6.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA103",
@@ -148,16 +148,16 @@
       "id": 5
     },
     {
-      "name": "Kirkland Viên uống bổ sung",
-      "image": "/images/sanphamchucnang3.jpg",
+      "name": "Rong biển cuộn cơm",
+      "image": "/images/sanpham4.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA104",
-      "price": "150",
-      "danhmuc": "Thực phẩm chức năng",
+      "price": "50",
+      "danhmuc": "Đồ hộp-Đồ khô",
       "id": 6
     },
     {
-      "name": "Roll O’Food",
+      "name": "Betagen",
       "image": "/images/sanpham2.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA105",
@@ -166,26 +166,17 @@
       "id": 7
     },
     {
-      "name": "Kirkland Viên uống bổ sung",
+      "name": "Viên uống bổ sung Hàu",
       "image": "/images/sanphamchucnang2.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA106",
       "price": "60",
-      "danhmuc": "Đồ mát",
+      "danhmuc": "Thực phẩm chức năng",
       "id": 8
     },
     {
-      "name": "Kirkland Viên uống bổ sung",
-      "image": "/images/sanphamchucnang3.jpg",
-      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
-      "productcode": "AAA107",
-      "price": "70",
-      "danhmuc": "Thực phẩm chức năng",
-      "id": 9
-    },
-    {
-      "name": "Gimbap & Roll O’Food",
-      "image": "/images/sanpham5.jpg",
+      "name": "Sữa chua hộp",
+      "image": "/images/sanpham3.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA108",
       "price": "10",
@@ -193,7 +184,7 @@
       "id": 10
     },
     {
-      "name": "Kirkland Viên uống bổ sung",
+      "name": "Kirkland Dược phẩm",
       "image": "/images/sanphamchucnang1.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA109",
@@ -203,7 +194,7 @@
     },
     {
       "name": "Gimbap & Roll O’Food",
-      "image": "/images/sanpham2.jpg",
+      "image": "/images/sanpham4.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA110",
       "price": "75",
@@ -212,32 +203,50 @@
     },
     {
       "productcode": "AAA111",
-      "name": "Kirkland",
+      "name": "Mỳ Udon",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
-      "image": "/images/sanphamchucnang1.jpg",
+      "image": "/images/sanpham1.jpg",
       "price": "135",
-      "danhmuc": "Thực phẩm chức năng",
+      "danhmuc": "Đồ hộp-Đồ khô",
       "id": 13
+    },
+    {
+      "name": "Rocket 2h",
+      "image": "/images/sanphamchucnang3.jpg",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA104",
+      "price": "150",
+      "danhmuc": "Thực phẩm chức năng",
+      "id": 14
     }
   ],
   "cartproduct": [
     {
-      "productcode": "AAA103",
-      "name": "Roll O’Food",
-      "image": "/images/sanpham6.jpg",
-      "price": "45",
-      "danhmuc": "Đồ hộp-Đồ khô",
+      "productcode": "AAA101",
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang4.jpg",
+      "price": "200",
+      "danhmuc": "Thực phẩm chức năng",
       "soluong": "1",
       "id": 1
     },
     {
-      "productcode": "AAA109",
-      "name": "Kirkland Viên uống bổ sung",
-      "image": "/images/sanphamchucnang1.jpg",
-      "price": "180",
+      "productcode": "AAA106",
+      "name": "Viên uống bổ sung Hàu",
+      "image": "/images/sanphamchucnang2.jpg",
+      "price": "60",
       "danhmuc": "Thực phẩm chức năng",
       "soluong": "1",
       "id": 2
+    },
+    {
+      "productcode": "AAA111",
+      "name": "Mỳ Udon",
+      "image": "/images/sanpham1.jpg",
+      "price": "135",
+      "danhmuc": "Đồ hộp-Đồ khô",
+      "soluong": "1",
+      "id": 3
     }
   ],
   "monan": [
