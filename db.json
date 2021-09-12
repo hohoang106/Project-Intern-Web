@@ -63,56 +63,123 @@
   "baidang": [
     {
       "ngayDang": "10/05/2021",
-      "tieuDe": "Bà bầu uống sữa tươi không đường có tốt không?",
+      "tieuDe": "Kiến thức dinh dưỡng cho mẹ khi đang mang thai",
       "noiDung": "Bạn đang thắc mắc sữa tươi không đường có tốt cho bà bầu? Hay bà bầu có nên uống sữa tươi không đường không? Nếu uống thì nên chọn loại nào, kinh nghiệm chọn loại sữa tươi không đường tốt cho mẹ bầu? Hãy cùng chúng tôi tìm hiểu về các câu hỏi này trong bài viết dưới đây.",
-      "hinhAnh": "/images/nutrition1.jpg",
+      "hinhAnh": "/images/post3.jpg",
       "tacGia": "khac hoang",
-      "id": 1
+      "id": 1,
+      "comment":[
+        {
+              "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+            },
+            {
+              "UserImage":"/images/cdtt4.jpg",
+              "answerOfuser":"Tôi đã áp dụng và làm theo bài viết này. Nó rất hiệu quả",
+              "votecomment":3,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Longkio"
+            }
+        
+      ]
     },
     {
       "ngayDang": "10/05/2021",
-      "tieuDe": "Bà bầu uống sữa tươi không đường có tốt không?",
+      "tieuDe": "Loại bỏ stress khi mẹ bầu mang thai",
       "noiDung": "Bạn đang thắc mắc sữa tươi không đường có tốt cho bà bầu? Hay bà bầu có nên uống sữa tươi không đường không? Nếu uống thì nên chọn loại nào, kinh nghiệm chọn loại sữa tươi không đường tốt cho mẹ bầu? Hãy cùng chúng tôi tìm hiểu về các câu hỏi này trong bài viết dưới đây.",
-      "hinhAnh": "/images/nutrition1.jpg",
+      "hinhAnh": "/images/banner2.jpg",
       "tacGia": "khac hoang",
-      "id": 2
+      "id": 2,
+      "comment":[
+        {
+              "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "votecomment":2,
+              "dateAnswer":"2021-08-25",
+              "UserName": "6756768"
+            }
+        
+      ]
     },
     {
       "ngayDang": "10/05/2021",
-      "tieuDe": "Bà bầu uống sữa tươi không đường có tốt không?",
+      "tieuDe": "Kinh nghiệm dinh dưỡng sau khi sinh",
       "noiDung": "Bạn đang thắc mắc sữa tươi không đường có tốt cho bà bầu? Hay bà bầu có nên uống sữa tươi không đường không? Nếu uống thì nên chọn loại nào, kinh nghiệm chọn loại sữa tươi không đường tốt cho mẹ bầu? Hãy cùng chúng tôi tìm hiểu về các câu hỏi này trong bài viết dưới đây.",
-      "hinhAnh": "/images/nutrition1.jpg",
+      "hinhAnh":"/images/cdtl1.jpg",
       "tacGia": "khac hoang",
-      "id": 3
+      "id": 3,
+      "comment":[
+        {
+              "UserImage":"/images/profile.png",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "votecomment":3,
+              "dateAnswer":"2021-08-25",
+              "UserName": "6756768"
+            }
+        
+      ]
     },
     {
       "ngayDang": "22/11/2012",
-      "tieuDe": "Tiêu đề",
+      "tieuDe": "Dinh dưỡng tốt cho mẹ – Khởi đầu trọn vẹn cho bé",
       "noiDung": "helllooooooooooooooooooooo",
-      "hinhAnh": {},
+      "hinhAnh": "/images/nu.jpg",
       "tacGia": "khac hoang",
-      "id": 4
+      "id": 4,
+      "comment":[
+        {
+              "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "votecomment":4,
+              "dateAnswer":"2021-08-25",
+              "UserName": "6756768"
+            }
+        
+      ]
     },
     {
       "ngayDang": "22/11/2012",
-      "tieuDe": "Tiêu đề 1",
+      "tieuDe": "Cách giảm cân nhanh và hiệu quả, đúng khoa học.",
       "noiDung": "helllooooooooooooooooooooo",
-      "hinhAnh": {},
+      "hinhAnh": "/images/hinh_6.jpg",
       "tacGia": "khac hoang",
-      "id": 5
+      "id": 5,
+      "comment":[
+        {
+              "UserImage":"/images/post3.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "votecomment":5,
+              "dateAnswer":"2021-08-25",
+              "UserName": "6756768"
+            }
+        
+      ]
     },
     {
       "ngayDang": "22/11/2012",
-      "tieuDe": "Tiêu đề12121",
+      "tieuDe": "Cách giảm cân nhanh và hiệu quả, đúng khoa học.",
       "noiDung": "zxcxzcxzcxzcxzc",
-      "hinhAnh": {},
+      "hinhAnh": "/images/image-ktdd.jpg",
       "tacGia": "khac hoang",
-      "id": 6
+      "id": 6,
+      "comment":[
+        {
+              "UserImage":"/images/hinh_5.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "6756768"
+            }
+        
+      ]
     }
   ],
   "product": [
     {
-      "name": "Roll O’Food",
+      "name": "Sữa chua lên men",
       "image": "/images/sanpham2.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA100",
@@ -125,12 +192,12 @@
       "image": "/images/sanphamchucnang4.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA101",
-      "price": "200",
+      "price": "450",
       "danhmuc": "Thực phẩm chức năng",
       "id": 3
     },
     {
-      "name": "Roll O’Food",
+      "name": "Đậu hũ non",
       "image": "/images/sanpham5.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA102",
@@ -139,7 +206,7 @@
       "id": 4
     },
     {
-      "name": "Roll O’Food",
+      "name": "Phô Mai",
       "image": "/images/sanpham6.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA103",
@@ -148,44 +215,35 @@
       "id": 5
     },
     {
-      "name": "Kirkland Viên uống bổ sung",
-      "image": "/images/sanphamchucnang3.jpg",
+      "name": "Rong biển cuộn cơm",
+      "image": "/images/sanpham4.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA104",
-      "price": "150",
-      "danhmuc": "Thực phẩm chức năng",
+      "price": "50",
+      "danhmuc": "Đồ hộp-Đồ khô",
       "id": 6
     },
     {
-      "name": "Roll O’Food",
+      "name": "Betagen",
       "image": "/images/sanpham2.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA105",
-      "price": "50",
+      "price": "65",
       "danhmuc": "Đồ mát",
       "id": 7
     },
     {
-      "name": "Kirkland Viên uống bổ sung",
+      "name": "Viên uống bổ sung Hàu",
       "image": "/images/sanphamchucnang2.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA106",
-      "price": "60",
-      "danhmuc": "Đồ mát",
+      "price": "350",
+      "danhmuc": "Thực phẩm chức năng",
       "id": 8
     },
     {
-      "name": "Kirkland Viên uống bổ sung",
-      "image": "/images/sanphamchucnang3.jpg",
-      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
-      "productcode": "AAA107",
-      "price": "70",
-      "danhmuc": "Thực phẩm chức năng",
-      "id": 9
-    },
-    {
-      "name": "Gimbap & Roll O’Food",
-      "image": "/images/sanpham5.jpg",
+      "name": "Sữa chua hộp",
+      "image": "/images/sanpham3.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA108",
       "price": "10",
@@ -193,17 +251,17 @@
       "id": 10
     },
     {
-      "name": "Kirkland Viên uống bổ sung",
+      "name": "Kirkland Dược phẩm",
       "image": "/images/sanphamchucnang1.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA109",
-      "price": "180",
+      "price": "280",
       "danhmuc": "Thực phẩm chức năng",
       "id": 11
     },
     {
       "name": "Gimbap & Roll O’Food",
-      "image": "/images/sanpham2.jpg",
+      "image": "/images/sanpham4.jpg",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
       "productcode": "AAA110",
       "price": "75",
@@ -212,32 +270,50 @@
     },
     {
       "productcode": "AAA111",
-      "name": "Kirkland",
+      "name": "Mỳ Udon",
       "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
-      "image": "/images/sanphamchucnang1.jpg",
+      "image": "/images/sanpham1.jpg",
       "price": "135",
-      "danhmuc": "Thực phẩm chức năng",
+      "danhmuc": "Đồ hộp-Đồ khô",
       "id": 13
+    },
+    {
+      "name": "Rocket 2h",
+      "image": "/images/sanphamchucnang3.jpg",
+      "description": "Trong văn hóa Việt Nam, ăn uống là cả một nghệ thuật, nó không chỉ nhằm đáp ứng yêu cầu cơ bản của con người mà còn có mối quan hệ mật thiết đến lối sống, truyền thống dân tộc, được thể hiện rất rõ qua những dụng cụ được dùng trong bữa ăn, cách ứng xử với mọi người trong khi ăn. Vì thế việc ăn uống còn minh chứng cho lịch sử và sự hình thành nền văn hoá của Việt Nam. Các món ăn qua từng giai đoạn nói lên được cuộc sống, con người của giai đoạn đó và của vùng đất – nơi đã sản sinh ra mỗi món ăn.",
+      "productcode": "AAA104",
+      "price": "150",
+      "danhmuc": "Thực phẩm chức năng",
+      "id": 14
     }
   ],
   "cartproduct": [
     {
-      "productcode": "AAA103",
-      "name": "Roll O’Food",
-      "image": "/images/sanpham6.jpg",
-      "price": "45",
-      "danhmuc": "Đồ hộp-Đồ khô",
+      "productcode": "AAA101",
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang4.jpg",
+      "price": "200",
+      "danhmuc": "Thực phẩm chức năng",
       "soluong": "1",
       "id": 1
     },
     {
-      "productcode": "AAA109",
-      "name": "Kirkland Viên uống bổ sung",
-      "image": "/images/sanphamchucnang1.jpg",
-      "price": "180",
+      "productcode": "AAA106",
+      "name": "Viên uống bổ sung Hàu",
+      "image": "/images/sanphamchucnang2.jpg",
+      "price": "60",
       "danhmuc": "Thực phẩm chức năng",
       "soluong": "1",
       "id": 2
+    },
+    {
+      "productcode": "AAA111",
+      "name": "Mỳ Udon",
+      "image": "/images/sanpham1.jpg",
+      "price": "135",
+      "danhmuc": "Đồ hộp-Đồ khô",
+      "soluong": "1",
+      "id": 3
     }
   ],
   "monan": [
@@ -604,28 +680,68 @@
           "tagName": "Người già",
           "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
-          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "questionTitle": "Sức Khỏe người già, thay đổi thói quen xấu?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/sanpham6.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":1,
+              "userimage":"/images/sanpham6.jpg",
+              "answerOfuser":"Để có được dinh dưỡng phù hợp từ chế độ ăn uống cơ thể nên được cung cấp calo hàng ngày từ các thực phẩm như: Trái cây tươi; rau sạch; các loại ngũ cốc; cây họ đậu; quả hạch; protein nạc. Một người trung bình cần ăn khoảng 2.000 calo mỗi ngày để duy trì cân nặng. Tuy nhiên, lượng tiêu thụ lượng calo hàng ngày cụ thể của một người có thể thay đổi tùy theo tuổi, giới tính và mức độ hoạt động thể chất của họ. Đàn ông thường cần nhiều calo hơn phụ nữ và những người tập thể dục cần nhiều calo hơn những người không tập thể dục.",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/tony.jpg",
+                "answerOfuser":"Tôi đồng ý với sự đóng góp của bạn. 1 vote!",
+                "votecomment":1,
+                "dateAnswer":"2021-08-25",
+                "UserName": "Khắc Hoàng"
+                },
+                {
+                  "UserImage":"/images/sanpham6.jpg",
+                  "answerOfuser":"Cám ơn bạn",
+                  "votecomment":1,
+                  "dateAnswer":"2021-08-25",
+                  "UserName": "Longkio"
+                  }
+                
+              ],
               "UserName": "Longkio"
             },
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "123",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":2,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"123",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+                "answerOfuser":"Bài viết rất hay!",
+                "votecomment":6,
+                "dateAnswer":"2021-08-25",
+                "UserName": "Tùng2"
+                }
+                
+              ],
               "UserName": "Longkio"
             },
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "234",
-              "voteAnswer": 0,
-              "dateAnswer": "2021-08-25",
+              "id":3,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"tôi không đồng ý",
+              "voteAnswer":0,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+                "answerOfuser":"Bài viết rất hay!",
+                "votecomment":6,
+                "dateAnswer":"2021-08-25",
+                "UserName": "Tùng3"
+                }
+                
+              ],
               "UserName": "hoang123"
             }
           ]
@@ -641,60 +757,106 @@
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "hello1233",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":4,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"hello1233",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+                "answerOfuser":"Bài viết rất hay!",
+                "votecomment":6,
+                "dateAnswer":"2021-08-25",
+                "UserName": "Tùng4"
+                }
+                
+              ],
               "UserName": "123123"
             },
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":5,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+                "answerOfuser":"Bài viết rất hay!",
+                "votecomment":5,
+                "dateAnswer":"2021-08-25",
+                "UserName": "Tùng5"
+                }
+                
+              ],
               "UserName": "Provip123"
             }
           ]
-        },
-        {
-          "id": 3,
-          "Userimage": "/images/image-ktdd.jpg",
-          "vote": 34,
-          "tagName": "Người già",
-          "dateTime": "2021-08-12",
-          "username": "Hello123",
-          "questionTitle": "Mẹ tôi chán ăn, cần phải làm gì để?",
-          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer": [
-            {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "hay lắm bạn",
-              "voteAnswer": 10,
-              "dateAnswer": "2021-08-25",
-              "UserName": "32432423"
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "Userimage": "/images/sanpham6.jpg",
-          "vote": 34,
-          "tagName": "Mẹ Bầu",
-          "dateTime": "2021-08-12",
-          "username": "Huấn",
-          "questionTitle": "Làm thế nào để Cải thiện sức khỏe của người già?",
-          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
-          "answer": [
-            {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "Thay đổi giấc ngủ",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
-              "UserName": "234234234"
-            }
-          ]
-        }
-      ],
+          },
+          {
+            "id": 3,
+            "Userimage":"/images/image-ktdd.jpg",
+            "vote": 34,
+            "tagName":"Người già",
+            "dateTime":"2021-08-12",
+            "username": "Hello123",
+            "questionTitle": "Mẹ tôi chán ăn, cần phải làm gì để?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+            "answer":[
+              {
+                "id":6,
+                "userimage":"/images/thanos.jpg",
+                "answerOfuser":"hay lắm bạn",
+                "voteAnswer":10,
+                "dateAnswer":"2021-08-25",
+                "replyAnswer":[
+                  {
+                  "UserImage":"/images/thanos.jpg",
+                  "answerOfuser":"Bài viết rất hay!",
+                  "votecomment":6,
+                  "dateAnswer":"2021-08-25",
+                  "UserName": "Tùng6"
+                  }
+                  
+                ],
+                "UserName": "32432423"
+              }
+  
+            ]
+          },
+          {
+            "id": 4,
+            "Userimage":"/images/sanpham6.jpg",
+            "vote": 34,
+            "tagName":"Mẹ Bầu",
+            "dateTime":"2021-08-12",
+            "username": "Huấn",
+            "questionTitle": "Làm thế nào để Cải thiện sức khỏe của người già?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+            "answer":[
+              {
+                "id":7,
+                "userimage":"/images/thanos.jpg",
+                "answerOfuser":"Thay đổi giấc ngủ",
+                "voteAnswer":5,
+                "dateAnswer":"2021-08-25",
+                "replyAnswer":[
+                  {
+                  "UserImage":"/images/thanos.jpg",
+                  "answerOfuser":"Bài viết rất hay!",
+                  "votecomment":6,
+                  "dateAnswer":"2021-08-25",
+                  "UserName": "Tùng7"
+                  }
+                  
+                ],
+                "UserName": "234234234"
+              }
+  
+            ]
+          }
+        ],
       "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
     },
     {
@@ -707,15 +869,26 @@
           "tagName": "Người bệnh",
           "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
-          "questionTitle": "Vì sao người Bệnh cần bổ sung dinh dưỡng nhiều?",
+          "questionTitle": "Sức Khỏe người bệnh, thay đổi chất lượng dinh dưỡng?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
-              "UserName": "234234234234"
+              "id":8,
+              "userimage":"/images/banner4.jpg",
+              "answerOfuser":"Dinh dưỡng có vai trò quan trọng trong quá trình điều trị các bệnh lý của người bệnh. Chế độ dinh dưỡng không phù hợp là yếu tố nguy cơ hàng đầu của suy dinh dưỡng, rối loạn chuyển hóa. Suy dinh dưỡng làm chậm lành vết thương, suy giảm chức năng miễn dịch, kéo dài thời gian nằm viện, tăng tỷ lệ biến chứng, tử vong và chi phí điều trị.",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
+              "UserName": "Monkey.D Luffy"
             }
           ]
         },
@@ -730,16 +903,28 @@
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
-              "UserName": "456456546"
+              "id":9,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
+              "UserName": "Zoro"
             }
           ]
-        }
-      ],
-      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+          }
+        ],
+      "tagDescription": "Sức Khỏe người bệnh, thay đổi chất lượng dinh dưỡng..."
+      
     },
     {
       "id": 3,
@@ -751,14 +936,25 @@
           "tagName": "Trẻ em",
           "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
-          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "questionTitle": "Sức Khỏe trẻ em, trẻ biếng ăn, thức ăn tăng chiều cao?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":10,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "456564564564"
             }
           ]
@@ -774,16 +970,28 @@
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":11,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "678678678678"
             }
           ]
-        }
-      ],
-      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+          }
+        ],
+      "tagDescription": "Sức Khỏe trẻ em, trẻ biếng ăn, thức ăn tăng chiều cao..."
+      
     },
     {
       "id": 4,
@@ -795,14 +1003,25 @@
           "tagName": "Mẹ Bầu",
           "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
-          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "questionTitle": "Những dĩnh dưỡng nào sẽ giúp mẹ bầu có dinh dưỡng?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":12,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "67867845645234"
             }
           ]
@@ -818,16 +1037,28 @@
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":13,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "809089"
             }
           ]
-        }
-      ],
-      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+          }
+        ],
+      "tagDescription": "Những dĩnh dưỡng nào giúp mẹ bầu có dinh dưỡng..."
+      
     },
     {
       "id": 5,
@@ -839,14 +1070,25 @@
           "tagName": "Trẻ dậy thì",
           "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
-          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "questionTitle": "Dinh dưỡng cần thiết cho trẻ đang dậy thì?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":14,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "6756768"
             }
           ]
@@ -862,16 +1104,28 @@
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":15,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "7897893"
             }
           ]
-        }
-      ],
-      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+          }
+        ],
+      "tagDescription": "Dinh dưỡng cần thiết cho trẻ đang dậy thì..."
+      
     },
     {
       "id": 6,
@@ -883,14 +1137,25 @@
           "tagName": "Suy Dinh Dưỡng",
           "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
-          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "questionTitle": "Những dáu hiệu nào nhân biết suy dinh dưỡng của trẻ em?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":16,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "3457593456"
             }
           ]
@@ -906,16 +1171,28 @@
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":17,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "7897893"
             }
           ]
-        }
-      ],
-      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+          }
+        ],
+      "tagDescription": "Những dáu hiệu nhân biết suy dinh dưỡng..."
+      
     },
     {
       "id": 7,
@@ -927,14 +1204,25 @@
           "tagName": "Béo Phì",
           "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
-          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "questionTitle": "Những thói quen xấu dẫn đến việc béo phì?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":18,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "3457593456"
             }
           ]
@@ -950,16 +1238,28 @@
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":19,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "7897893"
             }
           ]
-        }
-      ],
-      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+          }
+        ],
+      "tagDescription": "Những thói quen xấu dẫn đến việc béo phì..."
+      
     },
     {
       "id": 8,
@@ -971,14 +1271,25 @@
           "tagName": "Thức ăn, đồ uống",
           "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
-          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "questionTitle": "Thức ăn đồ uống nào có hại mà trẻ em nên tránh?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":20,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "3457593456"
             }
           ]
@@ -994,16 +1305,28 @@
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":21,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "7897893"
             }
           ]
-        }
-      ],
-      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+          }
+        ],
+      "tagDescription": "Thức ăn đồ uống nào có hại mà trẻ em nên tránh..."
+      
     },
     {
       "id": 9,
@@ -1015,14 +1338,25 @@
           "tagName": "Vận động viên",
           "dateTime": "2021-08-12",
           "username": "Khắc Hoàng",
-          "questionTitle": "Vì sao người già cần tránh ăn uống quá no?",
+          "questionTitle": "Trước khi chuẩn bị tập luyện thì nên ăn gì?",
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":22,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "3457593456"
             }
           ]
@@ -1038,16 +1372,291 @@
           "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
           "answer": [
             {
-              "userimage": "/images/thanos.jpg",
-              "answerOfuser": "AAAAAAAAAAAAAAAAAA",
-              "voteAnswer": 5,
-              "dateAnswer": "2021-08-25",
+              "id":23,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
               "UserName": "7897893"
             }
           ]
+          }
+        ],
+      "tagDescription": "Trước khi chuẩn bị tập luyện thì nên ăn gì..."
+      
+    },
+    {
+      "id": 10,
+      "tagname": 
+        [
+          {
+          "id": 22,
+          "Userimage":"/images/tony.jpg",
+          "vote": 12,
+          "tagName":"Thẻ dục, vận động",
+          "dateTime":"2021-08-12",
+          "username": "Khắc Hoàng",
+          "questionTitle": "Những bài tập giúp trẻ tăng chiều cao?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "id":24,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
+              "UserName": "3457593456"
+            }
+
+          ]
+        },
+          {
+            "id": 23,
+            "Userimage":"/images/thanos.jpg",
+            "vote": 10,
+            "tagName":"Vận động viên",
+            "dateTime":"2021-08-15",
+            "username": "Longlong",
+            "questionTitle": "Những bài tập nào giảm bớt đau lưng?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "id":25,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
+              "UserName": "7897893"
+            }
+          ]
+          }
+        ],
+      "tagDescription": "Trước khi chuẩn bị tập luyện thì nên ăn gì..."
+      
+    },
+    {
+      "id": 11,
+      "tagname": 
+        [
+          {
+          "id": 24,
+          "Userimage":"/images/tony.jpg",
+          "vote": 12,
+          "tagName":"Bệnh,Đau,ốm",
+          "dateTime":"2021-08-12",
+          "username": "Khắc Hoàng",
+          "questionTitle": "Đau dạ dày, tránh những đồ ăn nào?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "id":26,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
+              "UserName": "3457593456"
+            }
+
+          ]
+        },
+          {
+            "id": 25,
+            "Userimage":"/images/thanos.jpg",
+            "vote": 10,
+            "tagName":"Vận động viên",
+            "dateTime":"2021-08-15",
+            "username": "Longlong",
+            "questionTitle": "Cách hạ sốt một cách an toàn và tốt nhất?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "id":27,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
+              "UserName": "7897893"
+            }
+          ]
+          }
+        ],
+      "tagDescription": "Trước khi chuẩn bị tập luyện thì nên ăn gì..."
+      
+    },
+    {
+      "id": 12,
+      "tagname": 
+        [
+          {
+          "id": 26,
+          "Userimage":"/images/tony.jpg",
+          "vote": 12,
+          "tagName":"Loại Thuốc, Phương thuốc",
+          "dateTime":"2021-08-12",
+          "username": "Khắc Hoàng",
+          "questionTitle": "Những loại huốc hạ sốt, tránh dị ứng?",
+          "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "id":28,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
+              "UserName": "3457593456"
+            }
+
+          ]
+        },
+          {
+            "id": 27,
+            "Userimage":"/images/thanos.jpg",
+            "vote": 10,
+            "tagName":"Loại Thuốc, Phương thuốc",
+            "dateTime":"2021-08-15",
+            "username": "Longlong",
+            "questionTitle": "Cách hạ sốt một cách an toàn và tốt nhất?",
+            "Que_description": "Một bữa ăn quá no là sự căng thẳng cho cơ thể về nhiều mặt, một gánh nặng quá tải đối với nhiều chức năng của cơ thể: tiêu hoá, tim mạch, dạ dầy v.v. Nó có thể là nguyên nhân làm rối loạn chức năng tiêu hoá, hấp...",
+          "answer":[
+            {
+              "id":28,
+              "userimage":"/images/thanos.jpg",
+              "answerOfuser":"AAAAAAAAAAAAAAAAAA",
+              "voteAnswer":5,
+              "dateAnswer":"2021-08-25",
+              "replyAnswer":[
+                {
+                "UserImage":"/images/thanos.jpg",
+              "answerOfuser":"Bài viết rất hay!",
+              "votecomment":6,
+              "dateAnswer":"2021-08-25",
+              "UserName": "Tùng"
+                }
+                
+              ],
+              "UserName": "7897893"
+            }
+          ]
+          }
+        ],
+      "tagDescription": "Trước khi chuẩn bị tập luyện thì nên ăn gì..."
+      
+    }
+  ],
+
+  "kienthucPage":[
+    {
+      "id":1,
+      "ktdd":[
+        { 
+          "id":1,
+          "titileKtdd":"Sức Khỏe và dinh dưỡng cho bé",
+          "imagePage":"/images/kienthucdinhduong.jpg",
+          "tqt":"Chất lượng nuôi dưỡng hay chất lượng dinh dưỡng (sữa) trong những năm tháng đầu đời sẽ ảnh hưởng đến khả năng học tập của trẻ sau này. Nhiều nghiên cứu khoa học cho thấy trẻ được cung cấp đầy đủ dinh dưỡng trong quá trình phát triển thai nhi và giai đoạn đầu đời thường có chỉ số IQ cao hơn hoặc trẻ bị thiếu sắt sẽ có nguy cơ giảm nhận thức và thành tích ở tuổi đi học.",
+          "tqt2":"Bên cạnh đó, khoa học cũng chứng minh rằng những trẻ được cung cấp đầy đủ dinh dưỡng thường thích vận động, có khả năng tương tác xã hội, ham học hỏi và có khả năng nhận thức tốt hơn. Vì vậy cha mẹ nên lưu ý cung cấp đủ dinh dưỡng, vitamin, khoáng chất và dưỡng chất cho sự phát triển não bộ và cơ thể của trẻ.",
+          "mota":"Dinh dưỡng cho Bé"
         }
-      ],
-      "tagDescription": "Sức Khỏe người già, thay đổi thói quen xấu..."
+      ]
+    },
+    {
+      "id":2,
+      "ktdd":[
+        {
+          "id":2,
+          "titileKtdd":"Sức Khỏe và dinh dưỡng cho người bệnh",
+          "imagePage":"/images/thudondinhduong.jpg",
+          "tqt":"Dinh dưỡng có vai trò quan trọng trong quá trình điều trị các bệnh lý của người bệnh. Chế độ dinh dưỡng không phù hợp là yếu tố nguy cơ hàng đầu của suy dinh dưỡng, rối loạn chuyển hóa. Suy dinh dưỡng làm chậm lành vết thương, suy giảm chức năng miễn dịch, kéo dài thời gian nằm viện, tăng tỷ lệ biến chứng, tử vong và chi phí điều trị, giảm mức lọc cầu thận, thay đổi chức năng hệ tim mạch, thay đổi dược động học của thuốc, giảm chất lượng cuộc sống của người bệnh.",
+          "tqt2":"Chăm sóc và điều trị dinh dưỡng cho người bệnh trong thời gian nằm viện đặc biệt quan trọng với những bệnh nhân. Vì vậy cần phải nắm vững các kiến thức dinh dưỡng cần thiết.",
+          "mota":"Dinh dưỡng cho người bệnh"
+        }
+      ]
+    },
+    {
+      "id":3,
+      "ktdd":[
+        {
+          "id":3,
+          "titileKtdd":"Sức Khỏe và dinh dưỡng theo nhu cầu",
+          "imagePage":"/images/image-ktdd.jpg",
+          "tqt":"Nhu cầu về năng lượng là điểm quan trọng hàng đầu trong khẩu phần ăn, khi đủ nhu cầu năng lượng tức là đảm bảo cho trẻ được ăn no, khi đã ăn no thì mới quan tâm đến tính cân đối của khẩu phần. Thực phẩm là nguồn cung cấp năng lượng chính cho cơ thể, trong đó chất đạm, chất béo, chất đường bột trong thực phẩm là những chất sinh năng lượng.",
+          "tqt2":"Cung cấp năng lượng không đủ hoặc thừa so với nhu cầu của trẻ trong một thời gian dài sẽ dẫn đến hiện tượng thiếu dinh dưỡng (suy dinh dưỡng) hoặc thừa dinh dưỡng (thừa cân/béo phì).",
+          "mota":"Dinh dưỡng theo nhu cầu"
+        }
+      ]
+    },
+    {
+      "id":4,
+      "ktdd":[
+        {
+          "id":4,
+          "titileKtdd":"Sức Khỏe và dinh dưỡng cho mẹ",
+          "imagePage":"/images/dd-chome.jpg",
+          "tqt":"Chế độ dinh dưỡng như thế nào, nên và không nên ăn gì để có nguồn sữa dồi dào cho con luôn là mối quan tâm hàng đầu của các sản phụ. Một chế độ ăn uống hợp lí cùng tinh thần thoải mái sẽ giúp mẹ nhanh chóng hồi phục sức khỏe sau cuộc vượt cạn vất vả.",
+          "tqt2":"Trong quá trình mang thai cũng như sinh nở, các mẹ đã mất khá nhiều năng lượng cho những hoạt động như: cung cấp dinh dưỡng cho thai nhi phát triển, sản xuất sữa non trong những tháng cuối của kỳ thai và tiết sữa để nuôi con ngay sau khi sinh, mất máu khi sinh… Do đó, nhu cầu năng lượng và dinh dưỡng của các mẹ đang nuôi con bú là rất cao, thậm chí còn cao hơn so với thời kỳ thai nghén.",
+          "mota":"Dinh dưỡng cho mẹ"
+        }
+      ]
     }
   ]
+  
 }

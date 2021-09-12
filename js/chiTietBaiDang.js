@@ -20,7 +20,7 @@ function rederBaiDang(baidangs) {
     var id = uid.slice(4);
     if (id == item.id) {
       return `
-        <div class="bai_dang pb-4">
+        <div class="pb-4">
         <div class="card border-0 post-item" style="width: 100%;">
             <div class="hovereffect float-start  text-center">
               <img class="img-responsive card-img-top img-Post img-fluid"  src="${item.hinhAnh}" alt="">
