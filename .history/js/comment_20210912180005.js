@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 $(document).ready(function(){
   var getKey = localStorage.getItem("key");
@@ -17,6 +18,7 @@ $(document).ready(function(){
 function dangXuat(){
   localStorage.clear();
 }
+=======
 var baiDangApi = "http://localhost:3000/baidang";
 function start() {
   getBaiDangs(rederBaiDang);
@@ -129,3 +131,4 @@ function rederBaiDang(baidangs) {
 
 
 
+>>>>>>> 1a0d1dc2460797867e08233ad685c44016bdeb49

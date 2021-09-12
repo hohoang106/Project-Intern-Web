@@ -278,7 +278,7 @@ function uploadProduct(products){
       <div class="col-md-3 col-6 mt-5 carditem" data-price="${product.price}">
             <div class="card">
               <div style="color: #187AAB;">
-                <i onclick="btndetail(${product.id})" class="fas fa-eye" data-toggle="modal" data-target="#addProductModal" style="float: right; padding: 7px;  cursor: pointer;"></i>
+                <i onclick="btndetail(${product.id})" class="fas fa-eye" data-toggle="modal" data-target="#addProductModal" style="float: right; padding: 7px;"></i>
                 <i class="far fa-heart" style="float: right; padding: 7px;">12</i>
                 <a href="/homepage/detailproduct.html?id=${product.id}" onclick="btndetailpage(${product.id})"><img src="${product.image}" class="card-img-top" alt="..."></a>
               </div>
