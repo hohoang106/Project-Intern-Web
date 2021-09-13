@@ -326,31 +326,22 @@
       "id": 1
     },
     {
-      "productcode": "AAA106",
-      "name": "Viên uống bổ sung Hàu",
-      "image": "/images/sanphamchucnang2.jpg",
-      "price": "60",
-      "danhmuc": "Thực phẩm chức năng",
+      "productcode": "AAA103",
+      "name": "Phô Mai",
+      "image": "/images/sanpham6.jpg",
+      "price": "45",
+      "danhmuc": "Đồ hộp-Đồ khô",
       "soluong": "1",
       "id": 2
     },
     {
-      "productcode": "AAA111",
-      "name": "Mỳ Udon",
-      "image": "/images/sanpham1.jpg",
-      "price": "135",
-      "danhmuc": "Đồ hộp-Đồ khô",
+      "productcode": "AAA110",
+      "name": "Gimbap & Roll O’Food",
+      "image": "/images/sanpham4.jpg",
+      "price": "75",
+      "danhmuc": "Đồ mát",
       "soluong": "1",
       "id": 3
-    },
-    {
-      "productcode": "AAA100",
-      "name": "Sữa chua lên men",
-      "image": "/images/sanpham2.jpg",
-      "price": "20",
-      "danhmuc": "Đồ mát",
-      "soluong": "2",
-      "id": 6
     }
   ],
   "monan": [
