@@ -72,6 +72,8 @@ var price = document.getElementsByClassName('price');
 var totalprice = document.getElementsByClassName('totalprice');
 var value = document.getElementsByClassName('quantity1');
 var checktotalprice = document.getElementById('checktotalprice');
+var checktotalpricecart = document.getElementById('checktotalpricecart');
+var checktotalprice = document.getElementById('checktotalprice');
 
 function tinhtong(){
 var num = 0
@@ -80,6 +82,7 @@ for(var i = 0; i < price.length; i++){
     var ttien = parseInt(totalprice[i].innerText);
     num += ttien;
 }
+checktotalpricecart.innerText = String(num)
 checktotalprice.innerText = String(num)
 }
 tinhtong()
@@ -90,7 +93,9 @@ $("input.quantity1").each(function(){
     $(qty).on('click',function(){
         if ($(this).hasClass('minus1')){  
                 d+=-1
-            if(d<1) alert('Số lượng sản phẩm cần mua tối thiểu là 1')      
+            if(d<1){
+               alert('Số lượng sản phẩm cần mua tối thiểu là 1')     
+            } 
         }else if ($(this).hasClass('add1')){
             d += 1  
         }     

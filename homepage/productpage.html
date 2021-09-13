@@ -30,43 +30,39 @@
   <div class="container" id="bodyproduct">
     <!-- <input class="inputtext form-control col-xl-3 col-12" type="search" placeholder="Tìm kiếm"> -->
         <div class="row mt-3 ">
-          <div class="navheader">
-          <ul class="nav nav-tabs">
-              <li class="nav-item">
-                <a class="nav-link filterpall" data-toggle="tab" href="#menu1">Tất cã</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link filterpdomat" data-toggle="tab" href="">Đồ mát</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link filterphopkho" data-toggle="tab" href="">Đồ hộp-Đồ khô</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link filterpchucnang" data-toggle="tab" href="">Thực phẩm chức năng</a>
-              </li>
-          </ul>
+
+          <!-- price range -->
+          <div class="demo col-md-6 col-12" style="padding-left: 100px;padding-right: 100px">
+            <div >
+              <label for="amount">Theo Giá Tiền:</label>
+              <input type="text" id="amount" style="border:0; color:#187AAB; font-weight:bold;" />
+            </div>
+            <div id="slider-range"></div>
           </div>
          
-          <div class="selecttype col mt-3">
-            <div class="d-flex justify-content-end">
+          <div class="selecttype col-md-6 col-12 mt-3">
+            <div class="d-flex justify-content-center">
 
-              <!-- price range -->
-              <div class="demo">
-                <div >
-                  <label for="amount">Price range:</label>
-                  <input type="text" id="amount" style="border:0; color:#187AAB; font-weight:bold;" />
+              <div class="bt1 " style="margin-left: 30px;margin-right: 30px;">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  Theo Từng Danh Mục
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item filterpall" >Tất cã</a>
+                  <a class="dropdown-item filterpdomat" >Đồ mát</a>
+                  <a class="dropdown-item filterphopkho" >Đồ hộp-Đồ khô</a>
+                  <a class="dropdown-item filterpchucnang" >Thực phẩm chức năng</a>
                 </div>
-                <div id="slider-range"></div>
-              </div>
+            </div>
 
-              <div class="bt1" style="margin-left: 60px;">
+              <div class="bt2 " style="margin-left: 30px;margin-right: 30px;">
                   <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                    Thứ tự mặc định
+                    Theo Thứ tự mặc định
                   </button>
                   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#" onclick="lowprice()">Từ thấp đến cao</a>
-                    <a class="dropdown-item" href="#" onclick="hightprice()">Từ cao đến thấp</a>
-                    <a class="dropdown-item" href="#">Được Mua nhiều nhất</a>
+                    <a class="dropdown-item" onclick="lowprice()">Từ thấp đến cao</a>
+                    <a class="dropdown-item" onclick="hightprice()">Từ cao đến thấp</a>
+                    <a class="dropdown-item" >Được Mua nhiều nhất</a>
                   </div>
               </div>
 
@@ -87,7 +83,7 @@
           </div>
       </div>
     </div>
-    <div class="row mt-3">
+    <div class="row mt-5">
       <div class="col d-flex justify-content-end">
           <ul class="pagination">
               <li class="page-item"><a class="page-link" href="#">Previous</a></li>
