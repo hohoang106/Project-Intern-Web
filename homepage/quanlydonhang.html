@@ -12,74 +12,113 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/css/sb-admin-2.css">
+
 </head>
 
 <body>
-<!-- Navbar -->
-<div id="header-navbar-admin">
-</div>
-    
+  <!-- Navbar -->
+  <!-- <div id="header-navbar-admin">
+</div> -->
 
-  <div class="container-fluid">
-    <div class="container mt-2">
-      <table class="table table-striped mt-2" >
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <img src="/images/logo-nobg.png" height="50px" alt=""></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Admin</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Charts -->
+      <li class="nav-item">
+        <a class="nav-link" href="charts.html">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Thống kê</span></a>
+      </li>
+
+      <!-- Nav Item - Tables -->
+      <li class="nav-item ">
+        <a class="nav-link" href="quanlybaidang.html">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Quản lý bài đăng</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="quanlysanpham.html">
+          <i class="fas fa-luggage-cart"></i>
+          <span>Quản lý sản phẩm</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="quanlydonhang.html">
+          <i class="fas fa-file-invoice"></i>
+          <span>Quản lý đơn hàng</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="trangchu.html">
+          <i class="fas fa-sign-out-alt"></i>
+          <span>Đăng xuất</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+
+    </ul>
+    <!-- End of Sidebar -->
+    <div class="container-fluid">
+      <table class="table table-striped mt-2">
         <thead>
           <tr>
-            <th >Mã hóa đơn</th>
-            <th >Ngày đặt</th>
-            <th >Số lượng sản phẩm</th>
-            <th >Tổng giá</th>
-            <th >Trạng thái</th>
-            <th >Tác vụ</th>
+            <th>Ngày đặt</th>
+            <th>Số lượng sản phẩm</th>
+            <th>Tổng giá</th>
+            <th>Tác vụ</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>HD01</td>
             <td>25/08/2021</td>
             <td>3</td>
             <td>600.000 vnđ</td>
-            <td class="text-white"><span class="bg-secondary p-2">Chờ duyệt</span> </td>
             <td>
               <a href="chitietdonhang.html">Chi tiết</a>
             </td>
           </tr>
           <tr>
-            <td>HD02</td>
             <td>25/08/2021</td>
             <td>5</td>
             <td>900.000 vnđ</td>
-            <td class="text-white"><span class="bg-success p-2">Đã được duyệt</span> </td>
             <td>
               <a href="chitietdonhang.html">Chi tiết</a>
             </td>
           </tr>
           <tr>
-            <td>HD03</td>
             <td>25/08/2021</td>
             <td>2</td>
             <td>200.000 vnđ</td>
-            <td class="text-white"><span class="bg-danger p-2">Đã hủy</span> </td>
             <td>
               <a href="">Chi tiết</a>
             </td>
           </tr>
-        
+
         </tbody>
       </table>
-      <nav aria-label="Page navigation">
-        <ul class="pagination">
-          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-          <li class="page-item active"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">Next</a></li>
-        </ul>
-      </nav>
-    </div>
 
+
+    </div>
   </div>
-  <script src="/homepage/navbarAdmin.js"></script>
+  <script src="/js/sb-admin-2.js"></script>
 </body>
 
 </html>
