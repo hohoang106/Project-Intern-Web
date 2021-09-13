@@ -93,6 +93,7 @@ $("input.quantity1").each(function(){
             if(d<1)
 
             {
+              deletecartProduct(id);
               alert('Số lượng sản phẩm cần mua tối thiểu là 1')      
             }
            

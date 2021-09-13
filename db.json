@@ -195,6 +195,14 @@
       "noiDung": "helllooooooooooooooooooooo",
       "tacGia": "khac hoang",
       "id": 12
+    },
+    {
+      "ngayDang": "22/11/2012",
+      "tieuDe": "Tiêu đề",
+      "noiDung": "",
+      "hinhAnh": "C:\\fakepath\\backgr1.jpg",
+      "tacGia": "zxcxzc",
+      "id": 13
     }
   ],
   "product": [
@@ -336,13 +344,13 @@
       "id": 3
     },
     {
-      "productcode": "AAA101",
-      "name": "Kirkland Viên uống bổ sung",
-      "image": "/images/sanphamchucnang4.jpg",
-      "price": "450",
-      "danhmuc": "Thực phẩm chức năng",
-      "soluong": "1",
-      "id": 4
+      "productcode": "AAA100",
+      "name": "Sữa chua lên men",
+      "image": "/images/sanpham2.jpg",
+      "price": "20",
+      "danhmuc": "Đồ mát",
+      "soluong": "2",
+      "id": 6
     }
   ],
   "monan": [

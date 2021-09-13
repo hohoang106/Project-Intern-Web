@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="/css/index.css">
   <link rel="stylesheet" href="/css/nav.css">
   <script src="/js/app.js" defer></script>
-
   <link rel="stylesheet" href="/css/sb-admin-2.css">
+
 
 </head>
 
@@ -20,59 +20,55 @@
   <!-- <div id="header-navbar-admin">
   </div> -->
 
- <div id="wrapper"> 
-        <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+  <div id="wrapper"> 
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-          <!-- Sidebar - Brand -->
-          <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-              <div class="sidebar-brand-icon rotate-n-15">
-                  <i class="fas fa-laugh-wink"></i>
-              </div>
-              <div class="sidebar-brand-text mx-3">Admin</div>
-          </a>
-
-          <!-- Divider -->
-          <hr class="sidebar-divider my-0">
-
-          <!-- Nav Item - Dashboard -->
-          <li class="nav-item ">
-              <a class="nav-link" href="q.html">
-                  <i class="fas fa-fw fa-tachometer-alt"></i>
-                  <span>Dashboard</span></a>
-          </li>
-
-          <!-- Nav Item - Charts -->
-          <li class="nav-item">
-              <a class="nav-link" href="charts.html">
-                  <i class="fas fa-fw fa-chart-area"></i>
-                  <span>Thống kê</span></a>
-          </li>
-
-          <!-- Nav Item - Tables -->
-          <li class="nav-item">
-              <a class="nav-link" href="quanlybaidang.html">
-                  <i class="fas fa-fw fa-table"></i>
-                  <span>Quản lý bài đăng</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="quanlysanpham.html">
-                <i class="fas fa-fw fa-table"></i>
-                <span>Quản lý sản phẩm</span></a>
-        </li>
-          <!-- Divider -->
-          <hr class="sidebar-divider d-none d-md-block">
-
-          <!-- Sidebar Toggler (Sidebar) -->
-          <div class="text-center d-none d-md-inline">
-              <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+          <div class="sidebar-brand-icon rotate-n-15">
+              <i class="fas fa-laugh-wink"></i>
           </div>
+          <div class="sidebar-brand-text mx-3">Admin</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item ">
+          <a class="nav-link" href="q.html">
+              <i class="fas fa-fw fa-tachometer-alt"></i>
+              <span>Dashboard</span></a>
+      </li>
+
+      <!-- Nav Item - Charts -->
+      <li class="nav-item">
+          <a class="nav-link" href="charts.html">
+              <i class="fas fa-fw fa-chart-area"></i>
+              <span>Thông kê</span></a>
+      </li>
+
+      <!-- Nav Item - Tables -->
+      <li class="nav-item active">
+          <a class="nav-link" href="quanlybaidang.html">
+              <i class="fas fa-fw fa-table"></i>
+              <span>Quản lý bài đăng</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+          <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
 
 
-      </ul>
-      <!-- End of Sidebar -->
+  </ul>
+  <!-- End of Sidebar -->
   <!-- Table -->
-  <div class="container-fluid mt-3">
+  <div class="container-fluid">
     <!-- <div class="container mt-2"> -->
       <div class="d-flex justify-content-between">
         <button class="btn-vietBai p-2" data-toggle="modal" data-target="#addProductModal">
@@ -97,14 +93,60 @@
 
         </tbody>
       </table>
-
+      <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
     </div>
 
   </div>
 
-  </div>
+</div>
 
   
+  <!-- Table -->
+  <div class="container-fluid">
+    <div class="container mt-2">
+      <div class="d-flex justify-content-between">
+        <button class="btn-vietBai p-2" data-toggle="modal" data-target="#addProductModal">
+          <i class="fas fa-plus-circle p-1 text-white"></i>
+          <span class="text-white">Thêm sản phẩm</span>
+        </button>
+      </div>
+
+      <table class="table table-striped mt-2" id="content-product">
+        <thead>
+          <tr>
+            <th>Mã sản phẩm</th>
+            <th>Tên sản phẩm</th>
+            <th>Mô tả</th>
+            <th>Hình ảnh</th>
+            <th>Giá</th>
+            <th>Danh mục</th>
+            <th>Tác vụ</th>
+          </tr>
+        </thead>
+        <tbody id="list-products">
+
+        </tbody>
+      </table>
+      <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </div>
 
   <!-- Modal thêm sản phẩm-->
   <div class="modal" id="addProductModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -211,7 +253,7 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/1.11.1/css/jquery.dataTables.min.css">
   <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
   <script src="/homepage/navbarAdmin.js"></script>
-  <script src="/js/sb-admin-2.js"></script>
+
 </body>
 
 </html>

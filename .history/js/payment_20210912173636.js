@@ -90,15 +90,8 @@ $("input.quantity1").each(function(){
     $(qty).on('click',function(){
         if ($(this).hasClass('minus1')){  
                 d+=-1
-            if(d<1)
-
-            {
-              alert('Số lượng sản phẩm cần mua tối thiểu là 1')      
-            }
-           
-        
-        
-          }else if ($(this).hasClass('add1')){
+            if(d<1) alert('Số lượng sản phẩm cần mua tối thiểu là 1')      
+        }else if ($(this).hasClass('add1')){
             d += 1  
         }     
         $this.attr('value',d).val(d)

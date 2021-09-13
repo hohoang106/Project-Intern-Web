@@ -60,7 +60,7 @@ function rederBaiDang(baidangs) {
   listBaiDangs.innerHTML = htmls.join('');
  
     $('#contentList').DataTable({
-      // searching: false,
+      searching: false,
       bLengthChange: false,
       // bFilter: false,
       bInfo: false,

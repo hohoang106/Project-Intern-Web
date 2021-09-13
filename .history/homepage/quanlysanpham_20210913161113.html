@@ -17,8 +17,8 @@
 
 <body>
   <!-- Navbar -->
-  <!-- <div id="header-navbar-admin">
-  </div> -->
+  <div id="header-navbar-admin">
+  </div>
 
  <div id="wrapper"> 
         <!-- Sidebar -->
@@ -46,20 +46,16 @@
           <li class="nav-item">
               <a class="nav-link" href="charts.html">
                   <i class="fas fa-fw fa-chart-area"></i>
-                  <span>Thống kê</span></a>
+                  <span>Thông kê</span></a>
           </li>
 
           <!-- Nav Item - Tables -->
-          <li class="nav-item">
+          <li class="nav-item active">
               <a class="nav-link" href="quanlybaidang.html">
                   <i class="fas fa-fw fa-table"></i>
                   <span>Quản lý bài đăng</span></a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="quanlysanpham.html">
-                <i class="fas fa-fw fa-table"></i>
-                <span>Quản lý sản phẩm</span></a>
-        </li>
+
           <!-- Divider -->
           <hr class="sidebar-divider d-none d-md-block">
 
@@ -72,8 +68,8 @@
       </ul>
       <!-- End of Sidebar -->
   <!-- Table -->
-  <div class="container-fluid mt-3">
-    <!-- <div class="container mt-2"> -->
+  <div class="container-fluid">
+    <div class="container mt-2">
       <div class="d-flex justify-content-between">
         <button class="btn-vietBai p-2" data-toggle="modal" data-target="#addProductModal">
           <i class="fas fa-plus-circle p-1 text-white"></i>
@@ -97,7 +93,15 @@
 
         </tbody>
       </table>
-
+      <nav aria-label="Page navigation">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
     </div>
 
   </div>
@@ -211,7 +215,7 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/1.11.1/css/jquery.dataTables.min.css">
   <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
   <script src="/homepage/navbarAdmin.js"></script>
-  <script src="/js/sb-admin-2.js"></script>
+
 </body>
 
 </html>

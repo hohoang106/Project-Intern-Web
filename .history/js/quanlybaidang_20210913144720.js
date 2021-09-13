@@ -60,9 +60,9 @@ function rederBaiDang(baidangs) {
   listBaiDangs.innerHTML = htmls.join('');
  
     $('#contentList').DataTable({
-      // searching: false,
+      searching: false,
       bLengthChange: false,
-      // bFilter: false,
+      bFilter: false,
       bInfo: false,
       bAutoWidth: false,
       ordering: false,
@@ -74,8 +74,8 @@ function handleCreateForm() {
   btnAdd.onclick = function () {
     var ngaydang = document.querySelector('input[name="ngay-dang"]').value;
     var tieude = document.querySelector('input[name="tieu-de"]').value;
-    var noidung = document.querySelector('input[name="noi-dung"]').value;
-    // var data = CKEDITOR.instances.editor1.getData();
+    // var noidung = document.querySelector('input[name="noi-dung"]').value;
+    var noidung = CKEDITOR.instances.getData();
     var hinhanh = document.querySelector('input[name="chon-anh"]').value;
     var tacgia = document.querySelector('input[name="tac-gia"]').value;
 

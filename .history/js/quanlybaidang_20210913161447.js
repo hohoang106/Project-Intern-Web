@@ -61,7 +61,7 @@ function rederBaiDang(baidangs) {
  
     $('#contentList').DataTable({
       // searching: false,
-      bLengthChange: false,
+      // bLengthChange: false,
       // bFilter: false,
       bInfo: false,
       bAutoWidth: false,
