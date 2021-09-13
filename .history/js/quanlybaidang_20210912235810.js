@@ -75,10 +75,24 @@ function handleCreateForm() {
     var ngaydang = document.querySelector('input[name="ngay-dang"]').value;
     var tieude = document.querySelector('input[name="tieu-de"]').value;
     var noidung = document.querySelector('input[name="noi-dung"]').value;
-    var hinhanh = document.querySelector('input[name="chon-anh"]').value;
+    var hinhanh = document.querySelector('input[name="chon-anh"]');
     var tacgia = document.querySelector('input[name="tac-gia"]').value;
 
-
+    if (hinhanh.files && hinhanh.files[0]) {
+      var reader = new FileReader();
+      reader.onload = function(event) {
+          var dataUrl = event.target.result,
+          img = document.createElement("img");
+          hinhanh.src = dataUrl;
+          width = img.width;
+          height = img.height;
+          fileSize = imgFile.files[0].size;
+          alert(width);
+          alert(height);
+          alert(fileSize);
+     };
+     reader.readAsDataURL(imgFile.files[0]);
+  }
 
     var formData = {
       ngayDang: ngaydang,

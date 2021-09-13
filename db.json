@@ -173,6 +173,28 @@
           "UserName": "6756768"
         }
       ]
+    },
+    {
+      "ngayDang": "22/11/2012",
+      "tieuDe": "Tiêu đề",
+      "noiDung": "helllooooooooooooooooooooo",
+      "hinhAnh": {},
+      "tacGia": "khac hoang",
+      "id": 10
+    },
+    {
+      "ngayDang": "22/11/2012",
+      "tieuDe": "Tiêu đề",
+      "noiDung": "helllooooooooooooooooooooo",
+      "tacGia": "zxczxc",
+      "id": 11
+    },
+    {
+      "ngayDang": "22/11/2012",
+      "tieuDe": "Tiêu đề",
+      "noiDung": "helllooooooooooooooooooooo",
+      "tacGia": "khac hoang",
+      "id": 12
     }
   ],
   "product": [
@@ -312,6 +334,15 @@
       "danhmuc": "Đồ hộp-Đồ khô",
       "soluong": "1",
       "id": 3
+    },
+    {
+      "productcode": "AAA101",
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang4.jpg",
+      "price": "450",
+      "danhmuc": "Thực phẩm chức năng",
+      "soluong": "1",
+      "id": 4
     }
   ],
   "monan": [
@@ -367,7 +398,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "img": "http://ygcfood.vn/wp-content/uploads/2020/06/c%C3%A1ch-l%C3%A0m-bun-kh%C3%B4.jpg",
       "name": "Bún cá rô",
       "video": "https://www.youtube.com/embed/hoTo3zvYnGA",
@@ -550,6 +581,75 @@
         "Ngao rửa sạch ngâm nước 10’, dùng dao tách ngao lấy nhân, rửa thịt ngao, giữ lại nước rửa, gan lấy nước trong.",
         "Cho ngao ướp thìa mắm ngon, chút nước chanh để 5’. Bắc nồi lên bếp đảo đều cho ngao ngấm mắm muối ngao chín tới, cho nước rửa ngao vào, nếu ít nước chế thêm nước lọc cho đủ ăn, nấu sôi thả rau vào nấu khoảng 3-5’ rau chín nêm hạt nêm cho vừa miệng.",
         "Cho ra tô và dùng"
+      ]
+    },
+    {
+      "id": 7,
+      "img": "http://www.mabu.vn/wp-content/uploads/2017/09/bot-thit-lon-hat-sen.jpg",
+      "name": "Bột thịt lợn",
+      "video": "https://www.youtube.com/embed/xmycKqXCgiY",
+      "material": [
+        {
+          "matM": "Bột gạo tẻ",
+          "matK": "15g"
+        },
+        {
+          "matM": "Thịt nạc",
+          "matK": "15g "
+        },
+        {
+          "matM": "Dầu",
+          "matK": "5ml"
+        },
+        {
+          "matM": "Rau xanh giã nhỏ",
+          "matK": "10g "
+        },
+        {
+          "matM": "Nước",
+          "matK": "150ml"
+        }
+      ],
+      "step": [
+        "Thịt lợn (heo) xay nhuyễn trộn với 1/3 bát (chén) nước, dùng đũa đánh tan cho đến khi thịt không bị vón cục, nấu thịt với lửa nhỏ khi thịt chín thì tắt bếp.",
+        "Rau ngót rửa sạch, nấu chín và xay nhuyễn.",
+        "Đổ 2/3 bát nước còn lại vào nồi, khuấy đều bột cho tan.",
+        "Cho thịt lợn vào ninh chung với bột, đun sôi nhỏ lửa, khuấy đều tay, cho thêm rau ngót đã xay nhuyễn.",
+        "Tiếp tục khuấy đều tay khoảng 3 phút thì tắt bếp, cho dầu ăn vào trộn đều, múc ra bát."
+      ]
+    },
+    {
+      "id": 8,
+      "img": "https://dinhduong.com.vn/wp-content/uploads/bot-tom.jpg",
+      "name": "Bột tôm",
+      "video": "https://www.youtube.com/embed/aAXvSFiuq6M",
+      "material": [
+        {
+          "matM": "Bột gạo tẻ",
+          "matK": "15g"
+        },
+        {
+          "matM": "Tôm sú",
+          "matK": "15g "
+        },
+        {
+          "matM": "Dầu",
+          "matK": "5ml"
+        },
+        {
+          "matM": "Mướp hương",
+          "matK": "10g "
+        },
+        {
+          "matM": "Nước",
+          "matK": "150ml"
+        }
+      ],
+      "step": [
+        "Tôm lột vỏ, bỏ chỉ lưng, rửa sạch, băm nhuyễn, trộn với 1/3 bát (chén) nước, dùng đũa khuấy tan để nấu tôm không bị vón cục. Nấu chín tôm rồi đem xay nhuyễn",
+        "Mướp lấy phần ruột, rửa sạch, băm nhuyễn, hấp chín và xay nhuyễn",
+        "Đổ 2/3 bát (chén) nước còn lại vào nồi, khuấy đều bột cho tan, nấu nhuyễn",
+        "Cho tôm vào nồi bột đã được nấu nhuyễn, đun sôi nhỏ lửa, khuấy đều tay để hỗn hợp không bị cháy hoặc vón cục. Khi bột đã sôi lăn tăn cho ruột mướp đã xay nhuyễn trộn đều rồi tắt bếp, cho dầu ăn vào trộn đều, múc ra bát (chén)"
       ]
     }
   ],

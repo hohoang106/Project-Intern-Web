@@ -145,6 +145,7 @@ th{
  height: 50px;
 }
 .question-page{
+  border-bottom: 1px solid rgb(212, 211, 211);
   background-color: #e0f0f5;
 }
 .author-name{
@@ -170,6 +171,7 @@ th{
 }
 .datCauHoi, .fa-2x{
   color: #187AAB;
+  
 }
 .title-a{
   cursor: pointer;
@@ -186,13 +188,6 @@ th{
 .fa-caret-up,.fa-caret-down{
   font-size: 30px;
 }
-.hoi_dap_list{
-  margin-top: 75px;
-}
-.question_question{
-  background-color: #e0f0f5;
-  border-bottom: 1px solid #187AAB;
-}
 @media (max-width: 768px) {
   *{
     font-size: 14px;
@@ -202,7 +197,6 @@ th{
   }
   .block-vote{
     flex-direction: row;
-    justify-content: center;
   }
   .vote{
     margin-left: 1rem;
@@ -213,15 +207,21 @@ th{
   .text-slide{
     font-size: 1.5rem;
   }
-  .question-page{
-    padding: 0 15px;
-  } 
+  
 }
-@media (max-width: 576px) {
-  .block-vote{
-    justify-content: start;
+@media (min-width: 769px) and (max-width: 1200px) {
+  .img-tapluyen{
+    height: 500px;
   }
+  .card-title{
+    font-size: 16px;
+  }
+  .card-text{
+    font-size: 14px;
+  }
+  
 }
+
 .dropdown:hover .dropdown-menu{display: block;}
 .card-title{
   cursor: pointer;
@@ -261,5 +261,5 @@ h3{
 }
 
 .card:hover{
-  border-color: #187AAB;
+  border: 3px solid #187AAB;
 }
