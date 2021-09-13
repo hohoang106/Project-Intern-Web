@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/product.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/validate.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -20,12 +21,7 @@
 <!-- mainheader -->
 
     <div class="container">
-        <div class="row mt-3">
-            <div class="col-md-4 col-12">
-                <a type="button" class="btn btn-primary" href="productpage.html">
-                    Tiếp tục mua hàng</a>
-            </div>
-        </div>
+        
         <div class="table-responsive row mt-3">
             <table class="table table-striped">
                 <thead>
@@ -97,7 +93,7 @@
             </table>
         </div>
         <div class="row mt-3 paymentbox">
-            <div class="col-md-7 col-12">
+          <form id="info-form" class="col-md-7 col-12">
                 <h3 class="headertitle">PHƯƠNG THỨC THANH TOÁN</h3>
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
@@ -120,39 +116,42 @@
                   <h3 class="headertitle">THÔNG TIN NGƯỜI MUA</h3>
                   <div class="input-group mb-3">
                     <span class="col-sm-3 col-form-label" id="basic-addon1">Họ tên*</span>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    <input id="fullName" name="fullName" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    <span class="form-message col-12" style="margin-left: 135px"></span>
                   </div>
                   <div class="input-group mb-3">
                     <span class="col-sm-3 col-form-label" id="basic-addon1">SĐT*</span>
-                    <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                    <input id="phone" name="phone" type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                    <span class="form-message col-12" style="margin-left: 135px"></span>
                   </div>
                   <div class="input-group mb-3">
                     <span class="col-sm-3 col-form-label" id="basic-addon1">Email*</span>
-                    <input type="text" class="form-control" placeholder="Username@gmail.com" aria-label="Username" aria-describedby="basic-addon1">
+                    <input id="email" name="email" type="text" class="form-control" placeholder="Username@gmail.com" aria-label="Username" aria-describedby="basic-addon1">
+                    <span class="form-message col-12" style="margin-left: 135px"></span>
                   </div>
                   <div class="input-group mb-3">
                     <span class="col-sm-3 col-form-label">Địa chỉ*</span>
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                    <textarea id="address" name="address" class="form-control" aria-label="With textarea"></textarea>
+                    <span class="form-message col-12" style="margin-left: 135px"></span>
                   </div>
                   <div class="input-group mb-3">
                     <span class="col-sm-3 col-form-label">Ghi chú</span>
                     <textarea class="form-control" aria-label="With textarea"></textarea>
                   </div>
-                  
-            </div>
+          </form>
             <div class="col-md-5 col-12">
                 <div class="btn btn-primary w-100 mt-3">
                     <i class="fas fa-tag"></i> 
                     Phiếu ưu đãi
                 </div>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value="">
                 <a href="#" class="addcart btn btn-primary w-100">
                     <i class="fas fa-shopping-cart"></i>  
                     Áp dụng
                 </a>
                 <div class="checktotalcart">
                   Tổng Giỏ Hàng:
-                  <span id="checktotalprice"></span>.000đ
+                  <span id="checktotalpricecart"></span>.000đ
               </div>
               <div class="checktotalprice">
                   Tổng Tiền Thanh Toán:
@@ -161,8 +160,11 @@
               <a href="#" class="addcart btn btn-primary w-100">
                 <i class="fas fa-shopping-cart"></i>  
                 Đặt Hàng
+            </a>           
+            <a href="productpage.html" class="addcart btn btn-primary w-100 mt-3">
+                 
+              Tiếp tục mua hàng
             </a>
-                
             </div>
         </div>
     </div>
@@ -172,6 +174,19 @@
 
 <!-- <script src="/js/payment.js" defer></script> -->
 <script src="/homepage/ajax.js"></script>
-
+<!-- validate customer info -->
+<script src="/js/validate.js"></script>
+  <script>
+    validator({
+      form: '#info-form',
+      errorSelector: ".form-message",
+      rules: [validator.isRequiredFullName('#fullName'),
+      validator.isRequiredPhone('#phone'),
+      validator.isEmail('#email'),
+      validator.isAddress('#address'),
+      ],
+      
+    });
+  </script>
 </body>
 </html>

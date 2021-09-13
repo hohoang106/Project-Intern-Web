@@ -31,11 +31,28 @@ fetch(url, {
                     <p class="m-0">${newktdd[i].tqt2}</p>
                 </div>
             </div`;
-          
         }
       }
     }    
     
+  });
+  $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+      autoplay:true,
+      loop:true,
+      nav:false,
+      responsive:{
+        0:{
+          items:1
+        },
+        700:{
+          items:2
+        },
+        1000:{
+          items:3
+        },
+      }
+    });
   });
     // var listTags = htmls.join('');
     ktddDetais.innerHTML = htmls.join('');

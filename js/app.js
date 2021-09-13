@@ -363,6 +363,7 @@ function btnaddcart(id){
           danhmuc:post.danhmuc,
           soluong: valueproduct.value,
        }
+       if(formData.productcode)
             createcart(formData)
       }) 
     alert('thêm sản phẩm vào giỏ hàng thành công')
