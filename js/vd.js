@@ -14,7 +14,8 @@ fetch(url, {
           var newTag= question.tagname;
           listTag="";
           for (i=0; i <newTag.length; i++) {
-            console.log(i);
+            var listLength = newTag.length;
+            console.log(listLength);
             listTag += `<div class="list-question py-3 row question${index}">
               <div class="block-vote col-xl-2 col-md-2 col-12 ">
                 <div class="">

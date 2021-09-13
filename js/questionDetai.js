@@ -15,9 +15,7 @@ fetch(url, {
           if ( id >= findTag ) { 
           var newTag= question.tagname;
           var uid2 = window.location.search;
-          var id2 = uid2.slice(4);
-          console.log(newTag)
-          console.log(id2)        
+          var id2 = uid2.slice(4);      
           // if(findTag==group)
           for(let i = 0; i < newTag.length; i++){
           if (newTag[i].id == id2 ){
