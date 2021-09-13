@@ -75,10 +75,8 @@ function handleCreateForm() {
     var ngaydang = document.querySelector('input[name="ngay-dang"]').value;
     var tieude = document.querySelector('input[name="tieu-de"]').value;
     var noidung = document.querySelector('input[name="noi-dung"]').value;
-    var hinhanh = document.querySelector('input[name="chon-anh"]').value;
+    var hinhanh = document.querySelector('input[type="file"]').files[0];
     var tacgia = document.querySelector('input[name="tac-gia"]').value;
-
-
 
     var formData = {
       ngayDang: ngaydang,

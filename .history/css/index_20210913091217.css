@@ -261,5 +261,5 @@ h3{
 }
 
 .card:hover{
-  border-color: #187AAB;
+  border: 3px solid #187AAB;
 }

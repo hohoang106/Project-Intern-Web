@@ -81,7 +81,7 @@ a{
   width: 100%;
   color: #fff;
   text-align: center;
-  background-color: rgba(241, 228, 249, 0.5);
+  background-color: rgba(241, 228, 249, 0.25);
 }
 .text-slide{
   color: #187aabc2;
@@ -261,5 +261,5 @@ h3{
 }
 
 .card:hover{
-  border-color: #187AAB;
+  border: 3px solid #187AAB;
 }
