@@ -1,3 +1,22 @@
+
+$(document).ready(function(){
+  var getKey = localStorage.getItem("key");
+  var ulDangNhap =  document.getElementById('ul-dangnhap') ;
+  var ulLoged = document.getElementById('ul-loged');
+  if(getKey=="loged"){
+    ulDangNhap.hidden = true;
+    ulLoged.hidden = false
+  }
+  else{
+    ulDangNhap.hidden = false;
+    ulLoged.hidden = true;
+  }
+});
+
+
+function dangXuat(){
+  localStorage.clear();
+}
 var baiDangApi = "http://localhost:3000/baidang";
 function start() {
   getBaiDangs(rederBaiDang);
@@ -22,12 +41,12 @@ function rederBaiDang(baidangs) {
         listComment+= `
       <div class="container question-body">
       <div class="list-question mt-3 mb-3 row">
-        <div class="block-vote col-lg-2">
+        <div class="block-vote col-2">
           <div class="">
             <img class="avatar" src="${comments[i].UserImage}" alt="">
           </div>
         </div>
-        <div class=" col-lg-10 answer-user py-2">
+        <div class=" col-10 answer-user py-2">
           <div class="question-header">
             <span class="author-name mr-2">${comments[i].UserName}</span>
             <span class="date">Đã trả lời: <span>${comments[i].dateAnswer}</span></span>

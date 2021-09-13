@@ -1,0 +1,64 @@
+body {
+  min-width: 375px;
+}
+.nav-pills .nav-link.active {
+  background-color: #187aab;
+}
+.text-title {
+  color: #187aab;
+}
+.card{
+  border: none;
+}
+.card-body > .card-text{
+  color: black;
+}
+.border-items{
+  border: 1px solid #187aab;
+}
+.none-text-deco {
+  color: black;
+  text-decoration: none;
+}
+@media (min-width: 576px) { 
+  .height-img-gr{
+    height: 50px;
+  }
+ }
+@media (min-width: 768px) { 
+  .height-img-gr{
+    height: 80px;
+  }
+ }
+
+@media (min-width: 992px) {
+  a > .card-img-top {
+    height: 90px;
+  }
+  .height-img-gr{
+    height: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  a > .card-img-top {
+    height: 110px;
+  }
+  .border-items:hover{
+    background-color: rgba(0, 187, 187, 0.644);
+    box-shadow: 0px 2px 0px rgb(198, 198, 201);
+  }
+  .hover-items:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+    transition-duration: 0.5s;
+    color: #187aab;
+  }
+  .hover-items-gr:hover .card-text ,.hover-items:hover .card-text{
+    color: #187aab;
+  }
+  .height-img-gr{
+    height: 140px;
+    cursor: pointer;
+  }
+}
+

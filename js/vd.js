@@ -16,8 +16,8 @@ fetch(url, {
           for (i=0; i <newTag.length; i++) {
             var listLength = newTag.length;
             console.log(listLength);
-            listTag += `<div class="list-question py-3 row question${index}">
-              <div class="block-vote col-xl-2 col-md-2 col-12 ">
+            listTag += `<div class="list-question py-3 px-2 p-0 row question${index} question_question">
+              <div class="block-vote col-xl-2 p-0 col-md-2 col-12 ">
                 <div class="">
                   <img class="avatar" src="${newTag[i].Userimage}" alt="">
                 </div>
@@ -33,7 +33,7 @@ fetch(url, {
                   </div>
                 </div>
               </div>
-              <div class="col-xl-10 col-md-10 col-12">
+              <div class="col-xl-10 col-md-10 p-0 col-12 Point-question">
                 <div class="question-header">
                   <span class="author-name mr-2">${newTag[i].username}</span>
                   <span class="date">Đã hỏi: <span>${newTag[i].dateTime}</span></span>
