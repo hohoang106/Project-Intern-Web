@@ -43,7 +43,6 @@ fetch(url, {
 
     });
     var listmonans = listmonan.join('');
-    // console.log(listmonans)
     document.querySelector('#namefood').innerHTML = listmonans;
     document.querySelector("#bangnguyenlieu").innerHTML = listNguyenlieu;
     document.querySelector("#step").innerHTML = steps;
