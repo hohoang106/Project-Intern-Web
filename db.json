@@ -175,6 +175,38 @@
       ]
     }
   ],
+  "managercart": [
+    {
+      "fullName": "Thanh Tung",
+      "phone": "0868690224",
+      "email": "cf24h.kisstherain@gmail.com",
+      "address": "09 NPT da nang",
+      "ghichu": "hello ",
+      "totalprice": "960",
+      "datetime": "23:23:58  13-9-2021",
+      "id": 2
+    },
+    {
+      "fullName": "Nguyen Van A",
+      "phone": "0532200717",
+      "email": "VanA@gmail.com",
+      "address": "65 henlay  da nang",
+      "ghichu": "hillo",
+      "totalprice": "1700",
+      "datetime": "23:26:52  13-9-2021",
+      "id": 3
+    },
+    {
+      "fullName": "be nho",
+      "phone": "123456789",
+      "email": "VanA@gmail.com",
+      "address": "12 quan 1 HCM",
+      "ghichu": "hi",
+      "totalprice": "2600",
+      "datetime": "23:35:18  13-9-2021",
+      "id": 5
+    }
+  ],
   "product": [
     {
       "name": "Sữa chua lên men",
@@ -296,20 +328,11 @@
       "id": 1
     },
     {
-      "productcode": "AAA103",
-      "name": "Phô Mai",
-      "image": "/images/sanpham6.jpg",
-      "price": "45",
-      "danhmuc": "Đồ hộp-Đồ khô",
-      "soluong": "1",
-      "id": 2
-    },
-    {
-      "productcode": "AAA110",
-      "name": "Gimbap & Roll O’Food",
-      "image": "/images/sanpham4.jpg",
-      "price": "75",
-      "danhmuc": "Đồ mát",
+      "productcode": "AAA106",
+      "name": "Viên uống bổ sung Hàu",
+      "image": "/images/sanphamchucnang2.jpg",
+      "price": "350",
+      "danhmuc": "Thực phẩm chức năng",
       "soluong": "1",
       "id": 3
     }

@@ -81,13 +81,15 @@
         <thead>
           <tr>
             <th>Ngày đặt</th>
-            <th>Số lượng sản phẩm</th>
+            <th>Tên Người mua</th>
+            <th>SĐT</th>
+            <th>Địa chỉ</th>
             <th>Tổng giá</th>
             <th>Tác vụ</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
+        <tbody id="list-cartproducts">
+          <!-- <tr>
             <td>25/08/2021</td>
             <td>3</td>
             <td>600.000 vnđ</td>
@@ -110,15 +112,80 @@
             <td>
               <a href="">Chi tiết</a>
             </td>
-          </tr>
+          </tr> -->
 
         </tbody>
       </table>
 
+       <!-- Modal thêm sản phẩm-->
+  <div class="modal" id="addProductModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        
+        <div class="modal-header ">
+          <h5 class="modal-title text-uppercase text-white" id="exampleModalLabel">Chi tiết đơn hàng</h5>
+          <button type="button" class="btn" data-dismiss="modal"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="container mt-2">
+
+          <div>
+            <div>
+              <span class="font-weight-bold span-chitiet">Người mua: </span><span>Hồ Khắc Hoàng</span>
+            </div>
+            <div>
+              <span class="font-weight-bold span-chitiet">Sđt:</span> <span>0981.123.412</span>
+            </div>
+            <div> 
+              <span class="font-weight-bold span-chitiet">Địa chỉ: </span><span>21 Quang Trung, Đà nẵng</span>
+            </div>
+    
+          </div>
+    
+          <table class="table table-striped mt-2">
+            <thead>
+              <tr>
+                <th>Mã sản phẩm</th>
+                <th>Tên sản phẩm</th>
+                <th>Hình ảnh</th>
+                <th>Số lượng</th>
+                <th>Giá</th>
+                <th>Tổng</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>SP01</td>
+                <td>Sản phẩm 1</td>
+                <td><img src="/images/spdd1.jpg" width="100px" alt=""></td>
+                <td>3</td>
+                <td>100.000 vnđ</td>
+                <td>300.000 vnđ</td>
+              </tr>
+              <tr>
+                <td>SP02</td>
+                <td>Sản phẩm 1</td>
+                <td><img src="/images/spdd2.jpg" width="100px" alt=""></td>
+                <td>2</td>
+                <td>150.000 vnđ</td>
+                <td>300.000 vnđ</td>
+              </tr>
+    
+            </tbody>
+          </table>
+    
+          <div style="margin-bottom:20px;">
+            <button class="bg-success border-0 text-white p-2">Duyệt đơn hàng</button>
+            <button class="bg-danger border-0 text-white p-2">Hủy đơn hàng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
     </div>
   </div>
   <script src="/js/sb-admin-2.js"></script>
+  <script src="/js/managercart.js"></script>
 </body>
 
 </html>

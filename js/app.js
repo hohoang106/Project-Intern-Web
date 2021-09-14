@@ -116,10 +116,14 @@ function handleCreateProducts(){
         price:giasanpham,
         danhmuc:danhmuc
      }
-     
-     createProduct(formData)
+     if (masanpham == "" ){
+      alert("Vui lòng nhập đầy đủ thông tin")
+   }else{
+    createProduct(formData)
+   }
   }
 };
+
 //render manager product page
 function renderProduct(products){
   var listProductBlock = document.querySelector("#list-products");
@@ -363,7 +367,6 @@ function btnaddcart(id){
           danhmuc:post.danhmuc,
           soluong: valueproduct.value,
        }
-       if(formData.productcode)
             createcart(formData)
       }) 
     alert('thêm sản phẩm vào giỏ hàng thành công')
