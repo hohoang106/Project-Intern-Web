@@ -48,7 +48,7 @@ fetch(cartproductApi)
                   </div>
               </div>
             </td>
-             <td class="mobilenull"><span class="price">${cartproduct.price}</span>.000đ</td>
+             <td class="mobilenull"><span class="price" style="color: black;">${cartproduct.price}</span>.000đ</td>
             <td>
                 <div class="quantity">
                  <button class="btn minus1">-</button>
