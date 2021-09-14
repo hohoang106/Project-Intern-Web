@@ -84,6 +84,7 @@
         <!-- <div class="danhMucKienThuc">
               <span>Kiến thức dinh dưỡng</span>
             </div> -->
+
       </div>
 
       <table class="list table table-striped mt-2" id="contentList">
@@ -91,8 +92,8 @@
           <tr>
             <th style="width:110px"> Ngày đăng</th>
             <th>Tiêu đề</th>
-            <th>Mô tả</th>
-            <th>Hình ảnh</th>
+            <th>Nội dung </th>
+            <th>Hình ảnh </th>
             <th>Tác giả</th>
             <th>Tác vụ</th>
           </tr>
@@ -166,7 +167,22 @@
 
   <!-- Table -->
 
-
+<!-- Modal nội dung -->
+<div class="modal" id="baivietModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header ">
+        <h5 class="modal-title text-uppercase text-white" id="exampleModalLabel">Chi tiết nội dung bài viết</h5>
+        <button type="button" class="btn" data-dismiss="modal"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal-body">
+        <!-- mainbody product detail -->
+        <div class="container" id="detailBaidang">
+          <p id="detail-bai-dang"></p>
+        </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- Modal thêm bài viết-->
@@ -193,7 +209,7 @@
 
           <div class="mb-3">
             <label class="font-weight-bold" for="noi-dung">Nhập nội dung bài viêt</label>
-            <input class="form-control" name="noi-dung" id="noi-dung"></input>
+            <textarea class="form-control" name="editor1" id="editor1"></textarea>
             <span class="form-message col-12"></span>
           </div>
           <div class="custom-file mb-3">
@@ -273,12 +289,12 @@
       </div>
     </div>
   </div> -->
-  <!-- <script src="/node_modules/ckeditor4/ckeditor.js"></script>
+  <script src="/node_modules/ckeditor4/ckeditor.js"></script>
   <script>
     window.onload = function() {
-        CKEDITOR.replace( 'noi-dung' );
+        CKEDITOR.replace('editor1');
     };
-</script> -->
+</script>
 
   <script src="/js/validate.js"></script>
   <script>
@@ -306,6 +322,7 @@
   <script src="/homepage/navbarAdmin.js"></script>
   <script src="/js/quanlybaidang.js"></script>
   <script src="/js/sb-admin-2.js"></script>
+
 
 </body>
 
