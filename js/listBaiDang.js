@@ -1,3 +1,5 @@
+
+
 var baiDangApi = "http://localhost:3000/baidang";
 function start() {
   getBaiDangs(rederBaiDang);
@@ -15,7 +17,7 @@ function rederBaiDang(baidangs) {
   var listBaiDang = document.querySelector('#myProducts');
   var chiTietBaiDang = baidangs.map(function(item){
     return `
-    <div class="col-md-12">
+    <div class="col-md-12 card-search">
     <div class="bai_dang pb-5 mb-5">
       <div class="card border-0 post-item" style="width: 100%;">
         <div class="hovereffect float-start  text-center">
@@ -58,3 +60,19 @@ function rederBaiDang(baidangs) {
       document.querySelectorAll(".limit-p")[i].innerText = gioiHan;
     }
 }
+  // search product navbar 
+  var card = document.getElementsByClassName('card-search')
+  var vl = document.querySelector('.inputtext');
+  console.log(vl)
+  vl.addEventListener('keyup', function input(){
+    var name = document.getElementsByClassName('card-title')
+    for(var i = 0; i<name.length; i++){
+        var c = name[i].innerText;
+        if(c.toUpperCase().indexOf(vl.value.toUpperCase())>-1){
+            card[i].style.display='';
+        }
+        else{
+            card[i].style.display='none';
+        }
+    }
+  });

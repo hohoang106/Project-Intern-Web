@@ -2,7 +2,6 @@ var baiDangApi = "http://localhost:3000/baidang";
 function start() {
   getBaiDangs(rederBaiDang);
   handleCreateForm();
-  handleUpdate();
 }
 start();
 function getBaiDangs(callback) {
@@ -68,6 +67,7 @@ function rederBaiDang(baidangs) {
     document.querySelectorAll(".limit-p")[i].innerText = gioiHan;
   }
 
+  
 
   $('#contentList').DataTable({
     // searching: false,
@@ -85,22 +85,35 @@ function rederBaiDang(baidangs) {
 function handleCreateForm() {
   var btnAdd = document.querySelector('#addBaiDang');
   btnAdd.onclick = function () {
-    var ngaydang = document.querySelector('input[name="ngay-dang"]').value;
+    // var ngaydang = document.querySelector('input[name="ngay-dang"]').value;
     var tieude = document.querySelector('input[name="tieu-de"]').value;
     // var noidung = document.querySelector('input[name="noi-dung"]').value;
     var noidung = CKEDITOR.instances.editor1.getData();
-    var hinhanh = document.querySelector('input[name="chon-anh"]').value;
+    var hinhanh = document.querySelector('input[name="chon-anh"]').files[0];
     var tacgia = document.querySelector('input[name="tac-gia"]').value;
+    var today = new Date();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds()+'  '+ today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();;
+     
+    let formHinhAnh = new FormData();
+     
+    formHinhAnh.append("photo", hinhanh);
+
     var formData = {
-      ngayDang: ngaydang,
+      ngayDang: time,
       tieuDe: tieude,
       noiDung: noidung,
       hinhAnh: hinhanh,
       tacGia: tacgia
     };
-    addBaiDangs(formData, function () {
-      getBaiDangs(rederBaiDang);
-    });
+    if(time == "" || tieude == "" || noidung == "" || tacgia == "" || hinhanh == ""){
+      alert("Vui lòng nhập đầy đủ thông tin")
+    }
+    else{
+      addBaiDangs(formData, function () {
+        getBaiDangs(rederBaiDang);
+      });
+    }
+
   }
 }
 
@@ -117,41 +130,38 @@ function renderUpdateBaiDang(id){
       return response.json();
     })
     .then(function (post) {
-      var newNgayDang = document.getElementById('update-ngay-dang');
+      // var newNgayDang = document.getElementById('update-ngay-dang');
       var newTieuDe = document.getElementById('update-tieu-de');
-      var newNoiDung = document.getElementById('update-noi-dung');
-      var newImage = document.getElementById('update-chon-anh');
+      var newNoiDung = CKEDITOR.instances.editor2.getData();
+      // var newImage = document.getElementById('update-chon-anh');
       var newTacGia = document.getElementById('update-tac-gia');
 
-      newNgayDang.value = post.ngayDang;
+      document.getElementById('btn-update-baidang').setAttribute('onclick', 'handleUpdate('+post.id+')');
+      // newNgayDang.value = post.ngayDang;
       newTieuDe.value = post.tieuDe;
-      newNoiDung.innerHTML = post.noiDung;
-      newImage.files[0] = post.hinhAnh;
+      newNoiDung = post.noiDung;
+      // newImage.files[0] = post.hinhAnh;
       newTacGia.value = post.tacGia;
-      handleUpdate(id)
     });
 
 }
 
-function handleUpdate() {
-  var btnUpdate = document.querySelector('#btn-update-baidang');
+function handleUpdate(id) {
 
-  btnUpdate.onclick = function () {
-    var updatengaydang = document.querySelector('input[name="update-ngay-dang"]').value;
+    // var updatengaydang = document.querySelector('input[name="update-ngay-dang"]').value;
     var updatetieude = document.querySelector('input[name="update-tieu-de"]').value;
-    var updatenoidung = document.querySelector('input[name="update-noi-dung"]').value;
-    // var updatehinhanh = document.querySelector('input[name="update-chon-anh"]').value;
+    var updatenoidung = CKEDITOR.instances.editor2.getData();
+    var updatehinhanh = document.querySelector('input[name="update-chon-anh"]').value;
     var updatetacgia = document.querySelector('input[name="update-tac-gia"]').value;
     var formData2 = {
-      ngayDang: updatengaydang,
+      // ngayDang: updatengaydang,
       tieuDe: updatetieude,
       noiDung: updatenoidung,
-      // hinhAnh: updatehinhanh,
+      hinhAnh: updatehinhanh,
       tacGia: updatetacgia
     };
-    updateBaiDang(formData2, function (id) {
       var option = {
-        method: 'PETCH',
+        method: 'PATCH',
         headers: {
           'Content-Type': 'application/json'
         },
@@ -159,29 +169,14 @@ function handleUpdate() {
       };
       fetch(baiDangApi + "/" +id , option)
         .then(function (response) {
-           return response.json();
+          response.json();
         })
-        .then(function () {
-          getBaiDangs(rederBaiDang);
+        .then(call => {
+          console.log(call)
         });
-    });
   }
-}
-// function updateBaiDang(data, id ) {
-//   var option = {
-//     method: 'PUT',
-//     headers: {
-//       'Content-Type': 'application/json'
-//     },
-//     body: JSON.stringify(data)
-//   };
-//   fetch(baiDangApi + '/' + id, option)
-//     .then(function (response) {
-//       response.json();
-//     })
-//     .then(function () {
-//     });
-// }
+
+
 
 function btndetail(id) {
   var option = {

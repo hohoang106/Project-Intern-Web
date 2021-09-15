@@ -24,7 +24,7 @@ $('#btn-login').click(function (data) {
         alert('Đăng nhập thất bại');
       }
       let result2 = data.filter(obj => {
-        return obj.username === username & obj.username === username & obj.role === 'admin';
+        return obj.username === username & obj.username === username & obj.role === 'Admin';
       })
       console.log(result2)
       if (result2.length !== 0) {
