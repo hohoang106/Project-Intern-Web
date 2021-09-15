@@ -128,7 +128,7 @@ function renderUpdateBaiDang(id){
       newNoiDung.innerHTML = post.noiDung;
       newImage.files[0] = post.hinhAnh;
       newTacGia.value = post.tacGia;
-
+      handleUpdate(id)
     });
 
 }
@@ -137,7 +137,6 @@ function handleUpdate() {
   var btnUpdate = document.querySelector('#btn-update-baidang');
 
   btnUpdate.onclick = function () {
-    alert("hello")
     var updatengaydang = document.querySelector('input[name="update-ngay-dang"]').value;
     var updatetieude = document.querySelector('input[name="update-tieu-de"]').value;
     var updatenoidung = document.querySelector('input[name="update-noi-dung"]').value;
@@ -152,7 +151,7 @@ function handleUpdate() {
     };
     updateBaiDang(formData2, function (id) {
       var option = {
-        method: 'PUT',
+        method: 'PETCH',
         headers: {
           'Content-Type': 'application/json'
         },

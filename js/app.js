@@ -124,33 +124,6 @@ function handleCreateProducts(){
   }
 };
 
-//render manager product page
-function renderProduct(products){
-  var listProductBlock = document.querySelector("#list-products");
-  var htmls = products.map(function(product){
-      return `
-      <tr>
-      <td>${product.productcode}</td>
-      <td>${product.name}</td>
-      <td>${product.description}</td>
-      <td><img src="${product.image}" width="100px" alt=""></td>
-      <td><span>${product.price}</span>.000₫ / Sản phẩm</td>
-      <td>${product.danhmuc}</td>
-      <td>
-            <button type="button" class="btn btn-dark btn-sm px-3" data-toggle="modal" data-target="#updateModal">
-              <i class="fas fa-edit"></i>
-            </button>
-            <button onclick="deleteProduct(${product.id})" type="button" class="btn btn-danger">
-              <i class="fas fa-trash mr-2" style="margin:.5rem;"></i>
-            </button>
-      </td>
-      </tr>
-      
-      `
-  })
-  listProductBlock.innerHTML = htmls.join('');
-}
-
 // manager delete product
 function deleteProduct(id){
   var option = {
@@ -165,11 +138,12 @@ function deleteProduct(id){
       })
 }
 
+// manager create product
 function renderProduct(products){
     var listProductBlock = document.querySelector("#list-products");
     var htmls = products.map(function(product){
         return `
-        <tr>
+        <tr id="hellodm" data-id=${product.id}>
         <td class="font-weight-bold">${product.productcode}</td>
         <td onclick="btndetailMoTa(${product.id})" data-toggle="modal" data-target="#moTaSanPham" style="cursor: pointer;" class="font-weight-bold">${product.name}</td>
         <td class="limit-p" onclick="btndetailMoTa(${product.id})" data-toggle="modal" data-target="#moTaSanPham" style="cursor: pointer;">${product.description}</td>
@@ -177,7 +151,7 @@ function renderProduct(products){
         <td><span>${product.price}</span>.000₫ / Sản phẩm</td>
         <td>${product.danhmuc}</td>
         <td>
-              <button class="btn btn-secondary w-100" data-toggle="modal" data-target="#updateModal">
+              <button onclick="editProduct(${product.id})" class="btn btn-secondary w-100" data-toggle="modal" data-target="#updateModal">
               <i class="fas fa-pen"></i>
               </button>
               <button onclick="deleteProduct(${product.id})"  class="btn btn-danger w-100 mt-1">
@@ -208,6 +182,7 @@ function renderProduct(products){
     });
 }
 
+
 function btndetailMoTa(id) {
   var option = {
     method: 'GET',
@@ -225,80 +200,66 @@ function btndetailMoTa(id) {
     })
 }
 
+function editProduct(){
+  console.log(document.getElementById('hellodm').dataset.id)
+}
+
 // https://www.youtube.com/watch?v=ccX3ApO4qz8
 
-// function editProduct(updatedata){
-//   var option = {
-//       method: 'PUT',
-//       headers: {
-//           'Content-Type': 'application/json'
-//         },
-//       body: JSON.stringify(updatedata)
-//   };
-//   fetch(productApi, option)
-//       .then(function(response){
-//           response.json();
-//       })
-//       .then(callback);
-// }
 
-// function uploaddetailProduct(products){
-//     var UpProductBlocks = document.querySelector("#upload-detailproducts");
-//     var htmlss = products.map(function(product){
-//         return `
-//         <div class="row mt-3">
-//             <div class="headercontent col">
-//                 Trang Sản Phẩm
-//               </div>
-//         </div>
-//         <div class="row mt-3 d-flex justify-content-center">
-//             <div class="imagecontent col-md-7">
-//               <div class="somepicture">
-//                 <img src="/images/sanpham1.jpg">
-//                 <img class="imageicon" src="/images/sanpham1.jpg">
-//                 <img class="imageicon" src="/images/sanpham1.jpg">
-//                 <img class="imageicon" src="/images/sanpham1.jpg">
-//               </div>
-//               <div class="">
-//                 <img src="${product.image}">
-//               </div>
-//             </div>
-//             <div class="info col-md-5">
-//                 <h4 class="headerdetail">${product.name}</h4>
-//                 <p>Mã sản phẩm: <span>${product.productcode}</span> </p>
-//                 <p>Danh mục: <a href='#'>${product.danhmuc}</a></p>
-//                 <h4 class="headerdetail">${product.price}<span>.000 ₫ / Sản phẩm</span></h4>
-//                 <div class="row text-center">
-//                   <p class="col-5"> Số Lượng: </p>
-//                   <div class="quantity col-7">
-//                     <button class="btn minus1">-</button>
-//                     <input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="1" type="number">
-//                     <button class="btn add1">+</button>
-//                   </div>
-//                 </div>
-//                 <a class="btn btn-primary mt-2" href="payment.html">
-//                     <i class="fas fa-shopping-cart"></i>  
-//                     Chọn Mua</a>
-//             </div>
-//         </div>
-//         <div class="row mt-3">
-//             <div class="headercontent col">Chi Tiết Sản Phẩm</div>
-//         </div>
-//         <div class="row mt-3">
-//             <div class="content col d-flex justify-content-center">
-//                 <img src="${product.image}">
-//             </div>
-//         </div>
-//         <div class="row mt-3">
-//             <p>${product.description}</p>       
-//         </div> 
-    
-//     </div>
-            
-//         `
-//     })
-//     UpProductBlocks.innerHTML = htmlss.join('');
-// }
+function editProduct(id){
+  var option = {
+      method: 'GET',
+      headers: {
+          'Content-Type': 'application/json'
+        },
+  };
+  fetch(productApi + '/' + id, option)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (post) {
+    document.getElementById('newma-sp').value = post.productcode;
+    document.getElementById('newten-sp').value = post.name;
+    document.getElementById('newmo-ta').value = post.description;
+    document.getElementById('newchon-anh').value = post.image;
+    document.getElementById('newgia-sp').value = post.price;
+    document.getElementById('newinputdanhmucSelect').value = post.danhmuc;
+    document.getElementById('updateproduct').setAttribute('onclick', 'updatenow('+post.id+')');
+
+  });
+}
+function updatenow(id){
+  var newmasanpham = document.getElementById('newma-sp').value;
+  var newtensanpham = document.getElementById('newten-sp').value;
+  var newmtsanpham = document.getElementById('newmo-ta').value;
+  var newanhsanpham = document.getElementById('newchon-anh').value;
+  var newgiasanpham = document.getElementById('newgia-sp').value;
+  var formData = {
+    productcode: newmasanpham,
+    name: newtensanpham,
+    description: newmtsanpham,
+    image: newanhsanpham,
+    price: newgiasanpham,
+  }
+  var option = {
+      method: 'PATCH',
+      headers: {
+          'Content-Type': 'application/json'
+        },
+      body: JSON.stringify(formData)
+  };
+  fetch(productApi + '/' + id, option)
+      .then(function(response){
+          response.json();
+      })
+      .then(call => {
+        console.log(call)
+      });
+}
+
+
+
 
 
 function uploadProduct(products){

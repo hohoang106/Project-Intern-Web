@@ -212,27 +212,36 @@
         <form class="modal-body">
           <div class="mb-3">
             <label class="font-weight-bold" for="ma-sp">Mã sản phẩm</label>
-            <input type="text" class="form-control" id="ma-sp" placeholder="Nhập mã sản phẩm">
+            <input type="text" class="form-control" id="newma-sp" placeholder="Nhập mã sản phẩm">
           </div>
           <div class="mb-3">
             <label class="font-weight-bold" for="ten-sp">Tên sản phẩm</label>
-            <input type="text" class="form-control" id="ten-sp" placeholder="Nhập tên sản phẩm">
+            <input type="text" class="form-control" id="newten-sp" placeholder="Nhập tên sản phẩm">
           </div>
           <div class="mb-3">
             <label class="font-weight-bold" for="mo-ta">Mô tả</label>
-            <input type="text" class="form-control" id="mo-ta" placeholder="Nhập mô tả cho sản phẩm">
+            <input type="text" class="form-control" id="newmo-ta" placeholder="Nhập mô tả cho sản phẩm">
           </div>
           <div class="custom-file mb-3">
             <label class="font-weight-bold" for="mo-ta">Chọn Ảnh</label>
-            <input type="text" class="form-control" id="chon-anh"></input>
+            <input type="text" class="form-control" id="newchon-anh"></input>
           </div>
 
           <div class="mb-3">
             <label class="font-weight-bold" for="gia-sp">Giá</label>
-            <input class="form-control" id="gia-sp" placeholder="Nhập giá cho sản phẩm"></input>
+            <input class="form-control" id="newgia-sp" placeholder="Nhập giá cho sản phẩm"></input>
+          </div>
+          <div class="mb-3">
+            <label class="font-weight-bold" for="gia-sp">Danh Mục</label>
+            <!-- <input name="danhmuc" class="form-control" placeholder="Nhập giá cho sản phẩm" ></input> -->
+            <select id="newinputdanhmucSelect" name="danhmuc" class="form-control">
+              <!-- <option value="Đồ mát">Đồ mát</option>
+              <option value="Đồ hộp-Đồ khô">Đồ hộp-Đồ khô</option>
+              <option value="Thực phẩm chức năng">Thực phẩm chức năng</option> -->
+            </select>
           </div>
           <div>
-            <button type="submit" id="update" class="btn btn-add float-right"><span class="text-white"><i
+            <button type="submit" id="updateproduct" class="btn btn-secondary float-right"><span class="text-white"><i
                   class="fas fa-edit mr-2"></i> Sửa</span></button>
             <button type="button" class="btn btn-secondary float-right mr-2"><span
                 class="text-white">Hủy</span></button>
