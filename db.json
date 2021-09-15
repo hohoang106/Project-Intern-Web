@@ -365,15 +365,6 @@
       "id": 3
     },
     {
-<<<<<<< HEAD
-      "productcode": "AAA109",
-      "name": "Kirkland Dược phẩm",
-      "image": "/images/sanphamchucnang1.jpg",
-      "price": "280",
-      "danhmuc": "Thực phẩm chức năng",
-      "soluong": "1",
-      "id": 4
-=======
       "productcode": "AAA102",
       "name": "Đậu hũ non",
       "image": "/images/sanpham5.jpg",
@@ -399,7 +390,6 @@
       "danhmuc": "Thực phẩm chức năng",
       "soluong": "1",
       "id": 6
->>>>>>> ddcb3c174c75f3edd977209372afcb4b96e51309
     }
   ],
   "monan": [
