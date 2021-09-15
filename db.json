@@ -219,6 +219,16 @@
       "totalprice": "2085",
       "datetime": "11:6:8  14-9-2021",
       "id": 8
+    },
+    {
+      "fullName": "Thanh Tung",
+      "phone": "0532200717",
+      "email": "tung@gmail.com",
+      "address": "84 quang trung quang tri",
+      "ghichu": "demo",
+      "totalprice": "860",
+      "datetime": "15:52:23  15-9-2021",
+      "id": 9
     }
   ],
   "managerdanhmuc": [
@@ -354,42 +364,6 @@
       "danhmuc": "Thực phẩm chức năng",
       "soluong": "1",
       "id": 1
-    },
-    {
-      "productcode": "AAA106",
-      "name": "Viên uống bổ sung Hàu",
-      "image": "/images/sanphamchucnang2.jpg",
-      "price": "350",
-      "danhmuc": "Thực phẩm chức năng",
-      "soluong": "1",
-      "id": 3
-    },
-    {
-      "productcode": "AAA102",
-      "name": "Đậu hũ non",
-      "image": "/images/sanpham5.jpg",
-      "price": "35",
-      "danhmuc": "Đồ mát",
-      "soluong": "1",
-      "id": 4
-    },
-    {
-      "productcode": "AAA101",
-      "name": "Kirkland Viên uống bổ sung",
-      "image": "/images/sanphamchucnang4.jpg",
-      "price": "450",
-      "danhmuc": "Thực phẩm chức năng",
-      "soluong": "1",
-      "id": 5
-    },
-    {
-      "productcode": "AAA104",
-      "name": "Rocket 2h",
-      "image": "/images/sanphamchucnang3.jpg",
-      "price": "150",
-      "danhmuc": "Thực phẩm chức năng",
-      "soluong": "1",
-      "id": 6
     }
   ],
   "monan": [

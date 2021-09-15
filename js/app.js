@@ -200,13 +200,9 @@ function btndetailMoTa(id) {
     })
 }
 
-function editProduct(){
-  console.log(document.getElementById('hellodm').dataset.id)
-}
 
 // https://www.youtube.com/watch?v=ccX3ApO4qz8
-
-
+// manager edit product
 function editProduct(id){
   var option = {
       method: 'GET',
@@ -257,10 +253,6 @@ function updatenow(id){
         console.log(call)
       });
 }
-
-
-
-
 
 function uploadProduct(products){
   // render product page
