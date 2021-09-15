@@ -125,7 +125,6 @@ function deleteBaiDang(id) {
     .then(function () {
       getBaiDangs(rederBaiDang);
     });
-
 }
 
 function readURL(input) {
