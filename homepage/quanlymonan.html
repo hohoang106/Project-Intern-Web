@@ -129,7 +129,7 @@
         <div class="modal-body">
           <div class="mb-3">
             <label class="font-weight-bold" for="tenmonan">Tên món ăn</label>
-            <input name="tenmonan" type="text" class="form-control" id="tenmonan" placeholder="Nhập tên sản phẩm">
+            <input name="tenmonan" type="text" class="form-control" id="tenmonan" placeholder="Nhập tên món ăn">
           </div>
           <div class="mb-3">
             <label class="font-weight-bold" for="anhmonan">Chọn Ảnh</label>
@@ -141,29 +141,36 @@
           </div>
           <div class="mb-3">
             <label class="font-weight-bold" for="nguyenlieu">Nguyên liệu</label>
-            <button type="button" class="btn" data-dismiss=""><i class="fas fa-plus"></i></button>
-            <div class="d-flex flex-row bd-highlight mb-3">
-              <input name="nguyenlieu" type="text" class="form-control" id="nguyenlieu"
-                placeholder="Nhập tên nguyên liệu">
-              <input name="nguyenlieu" type="text" class="form-control" id="nguyenlieu"
-                placeholder="Nhập số lượng, cân nặng nếu có">
+            <button type="button" class="btn add-nguyenlieu"><i class="fas fa-plus"></i></button>
+            <div id="new_nlieu">
+              <div class="d-flex flex-row bd-highlight mb-1" id="1">
+                <input name="nguyenLieu" type="text" class="form-control" id="nguyenLieu"
+                  placeholder="Nhập tên nguyên liệu">
+                <input name="soLuong" type="text" class="form-control ml-2" id="soLuong"
+                  placeholder="Nhập số lượng, cân nặng nếu có">
+              </div>
             </div>
+            <button type="button" class="btn btn-danger mt-1 remove-nguyenlieu">Xóa 1 nguyên liệu</button>
+            <input type="hidden" value="1" id="total_nlieu">
           </div>
           <div class="mb-3">
             <label class="font-weight-bold" for="buoclam">Các bước hướng dẫn</label>
-            <button type="button" class="btn" data-dismiss=""><i class="fas fa-plus"></i></button>
-            <input name="buoclam" type="text" class="form-control" id="buoclam" placeholder="Nhập các bước chuẩn bị">
-          </div>
+            <button type="button" class="btn add-step"><i class="fas fa-plus"></i></button>
+            <div id="new_step">
+              <input name="buoclam" type="text" class="form-control mb-1" id="1" placeholder="Nhập bước chuẩn bị">
+            </div>
+            <button type="button" class="btn btn-danger mt-1 remove-step">Xóa 1 bước</button>
+            <input type="hidden" value="1" id="total_step">
+        </div>
 
-
-          <div class="mb-3">
-            <button id="themmonan" type="submit" class="themsanpham btn btn-primary w-100">
-              Thêm món ăn
-            </button>
-          </div>
+        <div class="mb-3">
+          <button id="themmonan" type="submit" class="themsanpham btn btn-primary w-100">
+            Thêm món ăn
+          </button>
         </div>
       </div>
     </div>
+  </div>
   </div>
 
   <!-- Modal Sửa món ăn -->
@@ -178,7 +185,8 @@
         <form class="modal-body">
           <div class="mb-3">
             <label class="font-weight-bold" for="update-tenmonan">Tên món ăn</label>
-            <input name="update-tenmonan" type="text" class="form-control" id="update-tenmonan" placeholder="Nhập tên sản phẩm">
+            <input name="update-tenmonan" type="text" class="form-control" id="update-tenmonan"
+              placeholder="Nhập tên món ăn">
           </div>
           <div class="mb-3">
             <label class="font-weight-bold" for="update-anhmonan">Chọn Ảnh</label>
@@ -186,16 +194,13 @@
           </div>
           <div class="mb-3">
             <label class="font-weight-bold" for="update-videomonan">Video</label>
-            <input name="update-videomonan" type="text" class="form-control" id="update-videomonan" placeholder="Nhập link video">
+            <input name="update-videomonan" type="text" class="form-control" id="update-videomonan"
+              placeholder="Nhập link video">
           </div>
           <div class="mb-3">
             <label class="font-weight-bold" for="update-nguyenlieu">Nguyên liệu</label>
             <button type="button" class="btn" data-dismiss=""><i class="fas fa-plus"></i></button>
-            <div class="d-flex flex-row bd-highlight mb-3">
-              <input name="update-nguyenlieu" type="text" class="form-control" id="update-nguyenlieu"
-                placeholder="Nhập tên nguyên liệu">
-              <input name="update-soluong" type="text" class="form-control" id="update-soluong"
-                placeholder="Nhập số lượng, cân nặng nếu có">
+            <div id="update-nguyenlieu">
             </div>
           </div>
           <div class="mb-3">
@@ -207,7 +212,7 @@
           <div>
             <button type="submit" class="btn btn-success float-right" id="btn-update-baidang"><span
                 class="text-white"><i class="fas fa-edit mr-2"></i> Sửa</span></button>
-            <button type="button"  data-dismiss="modal" class="btn btn-secondary float-right mr-2"><span
+            <button type="button" data-dismiss="modal" class="btn btn-secondary float-right mr-2"><span
                 class="text-white">Hủy</span>
             </button>
           </div>
@@ -215,6 +220,10 @@
       </div>
     </div>
   </div>
+
+  <input type="text">
+  <button>Add</button>
+  <button class="remove">remove</button>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
