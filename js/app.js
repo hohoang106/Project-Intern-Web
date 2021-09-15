@@ -165,21 +165,6 @@ function deleteProduct(id){
       })
 }
 
-// function editProduct(updatedata){
-//   var option = {
-//       method: 'PUT',
-//       headers: {
-//           'Content-Type': 'application/json'
-//         },
-//       body: JSON.stringify(updatedata)
-//   };
-//   fetch(productApi, option)
-//       .then(function(response){
-//           response.json();
-//       })
-//       .then(callback);
-// }
-
 function renderProduct(products){
     var listProductBlock = document.querySelector("#list-products");
     var htmls = products.map(function(product){
@@ -214,6 +199,25 @@ function renderProduct(products){
       pageLength: 5
     });
 }
+
+
+
+// https://www.youtube.com/watch?v=ccX3ApO4qz8
+
+// function editProduct(updatedata){
+//   var option = {
+//       method: 'PUT',
+//       headers: {
+//           'Content-Type': 'application/json'
+//         },
+//       body: JSON.stringify(updatedata)
+//   };
+//   fetch(productApi, option)
+//       .then(function(response){
+//           response.json();
+//       })
+//       .then(callback);
+// }
 
 // function uploaddetailProduct(products){
 //     var UpProductBlocks = document.querySelector("#upload-detailproducts");
@@ -344,7 +348,6 @@ function createcart(cartdata){
 })
 .then(cartcreate)
 }
-
 
 function btnaddcart(id){
   var option = {

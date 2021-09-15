@@ -237,6 +237,20 @@
       "id": 5
     }
   ],
+  "managerdanhmuc": [
+    {
+      "namedanhmuc": "Đồ mát",
+      "id": 1
+    },
+    {
+      "namedanhmuc": "Đồ hộp-Đồ khô",
+      "id": 2
+    },
+    {
+      "namedanhmuc": "Thực phẩm chức năng",
+      "id": 3
+    }
+  ],
   "product": [
     {
       "name": "Sữa chua lên men",
