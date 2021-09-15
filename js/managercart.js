@@ -91,7 +91,7 @@ function renderProduct(products){
     bInfo: false,
     bAutoWidth: false,
     ordering: false,
-    pageLength: 5,
+    pageLength: 8,
     oLanguage: {
       sSearch: "Tìm kiếm"
     }

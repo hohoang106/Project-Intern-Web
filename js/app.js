@@ -116,7 +116,7 @@ function handleCreateProducts(){
         price:giasanpham,
         danhmuc:danhmuc
      }
-     if (masanpham == "" ){
+     if (masanpham == "" || tensanpham == "" || motasanpham == "" || giasanpham == "" ){
       alert("Vui lòng nhập đầy đủ thông tin")
    }else{
     createProduct(formData)

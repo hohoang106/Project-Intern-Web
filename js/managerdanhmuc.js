@@ -37,8 +37,11 @@ function handleCreatedanhmuc(){
      var formData = {
         namedanhmuc: inputdanhmuc,
      }
-        alert("thành công!")
+     if (inputdanhmuc == "" ){
+      alert("Vui lòng nhập thông tin danh mục")
+   }else{
         createdanhmuc(formData);
+   }
   }
 };
 
