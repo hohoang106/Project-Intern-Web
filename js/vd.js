@@ -9,13 +9,12 @@ fetch(url, {
   .then(response => response.json())
   .then(tagPage => {
     tagPage.map(function(question,index){
+      debugger;
           var findTag = question.id;
           if (id == findTag) {
           var newTag= question.tagname;
           listTag="";
           for (i=0; i <newTag.length; i++) {
-            var listLength = newTag.length;
-            console.log(listLength);
             listTag += `<div class="list-question py-3 px-2 p-0 row question${index} question_question">
               <div class="block-vote col-xl-2 p-0 col-md-2 col-12 ">
                 <div class="">
@@ -47,7 +46,7 @@ fetch(url, {
                   </p>
                 </div>
                 <div class="number-answer">
-                <a href="#"><i class="fas fa-comment-alt icon-comment"></i></a> </i> <a class="ml-2 numberOfAnswer"> 3 câu trả lời</a>
+                <a class="text-decoration-none" href="/homepage/chitiet_cauhoi.html?id=${newTag[i].id}" class="ml-2"><span class=" numberOfAnswer ">3 câu trả lời</span></a>
                 </div>
               </div>
             </div>`;
@@ -56,50 +55,6 @@ fetch(url, {
       });
     // var listTags = htmls.join('');//&group=${findTag}
     document.querySelector("#list-Question").innerHTML = listTag;
-
-    const up_vote_span = document.getElementsByClassName('arrow-up');
-    const down_vote_span = document.getElementsByClassName('arrow-down');
-    const count = document.getElementsByClassName('number-vote');
-
-      for (let i = 0; i < count.length; i++) {
-      up_vote_span[i].addEventListener('click', function () {
-          count[i].innerHTML = parseInt(count[i].innerHTML) + handleVote(1, up_vote_span[i]);
-      });
-
-      down_vote_span[i].addEventListener('click', function() {
-          count[i].innerHTML = parseInt(count[i].innerHTML) + handleVote(-1, down_vote_span[i]);
-      });
-      };
-      function getSiblings(el, filter) {
-        var siblings = [];
-        el = el.parentNode.firstChild;
-        do { if (!filter || filter(el)) siblings.push(el); } while (el = el.nextSibling);
-        return siblings;
-      }
-      function classFilter(el) {
-              return el.classList && el.classList.contains('active-vote');
-      }
-      function handleVote(type, el) {
-          let siblings = getSiblings(el, classFilter);
-          
-        if (el.classList.contains('active-vote')) {
-            el.style.color = "dimgray";
-            el.classList.remove('active-vote');
-            return -1 * type;
-        } else if (siblings.length === 1) {
-            el.style.color = "#187AAB";
-            siblings[0].style.color = "dimgray";
-            siblings[0].classList.remove('active-vote');
-            el.classList.add('active-vote');
-    
-            return 2 * type;
-        } else if (!el.classList.contains('active-vote')) {
-            el.style.color = "#187AAB";
-            el.classList.add('active-vote');
-            return type;
-        }
-        return 0;
-        }
   });
 
 

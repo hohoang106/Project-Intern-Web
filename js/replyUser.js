@@ -27,7 +27,7 @@ fetch(url, {
               <div class="list-question row">
                 <div class=" block-vote col-2 p-0 ">
                   <div class="imageUser">
-                    <img class="avatar" src="/images/profile.png" alt="">
+                    <img class="avatar" src="${replyUser[i].UserImage}" alt="">
                   </div>
                 </div>
                 <div class=" col-10 answer-user py-2">

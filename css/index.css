@@ -146,6 +146,7 @@ th{
 }
 .question-page{
   background-color: #e0f0f5;
+
 }
 .author-name{
   color: #187AAB;
@@ -160,7 +161,7 @@ th{
   font-size: 14px;
   cursor: pointer;
 }
-.icon-comment{
+.icon-comment,.datCauHoi{
   cursor: pointer;
 }
 .block-vote{
@@ -191,7 +192,8 @@ th{
 }
 .question_question{
   background-color: #e0f0f5;
-  border-bottom: 1px solid #187AAB;
+  border-top: 1px solid #c7c6c6;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 @media (max-width: 768px) {
   *{
