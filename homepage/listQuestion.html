@@ -24,42 +24,40 @@
       <div class="col-lg-9">
         <div class="question-page container">
           <div class="question">
-            <div class="box-question text-right p-2"><a class="datCauHoi btn btn-primary" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-question-circle mr-2"></i>Đặt câu hỏi</a></div>
+            <div class="box-question py-2 text-right"><a class="datCauHoi text-decoration-none" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-question-circle mr-2"></i>Đặt câu hỏi</a></div>
               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header modal-title">
-                        <h5 class="modal-title  text-white" id="exampleModalLabel">Đặt câu hỏi</h5>
+                        <h5 class="modal-title  text-dark" id="exampleModalLabel">Đặt câu hỏi</h5>
                       </div>
                       <div class="modal-body">
                         <form>
                           <div class="form-group">
                             <label for="recipient-name text-secondary" class="col-form-label">Tên của bạn:</label>
-                            <input type="text" class="form-control" id="recipient-name">
-                          </div>
-                          <div class="form-group">
-                            <label for="recipient-date text-secondary" class="col-form-label">Ngày đăng</label>
-                            <input type="date" class="form-control" id="recipient-date">
+                            <input type="text" class="form-control" id="recipient-name" name="recipient-name">
                           </div>
                           <div class="form-group">
                             <label for="recipient-tag text-secondary" class="col-form-label">Tag:</label>
-                            <input type="text" class="form-control" id="recipient-tag">
+                            <input type="text" class="form-control" id="recipient-tag"name="recipient-tag">
                           </div>
                           <div class="form-group">
                             <label for="message-text text-secondary" class="col-form-label">Nội dung câu hỏi:</label>
-                            <textarea class="form-control" id="message-text"></textarea>
+                            <textarea class="form-control" id="message-text" name="message-text"></textarea>
                           </div>
                         </form>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Gửi câu hỏi</button>
+                        <button type="button" class="btn btn-primary" id="add-question">Gửi câu hỏi</button>
                       </div>
                     </div>
                   </div>
             </div>
           </div>
           <section class="list-Question" id="list-Question">
+          </section>
+          <section class="list-Question" id="myPostQuest">
           </section>
         </div>
         <div class="pt-5">
@@ -107,9 +105,8 @@
   <!-- footer -->
   <div id="footer-all">
   </div>
-
   <script src="/homepage/ajax.js"></script>
   <script src="/js/vd.js"></script>
-  <script src="/homepage/ajax.js"></script>
+  <script src="/js/postQuest.js"></script>
   </body>
 </html>

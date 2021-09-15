@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.min.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/validate.css">
+  <link rel="stylesheet" href="/css/sb-admin-2.css">
+</head>
+
+
+
+
+<body>
+  <!-- Navbar -->
+  <!-- <div id="header-navbar-admin">
+  </div> -->
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <img src="/images/logo-nobg.png" height="50px" alt=""></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Admin</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Charts -->
+      <li class="nav-item">
+        <a class="nav-link" href="charts.html">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Thống kê</span></a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="quanlybaidang.html">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Quản lý bài đăng</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="quanlysanpham.html">
+          <i class="fas fa-luggage-cart"></i>
+          <span>Quản lý sản phẩm</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="quanlydonhang.html">
+          <i class="fas fa-file-invoice"></i>
+          <span>Quản lý đơn hàng</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="quanlyCauhoi.html">
+        <i class="fas fa-question-circle"></i>
+          <span>Quản lý câu hỏi</span></a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" href="trangchu.html">
+          <i class="fas fa-sign-out-alt"></i>
+          <span>Đăng xuất</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+
+    </ul>
+    <!-- End of Sidebar -->
+    <div class="container-fluid mt-3">
+      <!-- <div class="container mt-2"> -->
+      <table class="list table table-striped mt-2" id="contentList">
+        <thead>
+          <tr>
+            <th style="width:110px"> Ngày đăng</th>
+            <th>Tiêu đề câu hỏi</th>
+            <th>Ảnh User</th>
+            <th>Tên tài khoản</th>
+            <th>Lượt vote</th>
+            <th>Tag câu hỏi</th>
+            <th>Tác vụ</th>
+          </tr>
+        </thead>
+        <tbody id="listAllQuestion">
+          <tr>
+            <td>10/05/2021</td>
+            <td>Sức Khỏe người già, thay đổi thói quen xấu?</td>
+            <td><img src="/images/nutrition1.jpg" width="100px" alt=""></td>
+            <td>Khắc Hoàng</td>
+            <td>77</td>
+            <td>Người già</td>
+            <td>
+              <button type="button" class="btn btn-dark btn-sm px-3" data-toggle="modal" data-target="#updateModal">
+                <i class="fas fa-edit"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="pagination-container"></div>
+      <nav>
+        <ul class="pagination"></ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Table -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.1/css/jquery.dataTables.min.css">
+  <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="/homepage/navbarAdmin.js"></script>
+  <script src="/js/sb-admin-2.js"></script>
+  <script src="/js/quanlyCauhoi.js"></script>
+
+</body>
+
+</html>
