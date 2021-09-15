@@ -168,40 +168,40 @@ function renderUpdateMonAn(id) {
 
 }
 
-function handleUpdate() {
-  var btnUpdate = document.querySelector('#btn-update-baidang');
+// function handleUpdate() {
+//   var btnUpdate = document.querySelector('#btn-update-baidang');
 
-  btnUpdate.onclick = function () {
-    var updatengaydang = document.querySelector('input[name="update-ngay-dang"]').value;
-    var updatetieude = document.querySelector('input[name="update-tieu-de"]').value;
-    var updatenoidung = document.querySelector('input[name="update-noi-dung"]').value;
-    // var updatehinhanh = document.querySelector('input[name="update-chon-anh"]').value;
-    var updatetacgia = document.querySelector('input[name="update-tac-gia"]').value;
-    var formData2 = {
-      ngayDang: updatengaydang,
-      tieuDe: updatetieude,
-      noiDung: updatenoidung,
-      // hinhAnh: updatehinhanh,
-      tacGia: updatetacgia
-    };
-    updateBaiDang(formData2, function (id) {
-      var option = {
-        method: 'PETCH',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(formData2)
-      };
-      fetch(baiDangApi + "/" + id, option)
-        .then(function (response) {
-          return response.json();
-        })
-        .then(function () {
-          getBaiDangs(rederBaiDang);
-        });
-    });
-  }
-}
+//   btnUpdate.onclick = function () {
+//     var updatengaydang = document.querySelector('input[name="update-ngay-dang"]').value;
+//     var updatetieude = document.querySelector('input[name="update-tieu-de"]').value;
+//     var updatenoidung = document.querySelector('input[name="update-noi-dung"]').value;
+//     // var updatehinhanh = document.querySelector('input[name="update-chon-anh"]').value;
+//     var updatetacgia = document.querySelector('input[name="update-tac-gia"]').value;
+//     var formData2 = {
+//       ngayDang: updatengaydang,
+//       tieuDe: updatetieude,
+//       noiDung: updatenoidung,
+//       // hinhAnh: updatehinhanh,
+//       tacGia: updatetacgia
+//     };
+//     updateBaiDang(formData2, function (id) {
+//       var option = {
+//         method: 'PETCH',
+//         headers: {
+//           'Content-Type': 'application/json'
+//         },
+//         body: JSON.stringify(formData2)
+//       };
+//       fetch(baiDangApi + "/" + id, option)
+//         .then(function (response) {
+//           return response.json();
+//         })
+//         .then(function () {
+//           getBaiDangs(rederBaiDang);
+//         });
+//     });
+//   }
+// }
 
 function deleteMonAn(id) {
   var option = {
