@@ -2,6 +2,7 @@ var cartApi = 'http://localhost:3000/managerdanhmuc';
 
 getdanhmuc(render);
 getdanhmuc(renderselect);
+getdanhmuc(rendernewselect);
 handleCreatedanhmuc();
 
 function getdanhmuc(callback){
@@ -44,6 +45,14 @@ function handleCreatedanhmuc(){
 //render renderselect danhmuc
 function renderselect(products){
     var listBlock = document.querySelector("#inputdanhmucSelect");
+    listBlock.innerHTML = products.map(function(product){
+        return `
+            <option value="${product.namedanhmuc}">${product.namedanhmuc}</option>
+        `
+    })
+  }
+function rendernewselect(products){
+    var listBlock = document.querySelector("#newinputdanhmucSelect");
     listBlock.innerHTML = products.map(function(product){
         return `
             <option value="${product.namedanhmuc}">${product.namedanhmuc}</option>
