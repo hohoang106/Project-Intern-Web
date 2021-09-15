@@ -1,63 +1,37 @@
 {
   "account": [
     {
-      "id": "1",
-      "fullname": "Khac Hoang",
+      "fullName": "Khac Hoang",
       "email": "admin@gmail.com",
       "address": "21 Quang Trung, Da Nang",
       "phone": "0973451505",
       "username": "admin1102",
       "password": "Ad123123",
-      "role": "admin"
+      "confirmPassword": "Ad123123",
+      "role": "Admin",
+      "id": "1"
     },
     {
-      "fullname": "Khac Hoang 3",
-      "email": "hoang2@gmail.com",
-      "address": "22 Nguyen Hue, Da Nang",
-      "phone": "0983451505",
-      "username": "cmn",
-      "password": "Mn123123",
-      "id": "2"
-    },
-    {
-      "fullName": "zxc",
+      "fullName": "Ho Khac Hoang",
       "email": "hoangmonkey99@gmail.com",
       "address": "18 Quang Trung, Da Nang",
       "phone": "0973451505",
       "username": "hoangkhac106",
+      "role": "User",
       "password": "Mn123123",
       "confirmPassword": "Mn123123",
       "id": "3"
     },
     {
-      "fullName": "hoanghoang",
-      "email": "hoangmonkey99@gmail.com",
+      "fullName": "Nguyen Thanh Long",
+      "email": "long123@gmail.com",
       "address": "18 Quang Trung, Da Nang",
       "phone": "0973451505",
-      "username": "hoangkhac1009",
+      "username": "longlong106",
+      "role": "User",
       "password": "Mn123123",
       "confirmPassword": "Mn123123",
       "id": "4"
-    },
-    {
-      "fullName": "hoangmnnm",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "admin123",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "5"
-    },
-    {
-      "fullName": "hoanghoang",
-      "email": "hoangmonkey99@gmail.com",
-      "address": "18 Quang Trung, Da Nang",
-      "phone": "0973451505",
-      "username": "hoangkhac106",
-      "password": "Mn123123",
-      "confirmPassword": "Mn123123",
-      "id": "tlcJ7AG"
     }
   ],
   "baidang": [
@@ -175,34 +149,14 @@
       ]
     },
     {
-      "ngayDang": "22/11/2012",
-      "tieuDe": "Tiêu đề",
-      "noiDung": "helllooooooooooooooooooooo",
-      "hinhAnh": {},
-      "tacGia": "khac hoang",
-      "id": 10
-    },
-    {
-      "ngayDang": "22/11/2012",
-      "tieuDe": "Tiêu đề",
-      "noiDung": "helllooooooooooooooooooooo",
-      "tacGia": "zxczxc",
-      "id": 11
-    },
-    {
-      "ngayDang": "22/11/2012",
-      "tieuDe": "Tiêu đề",
-      "noiDung": "helllooooooooooooooooooooo",
-      "tacGia": "khac hoang",
-      "id": 12
-    },
-    {
-      "ngayDang": "22/11/2012",
-      "tieuDe": "Tiêu đề",
-      "noiDung": "",
-      "hinhAnh": "C:\\fakepath\\backgr1.jpg",
-      "tacGia": "zxcxzc",
-      "id": 13
+      "fullname": "Khac Hoang 3",
+      "email": "hoang2@gmail.com",
+      "ngayDang": "19/02/2021",
+      "tieuDe": "hello123123",
+      "noiDung": "zxcnzccm",
+      "hinhanh": "a",
+      "id": 10,
+      "tacGia": "hoang"
     }
   ],
   "managercart": [
@@ -235,6 +189,36 @@
       "totalprice": "2600",
       "datetime": "23:35:18  13-9-2021",
       "id": 5
+    },
+    {
+      "fullName": "Hoang",
+      "phone": "0973451505",
+      "email": "hoangmonkey99@gmail.com",
+      "address": "12 Quang Trung, Da Nang",
+      "ghichu": "",
+      "totalprice": "585",
+      "datetime": "9:11:49  14-9-2021",
+      "id": 6
+    },
+    {
+      "fullName": "hoanghoang",
+      "phone": "0973451505",
+      "email": "hoangmonkey99@gmail.com",
+      "address": "12 Quang Trung, Da Nang",
+      "ghichu": "",
+      "totalprice": "1635",
+      "datetime": "9:28:26  14-9-2021",
+      "id": 7
+    },
+    {
+      "fullName": "hoanghoang",
+      "phone": "0973451505",
+      "email": "hoangmonkey99@gmail.com",
+      "address": "12 Quang Trung, Da Nang",
+      "ghichu": "",
+      "totalprice": "2085",
+      "datetime": "11:6:8  14-9-2021",
+      "id": 8
     }
   ],
   "managerdanhmuc": [
@@ -379,6 +363,33 @@
       "danhmuc": "Thực phẩm chức năng",
       "soluong": "1",
       "id": 3
+    },
+    {
+      "productcode": "AAA102",
+      "name": "Đậu hũ non",
+      "image": "/images/sanpham5.jpg",
+      "price": "35",
+      "danhmuc": "Đồ mát",
+      "soluong": "1",
+      "id": 4
+    },
+    {
+      "productcode": "AAA101",
+      "name": "Kirkland Viên uống bổ sung",
+      "image": "/images/sanphamchucnang4.jpg",
+      "price": "450",
+      "danhmuc": "Thực phẩm chức năng",
+      "soluong": "1",
+      "id": 5
+    },
+    {
+      "productcode": "AAA104",
+      "name": "Rocket 2h",
+      "image": "/images/sanphamchucnang3.jpg",
+      "price": "150",
+      "danhmuc": "Thực phẩm chức năng",
+      "soluong": "1",
+      "id": 6
     }
   ],
   "monan": [

@@ -170,18 +170,18 @@ function renderProduct(products){
     var htmls = products.map(function(product){
         return `
         <tr>
-        <td>${product.productcode}</td>
-        <td>${product.name}</td>
-        <td>${product.description}</td>
+        <td class="font-weight-bold">${product.productcode}</td>
+        <td onclick="btndetailMoTa(${product.id})" data-toggle="modal" data-target="#moTaSanPham" style="cursor: pointer;" class="font-weight-bold">${product.name}</td>
+        <td class="limit-p" onclick="btndetailMoTa(${product.id})" data-toggle="modal" data-target="#moTaSanPham" style="cursor: pointer;">${product.description}</td>
         <td><img src="${product.image}" width="100px" alt=""></td>
         <td><span>${product.price}</span>.000₫ / Sản phẩm</td>
         <td>${product.danhmuc}</td>
         <td>
-              <button type="button" class="btn btn-dark btn-sm px-3" data-toggle="modal" data-target="#updateModal">
-                <i class="fas fa-edit"></i>
+              <button class="btn btn-secondary w-100" data-toggle="modal" data-target="#updateModal">
+              <i class="fas fa-pen"></i>
               </button>
-              <button onclick="deleteProduct(${product.id})" type="button" class="btn btn-danger">
-                <i class="fas fa-trash mr-2" style="margin:.5rem;"></i>
+              <button onclick="deleteProduct(${product.id})"  class="btn btn-danger w-100 mt-1">
+                <i class="fas fa-trash"></i>
               </button>
         </td>
         </tr>
@@ -189,6 +189,14 @@ function renderProduct(products){
         `
     })
     listProductBlock.innerHTML = htmls.join('');
+    let element = document.querySelectorAll(".limit-p");
+    for (let i = 0; i < element.length; i++) {
+      var gioiHan = element[i].innerText;
+      if (gioiHan.length > 150) {
+        gioiHan = gioiHan.substr(0, 150) + '...';
+      }
+      document.querySelectorAll(".limit-p")[i].innerText = gioiHan;
+    }
     $('#content-product').DataTable({
       searching: false,
       bLengthChange: false,
@@ -200,7 +208,22 @@ function renderProduct(products){
     });
 }
 
-
+function btndetailMoTa(id) {
+  var option = {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+  };
+  fetch(productApi + '/' + id, option)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (post) {
+      var detailBaiDang = document.getElementById('detail-san-pham');
+      detailBaiDang.innerHTML = post.description;
+    })
+}
 
 // https://www.youtube.com/watch?v=ccX3ApO4qz8
 

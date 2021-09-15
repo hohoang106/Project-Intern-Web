@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.min.css">
+
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/nav.css">
+  <script src="/js/quanlymonan.js" defer></script>
+
+  <link rel="stylesheet" href="/css/sb-admin-2.css">
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <!-- <div id="header-navbar-admin">
+  </div> -->
+
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <img src="/images/logo-nobg.png" height="50px" alt=""></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Admin</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+
+      <!-- Nav Item - Charts -->
+      <li class="nav-item">
+        <a class="nav-link" href="charts.html">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Thống kê</span></a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" href="quanlybaidang.html">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Quản lý bài đăng</span></a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="quanlymonan.html">
+          <i class="fas fa-utensils"></i>
+          <span>Quản lý món ăn</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="quanlysanpham.html">
+          <i class="fas fa-luggage-cart"></i>
+          <span>Quản lý sản phẩm</span></a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" href="quanlydonhang.html">
+          <i class="fas fa-file-invoice"></i>
+          <span>Quản lý đơn hàng</span></a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link" href="trangchu.html">
+          <i class="fas fa-sign-out-alt"></i>
+          <span>Đăng xuất</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+
+    </ul>
+    <!-- End of Sidebar -->
+    <!-- Table -->
+    <div class="container-fluid mt-3">
+      <!-- <div class="container mt-2"> -->
+      <div class="d-flex justify-content-between">
+        <button class="btn-vietBai p-2" data-toggle="modal" data-target="#addProductModal">
+          <i class="fas fa-plus-circle p-1 text-white"></i>
+          <span class="text-white">Thêm món ăn</span>
+        </button>
+      </div>
+
+      <table class="table table-striped mt-2" id="content-product">
+        <thead>
+          <tr>
+            <th>Tên món ăn</th>
+            <th>Hình ảnh</th>
+            <th>Video</th>
+            <th>Nguyên liệu</th>
+            <th>Các bước làm</th>
+            <th>Tác vụ</th>
+          </tr>
+        </thead>
+        <tbody id="monan-b">
+          </tbody>
+
+      </table>
+    </div>
+
+  </div>
+
+
+  <!-- Modal thêm sản phẩm-->
+  <div class="modal" id="addProductModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header ">
+          <h5 class="modal-title text-uppercase text-white" id="exampleModalLabel">Thêm món ăn</h5>
+          <button type="button" class="btn" data-dismiss="modal"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label class="font-weight-bold" for="ten-sp">Tên món ăn</label>
+            <input name="tenmonan" type="text" class="form-control" id="ten-sp" placeholder="Nhập tên sản phẩm">
+          </div>
+          <div class="mb-3">
+            <label class="font-weight-bold" for="mo-ta">Chọn Ảnh</label>
+            <input name="anhmonan" type="text" class="form-control" id="chon-anh"></input>
+          </div>
+          <div class="mb-3">
+            <label class="font-weight-bold" for="ten-sp">Video</label>
+            <input name="videomonan" type="text" class="form-control" id="add-video" placeholder="Nhập link video">
+          </div>
+          <div class="mb-3">
+            <label class="font-weight-bold" for="ten-sp">Nguyên liệu</label>
+            <input name="nguyenlieu" type="text" class="form-control" id="ten-sp" placeholder="Nhập nguyên liệu">
+          </div>          
+          <div class="mb-3">
+            <label class="font-weight-bold" for="ten-sp">Các bước hướng dẫn</label>
+            <input name="buoclam" type="text" class="form-control" id="ten-sp" placeholder="Nhập các bước chuẩn bị">
+          </div>
+          
+
+          <div class="mb-3">
+            <button id="themmonan" type="submit" class="themsanpham btn btn-primary w-100">
+              Thêm món ăn
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Sửa sản phẩm -->
+  <div class="modal" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header ">
+          <h5 class="modal-title text-uppercase text-white" id="exampleModalLabel">Sửa món ăn</h5>
+          <button type="button" class="btn" data-dismiss="modal"><i class="fas fa-times"></i></button>
+        </div>
+
+        <form class="modal-body">
+          <div class="mb-3">
+            <label class="font-weight-bold" for="ten-sp">Tên món ăn</label>
+            <input name="tenmonan" type="text" class="form-control" id="ten-sp" placeholder="Nhập tên sản phẩm">
+          </div>
+          <div class="mb-3">
+            <label class="font-weight-bold" for="mo-ta">Chọn Ảnh</label>
+            <input name="anhmonan" type="text" class="form-control" id="chon-anh"></input>
+          </div>
+          <div class="mb-3">
+            <label class="font-weight-bold" for="ten-sp">Video</label>
+            <input name="videomonan" type="text" class="form-control" id="add-video" placeholder="Nhập link video">
+          </div>
+          <div class="mb-3">
+            <label class="font-weight-bold" for="ten-sp">Nguyên liệu</label>
+            <input name="nguyenlieu" type="text" class="form-control" id="ten-sp" placeholder="Nhập nguyên liệu">
+          </div>          
+          <div class="mb-3">
+            <label class="font-weight-bold" for="ten-sp">Các bước hướng dẫn</label>
+            <input name="buoclam" type="text" class="form-control" id="ten-sp" placeholder="Nhập các bước chuẩn bị">
+          </div>
+          <div>
+            <button type="submit" id="update" class="btn btn-add float-right"><span class=""><i
+                  class="fas fa-edit mr-2"></i> Sửa</span></button>
+            <button type="button" class="btn btn-secondary float-right mr-2"><span
+                class="text-white">Hủy</span></button>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.1/css/jquery.dataTables.min.css">
+  <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
+  <script src="/homepage/navbarAdmin.js"></script>
+  <script src="/js/sb-admin-2.js"></script>
+</body>
+
+</html>

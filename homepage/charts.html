@@ -28,11 +28,11 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <img src="/images/logo-nobg.png" height="50px" alt=""></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">SB Admin</div>
+                <div class="sidebar-brand-text mx-3">Admin</div>
             </a>
 
             <!-- Divider -->
@@ -50,6 +50,11 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>Quản lý bài đăng</span></a>
             </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="quanlymonan.html">
+                  <i class="fas fa-utensils"></i>
+                  <span>Quản lý món ăn</span></a>
+              </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="quanlysanpham.html">
@@ -61,7 +66,12 @@
                     <i class="fas fa-file-invoice"></i>
                     <span>Quản lý đơn hàng</span></a>
             </li>
-            <li class="nav-item ">
+            <li class="nav-item">
+                <a class="nav-link" href="quanlytaikhoan.html">
+                  <i class="fas fa-users"></i>
+                  <span>Quản lý tài khoản</span></a>
+              </li>
+            <li class="nav-item " onclick="dangXuat()"> 
                 <a class="nav-link" href="trangchu.html">
                     <i class="fas fa-sign-out-alt"></i>
                     <span>Đăng xuất</span></a>
@@ -204,7 +214,12 @@
     <script src="/js/chart-area-demo.js"></script>
     <script src="/js/chart-pie-demo.js"></script>
     <script src="/js/chart-bar-demo.js"></script>
-
+    <script>
+  
+        function dangXuat(){
+          localStorage.clear();
+        }
+        </script>
 </body>
 
 </html>

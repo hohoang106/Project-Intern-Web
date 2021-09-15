@@ -17,6 +17,8 @@ $(document).ready(function(){
 function dangXuat(){
   localStorage.clear();
 }
+
+
 var baiDangApi = "http://localhost:3000/baidang";
 function start() {
   getBaiDangs(rederBaiDang);

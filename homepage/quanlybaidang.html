@@ -26,7 +26,7 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" >
         <div class="sidebar-brand-icon rotate-n-15">
           <img src="/images/logo-nobg.png" height="50px" alt=""></i>
         </div>
@@ -48,7 +48,11 @@
           <i class="fas fa-fw fa-table"></i>
           <span>Quản lý bài đăng</span></a>
       </li>
-
+      <li class="nav-item ">
+        <a class="nav-link" href="quanlymonan.html">
+          <i class="fas fa-utensils"></i>
+          <span>Quản lý món ăn</span></a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="quanlysanpham.html">
           <i class="fas fa-luggage-cart"></i>
@@ -59,11 +63,15 @@
           <i class="fas fa-file-invoice"></i>
           <span>Quản lý đơn hàng</span></a>
       </li>
-
-      <li class="nav-item ">
+      <li class="nav-item">
+        <a class="nav-link" href="quanlytaikhoan.html">
+          <i class="fas fa-users"></i>
+          <span>Quản lý tài khoản</span></a>
+      </li>
+      <li class="nav-item " onclick="dangXuat()">
         <a class="nav-link" href="trangchu.html">
           <i class="fas fa-sign-out-alt"></i>
-          <span>Đăng xuất</span></a>
+          <span >Đăng xuất</span></a>
       </li>
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
@@ -84,6 +92,7 @@
         <!-- <div class="danhMucKienThuc">
               <span>Kiến thức dinh dưỡng</span>
             </div> -->
+
       </div>
 
       <table class="list table table-striped mt-2" id="contentList">
@@ -91,8 +100,8 @@
           <tr>
             <th style="width:110px"> Ngày đăng</th>
             <th>Tiêu đề</th>
-            <th>Mô tả</th>
-            <th>Hình ảnh</th>
+            <th>Nội dung </th>
+            <th>Hình ảnh </th>
             <th>Tác giả</th>
             <th>Tác vụ</th>
           </tr>
@@ -157,21 +166,33 @@
         </tbody>
       </table>
 
-      <div class="pagination-container"></div>
-      <nav>
-        <ul class="pagination"></ul>
-      </nav>
+
     </div>
   </div>
 
   <!-- Table -->
 
-
+<!-- Modal nội dung -->
+<div class="modal" id="baivietModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header ">
+        <h5 class="modal-title text-uppercase text-white" id="exampleModalLabel">Chi tiết nội dung bài viết</h5>
+        <button type="button" class="btn" data-dismiss="modal"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal-body">
+        <!-- mainbody product detail -->
+        <div class="container" id="detailBaidang">
+          <p id="detail-bai-dang"></p>
+        </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- Modal thêm bài viết-->
   <div class="modal" id="addModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header ">
           <h5 class="modal-title text-uppercase text-white" id="exampleModalLabel">Thêm bài viết</h5>
@@ -193,7 +214,7 @@
 
           <div class="mb-3">
             <label class="font-weight-bold" for="noi-dung">Nhập nội dung bài viêt</label>
-            <input class="form-control" name="noi-dung" id="noi-dung"></input>
+            <textarea class="form-control" name="editor1" id="editor1"></textarea>
             <span class="form-message col-12"></span>
           </div>
           <div class="custom-file mb-3">
@@ -221,8 +242,8 @@
 
   </div>
   <!-- Modal Sửa bài viết -->
-  <!-- <div class="modal" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+  <div class="modal" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header ">
           <h5 class="modal-title text-uppercase text-white" id="exampleModalLabel">Sửa bài viết</h5>
@@ -230,37 +251,38 @@
         </div>
 
 
-        <form class="modal-body" onsubmit="event.preventDefault(); onFormSubmit();">
+        <form class="modal-body">
           <div class="mb-3">
-            <label class="font-weight-bold" for="ngay-dang">Ngày đăng</label>
-            <input type="date" class="form-control" id="ngay-dang">
+            <label class="font-weight-bold" for="update-ngay-dang">Ngày đăng</label>
+            <input type="text" class="form-control" name="update-ngay-dang" id="update-ngay-dang">
           </div>
           <div class="mb-3">
-            <label class="font-weight-bold" for="tieu-de">Tiêu đề bài viết</label>
-            <input type="text" class="form-control" id="tieu-de" placeholder="Nhập tiêu đề bài viết">
+            <label class="font-weight-bold" for="update-tieu-de">Tiêu đề bài viết</label>
+            <input type="text" class="form-control" name="update-tieu-de" id="update-tieu-de" placeholder="Nhập tiêu đề bài viết">
           </div>
 
           <div class="mb-3">
-            <label class="font-weight-bold" for="noi-dung">Nhập nội dung bài viêt</label>
-            <textarea class="form-control" id="noi-dung" rows="3"></textarea>
+            <label class="font-weight-bold" for="update-noi-dung">Nội dung bài viêt</label>
+            <textarea class="form-control" name="update-noi-dung" id="update-noi-dung" rows="3"></textarea>
           </div>
           <div class="custom-file mb-3">
-            <label class="custom-file-label" for="chon-anh"><i class="far fa-file-image p-2"></i>Chọn ảnh</label>
-            <input type="file" class="custom-file-input" onchange="readURL(this);" id="chon-anh">
+            <label class="custom-file-label" for="update-chon-anh"><i class="far fa-file-image p-2"></i>Chọn ảnh</label>
+            <input type="file" class="custom-file-input" name="update-chon-anh" onchange="readURL(this);" id="update-chon-anh">
           </div>
           <div>
             <img id="displayInputImg" src="#" alt="your image" class="img-fluid" />
           </div>
 
           <div class="mb-3">
-            <label class="font-weight-bold" for="tac-gia">Nhập tên tác giả</label>
-            <input class="form-control" id="tac-gia" rows="3"></input>
+            <label class="font-weight-bold" for="update-tac-gia">Tên tác giả</label>
+            <input type="text" name="update-tac-gia" class="form-control" id="update-tac-gia">
           </div>
           <div>
-            <button type="button" class="btn btn-danger"><span class="text-white"><i
-                  class="fas fa-trash mr-2"></i>Xóa</span></button>
-            <button type="submit" onclick="updateContent()" class="btn btn-add float-right"><span class="text-white"><i
+            <!-- <button type="button" class="btn btn-danger"><span class="text-white"><i
+                  class="fas fa-trash mr-2"></i>Xóa</span></button> -->
+            <button type="submit" class="btn btn-success float-right" id="btn-update-baidang"><span class="text-white"><i
                   class="fas fa-edit mr-2"></i> Sửa</span></button>
+                  
             <button type="button" class="btn btn-secondary float-right mr-2"><span
                 class="text-white">Hủy</span></button>
 
@@ -272,13 +294,13 @@
 
       </div>
     </div>
-  </div> -->
-  <!-- <script src="/node_modules/ckeditor4/ckeditor.js"></script>
+  </div>
+  <script src="/node_modules/ckeditor4/ckeditor.js"></script>
   <script>
     window.onload = function() {
-        CKEDITOR.replace( 'noi-dung' );
+        CKEDITOR.replace('editor1');
     };
-</script> -->
+</script>
 
   <script src="/js/validate.js"></script>
   <script>
@@ -300,13 +322,20 @@
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdn.datatables.net/1.11.1/css/jquery.dataTables.min.css">
   <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
   <script src="/homepage/navbarAdmin.js"></script>
   <script src="/js/quanlybaidang.js"></script>
   <script src="/js/sb-admin-2.js"></script>
 
+<script>
+  
+function dangXuat(){
+  localStorage.clear();
+}
+</script>
 </body>
 
 </html>
