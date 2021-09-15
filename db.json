@@ -368,7 +368,6 @@
   ],
   "monan": [
     {
-      "id": 1,
       "img": "https://image-us.eva.vn/upload/4-2018/images/2018-12-13/1544691017-791-suon-xao-chua-ngot-suon-xao-chua-ngot-11-1460167252-width500height377-1544691017-width500height377.jpg",
       "name": "Sườn xào chua ngọt",
       "video": "https://www.youtube.com/embed/ReGO8AnAWK8",
@@ -416,10 +415,10 @@
         "Trong 1 bát, mắm, đường, giấm, chanh, ớt trộn đều cùng 1 bát con nước.",
         "Chảo dầu vừa chiên sườn, bỏ hành tỏi vào phi thơm, thêm cà chua đảo qua.",
         "Đổ bát nước sốt cùng sườn vào đun nhỏ lửa đến khi nước gần cạn, sườn mềm. Bày ra đĩa và dùng"
-      ]
+      ],
+      "id": 1
     },
     {
-      "id": 2,
       "img": "http://ygcfood.vn/wp-content/uploads/2020/06/c%C3%A1ch-l%C3%A0m-bun-kh%C3%B4.jpg",
       "name": "Bún cá rô",
       "video": "https://www.youtube.com/embed/hoTo3zvYnGA",
@@ -454,10 +453,10 @@
         "Cá gỡ khéo léo sao cho đừng vỡ, sau đó ướp với các gia vị: mắm, muối, bột ngọt, tiêu, ớt bột cho vừa ăn sau đó mang đi chiên. Xương cá và đầu cá giã lọc lấy nước dùng",
         "Phi hành khô và cà chua sau đó đổ nước lọc cá vào, vắt nước cốt nghệ, củ gừng đập dập, nêm gia vị cho vừa miệng. Rau cần nước rửa sạch cắt khúc khi nào gần ăn thì cho rau vào, đun sôi tắt bếp liền",
         "Cho bún vào tô, múc nước dùng và rau cần, thêm cá chiên và hành tươi"
-      ]
+      ],
+      "id": 2
     },
     {
-      "id": 3,
       "img": "https://img-global.cpcdn.com/recipes/2458582_a98a05ea11315bc7/751x532cq70/rau-bi-xao-t%E1%BB%8Fi-recipe-main-photo.jpg",
       "name": "Rau bí tỏi",
       "video": "https://www.youtube.com/embed/jDML-hIdA6A",
@@ -489,10 +488,10 @@
         "Bắc nồi nước thả chút muối cho lên bếp đun sôi thả rau bí vào trùng qua cho rau mềm",
         "óc vỏ 2 củ tỏi đập dập rồi bắc chảo lên bếp cho chút dầu vào phi thơm (khi thấy tỏi dậy mùi thơm và có màu vàng bạn xúc một nửa phần tỏi ra bát) rồi cho rau vào xào ; nêm 3 thìa gia vị bột nêm và đảo đều, nếu thấy nước trong nồi cạn bạn chế thêm 1/2 bát con nước vào cho rau mềm không bị khô, sào rau trong 4 đến 5 phút là được nêm nếm cho vừa miệng.; yêu cầu thành phẩm rau xanh, chín mềm,dậy mùi thơm của tỏi ăn ngon.",
         "Trình bày rau ra đĩa cho phần tỏi phi thơm đã lấy ra lúc trước rắc lên trên đĩa cho đẹp. Chúc các bạn làm món rau được như ý!"
-      ]
+      ],
+      "id": 3
     },
     {
-      "id": 4,
       "img": "https://img.timviecdaubep.com/2020/01/bi-do-xao-thit-bo-3-1.jpg",
       "name": "Bí đỏ xào thịt",
       "video": "https://www.youtube.com/embed/S5XbtVz9qWs",
@@ -523,10 +522,10 @@
         "Làm nóng chảo, cho thịt vào xào tái thì vớt ra",
         "Cắt bí đỏ thành miếng vừa miệng ăn. Cho vào chảo đảo lên, nếm gia vị vừa ăn",
         "Cho thịt vào đảo tiếp tầm 3' là xong"
-      ]
+      ],
+      "id": 4
     },
     {
-      "id": 5,
       "img": "https://i.ytimg.com/vi/ZmX9OyOp6kg/maxresdefault.jpg",
       "name": "Gà kho sả ớt",
       "video": "https://www.youtube.com/embed/EKnET6dDLpM",
@@ -569,10 +568,10 @@
         "Sau khi hành tím,sả,ớt đã thơm thì cho gà vào xào cho săn lại rồi cho nửa chén nước lọc vào nấu lửa riu riu.",
         "Kho gà cho đến khi gần cạn nước thì nêm nếm lại cho vừa ăn rồi tắt bếp.",
         "Múc gà kho sả ớt ra đĩa ăn kèm với cơm nóng."
-      ]
+      ],
+      "id": 5
     },
     {
-      "id": 6,
       "img": "https://img-global.cpcdn.com/recipes/af09625b6dde4784/751x532cq70/ngao-n%E1%BA%A5u-mung-t%C6%A1i-recipe-main-photo.jpg",
       "name": "Canh mồng tơi nấu ngao",
       "video": "https://www.youtube.com/embed/nThO9X2UNX0",
@@ -602,10 +601,10 @@
         "Ngao rửa sạch ngâm nước 10’, dùng dao tách ngao lấy nhân, rửa thịt ngao, giữ lại nước rửa, gan lấy nước trong.",
         "Cho ngao ướp thìa mắm ngon, chút nước chanh để 5’. Bắc nồi lên bếp đảo đều cho ngao ngấm mắm muối ngao chín tới, cho nước rửa ngao vào, nếu ít nước chế thêm nước lọc cho đủ ăn, nấu sôi thả rau vào nấu khoảng 3-5’ rau chín nêm hạt nêm cho vừa miệng.",
         "Cho ra tô và dùng"
-      ]
+      ],
+      "id": 6
     },
     {
-      "id": 7,
       "img": "http://www.mabu.vn/wp-content/uploads/2017/09/bot-thit-lon-hat-sen.jpg",
       "name": "Bột thịt lợn",
       "video": "https://www.youtube.com/embed/xmycKqXCgiY",
@@ -637,10 +636,10 @@
         "Đổ 2/3 bát nước còn lại vào nồi, khuấy đều bột cho tan.",
         "Cho thịt lợn vào ninh chung với bột, đun sôi nhỏ lửa, khuấy đều tay, cho thêm rau ngót đã xay nhuyễn.",
         "Tiếp tục khuấy đều tay khoảng 3 phút thì tắt bếp, cho dầu ăn vào trộn đều, múc ra bát."
-      ]
+      ],
+      "id": 7
     },
     {
-      "id": 8,
       "img": "https://dinhduong.com.vn/wp-content/uploads/bot-tom.jpg",
       "name": "Bột tôm",
       "video": "https://www.youtube.com/embed/aAXvSFiuq6M",
@@ -671,7 +670,16 @@
         "Mướp lấy phần ruột, rửa sạch, băm nhuyễn, hấp chín và xay nhuyễn",
         "Đổ 2/3 bát (chén) nước còn lại vào nồi, khuấy đều bột cho tan, nấu nhuyễn",
         "Cho tôm vào nồi bột đã được nấu nhuyễn, đun sôi nhỏ lửa, khuấy đều tay để hỗn hợp không bị cháy hoặc vón cục. Khi bột đã sôi lăn tăn cho ruột mướp đã xay nhuyễn trộn đều rồi tắt bếp, cho dầu ăn vào trộn đều, múc ra bát (chén)"
-      ]
+      ],
+      "id": 8
+    },
+    {
+      "img": "data:image/jpeg;base64,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",
+      "name": "hêh",
+      "video": "https://www.youtube.com/embed/a-E5ksPqoXI",
+      "material": "sd",
+      "step": "sd",
+      "id": 9
     }
   ],
   "thucdon": [
@@ -718,7 +726,6 @@
       "href": "thucdonnguoitieuduong.html"
     }
   ],
-  "thongke": [],
   "tagPage": [
     {
       "id": 1,
