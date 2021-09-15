@@ -66,7 +66,11 @@
           <i class="fas fa-file-invoice"></i>
           <span>Quản lý đơn hàng</span></a>
       </li>
-
+      <li class="nav-item">
+        <a class="nav-link" href="quanlytaikhoan.html">
+          <i class="fas fa-users"></i>
+          <span>Quản lý tài khoản</span></a>
+      </li>
       <li class="nav-item ">
         <a class="nav-link" href="trangchu.html">
           <i class="fas fa-sign-out-alt"></i>
@@ -94,19 +98,19 @@
         </button>
       </div>
 
-      <table class="table table-striped mt-2" id="content-product">
+      <table class="list table table-striped mt-2" id="content-food">
         <thead>
           <tr>
-            <th>Tên món ăn</th>
-            <th>Hình ảnh</th>
-            <th>Video</th>
-            <th>Nguyên liệu</th>
+            <th style="width:100px">Tên món ăn</th>
+            <th style="width:100px">Hình ảnh</th>
+            <th style="width:100px">Video</th>
+            <th style="width:200px">Nguyên liệu</th>
             <th>Các bước làm</th>
-            <th>Tác vụ</th>
+            <th style="width:50px">Tác vụ</th>
           </tr>
         </thead>
         <tbody id="monan-b">
-          </tbody>
+        </tbody>
 
       </table>
     </div>
@@ -114,9 +118,9 @@
   </div>
 
 
-  <!-- Modal thêm sản phẩm-->
+  <!-- Modal thêm món ăn-->
   <div class="modal" id="addProductModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header ">
           <h5 class="modal-title text-uppercase text-white" id="exampleModalLabel">Thêm món ăn</h5>
@@ -124,26 +128,33 @@
         </div>
         <div class="modal-body">
           <div class="mb-3">
-            <label class="font-weight-bold" for="ten-sp">Tên món ăn</label>
-            <input name="tenmonan" type="text" class="form-control" id="ten-sp" placeholder="Nhập tên sản phẩm">
+            <label class="font-weight-bold" for="tenmonan">Tên món ăn</label>
+            <input name="tenmonan" type="text" class="form-control" id="tenmonan" placeholder="Nhập tên sản phẩm">
           </div>
           <div class="mb-3">
-            <label class="font-weight-bold" for="mo-ta">Chọn Ảnh</label>
-            <input name="anhmonan" type="text" class="form-control" id="chon-anh"></input>
+            <label class="font-weight-bold" for="anhmonan">Chọn Ảnh</label>
+            <input name="anhmonan" type="text" class="form-control" id="anhmonan"></input>
           </div>
           <div class="mb-3">
-            <label class="font-weight-bold" for="ten-sp">Video</label>
-            <input name="videomonan" type="text" class="form-control" id="add-video" placeholder="Nhập link video">
+            <label class="font-weight-bold" for="videomonan">Video</label>
+            <input name="videomonan" type="text" class="form-control" id="videomonan" placeholder="Nhập link video">
           </div>
           <div class="mb-3">
-            <label class="font-weight-bold" for="ten-sp">Nguyên liệu</label>
-            <input name="nguyenlieu" type="text" class="form-control" id="ten-sp" placeholder="Nhập nguyên liệu">
-          </div>          
-          <div class="mb-3">
-            <label class="font-weight-bold" for="ten-sp">Các bước hướng dẫn</label>
-            <input name="buoclam" type="text" class="form-control" id="ten-sp" placeholder="Nhập các bước chuẩn bị">
+            <label class="font-weight-bold" for="nguyenlieu">Nguyên liệu</label>
+            <button type="button" class="btn" data-dismiss=""><i class="fas fa-plus"></i></button>
+            <div class="d-flex flex-row bd-highlight mb-3">
+              <input name="nguyenlieu" type="text" class="form-control" id="nguyenlieu"
+                placeholder="Nhập tên nguyên liệu">
+              <input name="nguyenlieu" type="text" class="form-control" id="nguyenlieu"
+                placeholder="Nhập số lượng, cân nặng nếu có">
+            </div>
           </div>
-          
+          <div class="mb-3">
+            <label class="font-weight-bold" for="buoclam">Các bước hướng dẫn</label>
+            <button type="button" class="btn" data-dismiss=""><i class="fas fa-plus"></i></button>
+            <input name="buoclam" type="text" class="form-control" id="buoclam" placeholder="Nhập các bước chuẩn bị">
+          </div>
+
 
           <div class="mb-3">
             <button id="themmonan" type="submit" class="themsanpham btn btn-primary w-100">
@@ -155,9 +166,9 @@
     </div>
   </div>
 
-  <!-- Modal Sửa sản phẩm -->
+  <!-- Modal Sửa món ăn -->
   <div class="modal" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header ">
           <h5 class="modal-title text-uppercase text-white" id="exampleModalLabel">Sửa món ăn</h5>
@@ -166,31 +177,39 @@
 
         <form class="modal-body">
           <div class="mb-3">
-            <label class="font-weight-bold" for="ten-sp">Tên món ăn</label>
-            <input name="tenmonan" type="text" class="form-control" id="ten-sp" placeholder="Nhập tên sản phẩm">
+            <label class="font-weight-bold" for="update-tenmonan">Tên món ăn</label>
+            <input name="update-tenmonan" type="text" class="form-control" id="update-tenmonan" placeholder="Nhập tên sản phẩm">
           </div>
           <div class="mb-3">
-            <label class="font-weight-bold" for="mo-ta">Chọn Ảnh</label>
-            <input name="anhmonan" type="text" class="form-control" id="chon-anh"></input>
+            <label class="font-weight-bold" for="update-anhmonan">Chọn Ảnh</label>
+            <input name="update-anhmonan" type="text" class="form-control" id="update-anhmonan"></input>
           </div>
           <div class="mb-3">
-            <label class="font-weight-bold" for="ten-sp">Video</label>
-            <input name="videomonan" type="text" class="form-control" id="add-video" placeholder="Nhập link video">
+            <label class="font-weight-bold" for="update-videomonan">Video</label>
+            <input name="update-videomonan" type="text" class="form-control" id="update-videomonan" placeholder="Nhập link video">
           </div>
           <div class="mb-3">
-            <label class="font-weight-bold" for="ten-sp">Nguyên liệu</label>
-            <input name="nguyenlieu" type="text" class="form-control" id="ten-sp" placeholder="Nhập nguyên liệu">
-          </div>          
+            <label class="font-weight-bold" for="update-nguyenlieu">Nguyên liệu</label>
+            <button type="button" class="btn" data-dismiss=""><i class="fas fa-plus"></i></button>
+            <div class="d-flex flex-row bd-highlight mb-3">
+              <input name="update-nguyenlieu" type="text" class="form-control" id="update-nguyenlieu"
+                placeholder="Nhập tên nguyên liệu">
+              <input name="update-soluong" type="text" class="form-control" id="update-soluong"
+                placeholder="Nhập số lượng, cân nặng nếu có">
+            </div>
+          </div>
           <div class="mb-3">
-            <label class="font-weight-bold" for="ten-sp">Các bước hướng dẫn</label>
-            <input name="buoclam" type="text" class="form-control" id="ten-sp" placeholder="Nhập các bước chuẩn bị">
+            <label class="font-weight-bold" for="update-buoclam">Các bước hướng dẫn</label>
+            <button type="button" class="btn" data-dismiss=""><i class="fas fa-plus"></i></button>
+            <div id="update-buoclam">
+            </div>
           </div>
           <div>
-            <button type="submit" id="update" class="btn btn-add float-right"><span class=""><i
-                  class="fas fa-edit mr-2"></i> Sửa</span></button>
-            <button type="button" class="btn btn-secondary float-right mr-2"><span
-                class="text-white">Hủy</span></button>
-
+            <button type="submit" class="btn btn-success float-right" id="btn-update-baidang"><span
+                class="text-white"><i class="fas fa-edit mr-2"></i> Sửa</span></button>
+            <button type="button"  data-dismiss="modal" class="btn btn-secondary float-right mr-2"><span
+                class="text-white">Hủy</span>
+            </button>
           </div>
         </form>
       </div>

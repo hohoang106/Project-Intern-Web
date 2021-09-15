@@ -61,26 +61,52 @@
       <li class="nav-item ">
         <a class="nav-link" href="quanlydonhang.html">
           <i class="fas fa-file-invoice"></i>
-            <span>Quản lý đơn hàng</span></a>
-    </li>
-    <li class="nav-item ">
-      <a class="nav-link" href="trangchu.html">
-        <i class="fas fa-sign-out-alt"></i>
-        <span>Đăng xuất</span></a>
-    </li>
-          <!-- Divider -->
-          <hr class="sidebar-divider d-none d-md-block">
+          <span>Quản lý đơn hàng</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="quanlytaikhoan.html">
+          <i class="fas fa-users"></i>
+          <span>Quản lý tài khoản</span></a>
+      </li>
+      <li class="nav-item " onclick="dangXuat()">
+        <a class="nav-link" href="trangchu.html">
+          <i class="fas fa-sign-out-alt"></i>
+          <span>Đăng xuất</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
 
-          <!-- Sidebar Toggler (Sidebar) -->
-          <div class="text-center d-none d-md-inline">
-              <button class="rounded-circle border-0" id="sidebarToggle"></button>
-          </div>
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
 
 
       </ul>
       <!-- End of Sidebar -->
   <!-- Table -->
   <div class="container-fluid mt-3">
+
+    <!-- quan ly danh muc -->
+    <div class="input-group col-xl-4 col-md-4 col-12 p-2">
+      <input name="inputdanhmuc" class="form-control" type="input" placeholder="Thêm danh mục sản phẩm tại đây!">
+      <button id="btndanhmuc" class="btn-vietBai p-2">
+        <i class="fas fa-plus-circle p-1 text-white"></i>
+      </button>
+    </div>
+    <table class="table table-striped mt-2" id="danhmuc-content">
+      <thead>
+        <tr>
+          <th>STT</th>
+          <th>Tên Danh Mục Sản Phẩm</th>
+          <th>Tác vụ</th>
+        </tr>
+      </thead>
+      <tbody id="list-danhmuc">
+
+      </tbody>
+    </table>
+
     <!-- <div class="container mt-2"> -->
       <div class="d-flex justify-content-between">
         <button class="btn-vietBai p-2" data-toggle="modal" data-target="#addProductModal">
@@ -108,9 +134,23 @@
     </div>
 
   </div>
-
-
-  
+  <!-- Modal noi dung -->
+  <div class="modal" id="moTaSanPham" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header ">
+          <h5 class="modal-title text-uppercase text-white" id="exampleModalLabel">Chi tiết mô tả sản phẩm</h5>
+          <button type="button" class="btn" data-dismiss="modal"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="modal-body">
+          <!-- mainbody product detail -->
+          <div class="container" id="detailSanPham">
+            <p id="detail-san-pham"></p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!-- Modal thêm sản phẩm-->
   <div class="modal" id="addProductModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -144,11 +184,10 @@
           <div class="mb-3">
             <label class="font-weight-bold" for="gia-sp">Danh Mục</label>
             <!-- <input name="danhmuc" class="form-control" placeholder="Nhập giá cho sản phẩm" ></input> -->
-            <select name="danhmuc" class="form-control" id="inputGroupSelect01">
-              <option selected>Choose...</option>
-              <option value="Đồ mát">Đồ mát</option>
+            <select id="inputdanhmucSelect" name="danhmuc" class="form-control">
+              <!-- <option value="Đồ mát">Đồ mát</option>
               <option value="Đồ hộp-Đồ khô">Đồ hộp-Đồ khô</option>
-              <option value="Thực phẩm chức năng">Thực phẩm chức năng</option>
+              <option value="Thực phẩm chức năng">Thực phẩm chức năng</option> -->
             </select>
           </div>
           <div>
@@ -173,27 +212,36 @@
         <form class="modal-body">
           <div class="mb-3">
             <label class="font-weight-bold" for="ma-sp">Mã sản phẩm</label>
-            <input type="text" class="form-control" id="ma-sp" placeholder="Nhập mã sản phẩm">
+            <input type="text" class="form-control" id="newma-sp" placeholder="Nhập mã sản phẩm">
           </div>
           <div class="mb-3">
             <label class="font-weight-bold" for="ten-sp">Tên sản phẩm</label>
-            <input type="text" class="form-control" id="ten-sp" placeholder="Nhập tên sản phẩm">
+            <input type="text" class="form-control" id="newten-sp" placeholder="Nhập tên sản phẩm">
           </div>
           <div class="mb-3">
             <label class="font-weight-bold" for="mo-ta">Mô tả</label>
-            <input type="text" class="form-control" id="mo-ta" placeholder="Nhập mô tả cho sản phẩm">
+            <input type="text" class="form-control" id="newmo-ta" placeholder="Nhập mô tả cho sản phẩm">
           </div>
           <div class="custom-file mb-3">
             <label class="font-weight-bold" for="mo-ta">Chọn Ảnh</label>
-            <input type="text" class="form-control" id="chon-anh"></input>
+            <input type="text" class="form-control" id="newchon-anh"></input>
           </div>
 
           <div class="mb-3">
             <label class="font-weight-bold" for="gia-sp">Giá</label>
-            <input class="form-control" id="gia-sp" placeholder="Nhập giá cho sản phẩm"></input>
+            <input class="form-control" id="newgia-sp" placeholder="Nhập giá cho sản phẩm"></input>
+          </div>
+          <div class="mb-3">
+            <label class="font-weight-bold" for="gia-sp">Danh Mục</label>
+            <!-- <input name="danhmuc" class="form-control" placeholder="Nhập giá cho sản phẩm" ></input> -->
+            <select id="newinputdanhmucSelect" name="danhmuc" class="form-control">
+              <!-- <option value="Đồ mát">Đồ mát</option>
+              <option value="Đồ hộp-Đồ khô">Đồ hộp-Đồ khô</option>
+              <option value="Thực phẩm chức năng">Thực phẩm chức năng</option> -->
+            </select>
           </div>
           <div>
-            <button type="submit" id="update" class="btn btn-add float-right"><span class="text-white"><i
+            <button type="submit" id="updateproduct" class="btn btn-secondary float-right"><span class="text-white"><i
                   class="fas fa-edit mr-2"></i> Sửa</span></button>
             <button type="button" class="btn btn-secondary float-right mr-2"><span
                 class="text-white">Hủy</span></button>
@@ -212,6 +260,13 @@
   <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
   <script src="/homepage/navbarAdmin.js"></script>
   <script src="/js/sb-admin-2.js"></script>
+  <script src="/js/managerdanhmuc.js"></script>
+  <script>
+  
+    function dangXuat(){
+      localStorage.clear();
+    }
+    </script>
 </body>
 
 </html>

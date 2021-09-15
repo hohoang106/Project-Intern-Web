@@ -28,7 +28,7 @@ $('#btn-login').click(function (data) {
       })
       console.log(result2)
       if (result2.length !== 0) {
-        location.replace('quanlybaidang.html');
+        location.replace('charts.html');
       }
 
     });
