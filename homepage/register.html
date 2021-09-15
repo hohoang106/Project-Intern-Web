@@ -31,7 +31,7 @@
                   <div class="input-group-prepend">
                     <label for="fullName" class="input-group-text"> <i class="fa fa-user icon-login"></i> </label>
                   </div>
-                  <input id="fullName" name="fullName" class="form-control" placeholder="Họ tên" type="text" required>
+                  <input id="fullName" name="fullName" class="form-control" placeholder="Họ tên" type="text">
                   <span class="form-message col-12"></span>
                 </div>
 
@@ -61,6 +61,14 @@
                     <label for="username" class="input-group-text"> <i class="fas fa-user icon-login"></i></i> </label>
                   </div>
                   <input id="username" name="username" class="form-control" placeholder="Tên đăng nhập" type="text">
+                  <span class="form-message col-12"></span>
+                </div>
+
+                <div class="form-group input-group">
+                  <div class="input-group-prepend">
+                    <label for="role" class="input-group-text"><i class="fas fa-user-tag icon-login"></i></i> </label>
+                  </div>
+                  <input id="role" name="role" class="form-control" value="User" type="text" disabled>
                   <span class="form-message col-12"></span>
                 </div>
 
@@ -103,7 +111,8 @@
     validator({
       form: '#form1',
       errorSelector: ".form-message",
-      rules: [validator.isRequiredFullName('#fullName'),
+      rules: [
+      validator.isRequiredFullName('#fullName'),
       validator.isRequiredUserName('#username'),
       validator.isRequiredPhone('#phone'),
       validator.isEmail('#email'),
@@ -128,8 +137,7 @@
             return response.json();
           })
           .then(function (data) { 
-            console.log(data);
-
+            console.log(data)
           })
       }
 

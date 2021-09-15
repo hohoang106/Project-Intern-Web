@@ -76,7 +76,7 @@ validator.isRequiredFullName = function (selector){
   return {
     selector: selector,
     test: function(val){
-      let regexUser = /^[a-zA-Z]+$/;
+      let regexUser = /^[a-zA-Z]([-']?[a-zA-Z]+)*( [a-zA-Z]([-']?[a-zA-Z]+)*)+$/;
       return regexUser.test(val) ? undefined : "Vui lòng nhập trường này";
     }
   };

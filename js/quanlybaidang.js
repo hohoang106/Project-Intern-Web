@@ -1,7 +1,8 @@
 var baiDangApi = "http://localhost:3000/baidang";
 function start() {
   getBaiDangs(rederBaiDang);
-  handleCreateForm()
+  handleCreateForm();
+  handleUpdate();
 }
 start();
 function getBaiDangs(callback) {
@@ -39,48 +40,57 @@ function rederBaiDang(baidangs) {
   var listBaiDangs = document.querySelector('#listBaiDang');
   var htmls = baidangs.map(function (baidang) {
     return `
-    <tr class="post">
+    <tr class="post ">
     <td>${baidang.ngayDang}</td>
-    <td>${baidang.tieuDe}</td>
-    <td>${baidang.noiDung}</td>
+    <td onclick="btndetail(${baidang.id})" class="font-weight-bold" data-toggle="modal" data-target="#baivietModal" style="cursor: pointer;" > ${baidang.tieuDe}</td>
+    <td onclick="btndetail(${baidang.id})"  data-toggle="modal" data-target="#baivietModal" style="cursor: pointer;" class="limit-p" > ${baidang.noiDung} </td> 
     <td><img src="${baidang.hinhAnh}" width="100px" alt=""></td>
     <td>${baidang.tacGia}</td>
     <td>
-    <button type="button" class="btn btn-dark btn-sm px-3" data-toggle="modal" data-target="#updateModal">
-      <i class="fas fa-edit"></i>
+    <button class="btn btn-secondary w-100" onclick="renderUpdateBaiDang(${baidang.id})" data-toggle="modal" data-target="#updateModal">
+    <i class="fas fa-pen"></i>
     </button>
-    <button onclick="deleteBaiDang(${baidang.id})" type="button" class="btn btn-danger">
-    <i class="fas fa-trash mr-2"></i>
-  </button>
+    <button onclick="deleteBaiDang(${baidang.id})"  class="btn btn-danger mt-1  w-100">
+    <i class="fas fa-trash"></i>
+  </button> 
     </td>
     </tr>
     
     `;
   });
   listBaiDangs.innerHTML = htmls.join('');
- 
-    $('#contentList').DataTable({
-      // searching: false,
-      bLengthChange: false,
-      // bFilter: false,
-      bInfo: false,
-      bAutoWidth: false,
-      ordering: false,
-      pageLength: 5
-    });
+  let element = document.querySelectorAll(".limit-p");
+  for (let i = 0; i < element.length; i++) {
+    var gioiHan = element[i].innerText;
+    if (gioiHan.length > 150) {
+      gioiHan = gioiHan.substr(0, 150) + '...';
+    }
+    document.querySelectorAll(".limit-p")[i].innerText = gioiHan;
+  }
+
+
+  $('#contentList').DataTable({
+    // searching: false,
+    bLengthChange: false,
+    // bFilter: false,
+    bInfo: false,
+    bAutoWidth: false,
+    ordering: false,
+    pageLength: 5,
+    oLanguage: {
+      sSearch: "Tìm kiếm"
+    }
+  });
 }
 function handleCreateForm() {
   var btnAdd = document.querySelector('#addBaiDang');
   btnAdd.onclick = function () {
     var ngaydang = document.querySelector('input[name="ngay-dang"]').value;
     var tieude = document.querySelector('input[name="tieu-de"]').value;
-    var noidung = document.querySelector('input[name="noi-dung"]').value;
-    // var data = CKEDITOR.instances.editor1.getData();
+    // var noidung = document.querySelector('input[name="noi-dung"]').value;
+    var noidung = CKEDITOR.instances.editor1.getData();
     var hinhanh = document.querySelector('input[name="chon-anh"]').value;
     var tacgia = document.querySelector('input[name="tac-gia"]').value;
-
-
-
     var formData = {
       ngayDang: ngaydang,
       tieuDe: tieude,
@@ -93,22 +103,102 @@ function handleCreateForm() {
     });
   }
 }
-// function updateBaiDang(id){
+
+
+function renderUpdateBaiDang(id){
+  var option = {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+  };
+  fetch(baiDangApi + '/' + id, option)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (post) {
+      var newNgayDang = document.getElementById('update-ngay-dang');
+      var newTieuDe = document.getElementById('update-tieu-de');
+      var newNoiDung = document.getElementById('update-noi-dung');
+      var newImage = document.getElementById('update-chon-anh');
+      var newTacGia = document.getElementById('update-tac-gia');
+
+      newNgayDang.value = post.ngayDang;
+      newTieuDe.value = post.tieuDe;
+      newNoiDung.innerHTML = post.noiDung;
+      newImage.files[0] = post.hinhAnh;
+      newTacGia.value = post.tacGia;
+      handleUpdate(id)
+    });
+
+}
+
+function handleUpdate() {
+  var btnUpdate = document.querySelector('#btn-update-baidang');
+
+  btnUpdate.onclick = function () {
+    var updatengaydang = document.querySelector('input[name="update-ngay-dang"]').value;
+    var updatetieude = document.querySelector('input[name="update-tieu-de"]').value;
+    var updatenoidung = document.querySelector('input[name="update-noi-dung"]').value;
+    // var updatehinhanh = document.querySelector('input[name="update-chon-anh"]').value;
+    var updatetacgia = document.querySelector('input[name="update-tac-gia"]').value;
+    var formData2 = {
+      ngayDang: updatengaydang,
+      tieuDe: updatetieude,
+      noiDung: updatenoidung,
+      // hinhAnh: updatehinhanh,
+      tacGia: updatetacgia
+    };
+    updateBaiDang(formData2, function (id) {
+      var option = {
+        method: 'PETCH',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData2)
+      };
+      fetch(baiDangApi + "/" +id , option)
+        .then(function (response) {
+           return response.json();
+        })
+        .then(function () {
+          getBaiDangs(rederBaiDang);
+        });
+    });
+  }
+}
+// function updateBaiDang(data, id ) {
 //   var option = {
 //     method: 'PUT',
 //     headers: {
 //       'Content-Type': 'application/json'
 //     },
+//     body: JSON.stringify(data)
 //   };
 //   fetch(baiDangApi + '/' + id, option)
 //     .then(function (response) {
 //       response.json();
 //     })
 //     .then(function () {
-//       getBaiDangs(rederBaiDang);
 //     });
-
 // }
+
+function btndetail(id) {
+  var option = {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+  };
+  fetch(baiDangApi + '/' + id, option)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (post) {
+      var detailBaiDang = document.getElementById('detail-bai-dang');
+      detailBaiDang.innerHTML = post.noiDung;
+    })
+}
 
 
 function deleteBaiDang(id) {
@@ -139,4 +229,6 @@ function readURL(input) {
     reader.readAsDataURL(input.files[0]);
   }
 }
+
+
 

@@ -3,7 +3,6 @@ const url = "http://localhost:3000/monan"
 fetch(url)
   .then(response => response.json())
   .then(monan => {
-    console.log(monan)
     var listMonan = monan.map(function (item) {
       return `
           <a href="/homepage/chitietmonan.html?id=${item.id}" class="col-lg-4 mb-4 hover-items text-center" style="text-decoration: none">

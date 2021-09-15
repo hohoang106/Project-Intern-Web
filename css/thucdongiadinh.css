@@ -20,6 +20,9 @@ body {
   color: black;
   text-decoration: none;
 }
+.mrt{
+  margin-top: 76px;
+}
 @media (min-width: 576px) { 
   .height-img-gr{
     height: 50px;
