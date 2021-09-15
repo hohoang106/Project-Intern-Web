@@ -365,6 +365,15 @@
       "danhmuc": "Thực phẩm chức năng",
       "soluong": "1",
       "id": 3
+    },
+    {
+      "productcode": "AAA109",
+      "name": "Kirkland Dược phẩm",
+      "image": "/images/sanphamchucnang1.jpg",
+      "price": "280",
+      "danhmuc": "Thực phẩm chức năng",
+      "soluong": "1",
+      "id": 4
     }
   ],
   "monan": [
@@ -719,7 +728,6 @@
       "href": "thucdonnguoitieuduong.html"
     }
   ],
-  "thongke": [],
   "tagPage": [
     {
       "id": 1,
