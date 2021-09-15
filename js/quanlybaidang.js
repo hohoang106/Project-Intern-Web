@@ -98,9 +98,15 @@ function handleCreateForm() {
       hinhAnh: hinhanh,
       tacGia: tacgia
     };
-    addBaiDangs(formData, function () {
-      getBaiDangs(rederBaiDang);
-    });
+    if(ngaydang == "" || tieude == "" || noidung == "" || tacgia == "" || hinhanh == ""){
+      alert("Vui lòng nhập đầy đủ thông tin")
+    }
+    else{
+      addBaiDangs(formData, function () {
+        getBaiDangs(rederBaiDang);
+      });
+    }
+
   }
 }
 
