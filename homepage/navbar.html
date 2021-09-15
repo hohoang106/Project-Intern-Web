@@ -26,7 +26,7 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link nav-nav-hover" href="trangchu.html">Trang chủ </a>
           </li>
 
@@ -58,27 +58,29 @@
         </div>
         <div class="icon-cart m-2">
           <a href="/homepage/payment.html" style="display: flex;">
-            <div id="checkcartnumber" style="font-size: small; border-radius: 100%; color: aliceblue; background-color: rgb(240, 88, 88); width: 20px; text-align: center;">0</div> 
-             <i class="fa fa-cart-plus "></i>
+            <div id="checkcartnumber"
+              style="font-size: small; border-radius: 100%; color: aliceblue; background-color: rgb(240, 88, 88); width: 20px; text-align: center;">
+              0</div>
+            <i class="fa fa-cart-plus "></i>
           </a>
         </div>
         <ul class="navbar-nav">
-        <ul class="navbar-nav" id="ul-dangnhap">
-          <li class="nav-item">
-            <a class="nav-link nav-nav-hover"  href="/homepage/login.html">Đăng nhập</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-nav-hover" href="/homepage/register.html">Đăng ký</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav" hidden id="ul-loged" >
-          <li>
-            <a class="nav-link " href="profile.html"><i class="fas fa-user"></i></a>
-          </li>
-          <li>
-            <a class="nav-link nav-nav-hover" onclick="dangXuat()" href="trangchu.html">Đăng xuất</a>
-          </li>
-        </ul>
+          <ul class="navbar-nav" id="ul-dangnhap">
+            <li class="nav-item">
+              <a class="nav-link nav-nav-hover" href="/homepage/login.html">Đăng nhập</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/homepage/register.html">Đăng ký</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav" hidden id="ul-loged">
+            <li>
+              <a class="nav-link " href="profile.html"><i class="fas fa-user"></i></a>
+            </li>
+            <li>
+              <a class="nav-link nav-nav-hover" onclick="dangXuat()" href="trangchu.html">Đăng xuất</a>
+            </li>
+          </ul>
 
       </div>
     </nav>
@@ -94,6 +96,12 @@
   <script src="/js/comment.js"></script>
   <script src="/js/ktdd-page.js"></script>
 
+  <script>
+$('.navbar-nav .nav-link').click(function(){
+    $('.navbar-nav .nav-link').removeClass('active');
+    $('.navbar-nav .nav-item a[href="' + location.pathname + '"]').closest('li').addClass('active');
+})
+  </script>
 </body>
 
 

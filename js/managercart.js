@@ -72,7 +72,7 @@ function renderProduct(products){
             <td>${product.email}</td>
             <td>${product.totalprice}.000đ</td>
             <td>
-            <button class="btn-vietBai p-2" data-toggle="modal" data-target="#addProductModal">
+            <button class="btn-secondary btn p-2" data-toggle="modal" data-target="#addProductModal">
             <i class="fas fa-plus-circle p-1 text-white"></i>
             <span class="text-white">Chi tiết</span>
           </button>
@@ -84,6 +84,18 @@ function renderProduct(products){
       `
   })
   listProductBlock.innerHTML = htmls.join('');
+  $('#manageProduct').DataTable({
+    // searching: false,
+    bLengthChange: false,
+    // bFilter: false,
+    bInfo: false,
+    bAutoWidth: false,
+    ordering: false,
+    pageLength: 5,
+    oLanguage: {
+      sSearch: "Tìm kiếm"
+    }
+  });
 }
 
 function deleteitem(id){

@@ -56,5 +56,10 @@ border-bottom: 2px solid #187AAB;
 }
 .scroll-active{
   background-color: white;
-  box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
+  box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.281);
+}
+
+.nav-item > .nav-link.active  {
+  color:white;
+  background-color: #187AAB;
 }
