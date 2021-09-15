@@ -32,8 +32,7 @@ function rederAccounts(accounts) {
   });
   listAccounts.innerHTML = htmls.join('');
 
-
-  $('#contentList').DataTable({
+  $('#manageProduct').DataTable({
     // searching: false,
     bLengthChange: false,
     // bFilter: false,

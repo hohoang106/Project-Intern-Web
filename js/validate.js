@@ -77,7 +77,7 @@ validator.isRequiredFullName = function (selector){
     selector: selector,
     test: function(val){
       let regexUser = /^[a-zA-Z]([-']?[a-zA-Z]+)*( [a-zA-Z]([-']?[a-zA-Z]+)*)+$/;
-      return regexUser.test(val) ? undefined : "Vui lòng nhập trường này";
+      return regexUser.test(val) ? undefined : "Vui lòng nhập trường này(ví dụ: Ho Va Ten)";
     }
   };
 }
@@ -86,7 +86,7 @@ validator.isRequiredUserName = function (selector){
     selector: selector,
     test: function(val){
       let regexUser = /^[a-zA-Z0-9]+$/;
-      return regexUser.test(val) ? undefined : "Vui lòng nhập chính xác trường này";
+      return regexUser.test(val) ? undefined : "Vui lòng nhập chính xác trường này(không nhập kí tự đặc biệt)";
     }
   };
 }
@@ -95,7 +95,7 @@ validator.isRequiredPhone = function (selector){
     selector: selector,
     test: function(val){
       let regexPhone = /(0[3|5|7|8|9])+([0-9]{8})\b/;
-      return regexPhone.test(val) ? undefined : "Vui lòng nhập đúng số điện thoại";
+      return regexPhone.test(val) ? undefined : "Vui lòng nhập đúng số điện thoại(ví dụ: 0987654123)";
     }
   };
 }
@@ -148,8 +148,8 @@ validator.isTitle = function (selector){
   return {
   selector: selector,
   test: function(val){
-    let regexTitle = /^[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂẾưăạảấầẩẫậắằẳẵặẹẻẽềềểếỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s\W|_]+$/;
-    return regexTitle.test(val) ? undefined : "Vui lòng nhập đúng trường này(ví dụ: Tiêu đề)"
+    let regexTitle = /^[a-zA-Z0-9ÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂẾưăạảấầẩẫậắằẳẵặẹẻẽềềểếỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s\W|_]+$/;
+    return regexTitle.test(val) ? undefined : "Vui lòng nhập đúng trường này(ví dụ: Tiêu đề, không chứa kí tự đặc biệt)"
   }
 };
 }
